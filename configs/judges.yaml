@@ -1,0 +1,46 @@
+# Judge panel. No API keys here: each judge names the environment variable that holds its key.
+# All judges use an OpenAI-compatible chat endpoint (Gemini, Groq and Ollama all expose one).
+# Verify model ids against each provider's current free tier before a real run.
+
+drafting_model: claude-opus-5-5   # drafted the hi / hi_rom / hinglish texts; must never be a judge
+
+judges:
+  gemini-flash:
+    provider: openai_compat
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai
+    model: gemini-2.5-flash          # TODO(team): confirm current free-tier Flash id
+    api_key_env: GEMINI_API_KEY
+    requests_per_minute: 10
+    enabled: true
+
+  llama-3.3-70b:
+    provider: openai_compat
+    base_url: https://api.groq.com/openai/v1
+    model: llama-3.3-70b-versatile
+    api_key_env: GROQ_API_KEY
+    requests_per_minute: 30
+    enabled: true
+
+  qwen2.5-7b-local:
+    provider: openai_compat
+    base_url: http://localhost:11434/v1
+    model: qwen2.5:7b-instruct       # run `ollama pull qwen2.5:7b-instruct` first
+    api_key_env: null                # local, no key
+    requests_per_minute: 60
+    enabled: true
+
+  sarvam:
+    provider: openai_compat
+    base_url: https://api.sarvam.ai/v1
+    model: sarvam-m                  # TODO(team): confirm model id and endpoint
+    api_key_env: SARVAM_API_KEY
+    requests_per_minute: 10
+    enabled: false                   # optional fourth judge
+
+# Fixed translator for E5(b). One translator for every judge.
+translator:
+  provider: openai_compat
+  base_url: https://api.groq.com/openai/v1
+  model: llama-3.3-70b-versatile
+  api_key_env: GROQ_API_KEY
+  requests_per_minute: 30

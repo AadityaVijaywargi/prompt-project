@@ -1,0 +1,434 @@
+# Phase 1 drafts, MMMLU STEM batch A (21 items). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mmmlu-astro-0015
+  source_id: astronomy/15
+  reference_en: (C) Jupiter.
+  en: >-
+    The answer is (C), Jupiter. The Great Red Spot is a giant storm in Jupiter's atmosphere, larger than Earth,
+    that has been observed for more than 150 years. It is not found on Venus, Mars or Saturn.
+  hi: >-
+    सही उत्तर (C) है, बृहस्पति। महान लाल धब्बा बृहस्पति के वायुमंडल में एक विशाल तूफ़ान है, जो पृथ्वी से भी बड़ा
+    है और 150 से अधिक वर्षों से देखा जा रहा है। यह शुक्र, मंगल या शनि पर नहीं पाया जाता।
+  hi_rom: >-
+    Sahi uttar (C) hai, Brihaspati. Mahaan Laal Dhabba Brihaspati ke vaayumandal mein ek vishaal toofaan hai, jo
+    prithvi se bhi bada hai aur 150 se adhik varshon se dekha ja raha hai. Yah Shukra, Mangal ya Shani par nahi
+    paaya jaata.
+  hinglish: >-
+    Sahi answer (C) hai, Jupiter. Great Red Spot Jupiter ke atmosphere mein ek huge storm hai, jo Earth se bhi
+    bada hai aur 150 se zyada saalon se observe kiya ja raha hai. Ye Venus, Mars ya Saturn par nahi milta.
+
+- item_id: mmmlu-astro-0019
+  source_id: astronomy/19
+  reference_en: (C) The star is moving toward us (the line is blueshifted).
+  en: >-
+    The answer is (C): the star is moving toward us. The line appears at a shorter wavelength (485.9 nm) than in
+    the laboratory (486.1 nm), which is a blueshift, and by the Doppler effect a blueshift means the source is
+    approaching. A shift in wavelength tells us about motion, not about whether the star is heating or cooling.
+  hi: >-
+    सही उत्तर (C) है: तारा हमारी ओर आ रहा है। यह रेखा प्रयोगशाला (486.1 nm) की तुलना में छोटी तरंगदैर्ध्य
+    (485.9 nm) पर दिखती है, जिसे नीला विस्थापन कहते हैं, और डॉप्लर प्रभाव के अनुसार नीले विस्थापन का अर्थ है कि
+    स्रोत पास आ रहा है। तरंगदैर्ध्य में यह विस्थापन गति के बारे में बताता है, तारे के गर्म या ठंडा होने के बारे
+    में नहीं।
+  hi_rom: >-
+    Sahi uttar (C) hai: taara hamaari or aa raha hai. Yah rekha prayogshaala (486.1 nm) ki tulna mein chhoti
+    tarangdairghya (485.9 nm) par dikhti hai, jise neela visthaapan kehte hain, aur Doppler prabhaav ke anusaar
+    neele visthaapan ka arth hai ki srot paas aa raha hai. Tarangdairghya mein yah visthaapan gati ke baare mein
+    bataata hai, taare ke garm ya thanda hone ke baare mein nahi.
+  hinglish: >-
+    Sahi answer (C) hai: star hamari taraf aa raha hai. Ye line lab (486.1 nm) ke comparison mein shorter
+    wavelength (485.9 nm) par dikhti hai, jise blueshift kehte hain, aur Doppler effect ke according blueshift
+    ka matlab hai ki source paas aa raha hai. Wavelength ka ye shift motion ke baare mein batata hai, star ke
+    garam ya thanda hone ke baare mein nahi.
+
+- item_id: mmmlu-astro-0045
+  source_id: astronomy/45
+  reference_en: (D) Leftover planetesimals that never accreted into planets.
+  en: >-
+    The answer is (D): they are leftover planetesimals that never accreted into planets. In the solar nebular
+    theory, small bodies of rock and ice formed first and gradually stuck together to build planets. Asteroids
+    and comets are the pieces that were never swept up, so they preserve material from the early solar system.
+  hi: >-
+    सही उत्तर (D) है: ये बचे हुए ग्रहाणु हैं जो कभी ग्रहों में नहीं जुड़े। सौर नीहारिका सिद्धांत में पहले चट्टान
+    और बर्फ़ के छोटे पिंड बने, जो धीरे-धीरे आपस में जुड़कर ग्रह बने। क्षुद्रग्रह और धूमकेतु वे टुकड़े हैं जो
+    कभी इकट्ठे नहीं हुए, इसलिए उनमें प्रारंभिक सौर मंडल का पदार्थ सुरक्षित है।
+  hi_rom: >-
+    Sahi uttar (D) hai: ye bache hue grahaanu hain jo kabhi grahon mein nahi jude. Saur neehaarika siddhaant
+    mein pehle chattaan aur barf ke chhote pind bane, jo dheere-dheere aapas mein judkar grah bane. Kshudragrah
+    aur dhoomketu ve tukde hain jo kabhi ikatthe nahi hue, isliye unmein praarambhik saur mandal ka padaarth
+    surakshit hai.
+  hinglish: >-
+    Sahi answer (D) hai: ye leftover planetesimals hain jo kabhi planets mein accrete nahi hue. Solar nebular
+    theory mein pehle rock aur ice ke chhote bodies bane, jo dheere-dheere aapas mein judkar planets bane.
+    Asteroids aur comets woh pieces hain jo kabhi collect nahi hue, isliye unmein early solar system ka material
+    preserved hai.
+
+- item_id: mmmlu-astro-0049
+  source_id: astronomy/49
+  reference_en: (B) Greenhouse gases transmit visible light and absorb infrared emitted by Earth.
+  en: >-
+    The answer is (B). Greenhouse gases such as carbon dioxide and water vapour let visible sunlight pass through
+    to heat the surface. The warm surface then gives off infrared radiation, which these gases absorb, trapping
+    heat in the lower atmosphere.
+  hi: >-
+    सही उत्तर (B) है। कार्बन डाइऑक्साइड और जलवाष्प जैसी ग्रीनहाउस गैसें दृश्य सूर्य-प्रकाश को सतह तक पहुँचने
+    देती हैं, जिससे सतह गर्म होती है। फिर गर्म सतह अवरक्त विकिरण छोड़ती है, जिसे ये गैसें अवशोषित कर लेती हैं और
+    निचले वायुमंडल में ऊष्मा को रोक लेती हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai. Carbon dioxide aur jalvaashp jaisi greenhouse gaisein drishya surya-prakaash ko satah tak
+    pahunchne deti hain, jisse satah garm hoti hai. Phir garm satah avarakt vikiran chhodti hai, jise ye gaisein
+    avashoshit kar leti hain aur nichle vaayumandal mein ushma ko rok leti hain.
+  hinglish: >-
+    Sahi answer (B) hai. Carbon dioxide aur water vapour jaisi greenhouse gases visible sunlight ko surface tak
+    pahunchne deti hain, jisse surface garam hoti hai. Phir garam surface infrared radiation chhodti hai, jise ye
+    gases absorb kar leti hain aur lower atmosphere mein heat ko trap kar leti hain.
+
+- item_id: mmmlu-hsbio-0044
+  source_id: high_school_biology/44
+  reference_en: (B) It must consume glucose much faster because anaerobic respiration yields far less ATP.
+  en: >-
+    The answer is (B). Without oxygen, yeast switches to fermentation, which yields only 2 ATP per glucose
+    molecule, compared with roughly 30 or more from aerobic respiration. To meet the same energy needs, the cell
+    must break down glucose much faster; it does not die.
+  hi: >-
+    सही उत्तर (B) है। ऑक्सीजन के बिना यीस्ट किण्वन करने लगता है, जिससे प्रति ग्लूकोज़ अणु केवल 2 ATP मिलते हैं,
+    जबकि वायवीय श्वसन से लगभग 30 या उससे अधिक मिलते हैं। उतनी ही ऊर्जा की ज़रूरत पूरी करने के लिए कोशिका को
+    ग्लूकोज़ बहुत तेज़ी से तोड़ना पड़ता है; वह मरती नहीं है।
+  hi_rom: >-
+    Sahi uttar (B) hai. Oxygen ke bina yeast kinvan karne lagta hai, jisse prati glucose anu keval 2 ATP milte
+    hain, jabki vaayaviya shvasan se lagbhag 30 ya usse adhik milte hain. Utni hi urja ki zaroorat poori karne ke
+    liye koshika ko glucose bahut tezi se todna padta hai; vah marti nahi hai.
+  hinglish: >-
+    Sahi answer (B) hai. Oxygen ke bina yeast fermentation karne lagta hai, jisse per glucose molecule sirf 2 ATP
+    milte hain, jabki aerobic respiration se lagbhag 30 ya usse zyada milte hain. Same energy need poori karne ke
+    liye cell ko glucose bahut fast break down karna padta hai; woh marta nahi hai.
+
+- item_id: mmmlu-hsbio-0178
+  source_id: high_school_biology/178
+  reference_en: (B) "Poorly adapted individuals never produce offspring" is not a premise of natural selection.
+  en: >-
+    The answer is (B). Natural selection rests on heritable variation, overproduction of offspring and the fact
+    that better-suited individuals generally leave more offspring. It does not claim that poorly adapted
+    individuals never reproduce; they simply tend to leave fewer offspring.
+  hi: >-
+    सही उत्तर (B) है। प्राकृतिक चयन वंशानुगत विविधता, ज़रूरत से अधिक संतानों के जन्म और इस तथ्य पर आधारित है कि
+    बेहतर अनुकूलित जीव आमतौर पर अधिक संतानें छोड़ते हैं। यह दावा नहीं करता कि कम अनुकूलित जीव कभी प्रजनन नहीं
+    करते; वे बस कम संतानें छोड़ते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai. Praakritik chayan vanshaanugat vividhata, zaroorat se adhik santaanon ke janm aur is
+    tathya par aadhaarit hai ki behtar anukoolit jeev aamtaur par adhik santaanen chhodte hain. Yah daava nahi
+    karta ki kam anukoolit jeev kabhi prajanan nahi karte; ve bas kam santaanen chhodte hain.
+  hinglish: >-
+    Sahi answer (B) hai. Natural selection heritable variation, zaroorat se zyada offspring paida hone aur is
+    fact par based hai ki better adapted individuals generally zyada offspring chhodte hain. Ye claim nahi karta
+    ki poorly adapted individuals kabhi reproduce nahi karte; woh bas kam offspring chhodte hain.
+
+- item_id: mmmlu-hsbio-0265
+  source_id: high_school_biology/265
+  reference_en: (B) Succession.
+  en: >-
+    The answer is (B), succession. Commensalism, mutualism and parasitism all describe how individuals of two
+    different species interact. Ecological succession is instead the gradual change in the species that make up
+    a community over time, for example after a fire.
+  hi: >-
+    सही उत्तर (B) है, अनुक्रमण। सहभोजिता, सहोपकारिता और परजीविता, ये सभी बताते हैं कि दो अलग-अलग प्रजातियों के
+    जीव आपस में कैसे संबंध रखते हैं। इसके विपरीत, पारिस्थितिक अनुक्रमण समय के साथ किसी समुदाय की प्रजातियों में
+    होने वाला क्रमिक परिवर्तन है, जैसे आग लगने के बाद।
+  hi_rom: >-
+    Sahi uttar (B) hai, anukraman. Sahbhojita, sahopkaarita aur parjeevita, ye sabhi bataate hain ki do alag-alag
+    prajaatiyon ke jeev aapas mein kaise sambandh rakhte hain. Iske vipreet, paaristhitik anukraman samay ke
+    saath kisi samudaay ki prajaatiyon mein hone waala kramik parivartan hai, jaise aag lagne ke baad.
+  hinglish: >-
+    Sahi answer (B) hai, succession. Commensalism, mutualism aur parasitism, ye sab batate hain ki do alag species
+    ke individuals aapas mein kaise interact karte hain. Iske opposite, ecological succession time ke saath kisi
+    community ki species mein hone wala gradual change hai, jaise aag lagne ke baad.
+
+- item_id: mmmlu-hsbio-0289
+  source_id: high_school_biology/289
+  reference_en: (D) Fermentation regenerates NAD+ so glycolysis can continue.
+  en: >-
+    The answer is (D). Glycolysis needs NAD+ to keep producing ATP, and without oxygen the NADH it generates cannot
+    be recycled by the electron transport chain. Fermentation passes those electrons onto pyruvate-derived
+    molecules, producing ethanol and regenerating NAD+ so glycolysis can continue.
+  hi: >-
+    सही उत्तर (D) है। ग्लाइकोलाइसिस को ATP बनाते रहने के लिए NAD+ की ज़रूरत होती है, और ऑक्सीजन के बिना इससे बनने
+    वाले NADH को इलेक्ट्रॉन परिवहन शृंखला दोबारा उपयोगी नहीं बना पाती। किण्वन इन इलेक्ट्रॉनों को पाइरुवेट से बने
+    अणुओं को दे देता है, जिससे एथेनॉल बनता है और NAD+ फिर से उपलब्ध हो जाता है, ताकि ग्लाइकोलाइसिस चलता रहे।
+  hi_rom: >-
+    Sahi uttar (D) hai. Glycolysis ko ATP banaate rehne ke liye NAD+ ki zaroorat hoti hai, aur oxygen ke bina isse
+    banne waale NADH ko electron parivahan shrinkhala dobaara upyogi nahi bana paati. Kinvan in electronon ko
+    pyruvate se bane anuon ko de deta hai, jisse ethanol banta hai aur NAD+ phir se uplabdh ho jaata hai, taaki
+    glycolysis chalta rahe.
+  hinglish: >-
+    Sahi answer (D) hai. Glycolysis ko ATP banate rehne ke liye NAD+ chahiye, aur oxygen ke bina isse banne wale
+    NADH ko electron transport chain recycle nahi kar paati. Fermentation in electrons ko pyruvate se bane
+    molecules ko de deta hai, jisse ethanol banta hai aur NAD+ regenerate ho jaata hai, taaki glycolysis
+    continue rahe.
+
+- item_id: mmmlu-hschem-0125
+  source_id: high_school_chemistry/125
+  reference_en: (B) No two electrons can have the same four quantum numbers.
+  en: >-
+    The answer is (B): no two electrons in an atom can have the same set of four quantum numbers. This is why each
+    orbital can hold at most two electrons, and those two must have opposite spins. Electrons can share the same
+    energy, so option (A) is wrong.
+  hi: >-
+    सही उत्तर (B) है: किसी परमाणु में कोई भी दो इलेक्ट्रॉन चारों क्वांटम संख्याओं का एक ही समूह नहीं रख सकते।
+    इसी कारण हर कक्षक में अधिकतम दो इलेक्ट्रॉन हो सकते हैं, और उन दोनों के चक्रण विपरीत होने चाहिए। इलेक्ट्रॉनों
+    की ऊर्जा एक समान हो सकती है, इसलिए विकल्प (A) गलत है।
+  hi_rom: >-
+    Sahi uttar (B) hai: kisi parmaanu mein koi bhi do electron chaaron quantum sankhyaon ka ek hi samooh nahi rakh
+    sakte. Isi kaaran har kakshak mein adhiktam do electron ho sakte hain, aur un dono ke chakran vipreet hone
+    chahiye. Electronon ki urja ek samaan ho sakti hai, isliye vikalp (A) galat hai.
+  hinglish: >-
+    Sahi answer (B) hai: kisi atom mein koi bhi do electrons ka four quantum numbers ka same set nahi ho sakta.
+    Isi wajah se har orbital mein maximum do electrons ho sakte hain, aur un dono ke spins opposite hone chahiye.
+    Electrons ki energy same ho sakti hai, isliye option (A) galat hai.
+
+- item_id: mmmlu-hschem-0046
+  source_id: high_school_chemistry/46
+  reference_en: (D) 3 sigma and 1 pi.
+  en: >-
+    The answer is (D), 3 sigma and 1 pi. In each resonance form, nitrogen is joined to the three oxygen atoms by
+    two single bonds and one double bond. Every bond contains one sigma bond, and the double bond adds one pi bond,
+    giving three sigma and one pi.
+  hi: >-
+    सही उत्तर (D) है, 3 सिग्मा और 1 पाई। हर अनुनाद संरचना में नाइट्रोजन तीन ऑक्सीजन परमाणुओं से दो एकल बंधों और
+    एक द्विबंध द्वारा जुड़ा होता है। हर बंध में एक सिग्मा बंध होता है, और द्विबंध एक पाई बंध जोड़ता है, इस तरह
+    तीन सिग्मा और एक पाई बंध होते हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai, 3 sigma aur 1 pi. Har anunaad sanrachna mein nitrogen teen oxygen parmaanuon se do ekal
+    bandhon aur ek dvibandh dwara juda hota hai. Har bandh mein ek sigma bandh hota hai, aur dvibandh ek pi bandh
+    jodta hai, is tarah teen sigma aur ek pi bandh hote hain.
+  hinglish: >-
+    Sahi answer (D) hai, 3 sigma aur 1 pi. Har resonance form mein nitrogen teen oxygen atoms se do single bonds
+    aur ek double bond se juda hota hai. Har bond mein ek sigma bond hota hai, aur double bond ek pi bond add
+    karta hai, toh total teen sigma aur ek pi.
+
+- item_id: mmmlu-hschem-0128
+  source_id: high_school_chemistry/128
+  reference_en: (B) mol L⁻¹ s⁻¹.
+  en: >-
+    The answer is (B), mol L⁻¹ s⁻¹. Reaction rate is the change in concentration of a reactant or product per unit
+    time, and concentration is measured in moles per litre. The units of the rate constant depend on the reaction
+    order, but the units of the rate itself do not.
+  hi: >-
+    सही उत्तर (B) है, mol L⁻¹ s⁻¹। अभिक्रिया की दर किसी अभिकारक या उत्पाद की सांद्रता में प्रति इकाई समय होने
+    वाला परिवर्तन है, और सांद्रता मोल प्रति लीटर में मापी जाती है। दर स्थिरांक की इकाइयाँ अभिक्रिया की कोटि पर
+    निर्भर करती हैं, लेकिन स्वयं दर की इकाइयाँ नहीं।
+  hi_rom: >-
+    Sahi uttar (B) hai, mol L⁻¹ s⁻¹. Abhikriya ki dar kisi abhikaarak ya utpaad ki saandrata mein prati ikaai samay
+    hone waala parivartan hai, aur saandrata mol prati litre mein maapi jaati hai. Dar sthiraank ki ikaaiyaan
+    abhikriya ki koti par nirbhar karti hain, lekin swayam dar ki ikaaiyaan nahi.
+  hinglish: >-
+    Sahi answer (B) hai, mol L⁻¹ s⁻¹. Reaction rate kisi reactant ya product ke concentration mein per unit time
+    hone wala change hai, aur concentration moles per litre mein measure hota hai. Rate constant ki units
+    reaction order par depend karti hain, lekin rate ki units nahi.
+
+- item_id: mmmlu-hschem-0197
+  source_id: high_school_chemistry/197
+  reference_en: (C) Grind it to dust and spray it into the flame; the large surface area lets it burn.
+  en: >-
+    The answer is (C). Grinding the penny into fine dust hugely increases its surface area, so far more copper
+    atoms are exposed to oxygen at once and the particles burn quickly in an ordinary Bunsen flame. A solid penny
+    loses heat too fast to burn, even with a hotter torch, and option (D) only makes copper oxide chemically
+    rather than burning the metal.
+  hi: >-
+    सही उत्तर (C) है। सिक्के को बारीक धूल में पीसने से उसका पृष्ठ क्षेत्रफल बहुत बढ़ जाता है, जिससे एक साथ कहीं
+    अधिक तांबे के परमाणु ऑक्सीजन के संपर्क में आते हैं और कण साधारण बुन्सेन ज्वाला में तेज़ी से जल जाते हैं। ठोस
+    सिक्का बहुत जल्दी ऊष्मा खो देता है, इसलिए अधिक गर्म टॉर्च से भी नहीं जलता, और विकल्प (D) धातु को जलाने के
+    बजाय केवल रासायनिक रूप से कॉपर ऑक्साइड बनाता है।
+  hi_rom: >-
+    Sahi uttar (C) hai. Sikke ko baareek dhool mein peesne se uska prishth kshetraphal bahut badh jaata hai, jisse
+    ek saath kahin adhik taambe ke parmaanu oxygen ke sampark mein aate hain aur kan saadhaaran Bunsen jvaala
+    mein tezi se jal jaate hain. Thos sikka bahut jaldi ushma kho deta hai, isliye adhik garm torch se bhi nahi
+    jalta, aur vikalp (D) dhaatu ko jalaane ke bajaay keval raasaayanik roop se copper oxide banaata hai.
+  hinglish: >-
+    Sahi answer (C) hai. Penny ko fine dust mein grind karne se uska surface area bahut badh jaata hai, jisse ek
+    saath kahin zyada copper atoms oxygen ke contact mein aate hain aur particles normal Bunsen flame mein jaldi
+    jal jaate hain. Solid penny bahut jaldi heat lose kar deti hai, isliye hotter torch se bhi nahi jalti, aur
+    option (D) metal ko burn karne ke bajaye sirf chemically copper oxide banata hai.
+
+- item_id: mmmlu-cphys-0066
+  source_id: conceptual_physics/66
+  reference_en: (B) It does not become radioactive.
+  en: >-
+    The answer is (B): the food does not become radioactive. Gamma rays pass energy into the food and kill
+    microbes, but they do not change the atomic nuclei in the food, so no radioactivity is left behind.
+    Irradiation actually slows spoilage, which is why it is used for preservation.
+  hi: >-
+    सही उत्तर (B) है: भोजन रेडियोधर्मी नहीं बनता। गामा किरणें भोजन को ऊर्जा देकर सूक्ष्मजीवों को मार देती हैं,
+    लेकिन भोजन के परमाणु नाभिकों को नहीं बदलतीं, इसलिए कोई रेडियोधर्मिता शेष नहीं रहती। वास्तव में विकिरण से भोजन
+    देर से खराब होता है, इसीलिए इसका उपयोग परिरक्षण के लिए किया जाता है।
+  hi_rom: >-
+    Sahi uttar (B) hai: bhojan radiodharmi nahi banta. Gamma kirnein bhojan ko urja dekar sookshmjeevon ko maar
+    deti hain, lekin bhojan ke parmaanu naabhikon ko nahi badaltin, isliye koi radiodharmita shesh nahi rehti.
+    Vaastav mein vikiran se bhojan der se kharaab hota hai, isiliye iska upyog parirakshan ke liye kiya jaata hai.
+  hinglish: >-
+    Sahi answer (B) hai: food radioactive nahi banta. Gamma rays food ko energy dekar microbes ko maar deti hain,
+    lekin food ke atomic nuclei ko change nahi karti, isliye koi radioactivity bachi nahi rehti. Actually
+    irradiation se food der se spoil hota hai, isiliye iska use preservation ke liye hota hai.
+
+- item_id: mmmlu-cphys-0069
+  source_id: conceptual_physics/69
+  reference_en: (C) 100 times as much, since surface gravity scales as M/r².
+  en: >-
+    The answer is (C), 100 times as much. Surface gravity depends on mass divided by the square of the radius.
+    With the same mass and one-tenth the radius, your weight increases by a factor of 10², which is 100.
+  hi: >-
+    सही उत्तर (C) है, 100 गुना। सतह पर गुरुत्व द्रव्यमान को त्रिज्या के वर्ग से भाग देने पर निर्भर करता है।
+    द्रव्यमान वही रहे और त्रिज्या दसवाँ भाग हो जाए, तो आपका भार 10² गुना, यानी 100 गुना बढ़ जाता है।
+  hi_rom: >-
+    Sahi uttar (C) hai, 100 guna. Satah par gurutva dravyamaan ko trijya ke varg se bhaag dene par nirbhar karta
+    hai. Dravyamaan vahi rahe aur trijya dasvaan bhaag ho jaaye, to aapka bhaar 10² guna, yaani 100 guna badh
+    jaata hai.
+  hinglish: >-
+    Sahi answer (C) hai, 100 times. Surface gravity mass ko radius ke square se divide karne par depend karti hai.
+    Mass same rahe aur radius one-tenth ho jaaye, toh aapka weight 10² guna, yaani 100 times badh jaata hai.
+
+- item_id: mmmlu-cphys-0087
+  source_id: conceptual_physics/87
+  reference_en: (C) Waves (only orbits that fit whole numbers of electron wavelengths are stable).
+  en: >-
+    The answer is (C), waves. According to de Broglie, an electron behaves as a wave, and only orbits whose
+    circumference fits a whole number of wavelengths form stable standing waves. This explains why electrons
+    occupy only certain discrete orbits and energies.
+  hi: >-
+    सही उत्तर (C) है, तरंगें। डी ब्रॉग्ली के अनुसार इलेक्ट्रॉन तरंग की तरह व्यवहार करता है, और केवल वही कक्षाएँ
+    स्थायी अप्रगामी तरंगें बनाती हैं जिनकी परिधि में तरंगदैर्ध्य की पूर्ण संख्या समा जाए। इससे स्पष्ट होता है कि
+    इलेक्ट्रॉन केवल कुछ निश्चित कक्षाओं और ऊर्जाओं में ही क्यों रहते हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai, tarangein. De Broglie ke anusaar electron tarang ki tarah vyavahaar karta hai, aur keval
+    vahi kakshaayein sthaayi apragaami tarangein banaati hain jinki paridhi mein tarangdairghya ki poorn sankhya
+    sama jaaye. Isse spasht hota hai ki electron keval kuch nishchit kakshaon aur urjaon mein hi kyon rehte hain.
+  hinglish: >-
+    Sahi answer (C) hai, waves. De Broglie ke according electron ek wave ki tarah behave karta hai, aur sirf
+    wahi orbits stable standing waves banate hain jinki circumference mein wavelengths ki whole number fit ho
+    jaaye. Isse samajh aata hai ki electrons sirf kuch discrete orbits aur energies mein hi kyun rehte hain.
+
+- item_id: mmmlu-cphys-0097
+  source_id: conceptual_physics/97
+  reference_en: (A) Lined up with the Sun (spring tides at new and full moon).
+  en: >-
+    The answer is (A): when the Earth and the Moon are lined up with the Sun. At new moon and full moon, the tidal
+    pulls of the Sun and the Moon add together, producing the highest tides, called spring tides. When the Sun and
+    Moon are at right angles, they partly cancel and the tides are smallest.
+  hi: >-
+    सही उत्तर (A) है: जब पृथ्वी और चंद्रमा सूर्य के साथ एक सीध में हों। अमावस्या और पूर्णिमा पर सूर्य और चंद्रमा
+    के ज्वारीय खिंचाव आपस में जुड़ जाते हैं, जिससे सबसे ऊँचे ज्वार आते हैं, जिन्हें दीर्घ ज्वार कहते हैं। जब सूर्य
+    और चंद्रमा समकोण पर होते हैं, तो वे एक-दूसरे को आंशिक रूप से निष्प्रभावी करते हैं और ज्वार सबसे छोटे होते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: jab prithvi aur chandrama surya ke saath ek seedh mein hon. Amaavasya aur poornima par
+    surya aur chandrama ke jvaariya khinchaav aapas mein jud jaate hain, jisse sabse oonche jvaar aate hain,
+    jinhein deergh jvaar kehte hain. Jab surya aur chandrama samkon par hote hain, to ve ek-doosre ko aanshik roop
+    se nishprabhaavi karte hain aur jvaar sabse chhote hote hain.
+  hinglish: >-
+    Sahi answer (A) hai: jab Earth aur Moon Sun ke saath ek line mein hon. New moon aur full moon par Sun aur Moon
+    ke tidal pulls add ho jaate hain, jisse sabse high tides aate hain, jinhe spring tides kehte hain. Jab Sun aur
+    Moon right angle par hote hain, toh woh ek-doosre ko partly cancel karte hain aur tides sabse chhote hote hain.
+
+- item_id: mmmlu-anat-0016
+  source_id: anatomy/16
+  reference_en: (B) External intercostal muscles and diaphragm.
+  en: >-
+    The answer is (B): the external intercostal muscles and the diaphragm. In quiet breathing, the diaphragm
+    contracts and flattens while the external intercostals lift the ribs, enlarging the chest cavity. The internal
+    intercostals are used mainly in forced expiration, not quiet inspiration.
+  hi: >-
+    सही उत्तर (B) है: बाह्य अंतरापर्शुक पेशियाँ और मध्यपट। शांत श्वसन में मध्यपट सिकुड़कर चपटा हो जाता है और
+    बाह्य अंतरापर्शुक पेशियाँ पसलियों को ऊपर उठाती हैं, जिससे वक्ष गुहा बड़ी हो जाती है। आंतरिक अंतरापर्शुक
+    पेशियाँ मुख्य रूप से बलपूर्वक निःश्वसन में काम आती हैं, शांत अंतःश्वसन में नहीं।
+  hi_rom: >-
+    Sahi uttar (B) hai: baahya antaraparshuk peshiyaan aur madhyapat. Shaant shvasan mein madhyapat sikudkar
+    chapta ho jaata hai aur baahya antaraparshuk peshiyaan pasliyon ko upar uthaati hain, jisse vaksh guha badi ho
+    jaati hai. Aantarik antaraparshuk peshiyaan mukhya roop se balpoorvak nihshvasan mein kaam aati hain, shaant
+    antahshvasan mein nahi.
+  hinglish: >-
+    Sahi answer (B) hai: external intercostal muscles aur diaphragm. Quiet breathing mein diaphragm contract hokar
+    flat ho jaata hai aur external intercostals ribs ko upar uthate hain, jisse chest cavity badi ho jaati hai.
+    Internal intercostals mainly forced expiration mein use hote hain, quiet inspiration mein nahi.
+
+- item_id: mmmlu-anat-0020
+  source_id: anatomy/20
+  reference_en: (C) In the upper wall of the right atrium.
+  en: >-
+    The answer is (C): in the upper wall of the right atrium, near the opening of the superior vena cava. The
+    sinoatrial node is the heart's natural pacemaker, generating the electrical impulses that start each
+    heartbeat. The node between the atria and ventricles is the atrioventricular node.
+  hi: >-
+    सही उत्तर (C) है: दाएँ अलिंद की ऊपरी दीवार में, ऊर्ध्व महाशिरा के मुख के पास। शिरा-अलिंद पर्व हृदय का
+    प्राकृतिक गति-प्रेरक है, जो हर धड़कन शुरू करने वाले विद्युत आवेग उत्पन्न करता है। अलिंदों और निलयों के बीच
+    वाला पर्व अलिंद-निलय पर्व कहलाता है।
+  hi_rom: >-
+    Sahi uttar (C) hai: daayein alind ki oopari deewaar mein, oordhva mahaashira ke mukh ke paas. Shira-alind parv
+    hriday ka praakritik gati-prerak hai, jo har dhadkan shuru karne waale vidyut aaveg utpann karta hai. Alindon
+    aur nilayon ke beech waala parv alind-nilay parv kehlaata hai.
+  hinglish: >-
+    Sahi answer (C) hai: right atrium ki upper wall mein, superior vena cava ke opening ke paas. Sinoatrial node
+    heart ka natural pacemaker hai, jo har heartbeat start karne wale electrical impulses generate karta hai.
+    Atria aur ventricles ke beech wala node atrioventricular node hai.
+
+- item_id: mmmlu-anat-0037
+  source_id: anatomy/37
+  reference_en: (C) Thoracic and abdominal.
+  en: >-
+    The answer is (C): the thoracic and abdominal cavities. The diaphragm is a dome-shaped sheet of muscle that
+    forms the floor of the chest and the roof of the abdomen. The abdominal and pelvic cavities are continuous and
+    together form the abdominopelvic cavity.
+  hi: >-
+    सही उत्तर (C) है: वक्ष गुहा और उदर गुहा। मध्यपट गुंबद के आकार की एक पेशीय परत है, जो छाती का फ़र्श और पेट की
+    छत बनाती है। उदर और श्रोणि गुहाएँ एक-दूसरे से जुड़ी होती हैं और मिलकर उदर-श्रोणि गुहा बनाती हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai: vaksh guha aur udar guha. Madhyapat gumbad ke aakaar ki ek peshiya parat hai, jo chhaati ka
+    farsh aur pet ki chhat banaati hai. Udar aur shroni guhaayein ek-doosre se judi hoti hain aur milkar
+    udar-shroni guha banaati hain.
+  hinglish: >-
+    Sahi answer (C) hai: thoracic aur abdominal cavities. Diaphragm ek dome-shaped muscle sheet hai, jo chest ka
+    floor aur abdomen ki roof banata hai. Abdominal aur pelvic cavities aapas mein connected hoti hain aur milkar
+    abdominopelvic cavity banati hain.
+
+- item_id: mmmlu-anat-0082
+  source_id: anatomy/82
+  reference_en: (C) Between the arachnoid and pia maters (the subarachnoid space).
+  en: >-
+    The answer is (C): between the arachnoid and pia maters. This gap is the subarachnoid space, where
+    cerebrospinal fluid cushions the brain and spinal cord. The dura mater lies outermost against the skull, and
+    the pia mater clings directly to the brain surface.
+  hi: >-
+    सही उत्तर (C) है: जालतानिका और मृदुतानिका के बीच। यह जगह अवजालतानिका अवकाश कहलाती है, जहाँ प्रमस्तिष्क-मेरु
+    द्रव मस्तिष्क और मेरुरज्जु को गद्दी की तरह सुरक्षा देता है। दृढ़तानिका सबसे बाहर खोपड़ी से लगी होती है, और
+    मृदुतानिका सीधे मस्तिष्क की सतह से चिपकी रहती है।
+  hi_rom: >-
+    Sahi uttar (C) hai: jaaltaanika aur mridutaanika ke beech. Yah jagah avajaaltaanika avkaash kehlaati hai,
+    jahaan pramastishk-meru drav mastishk aur merurajju ko gaddi ki tarah suraksha deta hai. Dridhtaanika sabse
+    baahar khopdi se lagi hoti hai, aur mridutaanika seedhe mastishk ki satah se chipki rehti hai.
+  hinglish: >-
+    Sahi answer (C) hai: arachnoid aur pia mater ke beech. Is gap ko subarachnoid space kehte hain, jahan
+    cerebrospinal fluid brain aur spinal cord ko cushion karta hai. Dura mater sabse bahar skull se lagi hoti hai,
+    aur pia mater directly brain ki surface se chipki rehti hai.
+
+- item_id: mmmlu-compsec-0012
+  source_id: computer_security/12
+  reference_en: (C) Forward secrecy.
+  en: >-
+    The answer is (C), forward secrecy. With forward secrecy, each conversation uses short-lived session keys that
+    are deleted afterwards, so stealing a device's long-term keys today does not let an attacker decrypt messages
+    recorded last month. Authentication and deniability address different concerns.
+  hi: >-
+    सही उत्तर (C) है, अग्र गोपनीयता (फ़ॉरवर्ड सीक्रेसी)। अग्र गोपनीयता में हर बातचीत के लिए अल्पकालिक सत्र
+    कुंजियाँ उपयोग होती हैं, जिन्हें बाद में मिटा दिया जाता है, इसलिए आज किसी उपकरण की दीर्घकालिक कुंजियाँ चुरा
+    लेने से भी हमलावर पिछले महीने रिकॉर्ड किए गए संदेशों को विकूटित नहीं कर सकता। प्रमाणीकरण और इनकार-योग्यता
+    अलग चिंताओं से संबंधित हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai, agra gopaneeyata (forward secrecy). Agra gopaneeyata mein har baatcheet ke liye alpkaalik
+    satra kunjiyaan upyog hoti hain, jinhein baad mein mita diya jaata hai, isliye aaj kisi upkaran ki
+    deerghkaalik kunjiyaan chura lene se bhi hamlaavar pichhle maheene record kiye gaye sandeshon ko vikootit nahi
+    kar sakta. Pramaaneekaran aur inkaar-yogyata alag chintaaon se sambandhit hain.
+  hinglish: >-
+    Sahi answer (C) hai, forward secrecy. Forward secrecy mein har conversation ke liye short-lived session keys
+    use hoti hain, jinhe baad mein delete kar diya jaata hai, isliye aaj kisi device ki long-term keys chura lene
+    se bhi attacker pichhle mahine record kiye gaye messages ko decrypt nahi kar sakta. Authentication aur
+    deniability alag concerns se related hain.

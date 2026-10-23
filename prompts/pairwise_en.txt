@@ -1,0 +1,12 @@
+Two answers to the same question are shown. Decide which answer is better
+overall, judging content first. If they are equally good, say tie.
+
+Question: {question}
+{reference_block}
+Answer A:
+{answer_a}
+
+Answer B:
+{answer_b}
+
+Return only JSON: {"winner": "A" | "B" | "tie", "reason": "one short sentence"}

@@ -1,0 +1,538 @@
+# E3 wrong twins, STEM (30). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+# Each is a confident, plausible but WRONG answer (a distractor option), similar in length and style to the correct
+# English answer, in the same four forms. Checkers verify that the four forms say the same (wrong) thing.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+wrong_twins:
+
+- item_id: mmmlu-anat-0020
+  en: >-
+    The answer is (B): between the right atrium and the right ventricle. The sinoatrial node sits at the junction of
+    these two chambers, where it can send each electrical impulse directly into the ventricles. It is the heart's
+    natural pacemaker, starting every heartbeat from this central position.
+  hi: >-
+    सही उत्तर (B) है: दाएँ अलिंद और दाएँ निलय के बीच। शिरा-अलिंद पर्व इन दोनों कक्षों के जोड़ पर स्थित होता है, जहाँ से वह हर
+    विद्युत आवेग को सीधे निलयों तक भेज सकता है। यह हृदय का प्राकृतिक गति-प्रेरक है, जो इसी केंद्रीय स्थान से हर धड़कन शुरू करता है।
+  hi_rom: >-
+    Sahi uttar (B) hai: daayein alind aur daayein nilay ke beech. Shira-alind parv in dono kakshon ke jod par sthit
+    hota hai, jahaan se vah har vidyut aaveg ko seedhe nilayon tak bhej sakta hai. Yah hriday ka praakritik
+    gati-prerak hai, jo isi kendriya sthaan se har dhadkan shuru karta hai.
+  hinglish: >-
+    Sahi answer (B) hai: right atrium aur right ventricle ke beech. Sinoatrial node in dono chambers ke junction par
+    hota hai, jahan se woh har electrical impulse ko directly ventricles tak bhej sakta hai. Ye heart ka natural
+    pacemaker hai, jo isi central position se har heartbeat start karta hai.
+
+- item_id: mmmlu-anat-0066
+  en: >-
+    The answer is (A): in front of the ears and just above eye level. The carotid pulse is felt here because the
+    carotid artery runs up the side of the head towards the temple, close to the skin. The other options describe the
+    brachial and femoral pulse sites in the arm and groin.
+  hi: >-
+    सही उत्तर (A) है: कानों के सामने और आँखों के स्तर से थोड़ा ऊपर। कैरोटिड नाड़ी यहाँ महसूस होती है क्योंकि कैरोटिड धमनी सिर के
+    किनारे से कनपटी की ओर त्वचा के पास ऊपर जाती है। बाकी विकल्प बाँह और जाँघ के जोड़ में ब्रेकियल और फ़ीमोरल नाड़ी के स्थानों का
+    वर्णन करते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: kaanon ke saamne aur aankhon ke star se thoda oopar. Carotid naadi yahaan mehsoos hoti hai
+    kyonki carotid dhamani sir ke kinaare se kanpati ki or tvacha ke paas oopar jaati hai. Baaki vikalp baanh aur
+    jaangh ke jod mein brachial aur femoral naadi ke sthaanon ka varnan karte hain.
+  hinglish: >-
+    Sahi answer (A) hai: ears ke saamne aur eye level se thoda upar. Carotid pulse yahan feel hoti hai kyunki carotid
+    artery head ki side se temple ki taraf skin ke paas upar jaati hai. Baaki options arm aur groin mein brachial aur
+    femoral pulse sites describe karte hain.
+
+- item_id: mmmlu-anat-0082
+  en: >-
+    The answer is (B): between the dura mater and the arachnoid mater. This space lies just beneath the tough outer
+    dura, and cerebrospinal fluid flows through it to cushion the brain and spinal cord. The pia mater is fused to the
+    brain surface, so no fluid can collect beneath it.
+  hi: >-
+    सही उत्तर (B) है: दृढ़तानिका और जालतानिका के बीच। यह अवकाश कठोर बाहरी दृढ़तानिका के ठीक नीचे होता है, और प्रमस्तिष्क-मेरु द्रव
+    इसमें बहकर मस्तिष्क और मेरुरज्जु को गद्दी की तरह सुरक्षा देता है। मृदुतानिका मस्तिष्क की सतह से जुड़ी होती है, इसलिए उसके नीचे कोई
+    द्रव जमा नहीं हो सकता।
+  hi_rom: >-
+    Sahi uttar (B) hai: dridhtaanika aur jaaltaanika ke beech. Yah avkaash kathor baahari dridhtaanika ke theek neeche
+    hota hai, aur pramastishk-meru drav ismein behkar mastishk aur merurajju ko gaddi ki tarah suraksha deta hai.
+    Mridutaanika mastishk ki satah se judi hoti hai, isliye uske neeche koi drav jama nahi ho sakta.
+  hinglish: >-
+    Sahi answer (B) hai: dura mater aur arachnoid mater ke beech. Ye space tough outer dura ke bilkul neeche hota hai,
+    aur cerebrospinal fluid ismein flow karke brain aur spinal cord ko cushion karta hai. Pia mater brain surface se
+    fused hoti hai, isliye uske neeche koi fluid collect nahi ho sakta.
+
+- item_id: mmmlu-astro-0015
+  en: >-
+    The answer is (D), Saturn. The Great Red Spot is a giant storm in Saturn's atmosphere, larger than Earth, that has
+    been observed for more than 150 years. It is not found on Venus, Mars or Jupiter.
+  hi: >-
+    सही उत्तर (D) है, शनि। महान लाल धब्बा शनि के वायुमंडल में एक विशाल तूफ़ान है, जो पृथ्वी से भी बड़ा है और 150 से अधिक वर्षों से
+    देखा जा रहा है। यह शुक्र, मंगल या बृहस्पति पर नहीं पाया जाता।
+  hi_rom: >-
+    Sahi uttar (D) hai, Shani. Mahaan Laal Dhabba Shani ke vaayumandal mein ek vishaal toofaan hai, jo prithvi se bhi
+    bada hai aur 150 se adhik varshon se dekha ja raha hai. Yah Shukra, Mangal ya Brihaspati par nahi paaya jaata.
+  hinglish: >-
+    Sahi answer (D) hai, Saturn. Great Red Spot Saturn ke atmosphere mein ek huge storm hai, jo Earth se bhi bada hai
+    aur 150 se zyada saalon se observe kiya ja raha hai. Ye Venus, Mars ya Jupiter par nahi milta.
+
+- item_id: mmmlu-astro-0049
+  en: >-
+    The answer is (C). Greenhouse gases such as carbon dioxide and water vapour absorb infrared radiation coming
+    directly from the Sun. This absorbed energy heats the atmosphere, which in turn warms the surface below, keeping
+    the planet warmer than it would otherwise be.
+  hi: >-
+    सही उत्तर (C) है। कार्बन डाइऑक्साइड और जलवाष्प जैसी ग्रीनहाउस गैसें सीधे सूर्य से आने वाले अवरक्त विकिरण को अवशोषित करती हैं।
+    यह अवशोषित ऊर्जा वायुमंडल को गर्म करती है, जो बदले में नीचे की सतह को गर्म करता है, और ग्रह को अन्यथा की तुलना में अधिक गर्म
+    रखता है।
+  hi_rom: >-
+    Sahi uttar (C) hai. Carbon dioxide aur jalvaashp jaisi greenhouse gaisein seedhe surya se aane waale avarakt
+    vikiran ko avashoshit karti hain. Yah avashoshit urja vaayumandal ko garm karti hai, jo badle mein neeche ki satah
+    ko garm karta hai, aur grah ko anyatha ki tulna mein adhik garm rakhta hai.
+  hinglish: >-
+    Sahi answer (C) hai. Carbon dioxide aur water vapour jaisi greenhouse gases directly Sun se aane wali infrared
+    radiation ko absorb karti hain. Ye absorbed energy atmosphere ko garam karti hai, jo phir neeche ki surface ko
+    garam karta hai, aur planet ko otherwise se zyada garam rakhta hai.
+
+- item_id: mmmlu-astro-0067
+  en: >-
+    The answer is (A), five. The Pleiades are famous for five bright stars, which is why many ancient cultures called
+    the cluster the Five Sisters. The cluster contains other stars too, but only these five are easily seen with the
+    naked eye.
+  hi: >-
+    सही उत्तर (A) है, पाँच। प्लीएडीज़ पाँच चमकीले तारों के लिए प्रसिद्ध है, इसीलिए कई प्राचीन संस्कृतियों ने इस तारागुच्छ को 'पाँच
+    बहनें' कहा। इस गुच्छ में दूसरे तारे भी हैं, लेकिन नंगी आँखों से केवल ये पाँच ही आसानी से दिखाई देते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai, paanch. Pleiades paanch chamkeele taaron ke liye prasiddh hai, isiliye kai praacheen
+    sanskritiyon ne is taaraguchchh ko 'paanch behnen' kaha. Is guchchh mein doosre taare bhi hain, lekin nangi aankhon
+    se keval ye paanch hi aasaani se dikhai dete hain.
+  hinglish: >-
+    Sahi answer (A) hai, five. Pleiades apne five bright stars ke liye famous hai, isliye kai ancient cultures ne is
+    cluster ko 'Five Sisters' kaha. Is cluster mein doosre stars bhi hain, lekin naked eye se sirf ye five hi easily
+    dikhte hain.
+
+- item_id: mmmlu-colbio-0009
+  en: >-
+    The answer is (D): it uses a viral copy of reverse transcriptase to make viral DNA. Influenza carries an RNA genome,
+    so it first converts this RNA into DNA, which the host cell can then read. Only after this step can the virus begin
+    producing new viral proteins.
+  hi: >-
+    सही उत्तर (D) है: यह विषाणु के अपने रिवर्स ट्रांसक्रिप्टेज़ से विषाणु DNA बनाता है। इन्फ़्लुएंज़ा में RNA जीनोम होता है, इसलिए वह
+    पहले इस RNA को DNA में बदलता है, जिसे परपोषी कोशिका फिर पढ़ सकती है। इस चरण के बाद ही विषाणु नए विषाणु प्रोटीन बनाना शुरू कर
+    सकता है।
+  hi_rom: >-
+    Sahi uttar (D) hai: yah vishaanu ke apne reverse transcriptase se vishaanu DNA banaata hai. Influenza mein RNA
+    genome hota hai, isliye vah pehle is RNA ko DNA mein badalta hai, jise parposhi koshika phir padh sakti hai. Is
+    charan ke baad hi vishaanu naye vishaanu protein banaana shuru kar sakta hai.
+  hinglish: >-
+    Sahi answer (D) hai: ye viral reverse transcriptase se viral DNA banata hai. Influenza mein RNA genome hota hai,
+    isliye woh pehle is RNA ko DNA mein convert karta hai, jise host cell phir read kar sakta hai. Is step ke baad hi
+    virus new viral proteins banana start kar sakta hai.
+
+- item_id: mmmlu-colbio-0117
+  en: >-
+    The answer is (A). Tropical ecosystems contain far more plant species than temperate ones, and this diversity lets
+    plants use light, water and nutrients more completely. As a result, the high species diversity of the tropics
+    directly increases plant growth and net primary productivity.
+  hi: >-
+    सही उत्तर (A) है। उष्णकटिबंधीय पारिस्थितिक तंत्रों में समशीतोष्ण क्षेत्रों की तुलना में कहीं अधिक पादप प्रजातियाँ होती हैं, और यह
+    विविधता पौधों को प्रकाश, जल और पोषक तत्वों का अधिक पूर्ण उपयोग करने देती है। परिणामस्वरूप, उष्णकटिबंध की उच्च प्रजाति विविधता
+    सीधे पौधों की वृद्धि और शुद्ध प्राथमिक उत्पादकता को बढ़ाती है।
+  hi_rom: >-
+    Sahi uttar (A) hai. Ushnakatibandhiya paaristhitik tantron mein samsheetoshna kshetron ki tulna mein kahin adhik
+    paadap prajaatiyaan hoti hain, aur yah vividhata paudhon ko prakaash, jal aur poshak tatvon ka adhik poorn upyog
+    karne deti hai. Parinaamswaroop, ushnakatibandh ki uchch prajaati vividhata seedhe paudhon ki vriddhi aur shuddh
+    praathmik utpaadakta ko badhaati hai.
+  hinglish: >-
+    Sahi answer (A) hai. Tropical ecosystems mein temperate ones ke comparison mein kahin zyada plant species hoti
+    hain, aur ye diversity plants ko light, water aur nutrients ka zyada complete use karne deti hai. Isliye tropics
+    ki high species diversity directly plant growth aur net primary productivity ko badhati hai.
+
+- item_id: mmmlu-compsec-0002
+  en: >-
+    The answer is (D). When a client presents a ticket, the server contacts the KDC to check whether the ticket is still
+    valid according to the KDC's clock, and refuses authentication if it has expired. Relying on the KDC's clock means
+    individual servers do not need accurate time of their own.
+  hi: >-
+    सही उत्तर (D) है। जब क्लाइंट टिकट प्रस्तुत करता है, तो सर्वर KDC से संपर्क करके जाँचता है कि KDC की घड़ी के अनुसार टिकट अब भी
+    वैध है या नहीं, और अवधि समाप्त होने पर प्रमाणीकरण से मना कर देता है। KDC की घड़ी पर निर्भर रहने का अर्थ है कि अलग-अलग सर्वरों को
+    अपना सटीक समय रखने की ज़रूरत नहीं होती।
+  hi_rom: >-
+    Sahi uttar (D) hai. Jab client ticket prastut karta hai, to server KDC se sampark karke jaanchta hai ki KDC ki
+    ghadi ke anusaar ticket ab bhi vaidh hai ya nahi, aur avadhi samaapt hone par pramaaneekaran se mana kar deta hai.
+    KDC ki ghadi par nirbhar rehne ka arth hai ki alag-alag serveron ko apna sateek samay rakhne ki zaroorat nahi hoti.
+  hinglish: >-
+    Sahi answer (D) hai. Jab client ticket present karta hai, toh server KDC se contact karke check karta hai ki KDC
+    ki clock ke according ticket abhi bhi valid hai ya nahi, aur expire hone par authentication refuse kar deta hai.
+    KDC ki clock par depend karne ka matlab hai ki individual servers ko apna accurate time rakhne ki zaroorat nahi
+    hoti.
+
+- item_id: mmmlu-compsec-0049
+  en: >-
+    The answer is (D), buffer checks. A buffer overflow happens when a program writes more data into a buffer than it
+    can hold. Running buffer checks, which scan each buffer for leftover or corrupted data after it is used, prevents
+    this bug.
+  hi: >-
+    सही उत्तर (D) है, बफ़र जाँच। बफ़र ओवरफ़्लो तब होता है जब कोई प्रोग्राम किसी बफ़र में उसकी क्षमता से अधिक डेटा लिख देता है। बफ़र
+    जाँच चलाना, जो उपयोग के बाद हर बफ़र में बचे हुए या दूषित डेटा को खोजती है, इस दोष को रोकता है।
+  hi_rom: >-
+    Sahi uttar (D) hai, buffer jaanch. Buffer overflow tab hota hai jab koi program kisi buffer mein uski kshamata se
+    adhik data likh deta hai. Buffer jaanch chalaana, jo upyog ke baad har buffer mein bache hue ya dooshit data ko
+    khojti hai, is dosh ko rokta hai.
+  hinglish: >-
+    Sahi answer (D) hai, buffer checks. Buffer overflow tab hota hai jab koi program kisi buffer mein uski capacity se
+    zyada data write kar deta hai. Buffer checks run karna, jo use ke baad har buffer mein leftover ya corrupted data
+    scan karte hain, is bug ko prevent karta hai.
+
+- item_id: mmmlu-cphys-0066
+  en: >-
+    The answer is (A): the food becomes slightly radioactive. Gamma rays deposit energy in the atoms of the food, and a
+    small fraction of that energy remains as weak radioactivity afterwards. The level is low, which is why irradiated
+    food is still considered safe to eat.
+  hi: >-
+    सही उत्तर (A) है: भोजन थोड़ा रेडियोधर्मी हो जाता है। गामा किरणें भोजन के परमाणुओं में ऊर्जा जमा करती हैं, और उस ऊर्जा का एक छोटा
+    हिस्सा बाद में कमज़ोर रेडियोधर्मिता के रूप में रह जाता है। यह स्तर कम होता है, इसीलिए विकिरणित भोजन को फिर भी खाने के लिए
+    सुरक्षित माना जाता है।
+  hi_rom: >-
+    Sahi uttar (A) hai: bhojan thoda radiodharmi ho jaata hai. Gamma kirnein bhojan ke parmaanuon mein urja jama karti
+    hain, aur us urja ka ek chhota hissa baad mein kamzor radiodharmita ke roop mein reh jaata hai. Yah star kam hota
+    hai, isiliye vikiranit bhojan ko phir bhi khaane ke liye surakshit maana jaata hai.
+  hinglish: >-
+    Sahi answer (A) hai: food thoda radioactive ho jaata hai. Gamma rays food ke atoms mein energy deposit karti hain,
+    aur us energy ka ek chhota part baad mein weak radioactivity ke roop mein reh jaata hai. Ye level low hota hai,
+    isliye irradiated food ko phir bhi khane ke liye safe maana jaata hai.
+
+- item_id: mmmlu-cphys-0069
+  en: >-
+    The answer is (B), 10 times as much. Surface gravity depends on mass divided by the radius. With the same mass and
+    one-tenth the radius, your weight increases by a factor of 10, the same factor by which the planet shrank.
+  hi: >-
+    सही उत्तर (B) है, 10 गुना। सतह पर गुरुत्व द्रव्यमान को त्रिज्या से भाग देने पर निर्भर करता है। द्रव्यमान वही रहे और त्रिज्या दसवाँ भाग
+    हो जाए, तो आपका भार 10 गुना बढ़ जाता है, उसी अनुपात में जितना ग्रह सिकुड़ा।
+  hi_rom: >-
+    Sahi uttar (B) hai, 10 guna. Satah par gurutva dravyamaan ko trijya se bhaag dene par nirbhar karta hai.
+    Dravyamaan vahi rahe aur trijya dasvaan bhaag ho jaaye, to aapka bhaar 10 guna badh jaata hai, usi anupaat mein
+    jitna grah sikuda.
+  hinglish: >-
+    Sahi answer (B) hai, 10 times. Surface gravity mass ko radius se divide karne par depend karti hai. Mass same rahe
+    aur radius one-tenth ho jaaye, toh aapka weight 10 guna badh jaata hai, usi factor se jitna planet shrink hua.
+
+- item_id: mmmlu-cphys-0087
+  en: >-
+    The answer is (D), photons. Electrons can only occupy discrete orbits because each orbit corresponds to absorbing
+    or emitting a whole photon of a particular energy. Modelling electrons as photons explains why only certain orbits
+    and energies are allowed.
+  hi: >-
+    सही उत्तर (D) है, फ़ोटॉन। इलेक्ट्रॉन केवल निश्चित कक्षाओं में रह सकते हैं क्योंकि हर कक्षा एक विशेष ऊर्जा के पूरे फ़ोटॉन के अवशोषण
+    या उत्सर्जन से जुड़ी होती है। इलेक्ट्रॉनों को फ़ोटॉन के रूप में देखने से स्पष्ट होता है कि केवल कुछ कक्षाएँ और ऊर्जाएँ ही क्यों अनुमत
+    हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai, photon. Electron keval nishchit kakshaaon mein reh sakte hain kyonki har kaksha ek vishesh urja
+    ke poore photon ke avashoshan ya utsarjan se judi hoti hai. Electronon ko photon ke roop mein dekhne se spasht hota
+    hai ki keval kuch kakshaayein aur urjaayein hi kyon anumat hain.
+  hinglish: >-
+    Sahi answer (D) hai, photons. Electrons sirf discrete orbits mein reh sakte hain kyunki har orbit ek particular
+    energy ke whole photon ko absorb ya emit karne se linked hota hai. Electrons ko photons ki tarah model karne se
+    samajh aata hai ki sirf kuch orbits aur energies hi kyun allowed hain.
+
+- item_id: mmmlu-cphys-0097
+  en: >-
+    The answer is (B): when the Earth and the Moon are at right angles to the Sun. In this position the Sun and the Moon
+    pull on the oceans from two different directions, stretching the water further and producing the highest tides,
+    called spring tides. When all three are lined up, their pulls overlap and the tides are smaller.
+  hi: >-
+    सही उत्तर (B) है: जब पृथ्वी और चंद्रमा सूर्य के साथ समकोण पर हों। इस स्थिति में सूर्य और चंद्रमा महासागरों को दो अलग-अलग दिशाओं से
+    खींचते हैं, जिससे पानी अधिक फैलता है और सबसे ऊँचे ज्वार आते हैं, जिन्हें दीर्घ ज्वार कहते हैं। जब तीनों एक सीध में होते हैं, तो उनके
+    खिंचाव एक-दूसरे पर चढ़ जाते हैं और ज्वार छोटे होते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai: jab prithvi aur chandrama surya ke saath samkon par hon. Is sthiti mein surya aur chandrama
+    mahaasaagaron ko do alag-alag dishaaon se kheenchte hain, jisse paani adhik phailta hai aur sabse oonche jvaar aate
+    hain, jinhein deergh jvaar kehte hain. Jab teenon ek seedh mein hote hain, to unke khinchaav ek-doosre par chadh
+    jaate hain aur jvaar chhote hote hain.
+  hinglish: >-
+    Sahi answer (B) hai: jab Earth aur Moon Sun ke saath right angle par hon. Is position mein Sun aur Moon oceans ko
+    do alag directions se pull karte hain, jisse paani zyada stretch hota hai aur sabse high tides aate hain, jinhe
+    spring tides kehte hain. Jab teeno ek line mein hote hain, toh unke pulls overlap ho jaate hain aur tides chhote
+    hote hain.
+
+- item_id: mmmlu-cphys-0202
+  en: >-
+    The answer is (B): it generates electricity directly. Fission splits uranium nuclei, and the charged fragments
+    released are collected to produce an electric current without any moving parts. This direct conversion is what
+    makes nuclear reactors more efficient than coal power stations.
+  hi: >-
+    सही उत्तर (B) है: यह सीधे बिजली बनाता है। विखंडन में यूरेनियम के नाभिक टूटते हैं, और निकलने वाले आवेशित टुकड़ों को इकट्ठा करके बिना
+    किसी चलने वाले पुर्ज़े के विद्युत धारा बनाई जाती है। यही सीधा रूपांतरण परमाणु रिएक्टरों को कोयला बिजलीघरों से अधिक कुशल बनाता है।
+  hi_rom: >-
+    Sahi uttar (B) hai: yah seedhe bijli banaata hai. Vikhandan mein uranium ke naabhik tootte hain, aur nikalne waale
+    aaveshit tukdon ko ikattha karke bina kisi chalne waale purze ke vidyut dhaara banaai jaati hai. Yahi seedha
+    roopaantaran parmaanu reactoron ko koyla bijlighron se adhik kushal banaata hai.
+  hinglish: >-
+    Sahi answer (B) hai: ye directly electricity generate karta hai. Fission mein uranium nuclei split hote hain, aur
+    release hone wale charged fragments ko collect karke bina kisi moving parts ke electric current banaya jaata hai.
+    Yahi direct conversion nuclear reactors ko coal power stations se zyada efficient banata hai.
+
+- item_id: mmmlu-ee-0014
+  en: >-
+    The answer is (B): the ratio of 1 volt to 1 coulomb. Capacitance is defined as C = V/Q, so a capacitor has a
+    capacitance of one farad if one volt appears across it for every coulomb of charge it stores. The ohm is the unit
+    of resistance, not capacitance.
+  hi: >-
+    सही उत्तर (B) है: 1 वोल्ट और 1 कूलॉम का अनुपात। धारिता को C = V/Q से परिभाषित किया जाता है, इसलिए किसी संधारित्र की धारिता एक
+    फ़ैराड होती है यदि उसके द्वारा संचित हर कूलॉम आवेश पर उस पर एक वोल्ट आता है। ओम प्रतिरोध की इकाई है, धारिता की नहीं।
+  hi_rom: >-
+    Sahi uttar (B) hai: 1 volt aur 1 coulomb ka anupaat. Dhaarita ko C = V/Q se paribhaashit kiya jaata hai, isliye
+    kisi sandhaaritra ki dhaarita ek farad hoti hai yadi uske dwara sanchit har coulomb aavesh par us par ek volt aata
+    hai. Ohm pratirodh ki ikaai hai, dhaarita ki nahi.
+  hinglish: >-
+    Sahi answer (B) hai: 1 volt aur 1 coulomb ka ratio. Capacitance ko C = V/Q se define kiya jaata hai, isliye kisi
+    capacitor ki capacitance ek farad hoti hai agar uske store kiye har coulomb charge par us par ek volt aata hai.
+    Ohm resistance ki unit hai, capacitance ki nahi.
+
+- item_id: mmmlu-ee-0119
+  en: >-
+    The answer is (B): relative error is the same as absolute error. Both terms describe the difference between a
+    measured value and the true value, and they are used interchangeably in measurement work. For example, measuring
+    98 cm for a true length of 100 cm gives a relative error of 2 cm.
+  hi: >-
+    सही उत्तर (B) है: सापेक्ष त्रुटि निरपेक्ष त्रुटि के समान है। दोनों शब्द मापे गए मान और वास्तविक मान के अंतर को दर्शाते हैं, और माप के
+    काम में इन्हें एक-दूसरे के स्थान पर उपयोग किया जाता है। उदाहरण के लिए, 100 cm की वास्तविक लंबाई को 98 cm मापने पर सापेक्ष त्रुटि
+    2 cm होती है।
+  hi_rom: >-
+    Sahi uttar (B) hai: saapeksh truti nirpeksh truti ke samaan hai. Dono shabd maape gaye maan aur vaastavik maan ke
+    antar ko darshaate hain, aur maap ke kaam mein inhein ek-doosre ke sthaan par upyog kiya jaata hai. Udaaharan ke
+    liye, 100 cm ki vaastavik lambaai ko 98 cm maapne par saapeksh truti 2 cm hoti hai.
+  hinglish: >-
+    Sahi answer (B) hai: relative error absolute error ke same hai. Dono terms measured value aur true value ke
+    difference ko describe karte hain, aur measurement work mein inhe interchangeably use kiya jaata hai. Example ke
+    liye, 100 cm ki true length ko 98 cm measure karne par relative error 2 cm hota hai.
+
+- item_id: mmmlu-hsbio-0044
+  en: >-
+    The answer is (A): the cell dies because it cannot make ATP. Yeast depends on oxygen to run its electron transport
+    chain, which is where almost all of its ATP is produced. Once oxygen is removed, ATP production stops, and the cell
+    can no longer power its basic functions.
+  hi: >-
+    सही उत्तर (A) है: कोशिका मर जाती है क्योंकि वह ATP नहीं बना पाती। यीस्ट अपनी इलेक्ट्रॉन परिवहन शृंखला चलाने के लिए ऑक्सीजन पर
+    निर्भर करता है, जहाँ उसका लगभग सारा ATP बनता है। ऑक्सीजन हटते ही ATP बनना बंद हो जाता है, और कोशिका अपने बुनियादी कार्यों को
+    ऊर्जा नहीं दे पाती।
+  hi_rom: >-
+    Sahi uttar (A) hai: koshika mar jaati hai kyonki vah ATP nahi bana paati. Yeast apni electron parivahan shrinkhala
+    chalaane ke liye oxygen par nirbhar karta hai, jahaan uska lagbhag saara ATP banta hai. Oxygen hatate hi ATP banna
+    band ho jaata hai, aur koshika apne buniyaadi kaaryon ko urja nahi de paati.
+  hinglish: >-
+    Sahi answer (A) hai: cell mar jaata hai kyunki woh ATP nahi bana paata. Yeast apni electron transport chain
+    chalane ke liye oxygen par depend karta hai, jahan uska almost saara ATP banta hai. Oxygen hatte hi ATP production
+    band ho jaata hai, aur cell apne basic functions ko power nahi kar paata.
+
+- item_id: mmmlu-hsbio-0123
+  en: >-
+    The answer is (C), 50%. Each carrier parent has one normal and one sickle-cell allele, so each child has a
+    one-in-two chance of receiving the sickle-cell allele from the pair. Because both parents are carriers, the chance
+    that the child inherits the disease is therefore 1/2, or 50%.
+  hi: >-
+    सही उत्तर (C) है, 50%। वाहक माता-पिता में से प्रत्येक के पास एक सामान्य और एक सिकल-सेल एलील होता है, इसलिए हर बच्चे को इस जोड़ी से
+    सिकल-सेल एलील मिलने की संभावना दो में से एक है। चूँकि माता-पिता दोनों वाहक हैं, इसलिए बच्चे को यह रोग विरासत में मिलने की
+    प्रायिकता 1/2, यानी 50% है।
+  hi_rom: >-
+    Sahi uttar (C) hai, 50%. Vaahak maata-pita mein se pratyek ke paas ek saamaanya aur ek sickle-cell allele hota hai,
+    isliye har bachche ko is jodi se sickle-cell allele milne ki sambhaavna do mein se ek hai. Choonki maata-pita dono
+    vaahak hain, isliye bachche ko yah rog viraasat mein milne ki praayikta 1/2, yaani 50% hai.
+  hinglish: >-
+    Sahi answer (C) hai, 50%. Har carrier parent ke paas ek normal aur ek sickle-cell allele hota hai, isliye har
+    bachche ko is pair se sickle-cell allele milne ka chance two mein se one hai. Kyunki dono parents carriers hain,
+    isliye bachche ko disease inherit karne ki probability 1/2, yaani 50% hai.
+
+- item_id: mmmlu-hsbio-0293
+  en: >-
+    The answer is (B), blastula formation. As the embryo becomes a hollow ball of cells, the blastula, its cells
+    separate into three distinct layers: ectoderm, mesoderm and endoderm. Cleavage comes before this stage, and
+    gastrulation and neurulation follow once the germ layers already exist.
+  hi: >-
+    सही उत्तर (B) है, ब्लास्टुला का बनना। जब भ्रूण कोशिकाओं की एक खोखली गेंद, यानी ब्लास्टुला, बनता है, तो उसकी कोशिकाएँ तीन अलग परतों
+    में बँट जाती हैं: एक्टोडर्म, मीसोडर्म और एंडोडर्म। विदलन इस चरण से पहले आता है, और गैस्ट्रुलेशन तथा न्यूरुलेशन भ्रूणीय परतें बनने के
+    बाद होते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai, blastula ka banna. Jab bhroon koshikaaon ki ek khokhli gend, yaani blastula, banta hai, to
+    uski koshikaayein teen alag parton mein bant jaati hain: ectoderm, mesoderm aur endoderm. Vidalan is charan se
+    pehle aata hai, aur gastrulation tatha neurulation bhrooniya partein banne ke baad hote hain.
+  hinglish: >-
+    Sahi answer (B) hai, blastula formation. Jab embryo cells ki ek hollow ball, yaani blastula, banta hai, toh uske
+    cells teen distinct layers mein divide ho jaate hain: ectoderm, mesoderm aur endoderm. Cleavage is stage se pehle
+    aata hai, aur gastrulation aur neurulation germ layers banne ke baad hote hain.
+
+- item_id: mmmlu-hschem-0128
+  en: >-
+    The answer is (D): it depends on the particular reaction. The units of a reaction rate change with the order of the
+    reaction, so a first-order reaction has different rate units from a second-order one. That is why rate units must
+    be worked out separately for each reaction.
+  hi: >-
+    सही उत्तर (D) है: यह किसी विशेष अभिक्रिया पर निर्भर करता है। अभिक्रिया की दर की इकाइयाँ अभिक्रिया की कोटि के साथ बदलती हैं, इसलिए
+    प्रथम कोटि की अभिक्रिया की दर इकाइयाँ द्वितीय कोटि की अभिक्रिया से अलग होती हैं। इसीलिए हर अभिक्रिया के लिए दर की इकाइयाँ अलग से
+    निकालनी पड़ती हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai: yah kisi vishesh abhikriya par nirbhar karta hai. Abhikriya ki dar ki ikaaiyaan abhikriya ki
+    koti ke saath badalti hain, isliye pratham koti ki abhikriya ki dar ikaaiyaan dviteeya koti ki abhikriya se alag
+    hoti hain. Isiliye har abhikriya ke liye dar ki ikaaiyaan alag se nikaalni padti hain.
+  hinglish: >-
+    Sahi answer (D) hai: ye particular reaction par depend karta hai. Reaction rate ki units reaction order ke saath
+    change hoti hain, isliye first-order reaction ki rate units second-order reaction se different hoti hain. Isliye
+    har reaction ke liye rate units alag se nikalni padti hain.
+
+- item_id: mmmlu-hschem-0197
+  en: >-
+    The answer is (B). Copper has a high ignition temperature, so an ordinary Bunsen flame is not hot enough to make a
+    solid penny burn. Holding the penny with crucible tongs in an oxyacetylene torch, which reaches over 3,000 °C,
+    supplies enough heat for the copper to ignite and burn. Grinding or dissolving the penny is unnecessary once the
+    temperature is high enough.
+  hi: >-
+    सही उत्तर (B) है। तांबे का प्रज्वलन ताप बहुत अधिक होता है, इसलिए साधारण बुन्सेन ज्वाला ठोस सिक्के को जलाने के लिए पर्याप्त गर्म नहीं
+    होती। सिक्के को चिमटे से पकड़कर ऑक्सीएसिटिलीन टॉर्च में रखने से, जो 3,000 °C से अधिक तापमान तक पहुँचती है, तांबे को प्रज्वलित होकर
+    जलने के लिए पर्याप्त ऊष्मा मिलती है। तापमान पर्याप्त ऊँचा हो तो सिक्के को पीसने या घोलने की ज़रूरत नहीं पड़ती।
+  hi_rom: >-
+    Sahi uttar (B) hai. Taambe ka prajvalan taap bahut adhik hota hai, isliye saadhaaran Bunsen jvaala thos sikke ko
+    jalaane ke liye paryaapt garm nahi hoti. Sikke ko chimte se pakadkar oxyacetylene torch mein rakhne se, jo 3,000 °C
+    se adhik taapmaan tak pahunchti hai, taambe ko prajvalit hokar jalne ke liye paryaapt ushma milti hai. Taapmaan
+    paryaapt ooncha ho to sikke ko peesne ya gholne ki zaroorat nahi padti.
+  hinglish: >-
+    Sahi answer (B) hai. Copper ka ignition temperature high hota hai, isliye normal Bunsen flame solid penny ko burn
+    karne ke liye kaafi hot nahi hoti. Penny ko crucible tongs se pakadkar oxyacetylene torch mein rakhne se, jo
+    3,000 °C se zyada temperature tak pahunchti hai, copper ko ignite hokar burn hone ke liye enough heat milti hai.
+    Temperature kaafi high ho toh penny ko grind ya dissolve karne ki zaroorat nahi padti.
+
+- item_id: mmmlu-hscs-0000
+  en: >-
+    The answer is (D), 16. The << operator shifts the bits of a number to the left, and each shift doubles it. Shifting
+    1 left by three places doubles it four times, counting the starting position, which gives binary 10000, or 16.
+  hi: >-
+    सही उत्तर (D) है, 16। << संकारक किसी संख्या के बिट्स को बाईं ओर खिसकाता है, और हर खिसकाव संख्या को दोगुना कर देता है। 1 को तीन
+    स्थान बाईं ओर खिसकाने पर, शुरुआती स्थान को गिनते हुए, वह चार बार दोगुना होता है, जिससे द्विआधारी 10000, यानी 16 मिलता है।
+  hi_rom: >-
+    Sahi uttar (D) hai, 16. << sankaarak kisi sankhya ke bits ko baayin or khiskaata hai, aur har khiskaav sankhya ko
+    doguna kar deta hai. 1 ko teen sthaan baayin or khiskaane par, shuruaati sthaan ko ginte hue, vah chaar baar doguna
+    hota hai, jisse dviaadhaari 10000, yaani 16 milta hai.
+  hinglish: >-
+    Sahi answer (D) hai, 16. << operator kisi number ke bits ko left shift karta hai, aur har shift number ko double
+    kar deta hai. 1 ko teen places left shift karne par, starting position ko count karte hue, woh chaar baar double
+    hota hai, jisse binary 10000, yaani 16 milta hai.
+
+- item_id: mmmlu-hsphys-0029
+  en: >-
+    The answer is (B): it decreases linearly. The normal force on a box resting on an incline falls in direct
+    proportion to the angle of the incline. Each extra degree of tilt removes the same amount of normal force, until it
+    reaches zero when the plane is vertical.
+  hi: >-
+    सही उत्तर (B) है: यह रैखिक रूप से घटता है। ढलान पर रखे डिब्बे पर अभिलंब बल ढलान के कोण के सीधे अनुपात में घटता है। झुकाव की हर
+    अतिरिक्त डिग्री अभिलंब बल की एक समान मात्रा कम कर देती है, जब तक तल के ऊर्ध्वाधर होने पर यह शून्य नहीं हो जाता।
+  hi_rom: >-
+    Sahi uttar (B) hai: yah rekhik roop se ghatata hai. Dhalaan par rakhe dibbe par abhilamb bal dhalaan ke kon ke
+    seedhe anupaat mein ghatata hai. Jhukaav ki har atirikt degree abhilamb bal ki ek samaan maatra kam kar deti hai,
+    jab tak tal ke oordhvaadhar hone par yah shoonya nahi ho jaata.
+  hinglish: >-
+    Sahi answer (B) hai: ye linearly decrease hota hai. Incline par rakhe box par normal force incline ke angle ke
+    direct proportion mein ghatta hai. Tilt ki har extra degree normal force ki same amount kam kar deti hai, jab tak
+    plane vertical hone par ye zero nahi ho jaata.
+
+- item_id: mmmlu-hsphys-0049
+  en: >-
+    The answer is (C). Low-intensity light delivers energy slowly, so electrons need time to absorb enough of it to
+    escape. If the intensity is increased dramatically, after several seconds the electrons will have absorbed
+    sufficient energy, and photoelectrons will be emitted with kinetic energy equal to the photon energy minus the work
+    function.
+  hi: >-
+    सही उत्तर (C) है। कम तीव्रता का प्रकाश धीरे-धीरे ऊर्जा देता है, इसलिए इलेक्ट्रॉनों को बाहर निकलने लायक ऊर्जा सोखने में समय लगता है।
+    यदि तीव्रता बहुत बढ़ा दी जाए, तो कुछ सेकंड बाद इलेक्ट्रॉन पर्याप्त ऊर्जा सोख लेंगे, और फ़ोटॉन ऊर्जा में से कार्य-फलन घटाने पर मिलने
+    वाली गतिज ऊर्जा के साथ प्रकाश-इलेक्ट्रॉन उत्सर्जित होंगे।
+  hi_rom: >-
+    Sahi uttar (C) hai. Kam teevrata ka prakaash dheere-dheere urja deta hai, isliye electronon ko baahar nikalne
+    laayak urja sokhne mein samay lagta hai. Yadi teevrata bahut badha di jaaye, to kuch second baad electron paryaapt
+    urja sokh lenge, aur photon urja mein se kaarya-phalan ghataane par milne waali gatij urja ke saath
+    prakaash-electron utsarjit honge.
+  hinglish: >-
+    Sahi answer (C) hai. Low-intensity light dheere-dheere energy deti hai, isliye electrons ko escape karne layak
+    energy absorb karne mein time lagta hai. Agar intensity bahut badha di jaaye, toh kuch seconds baad electrons kaafi
+    energy absorb kar lenge, aur photoelectrons photon energy minus work function ke barabar kinetic energy ke saath
+    emit honge.
+
+- item_id: mmmlu-hsphys-0125
+  en: >-
+    The answer is (C): the net force is in the positive direction. The student's push gave the puck a forward force,
+    and that force stays with the puck as it continues to move in the positive direction. As long as the puck is still
+    moving forward at x = 1.0 m, the net force must point forward too.
+  hi: >-
+    सही उत्तर (C) है: कुल बल धनात्मक दिशा में है। छात्र के धक्के ने पक को आगे की ओर बल दिया, और वह बल पक के साथ बना रहता है जब तक वह
+    धनात्मक दिशा में चलता रहता है। जब तक x = 1.0 m पर पक अब भी आगे बढ़ रहा है, कुल बल भी आगे की ओर ही होना चाहिए।
+  hi_rom: >-
+    Sahi uttar (C) hai: kul bal dhanaatmak disha mein hai. Chhaatra ke dhakke ne puck ko aage ki or bal diya, aur vah
+    bal puck ke saath bana rehta hai jab tak vah dhanaatmak disha mein chalta rehta hai. Jab tak x = 1.0 m par puck ab
+    bhi aage badh raha hai, kul bal bhi aage ki or hi hona chahiye.
+  hinglish: >-
+    Sahi answer (C) hai: net force positive direction mein hai. Student ke push ne puck ko forward force diya, aur woh
+    force puck ke saath rehta hai jab tak woh positive direction mein move karta rehta hai. Jab tak x = 1.0 m par puck
+    abhi bhi aage badh raha hai, net force bhi forward hi hona chahiye.
+
+- item_id: mmmlu-hsphys-0143
+  en: >-
+    The answer is (B), 2F. The magnetic force on a moving charge is F = qvB/m, so doubling the mass cancels the effect
+    of doubling the velocity. Only the doubled charge remains, so the new force is twice the original force.
+  hi: >-
+    सही उत्तर (B) है, 2F। गतिमान आवेश पर चुंबकीय बल F = qvB/m होता है, इसलिए द्रव्यमान को दोगुना करने से वेग को दोगुना करने का प्रभाव
+    समाप्त हो जाता है। केवल दोगुना आवेश बचता है, इसलिए नया बल मूल बल का दोगुना है।
+  hi_rom: >-
+    Sahi uttar (B) hai, 2F. Gatimaan aavesh par chumbakiya bal F = qvB/m hota hai, isliye dravyamaan ko doguna karne se
+    veg ko doguna karne ka prabhaav samaapt ho jaata hai. Keval doguna aavesh bachta hai, isliye naya bal mool bal ka
+    doguna hai.
+  hinglish: >-
+    Sahi answer (B) hai, 2F. Moving charge par magnetic force F = qvB/m hota hai, isliye mass ko double karne se
+    velocity double karne ka effect cancel ho jaata hai. Sirf double charge bachta hai, isliye new force original
+    force ka double hai.
+
+- item_id: mmmlu-medgen-0029
+  en: >-
+    The answer is (A): the probability is 1 in 4. Each affected parent passes on the disease allele with a probability
+    of one half. For a child to be affected, both parents must pass it on, so the probability is 1/2 × 1/2 = 1/4 for
+    each child.
+  hi: >-
+    सही उत्तर (A) है: प्रायिकता 4 में 1 है। हर प्रभावित माता या पिता रोग वाला एलील आधी प्रायिकता से आगे देता है। बच्चे के प्रभावित होने के
+    लिए दोनों को यह एलील देना होगा, इसलिए हर बच्चे के लिए प्रायिकता 1/2 × 1/2 = 1/4 है।
+  hi_rom: >-
+    Sahi uttar (A) hai: praayikta 4 mein 1 hai. Har prabhaavit maata ya pita rog waala allele aadhi praayikta se aage
+    deta hai. Bachche ke prabhaavit hone ke liye dono ko yah allele dena hoga, isliye har bachche ke liye praayikta
+    1/2 × 1/2 = 1/4 hai.
+  hinglish: >-
+    Sahi answer (A) hai: probability 4 mein 1 hai. Har affected parent disease allele ko half probability se pass
+    karta hai. Bachche ke affected hone ke liye dono ko ye allele pass karna hoga, isliye har bachche ke liye
+    probability 1/2 × 1/2 = 1/4 hai.
+
+- item_id: mmmlu-nutr-0024
+  en: >-
+    The answer is (D), impaired immune function. Ageing typically brings a loss of lean body mass, lower bone density
+    and an increased appetite as energy needs change. The immune system, however, usually stays as strong in older
+    adults as in younger people.
+  hi: >-
+    सही उत्तर (D) है, प्रतिरक्षा क्षमता में कमज़ोरी। बढ़ती उम्र के साथ आमतौर पर वसा-रहित शरीर द्रव्यमान में कमी, अस्थि घनत्व में कमी और
+    ऊर्जा की ज़रूरतें बदलने से भूख में बढ़ोतरी होती है। लेकिन प्रतिरक्षा तंत्र आमतौर पर बुज़ुर्गों में भी उतना ही मज़बूत रहता है जितना
+    युवाओं में।
+  hi_rom: >-
+    Sahi uttar (D) hai, pratiraksha kshamata mein kamzori. Badhti umra ke saath aamtaur par vasa-rahit shareer
+    dravyamaan mein kami, asthi ghanatva mein kami aur urja ki zarooratein badalne se bhookh mein badhotari hoti hai.
+    Lekin pratiraksha tantra aamtaur par buzurgon mein bhi utna hi mazboot rehta hai jitna yuvaaon mein.
+  hinglish: >-
+    Sahi answer (D) hai, impaired immune function. Age badhne ke saath usually lean body mass kam hota hai, bone
+    density ghatti hai aur energy needs change hone se appetite badhti hai. Lekin immune system usually older adults
+    mein bhi utna hi strong rehta hai jitna younger logon mein.
+
+- item_id: mmmlu-nutr-0095
+  en: >-
+    The answer is (A): BMI is not an accurate measure for average people. It was designed for athletes and very large
+    populations, so for ordinary individuals of normal build it often gives misleading results. That is why doctors
+    rarely use it for people of average height and weight.
+  hi: >-
+    सही उत्तर (A) है: BMI सामान्य लोगों के लिए सटीक माप नहीं है। इसे खिलाड़ियों और बहुत बड़ी आबादी के लिए बनाया गया था, इसलिए सामान्य
+    कद-काठी वाले आम व्यक्तियों के लिए यह अक्सर भ्रामक परिणाम देता है। इसीलिए डॉक्टर औसत लंबाई और वज़न वाले लोगों के लिए इसका उपयोग
+    शायद ही करते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: BMI saamaanya logon ke liye sateek maap nahi hai. Ise khiladiyon aur bahut badi aabaadi ke liye
+    banaaya gaya tha, isliye saamaanya kad-kaathi waale aam vyaktiyon ke liye yah aksar bhraamak parinaam deta hai.
+    Isiliye doctor ausat lambaai aur vazan waale logon ke liye iska upyog shaayad hi karte hain.
+  hinglish: >-
+    Sahi answer (A) hai: BMI average logon ke liye accurate measure nahi hai. Ise athletes aur bahut badi populations
+    ke liye design kiya gaya tha, isliye normal build wale ordinary individuals ke liye ye often misleading results
+    deta hai. Isliye doctors average height aur weight wale logon ke liye iska use rarely karte hain.

@@ -1,0 +1,586 @@
+# Phase 1 drafts, open-ended batch C: 15 MT-Bench-Hi items. Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+# question_en is Claude's English translation of the native Hindi prompt and must be checked.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mtbhi-hum-151
+  source_id: "151"
+  question_en: >-
+    In Indian mythology, time is seen as cycles (yugas): Satya Yuga, Treta Yuga, Dvapara Yuga and Kali Yuga. How might
+    this idea of the yugas be linked to the stages of human life (childhood, youth, adulthood and old age)? Does the
+    idea of death and moksha change according to these yugas, and if so, does the rapid passing of life in the Kali
+    Yuga affect our understanding of time and death?
+  en: >-
+    The four yugas can be read as a mirror of a human life. Satya Yuga, an age of truth and purity, resembles
+    childhood; Treta Yuga, when virtue begins to decline, resembles youth; Dvapara Yuga, an age of mixed good and bad,
+    resembles adulthood with its responsibilities and conflicts; and Kali Yuga, an age of decline, resembles old age.
+    Traditional texts do link moksha to the age: in Kali Yuga, life is said to be shorter and harder, so simpler paths
+    such as devotion and chanting God's name are recommended. This sense that time is running out can make death feel
+    closer and give urgency to living rightly in the present.
+  hi: >-
+    चारों युगों को मानव जीवन के दर्पण के रूप में पढ़ा जा सकता है। सत्य और पवित्रता का युग, सत्ययुग, बचपन जैसा है; त्रेतायुग, जब
+    धर्म घटने लगता है, युवावस्था जैसा है; अच्छाई और बुराई के मिश्रण वाला द्वापरयुग अपनी ज़िम्मेदारियों और संघर्षों के साथ
+    प्रौढ़ावस्था जैसा है; और पतन का युग, कलियुग, वृद्धावस्था जैसा है। पारंपरिक ग्रंथ मोक्ष को युग से जोड़ते भी हैं: कहा जाता है कि
+    कलियुग में जीवन छोटा और कठिन है, इसलिए भक्ति और ईश्वर का नाम-जप जैसे सरल मार्ग सुझाए जाते हैं। समय के कम होते जाने की यह
+    भावना मृत्यु को अधिक निकट महसूस करा सकती है और वर्तमान में सही ढंग से जीने को तात्कालिकता दे सकती है।
+  hi_rom: >-
+    Chaaron yugon ko maanav jeevan ke darpan ke roop mein padha ja sakta hai. Satya aur pavitrata ka yug, Satyayug,
+    bachpan jaisa hai; Tretaayug, jab dharm ghatne lagta hai, yuvaavastha jaisa hai; achchhaai aur buraai ke mishran
+    waala Dvaaparyug apni zimmedaariyon aur sangharshon ke saath praudhaavastha jaisa hai; aur patan ka yug, Kaliyug,
+    vriddhaavastha jaisa hai. Paaramparik granth moksh ko yug se jodte bhi hain: kaha jaata hai ki Kaliyug mein jeevan
+    chhota aur kathin hai, isliye bhakti aur Ishvar ka naam-jap jaise saral maarg sujhaaye jaate hain. Samay ke kam
+    hote jaane ki yah bhaavna mrityu ko adhik nikat mehsoos kara sakti hai aur vartamaan mein sahi dhang se jeene ko
+    taatkaalikta de sakti hai.
+  hinglish: >-
+    Chaaron yugas ko human life ke mirror ki tarah padha ja sakta hai. Truth aur purity ka age, Satya Yuga, childhood
+    jaisa hai; Treta Yuga, jab virtue decline hone lagta hai, youth jaisa hai; good aur bad ke mix wala Dvapara Yuga
+    apni responsibilities aur conflicts ke saath adulthood jaisa hai; aur decline ka age, Kali Yuga, old age jaisa hai.
+    Traditional texts moksha ko yuga se link bhi karte hain: kaha jaata hai ki Kali Yuga mein life chhoti aur mushkil
+    hai, isliye devotion aur God ka naam chant karne jaise simple paths suggest kiye jaate hain. Time kam hote jaane ki
+    ye feeling death ko zyada close feel kara sakti hai aur present mein sahi tarah se jeene ko urgency de sakti hai.
+
+- item_id: mtbhi-hum-155
+  source_id: "155"
+  question_en: >-
+    Discuss the concept of solidarity in human societies. Analyse how collective action and mutual support help humans
+    overcome challenges and achieve common goals.
+  en: >-
+    Solidarity is the sense of unity and shared responsibility that binds members of a group, leading them to support
+    one another. The sociologist Émile Durkheim distinguished mechanical solidarity, based on similarity in small
+    traditional communities, from organic solidarity, based on interdependence in complex modern societies. Collective
+    action turns this feeling into results: people pooling effort can achieve what individuals cannot, from villagers
+    building a well together to workers forming unions or citizens joining movements for independence or civil rights.
+    Mutual support also helps people survive crises such as floods or pandemics, through shared resources,
+    volunteering and care. In this way solidarity builds trust and resilience, making common goals reachable.
+  hi: >-
+    एकजुटता एकता और साझा ज़िम्मेदारी की वह भावना है जो किसी समूह के सदस्यों को बाँधती है और उन्हें एक-दूसरे का साथ देने के लिए
+    प्रेरित करती है। समाजशास्त्री एमील दुर्खीम ने छोटे पारंपरिक समुदायों में समानता पर आधारित यांत्रिक एकजुटता और जटिल आधुनिक
+    समाजों में परस्पर निर्भरता पर आधारित सावयवी एकजुटता में अंतर किया। सामूहिक कार्रवाई इस भावना को परिणामों में बदलती है: मिलकर
+    प्रयास करने वाले लोग वह हासिल कर सकते हैं जो अकेले व्यक्ति नहीं कर सकते, जैसे गाँव वालों का मिलकर कुआँ बनाना, मज़दूरों का संघ
+    बनाना, या नागरिकों का स्वतंत्रता या नागरिक अधिकारों के आंदोलनों में शामिल होना। आपसी सहयोग साझा संसाधनों, स्वयंसेवा और
+    देखभाल के माध्यम से लोगों को बाढ़ या महामारी जैसे संकटों से उबरने में भी मदद करता है। इस तरह एकजुटता विश्वास और लचीलापन बनाती
+    है, जिससे साझा लक्ष्य प्राप्त करने योग्य बनते हैं।
+  hi_rom: >-
+    Ekjutata ekta aur saajha zimmedaari ki vah bhaavna hai jo kisi samooh ke sadasyon ko baandhti hai aur unhein
+    ek-doosre ka saath dene ke liye prerit karti hai. Samaajshaastri Emile Durkheim ne chhote paaramparik samudaayon
+    mein samaanata par aadhaarit yaantrik ekjutata aur jatil aadhunik samaajon mein paraspar nirbharta par aadhaarit
+    saavayavi ekjutata mein antar kiya. Saamoohik kaarravaai is bhaavna ko parinaamon mein badalti hai: milkar prayaas
+    karne waale log vah haasil kar sakte hain jo akele vyakti nahi kar sakte, jaise gaanv waalon ka milkar kuaan
+    banaana, mazdooron ka sangh banaana, ya naagrikon ka swatantrata ya naagrik adhikaaron ke aandolanon mein shaamil
+    hona. Aapsi sahyog saajha sansaadhanon, swayamseva aur dekhbhaal ke maadhyam se logon ko baadh ya mahaamaari jaise
+    sankaton se ubarne mein bhi madad karta hai. Is tarah ekjutata vishvaas aur lacheelapan banaati hai, jisse saajha
+    lakshya praapt karne yogya bante hain.
+  hinglish: >-
+    Solidarity unity aur shared responsibility ki woh feeling hai jo kisi group ke members ko bandhti hai aur unhe
+    ek-doosre ko support karne ke liye motivate karti hai. Sociologist Emile Durkheim ne chhoti traditional
+    communities mein similarity par based mechanical solidarity aur complex modern societies mein interdependence par
+    based organic solidarity mein difference kiya. Collective action is feeling ko results mein badalta hai: milkar
+    effort karne wale log woh achieve kar sakte hain jo akele individuals nahi kar sakte, jaise villagers ka milkar
+    well banana, workers ka union banana, ya citizens ka independence ya civil rights movements mein join karna. Mutual
+    support shared resources, volunteering aur care ke through logon ko floods ya pandemics jaise crises se nikalne
+    mein bhi help karta hai. Is tarah solidarity trust aur resilience build karti hai, jisse common goals achievable
+    bante hain.
+
+- item_id: mtbhi-hum-051
+  source_id: "51"
+  question_en: >-
+    How does the process of growing up affect our identity and worldview?
+  en: >-
+    Growing up shapes identity and worldview through a series of changes. In childhood, we absorb the values, language
+    and beliefs of our family and community, often without questioning them. In adolescence, we begin to ask who we are
+    apart from our parents, experimenting with friendships, interests and opinions. Education, travel and meeting
+    people from different backgrounds widen our perspective and can challenge earlier assumptions. Responsibilities in
+    adulthood, such as work, relationships and caring for others, teach compromise and empathy. Experiences of success,
+    failure and loss also reshape our priorities. The result is usually a more independent and nuanced identity, though
+    many early values remain at its core.
+  hi: >-
+    बड़े होने की प्रक्रिया कई बदलावों के माध्यम से हमारी पहचान और विश्व-दृष्टि को आकार देती है। बचपन में हम अपने परिवार और समुदाय
+    के मूल्यों, भाषा और विश्वासों को अक्सर बिना प्रश्न किए आत्मसात कर लेते हैं। किशोरावस्था में हम यह पूछने लगते हैं कि माता-पिता
+    से अलग हम कौन हैं, और दोस्ती, रुचियों और विचारों के साथ प्रयोग करते हैं। शिक्षा, यात्रा और अलग-अलग पृष्ठभूमि के लोगों से मिलना
+    हमारे दृष्टिकोण को व्यापक बनाता है और पहले की धारणाओं को चुनौती दे सकता है। वयस्क जीवन की ज़िम्मेदारियाँ, जैसे काम, रिश्ते और
+    दूसरों की देखभाल, समझौता और सहानुभूति सिखाती हैं। सफलता, असफलता और हानि के अनुभव भी हमारी प्राथमिकताओं को नया रूप देते हैं।
+    परिणाम आमतौर पर एक अधिक स्वतंत्र और सूक्ष्म पहचान होती है, हालाँकि बचपन के कई मूल्य उसके केंद्र में बने रहते हैं।
+  hi_rom: >-
+    Bade hone ki prakriya kai badlaavon ke maadhyam se hamaari pehchaan aur vishva-drishti ko aakaar deti hai. Bachpan
+    mein hum apne parivaar aur samudaay ke moolyon, bhasha aur vishvaason ko aksar bina prashn kiye aatmasaat kar lete
+    hain. Kishoraavastha mein hum yah poochhne lagte hain ki maata-pita se alag hum kaun hain, aur dosti, ruchiyon aur
+    vichaaron ke saath prayog karte hain. Shiksha, yaatra aur alag-alag prishthbhoomi ke logon se milna hamaare
+    drishtikon ko vyaapak banaata hai aur pehle ki dhaarnaaon ko chunauti de sakta hai. Vayask jeevan ki
+    zimmedaariyaan, jaise kaam, rishte aur doosron ki dekhbhaal, samjhauta aur sahaanubhooti sikhaati hain. Safalta,
+    asafalta aur haani ke anubhav bhi hamaari praathmiktaaon ko naya roop dete hain. Parinaam aamtaur par ek adhik
+    swatantra aur sookshm pehchaan hoti hai, haalaanki bachpan ke kai moolya uske kendra mein bane rehte hain.
+  hinglish: >-
+    Growing up ka process kai changes ke through hamari identity aur worldview ko shape karta hai. Childhood mein hum
+    apni family aur community ki values, language aur beliefs ko often bina question kiye absorb kar lete hain.
+    Adolescence mein hum ye poochhne lagte hain ki parents se alag hum kaun hain, aur friendships, interests aur
+    opinions ke saath experiment karte hain. Education, travel aur alag backgrounds ke logon se milna hamara
+    perspective wide karta hai aur pehle ke assumptions ko challenge kar sakta hai. Adulthood ki responsibilities, jaise
+    work, relationships aur doosron ki care, compromise aur empathy sikhati hain. Success, failure aur loss ke
+    experiences bhi hamari priorities ko reshape karte hain. Result usually ek zyada independent aur nuanced identity
+    hoti hai, haalanki bachpan ki kai values uske core mein bani rehti hain.
+
+- item_id: mtbhi-hum-021
+  source_id: "21"
+  question_en: >-
+    In a Tier-1 city like Delhi, the main aim of the government ration scheme is to provide grain to poor and
+    vulnerable groups. Suppose a family of 5 living in a slum area of Delhi receives 20 kg of rice and 15 kg of wheat
+    every month under the ration scheme. If the government cuts the wheat and rice quota by 10% and distribution also
+    starts arriving a week late, then: What effect will this have on the family's monthly budget and daily life? Could
+    this delay and shortfall also affect their children's nutrition and education?
+  en: >-
+    A 10% cut reduces the family's ration from 35 kg to 31.5 kg a month: 18 kg of rice and 13.5 kg of wheat. They must
+    buy the missing 3.5 kg at market prices, perhaps ₹100–150 a month, money that would otherwise go to vegetables,
+    milk, school costs or rent. The one-week delay is harder still: with no savings, the family may borrow from a local
+    shopkeeper, buy on credit at higher prices, or simply eat less until the ration arrives. Children are often the
+    first affected: smaller or less varied meals can cause hunger and poor nutrition, which hurt concentration, and
+    older children may miss school to earn money or help at home.
+  hi: >-
+    10% की कटौती से परिवार का राशन 35 किलो से घटकर 31.5 किलो प्रति माह रह जाता है: 18 किलो चावल और 13.5 किलो गेहूँ। उन्हें कमी
+    वाला 3.5 किलो अनाज बाज़ार भाव पर खरीदना होगा, शायद ₹100–150 प्रति माह, वह पैसा जो वरना सब्ज़ियों, दूध, स्कूल के खर्च या किराए
+    पर लगता। एक हफ़्ते की देरी और भी कठिन है: बचत न होने पर परिवार को स्थानीय दुकानदार से उधार लेना पड़ सकता है, ऊँचे दामों पर
+    उधार खरीदना पड़ सकता है, या राशन आने तक कम खाना पड़ सकता है। अक्सर बच्चे सबसे पहले प्रभावित होते हैं: कम या कम विविध भोजन से
+    भूख और कुपोषण हो सकता है, जिससे ध्यान लगाने की क्षमता घटती है, और बड़े बच्चों का पैसे कमाने या घर में मदद करने के लिए स्कूल छूट
+    सकता है।
+  hi_rom: >-
+    10% ki katauti se parivaar ka raashan 35 kilo se ghatkar 31.5 kilo prati maah reh jaata hai: 18 kilo chaawal aur
+    13.5 kilo gehoon. Unhein kami waala 3.5 kilo anaaj baazaar bhaav par khareedna hoga, shaayad ₹100–150 prati maah,
+    vah paisa jo varna sabziyon, doodh, school ke kharch ya kiraaye par lagta. Ek hafte ki deri aur bhi kathin hai:
+    bachat na hone par parivaar ko sthaaniya dukaandaar se udhaar lena pad sakta hai, oonche daamon par udhaar
+    khareedna pad sakta hai, ya raashan aane tak kam khaana pad sakta hai. Aksar bachche sabse pehle prabhaavit hote
+    hain: kam ya kam vividh bhojan se bhookh aur kuposhan ho sakta hai, jisse dhyaan lagaane ki kshamata ghatti hai,
+    aur bade bachchon ka paise kamaane ya ghar mein madad karne ke liye school chhoot sakta hai.
+  hinglish: >-
+    10% cut se family ka ration 35 kg se ghatkar 31.5 kg per month reh jaata hai: 18 kg rice aur 13.5 kg wheat. Unhe
+    missing 3.5 kg market price par khareedna padega, shayad ₹100–150 per month, woh paisa jo warna vegetables, milk,
+    school expenses ya rent par lagta. Ek week ka delay aur bhi mushkil hai: savings na hone par family ko local
+    shopkeeper se udhaar lena pad sakta hai, higher prices par credit par khareedna pad sakta hai, ya ration aane tak
+    kam khaana pad sakta hai. Often bachche sabse pehle affect hote hain: kam ya kam varied meals se hunger aur poor
+    nutrition ho sakta hai, jisse concentration ghatti hai, aur bade bachchon ka paise kamane ya ghar mein help karne
+    ke liye school miss ho sakta hai.
+
+- item_id: mtbhi-hum-066
+  source_id: "66"
+  question_en: >-
+    Describe five principles for evaluating the digital transformation of the Indian economy.
+  en: >-
+    Five principles can guide an evaluation of India's digital transformation. First, access: measure how widely
+    people can use digital services, including internet coverage, smartphone ownership and the gap between urban and
+    rural areas. Second, inclusion: check whether women, the poor and older people actually benefit, for example
+    through Aadhaar-linked services and UPI payments. Third, economic impact: assess effects on productivity,
+    formalisation of businesses, jobs and the growth of start-ups. Fourth, security and trust: examine data protection,
+    privacy and the level of online fraud. Fifth, sustainability and governance: ask whether digital public
+    infrastructure is reliable, open, well regulated and able to keep improving over time.
+  hi: >-
+    भारत के डिजिटल परिवर्तन के मूल्यांकन में पाँच सिद्धांत मार्गदर्शन कर सकते हैं। पहला, पहुँच: मापें कि लोग डिजिटल सेवाओं का कितने
+    व्यापक रूप से उपयोग कर सकते हैं, जिसमें इंटरनेट का विस्तार, स्मार्टफ़ोन का स्वामित्व और शहरी तथा ग्रामीण क्षेत्रों के बीच का अंतर
+    शामिल है। दूसरा, समावेशन: जाँचें कि महिलाओं, गरीबों और बुज़ुर्गों को वास्तव में लाभ मिलता है या नहीं, जैसे आधार से जुड़ी सेवाओं
+    और UPI भुगतानों के माध्यम से। तीसरा, आर्थिक प्रभाव: उत्पादकता, व्यवसायों के औपचारिकीकरण, रोज़गार और स्टार्ट-अप की वृद्धि पर
+    प्रभाव का आकलन करें। चौथा, सुरक्षा और भरोसा: डेटा संरक्षण, निजता और ऑनलाइन धोखाधड़ी के स्तर की जाँच करें। पाँचवाँ, स्थिरता और
+    शासन: पूछें कि डिजिटल सार्वजनिक बुनियादी ढाँचा विश्वसनीय, खुला, अच्छी तरह विनियमित है और समय के साथ सुधरता रह सकता है या नहीं।
+  hi_rom: >-
+    Bhaarat ke digital parivartan ke moolyaankan mein paanch siddhaant maargdarshan kar sakte hain. Pehla, pahunch:
+    maapein ki log digital sevaaon ka kitne vyaapak roop se upyog kar sakte hain, jismein internet ka vistaar,
+    smartphone ka swaamitva aur shahari tatha graameen kshetron ke beech ka antar shaamil hai. Doosra, samaaveshan:
+    jaanchein ki mahilaon, gareebon aur buzurgon ko vaastav mein laabh milta hai ya nahi, jaise Aadhaar se judi sevaaon
+    aur UPI bhugtaanon ke maadhyam se. Teesra, aarthik prabhaav: utpaadakta, vyavasaayon ke aupchaarikeekaran,
+    rozgaar aur start-up ki vriddhi par prabhaav ka aakalan karein. Chautha, suraksha aur bharosa: data sanrakshan,
+    nijta aur online dhokhaadhadi ke star ki jaanch karein. Paanchvaan, sthirta aur shaasan: poochhein ki digital
+    saarvajanik buniyaadi dhaancha vishvasaneeya, khula, achchhi tarah viniyamit hai aur samay ke saath sudharta reh
+    sakta hai ya nahi.
+  hinglish: >-
+    India ke digital transformation ko evaluate karne mein paanch principles guide kar sakte hain. Pehla, access:
+    measure karein ki log digital services ko kitna widely use kar sakte hain, jismein internet coverage, smartphone
+    ownership aur urban aur rural areas ke beech ka gap shaamil hai. Doosra, inclusion: check karein ki women, poor aur
+    older log actually benefit karte hain ya nahi, jaise Aadhaar-linked services aur UPI payments ke through. Teesra,
+    economic impact: productivity, businesses ke formalisation, jobs aur start-ups ki growth par effects assess karein.
+    Chautha, security aur trust: data protection, privacy aur online fraud ke level ko examine karein. Paanchvaan,
+    sustainability aur governance: poochhein ki digital public infrastructure reliable, open, well regulated hai aur
+    time ke saath improve hota reh sakta hai ya nahi.
+
+- item_id: mtbhi-role-113
+  source_id: "113"
+  question_en: >-
+    Act like a climate change expert from Delhi. I will give you problems related to the environmental crisis and
+    climate change. What steps should be taken about the water shortage in Delhi?
+  en: >-
+    As a climate expert, I would tackle Delhi's water shortage on several fronts. First, reduce losses: a large share
+    of piped water leaks or goes unbilled, so repairing old pipelines and installing meters would save a great deal.
+    Second, recharge groundwater: make rainwater harvesting compulsory on buildings, revive Delhi's old lakes,
+    step-wells and drains, and protect the Yamuna floodplain. Third, reuse water: treat sewage and use the recycled
+    water for parks, construction and industry. Fourth, manage demand through fair tiered pricing and public awareness
+    about saving water. Finally, cooperate with neighbouring states on sharing Yamuna and Ganga water, and plan for the
+    hotter summers that climate change will bring.
+  hi: >-
+    एक जलवायु विशेषज्ञ के रूप में मैं दिल्ली की पानी की कमी से कई मोर्चों पर निपटूँगा। पहला, नुकसान घटाएँ: पाइप से आने वाले पानी का
+    बड़ा हिस्सा रिस जाता है या उसका बिल नहीं बनता, इसलिए पुरानी पाइपलाइनों की मरम्मत और मीटर लगाने से बहुत बचत होगी। दूसरा, भूजल का
+    पुनर्भरण करें: इमारतों पर वर्षा जल संचयन अनिवार्य करें, दिल्ली की पुरानी झीलों, बावड़ियों और नालों को पुनर्जीवित करें, और यमुना
+    के बाढ़ क्षेत्र की रक्षा करें। तीसरा, पानी का पुन: उपयोग करें: मल-जल का उपचार करें और पुनर्चक्रित पानी को उद्यानों, निर्माण और
+    उद्योग में इस्तेमाल करें। चौथा, उचित स्तरीय मूल्य निर्धारण और पानी बचाने के बारे में जन जागरूकता से माँग का प्रबंधन करें। अंत में,
+    यमुना और गंगा के पानी के बँटवारे पर पड़ोसी राज्यों से सहयोग करें, और जलवायु परिवर्तन से आने वाली अधिक गर्म गर्मियों के लिए योजना
+    बनाएँ।
+  hi_rom: >-
+    Ek jalvaayu visheshagya ke roop mein main Dilli ki paani ki kami se kai morchon par nipatoonga. Pehla, nuksaan
+    ghataayein: pipe se aane waale paani ka bada hissa ris jaata hai ya uska bill nahi banta, isliye puraani
+    pipelineon ki marammat aur meter lagaane se bahut bachat hogi. Doosra, bhoojal ka punarbharan karein: imaaraton par
+    varsha jal sanchayan anivaarya karein, Dilli ki puraani jheelon, baavdiyon aur naalon ko punarjeevit karein, aur
+    Yamuna ke baadh kshetra ki raksha karein. Teesra, paani ka punah upyog karein: mal-jal ka upchaar karein aur
+    punarchakrit paani ko udyaanon, nirmaan aur udyog mein istemaal karein. Chautha, uchit staareeya moolya nirdhaaran
+    aur paani bachaane ke baare mein jan jaagrookta se maang ka prabandhan karein. Ant mein, Yamuna aur Ganga ke paani
+    ke bantvaare par padosi raajyon se sahyog karein, aur jalvaayu parivartan se aane waali adhik garm garmiyon ke liye
+    yojana banaayein.
+  hinglish: >-
+    Ek climate expert ke roop mein main Delhi ki water shortage ko kai fronts par tackle karunga. Pehla, losses kam
+    karein: piped water ka bada hissa leak ho jaata hai ya bill nahi hota, isliye purani pipelines repair karne aur
+    meters lagane se bahut saving hogi. Doosra, groundwater recharge karein: buildings par rainwater harvesting
+    compulsory karein, Delhi ki purani lakes, step-wells aur drains ko revive karein, aur Yamuna floodplain ko protect
+    karein. Teesra, water reuse karein: sewage treat karein aur recycled water ko parks, construction aur industry mein
+    use karein. Chautha, fair tiered pricing aur water saving ke baare mein public awareness se demand manage karein.
+    Last mein, Yamuna aur Ganga ke water sharing par neighbouring states ke saath cooperate karein, aur climate change
+    se aane wali hotter summers ke liye plan karein.
+
+- item_id: mtbhi-role-135
+  source_id: "135"
+  question_en: >-
+    You are a wildlife expert with a deep understanding of Indian animals, birds and their environment. You help
+    farmers whose crops are often destroyed by wild animals. A farmer comes to you and says that herds of nilgai, wild
+    boar and monkeys destroy the crops in his field almost every day. He does not want to harm these animals, but he
+    also needs to protect his crop. Please suggest detailed solutions using Indian traditional knowledge, natural
+    remedies and modern technology, so that the crop is protected and the animals are not harmed.
+  en: >-
+    You can protect your crop without harming the animals by combining several methods. Traditional and natural
+    methods: plant a border of thorny or strong-smelling crops such as lemongrass, castor, chilli or sisal, which
+    nilgai and boar avoid; spray a mix of cow dung, cow urine and neem or chilli, whose smell deters them; and keep
+    guard dogs, which work well against monkeys and boar. Modern methods: install a solar-powered electric fence that
+    gives a harmless shock, use motion-sensor lights and alarms or bio-acoustic devices that play predator sounds, and
+    use bird-scaring tape. Cooperate with neighbouring farmers to fence a whole area together, and contact the forest
+    department about support schemes and compensation for crop losses.
+  hi: >-
+    आप जानवरों को नुकसान पहुँचाए बिना कई तरीकों को मिलाकर अपनी फ़सल बचा सकते हैं। पारंपरिक और प्राकृतिक तरीके: खेत की मेड़ पर नींबू
+    घास, अरंडी, मिर्च या सिसल जैसी काँटेदार या तेज़ गंध वाली फ़सलें लगाएँ, जिनसे नीलगाय और जंगली सुअर दूर रहते हैं; गोबर, गोमूत्र और
+    नीम या मिर्च का घोल छिड़कें, जिसकी गंध उन्हें भगाती है; और रखवाली के लिए कुत्ते पालें, जो बंदरों और जंगली सुअरों के खिलाफ़ अच्छा
+    काम करते हैं। आधुनिक तरीके: सौर ऊर्जा से चलने वाली बिजली की बाड़ लगाएँ, जो हानिरहित झटका देती है, गति-संवेदक वाली बत्तियाँ और
+    अलार्म या शिकारी जानवरों की आवाज़ बजाने वाले जैव-ध्वनिक उपकरण लगाएँ, और पक्षी भगाने वाली चमकीली पट्टी का उपयोग करें। पड़ोसी
+    किसानों के साथ मिलकर पूरे इलाके की बाड़बंदी करें, और सहायता योजनाओं तथा फ़सल नुकसान के मुआवज़े के लिए वन विभाग से संपर्क करें।
+  hi_rom: >-
+    Aap jaanvaron ko nuksaan pahunchaaye bina kai tareekon ko milaakar apni fasal bacha sakte hain. Paaramparik aur
+    praakritik tareeke: khet ki med par neembu ghaas, arandi, mirch ya sisal jaisi kaantedaar ya tez gandh waali faslein
+    lagaayein, jinse neelgaay aur jangli suar door rehte hain; gobar, gomootra aur neem ya mirch ka ghol chhidkein, jiski
+    gandh unhein bhagaati hai; aur rakhvaali ke liye kutte paalein, jo bandaron aur jangli suaron ke khilaaf achchha
+    kaam karte hain. Aadhunik tareeke: saur urja se chalne waali bijli ki baad lagaayein, jo haanirahit jhatka deti
+    hai, gati-samvedak waali battiyaan aur alarm ya shikaari jaanvaron ki aawaaz bajaane waale jaiv-dhvanik upkaran
+    lagaayein, aur pakshi bhagaane waali chamkeeli patti ka upyog karein. Padosi kisaanon ke saath milkar poore ilaake
+    ki baadbandi karein, aur sahaayata yojanaaon tatha fasal nuksaan ke muaavze ke liye van vibhaag se sampark karein.
+  hinglish: >-
+    Aap animals ko harm kiye bina kai methods combine karke apni crop bacha sakte hain. Traditional aur natural methods:
+    field ke border par lemongrass, castor, chilli ya sisal jaisi thorny ya strong smell wali crops lagayein, jinse
+    nilgai aur wild boar door rehte hain; cow dung, cow urine aur neem ya chilli ka mix spray karein, jiski smell unhe
+    bhagati hai; aur guard dogs rakhein, jo monkeys aur wild boar ke against achha kaam karte hain. Modern methods:
+    solar-powered electric fence lagayein, jo harmless shock deti hai, motion-sensor lights aur alarms ya predator
+    sounds play karne wale bio-acoustic devices lagayein, aur bird-scaring tape use karein. Neighbouring farmers ke saath
+    milkar poore area ki fencing karein, aur support schemes aur crop loss compensation ke liye forest department se
+    contact karein.
+
+- item_id: mtbhi-role-141
+  source_id: "141"
+  question_en: >-
+    Imagine you are Chanakya, the great economist and political scholar of ancient India. A king comes to you seeking
+    advice on improving his kingdom's economy. Please explain how, in the present time, the kingdom's economy can be
+    strengthened through the coordination of trade and agriculture. Your advice will help us in practical
+    policymaking.
+  en: >-
+    O king, a kingdom's strength rests on its treasury, and the treasury rests on agriculture and trade working
+    together. First, strengthen agriculture: build irrigation and storage, give farmers fair credit, good seeds and
+    knowledge, and protect them from famine with reserves of grain. Second, link farms to markets: build roads, cold
+    storage and fair marketplaces so that farmers sell directly and middlemen cannot exploit them. Third, encourage
+    trade and processing: support industries that turn crops into higher-value goods, and promote exports while
+    keeping duties moderate. Fourth, keep taxes fair and predictable, so that producers prosper and still fill the
+    treasury. Finally, guard against corruption with honest officials and regular audits, for a leaking treasury
+    weakens even a rich kingdom.
+  hi: >-
+    हे राजन, राज्य की शक्ति उसके कोष पर टिकी होती है, और कोष कृषि तथा व्यापार के साथ मिलकर काम करने पर टिका होता है। पहला, कृषि को
+    सशक्त करें: सिंचाई और भंडारण की व्यवस्था करें, किसानों को उचित ऋण, अच्छे बीज और ज्ञान दें, और अनाज के भंडार रखकर उन्हें अकाल से
+    बचाएँ। दूसरा, खेतों को बाज़ारों से जोड़ें: सड़कें, शीत भंडारगृह और न्यायपूर्ण मंडियाँ बनाएँ, ताकि किसान सीधे बेच सकें और बिचौलिए
+    उनका शोषण न कर सकें। तीसरा, व्यापार और प्रसंस्करण को प्रोत्साहित करें: उन उद्योगों का समर्थन करें जो फ़सलों को अधिक मूल्य वाली
+    वस्तुओं में बदलते हैं, और शुल्क संतुलित रखते हुए निर्यात को बढ़ावा दें। चौथा, कर उचित और पूर्वानुमेय रखें, ताकि उत्पादक समृद्ध हों
+    और फिर भी कोष भरें। अंत में, ईमानदार अधिकारियों और नियमित लेखा-परीक्षा से भ्रष्टाचार पर नज़र रखें, क्योंकि रिसता हुआ कोष धनी
+    राज्य को भी कमज़ोर कर देता है।
+  hi_rom: >-
+    He Raajan, raajya ki shakti uske kosh par tiki hoti hai, aur kosh krishi tatha vyaapaar ke saath milkar kaam karne
+    par tika hota hai. Pehla, krishi ko sashakt karein: sinchaai aur bhandaaran ki vyavastha karein, kisaanon ko uchit
+    rin, achchhe beej aur gyaan dein, aur anaaj ke bhandaar rakhkar unhein akaal se bachaayein. Doosra, kheton ko
+    baazaaron se jodein: sadkein, sheet bhandaargrih aur nyaayapoorn mandiyaan banaayein, taaki kisaan seedhe bech
+    sakein aur bichauliye unka shoshan na kar sakein. Teesra, vyaapaar aur prasanskaran ko protsaahit karein: un
+    udyogon ka samarthan karein jo faslon ko adhik moolya waali vastuon mein badalte hain, aur shulk santulit rakhte
+    hue niryaat ko badhaava dein. Chautha, kar uchit aur poorvaanumeya rakhein, taaki utpaadak samriddh hon aur phir
+    bhi kosh bharein. Ant mein, imaandaar adhikaariyon aur niyamit lekha-pareeksha se bhrashtaachaar par nazar rakhein,
+    kyonki rista hua kosh dhani raajya ko bhi kamzor kar deta hai.
+  hinglish: >-
+    Hey Rajan, kingdom ki strength uske treasury par tiki hoti hai, aur treasury agriculture aur trade ke saath milkar
+    kaam karne par tiki hoti hai. Pehla, agriculture ko strong karein: irrigation aur storage build karein, farmers ko
+    fair credit, achhe seeds aur knowledge dein, aur grain reserves rakhkar unhe famine se bachayein. Doosra, farms ko
+    markets se link karein: roads, cold storage aur fair marketplaces banayein, taaki farmers directly sell kar sakein
+    aur middlemen unhe exploit na kar sakein. Teesra, trade aur processing ko encourage karein: un industries ko
+    support karein jo crops ko higher-value goods mein badalti hain, aur duties moderate rakhte hue exports promote
+    karein. Chautha, taxes fair aur predictable rakhein, taaki producers prosper karein aur phir bhi treasury bhare.
+    Last mein, honest officials aur regular audits se corruption par nazar rakhein, kyunki leaking treasury rich kingdom
+    ko bhi weak kar deta hai.
+
+- item_id: mtbhi-role-111
+  source_id: "111"
+  question_en: >-
+    Imagine you are a beach in Goa, a centre of tourism. When people build hotels and resorts on this beach, do you
+    think it will increase the environmental crisis?
+  en: >-
+    Yes, I believe it will, unless people build with care. For years, tourists have walked my sands and swum in my
+    waves, and I have welcomed them. But when hotels and resorts rise right on my dunes, the sand that protects the
+    coast is dug away, and the casuarina trees and creepers that hold me together are cleared. Sewage and plastic flow
+    into my water, harming fish and coral, bright lights at night confuse the Olive Ridley turtles that nest here, and
+    every monsoon the sea eats a little more of me. If buildings stayed behind the dunes, as the coastal regulation
+    rules intend, waste were treated and visitors respected me, tourism and I could both survive.
+  hi: >-
+    हाँ, मुझे लगता है कि बढ़ेगा, जब तक लोग सावधानी से निर्माण न करें। वर्षों से पर्यटक मेरी रेत पर चलते और मेरी लहरों में तैरते रहे
+    हैं, और मैंने उनका स्वागत किया है। लेकिन जब होटल और रिसॉर्ट ठीक मेरे टीलों पर खड़े हो जाते हैं, तो तट की रक्षा करने वाली रेत खोद
+    ली जाती है, और मुझे थामे रखने वाले कैज़ुरीना के पेड़ और बेलें साफ़ कर दी जाती हैं। मल-जल और प्लास्टिक मेरे पानी में बहकर मछलियों
+    और प्रवाल को नुकसान पहुँचाते हैं, रात की तेज़ रोशनी यहाँ अंडे देने आने वाले ऑलिव रिडले कछुओं को भ्रमित करती है, और हर मानसून में
+    समुद्र मेरा थोड़ा और हिस्सा निगल जाता है। यदि इमारतें टीलों के पीछे रहें, जैसा तटीय विनियमन नियमों का उद्देश्य है, कचरे का उपचार
+    हो और पर्यटक मेरा सम्मान करें, तो पर्यटन और मैं दोनों बचे रह सकते हैं।
+  hi_rom: >-
+    Haan, mujhe lagta hai ki badhega, jab tak log saavdhaani se nirmaan na karein. Varshon se paryatak meri ret par
+    chalte aur meri lehron mein tairte rahe hain, aur maine unka swaagat kiya hai. Lekin jab hotel aur resort theek
+    mere teelon par khade ho jaate hain, to tat ki raksha karne waali ret khod li jaati hai, aur mujhe thaame rakhne
+    waale casuarina ke ped aur belein saaf kar di jaati hain. Mal-jal aur plastic mere paani mein behkar machhliyon aur
+    pravaal ko nuksaan pahunchaate hain, raat ki tez roshni yahaan ande dene aane waale Olive Ridley kachhuon ko
+    bhramit karti hai, aur har monsoon mein samudra mera thoda aur hissa nigal jaata hai. Yadi imaaratein teelon ke
+    peechhe rahein, jaisa tateeya viniyaman niyamon ka uddeshya hai, kachre ka upchaar ho aur paryatak mera sammaan
+    karein, to paryatan aur main dono bache reh sakte hain.
+  hinglish: >-
+    Haan, mujhe lagta hai ki badhega, jab tak log carefully construction na karein. Saalon se tourists meri sand par
+    chalte aur meri waves mein swim karte rahe hain, aur maine unka welcome kiya hai. Lekin jab hotels aur resorts
+    bilkul mere dunes par khade ho jaate hain, toh coast ko protect karne wali sand khod li jaati hai, aur mujhe hold
+    karke rakhne wale casuarina trees aur creepers clear kar diye jaate hain. Sewage aur plastic mere water mein behkar
+    fish aur coral ko harm karte hain, raat ki bright lights yahan nest karne wale Olive Ridley turtles ko confuse
+    karti hain, aur har monsoon mein sea mera thoda aur hissa kha jaata hai. Agar buildings dunes ke peeche rahein,
+    jaisa coastal regulation rules ka intention hai, waste treat ho aur visitors meri respect karein, toh tourism aur
+    main dono survive kar sakte hain.
+
+- item_id: mtbhi-role-091
+  source_id: "91"
+  question_en: >-
+    Imagine you are a lush forest where trees have stood for centuries. One day some tourists come, damage the trees
+    and spread litter. How do you feel when they do all this?
+  en: >-
+    For centuries my trees have stood in quiet company, roots woven together beneath the soil, branches full of
+    birdsong. When the tourists arrive, I welcome them at first, glad that people still come to rest in my shade. But
+    then they carve their names into my bark, snap off young branches and leave plastic bottles and wrappers among the
+    ferns. I feel hurt and disrespected, like a host whose home has been trampled by careless guests. I worry most for
+    the creatures who cannot speak: the deer that may swallow plastic, the saplings crushed underfoot. I wish visitors
+    would take only photographs, leave only footprints, and remember that they are guests in a living home.
+  hi: >-
+    सदियों से मेरे पेड़ शांत साथ में खड़े हैं, उनकी जड़ें मिट्टी के नीचे आपस में गुँथी हैं और शाखाएँ पक्षियों के गीतों से भरी हैं। जब
+    पर्यटक आते हैं, तो पहले मैं उनका स्वागत करता हूँ, खुश होकर कि लोग अब भी मेरी छाया में आराम करने आते हैं। लेकिन फिर वे मेरी छाल
+    पर अपने नाम खोदते हैं, नई शाखाएँ तोड़ देते हैं और फ़र्न के बीच प्लास्टिक की बोतलें और पन्नियाँ छोड़ जाते हैं। मुझे चोट और अपमान
+    महसूस होता है, उस मेज़बान की तरह जिसका घर लापरवाह मेहमानों ने रौंद दिया हो। मुझे सबसे ज़्यादा चिंता उन जीवों की होती है जो बोल
+    नहीं सकते: वे हिरण जो प्लास्टिक निगल सकते हैं, वे पौधे जो पैरों तले कुचल जाते हैं। काश पर्यटक केवल तस्वीरें ले जाएँ, केवल
+    पदचिह्न छोड़ें, और याद रखें कि वे एक जीवित घर में मेहमान हैं।
+  hi_rom: >-
+    Sadiyon se mere ped shaant saath mein khade hain, unki jadein mitti ke neeche aapas mein gunthi hain aur
+    shaakhaayein pakshiyon ke geeton se bhari hain. Jab paryatak aate hain, to pehle main unka swaagat karta hoon, khush
+    hokar ki log ab bhi meri chhaaya mein aaraam karne aate hain. Lekin phir ve meri chhaal par apne naam khodte hain,
+    nayi shaakhaayein tod dete hain aur fern ke beech plastic ki botalein aur panniyaan chhod jaate hain. Mujhe chot aur
+    apmaan mehsoos hota hai, us mezbaan ki tarah jiska ghar laaparvaah mehmaanon ne raund diya ho. Mujhe sabse zyaada
+    chinta un jeevon ki hoti hai jo bol nahi sakte: ve hiran jo plastic nigal sakte hain, ve paudhe jo pairon tale
+    kuchal jaate hain. Kaash paryatak keval tasveerein le jaayein, keval padchihn chhodein, aur yaad rakhein ki ve ek
+    jeevit ghar mein mehmaan hain.
+  hinglish: >-
+    Centuries se mere trees quiet company mein khade hain, unki roots soil ke neeche aapas mein woven hain aur branches
+    birdsong se bhari hain. Jab tourists aate hain, toh pehle main unka welcome karta hoon, khush hokar ki log ab bhi
+    meri shade mein rest karne aate hain. Lekin phir woh meri bark par apne naam carve karte hain, young branches tod
+    dete hain aur ferns ke beech plastic bottles aur wrappers chhod jaate hain. Mujhe hurt aur disrespected feel hota
+    hai, us host ki tarah jiska ghar careless guests ne raund diya ho. Mujhe sabse zyada worry un creatures ki hoti hai
+    jo bol nahi sakte: woh deer jo plastic swallow kar sakte hain, woh saplings jo pairon tale crush ho jaate hain.
+    Kaash visitors sirf photographs le jaayein, sirf footprints chhodein, aur yaad rakhein ki woh ek living home mein
+    guests hain.
+
+- item_id: mtbhi-write-017
+  source_id: "17"
+  question_en: >-
+    Write a descriptive paragraph about the effects of the monsoon in India. Include sensory details such as the sound
+    of rain, the earthy smell of wet soil and the greenery spreading all around, and also explain its effect on daily
+    life and agriculture.
+  en: >-
+    When the monsoon finally breaks over India, the first drops drum on tin roofs like a thousand tiny hands, and soon
+    the rain roars down in silver sheets. The parched earth releases its sweet, earthy fragrance, the smell of wet soil
+    that everyone waits for all summer. Within days, brown fields and dusty hills turn a vivid green, and frogs and
+    peacocks fill the evenings with their calls. Daily life changes too: streets flood, trains run late and umbrellas
+    bloom everywhere, while children splash happily through puddles. For farmers, the rain is life itself, filling
+    ponds and wells and allowing the sowing of rice, cotton and other kharif crops that feed the nation.
+  hi: >-
+    जब आखिरकार भारत में मानसून आता है, तो पहली बूँदें टीन की छतों पर हज़ारों नन्हे हाथों की तरह थाप देती हैं, और जल्द ही बारिश चाँदी
+    की चादरों जैसी गरजती हुई बरसने लगती है। प्यासी धरती अपनी मीठी, सोंधी खुशबू छोड़ती है, गीली मिट्टी की वह गंध जिसका सब पूरी गर्मी
+    इंतज़ार करते हैं। कुछ ही दिनों में भूरे खेत और धूल भरी पहाड़ियाँ गहरे हरे रंग में बदल जाती हैं, और मेंढक तथा मोर अपनी आवाज़ों से
+    शामों को भर देते हैं। रोज़मर्रा का जीवन भी बदल जाता है: सड़कों पर पानी भर जाता है, रेलगाड़ियाँ देर से चलती हैं और हर जगह छाते खिल
+    उठते हैं, जबकि बच्चे खुशी से पानी भरे गड्ढों में छपाक-छपाक करते हैं। किसानों के लिए बारिश स्वयं जीवन है, जो तालाबों और कुओं को
+    भरती है और धान, कपास तथा अन्य खरीफ़ फ़सलों की बुवाई संभव बनाती है, जो देश का पेट भरती हैं।
+  hi_rom: >-
+    Jab aakhirkaar Bhaarat mein monsoon aata hai, to pehli boondein teen ki chhaton par hazaaron nanhe haathon ki tarah
+    thaap deti hain, aur jald hi baarish chaandi ki chaadaron jaisi garajti hui barasne lagti hai. Pyaasi dharti apni
+    meethi, sondhi khushboo chhodti hai, geeli mitti ki vah gandh jiska sab poori garmi intezaar karte hain. Kuch hi
+    dinon mein bhoore khet aur dhool bhari pahaadiyaan gehre hare rang mein badal jaati hain, aur mendhak tatha mor
+    apni aawaazon se shaamon ko bhar dete hain. Rozmarra ka jeevan bhi badal jaata hai: sadkon par paani bhar jaata
+    hai, relgaadiyaan der se chalti hain aur har jagah chhaate khil uthte hain, jabki bachche khushi se paani bhare
+    gaddhon mein chhapaak-chhapaak karte hain. Kisaanon ke liye baarish swayam jeevan hai, jo taalaabon aur kuon ko
+    bharti hai aur dhaan, kapaas tatha anya khareef faslon ki buvaai sambhav banaati hai, jo desh ka pet bharti hain.
+  hinglish: >-
+    Jab finally India mein monsoon aata hai, toh pehli drops tin roofs par hazaron tiny hands ki tarah drum karti hain,
+    aur jaldi hi baarish silver sheets ki tarah roar karte hue girne lagti hai. Pyaasi dharti apni sweet, earthy
+    fragrance chhodti hai, wet soil ki woh smell jiska sab poori summer wait karte hain. Kuch hi dinon mein brown fields
+    aur dusty hills vivid green ho jaate hain, aur frogs aur peacocks apni calls se evenings ko bhar dete hain. Daily
+    life bhi change hoti hai: streets flood ho jaati hain, trains late chalti hain aur har jagah umbrellas khil uthte
+    hain, jabki bachche khushi se puddles mein splash karte hain. Farmers ke liye baarish khud life hai, jo ponds aur
+    wells ko bharti hai aur rice, cotton aur doosri kharif crops ki sowing possible banati hai, jo desh ka pet bharti
+    hain.
+
+- item_id: mtbhi-write-012
+  source_id: "12"
+  question_en: >-
+    Suggest headlines for an engaging but factually accurate article about a rare water source recently discovered in
+    India and the environmental challenges associated with it. Give 4 options.
+  en: >-
+    Here are four headline options: 1. "Hidden Reserve: India's Newly Found Water Source Brings Hope, and Hard
+    Questions"; 2. "A Rare Find Beneath the Surface: Can India Tap New Water Without Draining the Future?"; 3.
+    "Discovery Under Drought: The Promise and Environmental Risks of India's New Water Source"; 4. "Fresh Water, Fragile
+    Balance: Protecting India's Rare New Reserve from Overuse". Each avoids exaggerated claims while highlighting both
+    the discovery and the need for sustainable management.
+  hi: >-
+    यहाँ चार शीर्षक विकल्प हैं: 1. "छिपा भंडार: भारत में नया मिला जल स्रोत लाया उम्मीद, और कठिन सवाल"; 2. "सतह के नीचे दुर्लभ खोज:
+    क्या भारत भविष्य को सुखाए बिना नए पानी का उपयोग कर सकता है?"; 3. "सूखे के बीच खोज: भारत के नए जल स्रोत का वादा और पर्यावरणीय
+    खतरे"; 4. "मीठा पानी, नाज़ुक संतुलन: भारत के दुर्लभ नए भंडार को अति-दोहन से बचाना"। हर शीर्षक अतिरंजित दावों से बचते हुए खोज और
+    टिकाऊ प्रबंधन की ज़रूरत, दोनों को उजागर करता है।
+  hi_rom: >-
+    Yahaan chaar sheershak vikalp hain: 1. "Chhipa Bhandaar: Bhaarat mein naya mila jal srot laaya ummeed, aur kathin
+    sawaal"; 2. "Satah ke neeche durlabh khoj: kya Bhaarat bhavishya ko sukhaaye bina naye paani ka upyog kar sakta
+    hai?"; 3. "Sookhe ke beech khoj: Bhaarat ke naye jal srot ka vaada aur paryaavaraneeya khatre"; 4. "Meetha paani,
+    naazuk santulan: Bhaarat ke durlabh naye bhandaar ko ati-dohan se bachaana". Har sheershak atiranjit daavon se
+    bachte hue khoj aur tikaau prabandhan ki zaroorat, dono ko ujaagar karta hai.
+  hinglish: >-
+    Yahan chaar headline options hain: 1. "Hidden Reserve: India mein naya mila water source laaya hope, aur tough
+    questions"; 2. "Surface ke neeche rare find: kya India future ko drain kiye bina naya water tap kar sakta hai?"; 3.
+    "Drought ke beech discovery: India ke naye water source ka promise aur environmental risks"; 4. "Fresh water,
+    fragile balance: India ke rare naye reserve ko overuse se bachana". Har headline exaggerated claims se bachte hue
+    discovery aur sustainable management ki need, dono ko highlight karti hai.
+
+- item_id: mtbhi-write-019
+  source_id: "19"
+  question_en: >-
+    Write an engaging opening paragraph for a fictional story in which a child discovers that he can talk to animals.
+  en: >-
+    On the morning of his tenth birthday, Arjun was scattering grain for the hens when one of them looked up and said,
+    quite clearly, "You've given Rani twice as much as me again." Arjun froze, the steel bowl trembling in his hands.
+    Behind him, the old buffalo snorted with laughter, and from the neem tree a crow called down, "Finally, someone in
+    this house who listens." Arjun looked around the empty courtyard, wondering whether he was dreaming, but the hen was
+    still glaring at him, waiting for an apology. By evening, he had learned two things: every animal in the village
+    had an opinion, and none of them liked the new road being built through the forest.
+  hi: >-
+    अपने दसवें जन्मदिन की सुबह अर्जुन मुर्गियों के लिए दाना बिखेर रहा था, तभी उनमें से एक ने ऊपर देखकर बिल्कुल साफ़ कहा, "तुमने फिर से
+    रानी को मुझसे दोगुना दे दिया।" अर्जुन वहीं जम गया, स्टील का कटोरा उसके हाथों में काँपने लगा। उसके पीछे बूढ़ी भैंस हँसी से
+    फुफकारी, और नीम के पेड़ से एक कौए ने पुकारा, "आखिरकार इस घर में कोई तो है जो सुनता है।" अर्जुन ने खाली आँगन में चारों ओर देखा,
+    सोचते हुए कि कहीं वह सपना तो नहीं देख रहा, लेकिन मुर्गी अब भी उसे घूर रही थी, माफ़ी का इंतज़ार करते हुए। शाम तक उसने दो बातें जान
+    लीं: गाँव के हर जानवर की अपनी राय थी, और उनमें से किसी को भी जंगल से होकर बन रही नई सड़क पसंद नहीं थी।
+  hi_rom: >-
+    Apne dasvein janmdin ki subah Arjun murgiyon ke liye daana bikher raha tha, tabhi unmein se ek ne oopar dekhkar
+    bilkul saaf kaha, "Tumne phir se Rani ko mujhse doguna de diya." Arjun vahin jam gaya, steel ka katora uske haathon
+    mein kaanpne laga. Uske peechhe boodhi bhains hansi se phuphkaari, aur neem ke ped se ek kaue ne pukaara,
+    "Aakhirkaar is ghar mein koi to hai jo sunta hai." Arjun ne khaali aangan mein chaaron or dekha, sochte hue ki kahin
+    vah sapna to nahi dekh raha, lekin murgi ab bhi use ghoor rahi thi, maafi ka intezaar karte hue. Shaam tak usne do
+    baatein jaan lin: gaanv ke har jaanvar ki apni raay thi, aur unmein se kisi ko bhi jangal se hokar ban rahi nayi
+    sadak pasand nahi thi.
+  hinglish: >-
+    Apne tenth birthday ki morning Arjun hens ke liye grain scatter kar raha tha, tabhi unmein se ek ne upar dekhkar
+    bilkul clearly kaha, "Tumne phir se Rani ko mujhse double de diya." Arjun wahin freeze ho gaya, steel ka bowl uske
+    haathon mein kaanpne laga. Uske peeche boodhi buffalo ne hansi mein snort kiya, aur neem tree se ek crow ne call
+    kiya, "Finally is ghar mein koi toh hai jo sunta hai." Arjun ne khaali courtyard mein chaaron taraf dekha, sochte
+    hue ki kahin woh dream toh nahi dekh raha, lekin hen ab bhi use ghoor rahi thi, sorry ka wait karte hue. Shaam tak
+    usne do cheezein seekh li: village ke har animal ki apni opinion thi, aur unmein se kisi ko bhi forest se hokar ban
+    rahi new road pasand nahi thi.
+
+- item_id: mtbhi-write-020
+  source_id: "20"
+  question_en: >-
+    Write an email encouraging your friend to visit the Rann Utsav in Kutch. Your friend avoids crowded places and long
+    journeys. In the email, explain the special attractions of the Rann Utsav and why the trip will be memorable, and
+    also address their objections. Write the email in a simple, effective and emotional way.
+  en: >-
+    Subject: Come with me to the Rann Utsav! Dear Neha, I know crowds and long journeys are not your favourite things,
+    but please hear me out. The Rann Utsav in Kutch is held in the Great Rann, a white salt desert so vast that even
+    with visitors around, it feels peaceful and open. Imagine watching the full moon rise over endless white sand,
+    listening to folk music around a fire and seeing artisans make bandhani and embroidery right in front of you. We
+    can fly to Bhuj and take a short drive, and stay in a comfortable tent city with quiet corners to relax. I'll plan
+    everything, so you only have to enjoy it. Some memories are worth a little effort, and I would love to make this
+    one with you. Love, Priya
+  hi: >-
+    विषय: मेरे साथ रण उत्सव चलो! प्रिय नेहा, मुझे पता है कि भीड़ और लंबा सफ़र तुम्हें पसंद नहीं, लेकिन एक बार मेरी बात सुन लो। कच्छ
+    का रण उत्सव कच्छ के बड़े रण में होता है, जो सफ़ेद नमक का इतना विशाल रेगिस्तान है कि आसपास पर्यटक होने पर भी वहाँ शांति और खुलापन
+    महसूस होता है। कल्पना करो, अंतहीन सफ़ेद रेत पर पूरा चाँद उगते देखना, अलाव के पास लोक संगीत सुनना और कारीगरों को अपनी आँखों के
+    सामने बांधनी और कढ़ाई करते देखना। हम भुज तक हवाई जहाज़ से जा सकते हैं और वहाँ से थोड़ी दूरी गाड़ी से तय कर सकते हैं, और आरामदेह
+    तंबू नगरी में ठहर सकते हैं जहाँ सुकून के लिए शांत कोने हैं। मैं सब कुछ तय कर दूँगी, तुम्हें बस आनंद लेना है। कुछ यादें थोड़ी मेहनत
+    के लायक होती हैं, और मैं यह याद तुम्हारे साथ बनाना चाहती हूँ। ढेर सारा प्यार, प्रिया
+  hi_rom: >-
+    Vishay: Mere saath Rann Utsav chalo! Priya Neha, mujhe pata hai ki bheed aur lamba safar tumhein pasand nahi,
+    lekin ek baar meri baat sun lo. Kachchh ka Rann Utsav Kachchh ke Bade Rann mein hota hai, jo safed namak ka itna
+    vishaal registaan hai ki aaspaas paryatak hone par bhi vahaan shaanti aur khulaapan mehsoos hota hai. Kalpana karo,
+    anantheen safed ret par poora chaand ugte dekhna, alaav ke paas lok sangeet sunna aur kaareegaron ko apni aankhon
+    ke saamne baandhni aur kadhaai karte dekhna. Hum Bhuj tak hawaai jahaaz se ja sakte hain aur vahaan se thodi doori
+    gaadi se tay kar sakte hain, aur aaraamdeh tamboo nagari mein thahar sakte hain jahaan sukoon ke liye shaant kone
+    hain. Main sab kuch tay kar doongi, tumhein bas aanand lena hai. Kuch yaadein thodi mehnat ke laayak hoti hain, aur
+    main yah yaad tumhaare saath banaana chaahti hoon. Dher saara pyaar, Priya
+  hinglish: >-
+    Subject: Mere saath Rann Utsav chalo! Dear Neha, mujhe pata hai ki crowds aur long journeys tumhe pasand nahi,
+    lekin ek baar meri baat sun lo. Kutch ka Rann Utsav Great Rann mein hota hai, jo white salt desert itna huge hai ki
+    aas-paas visitors hone par bhi wahan peaceful aur open feel hota hai. Imagine karo, endless white sand par full moon
+    rise hote dekhna, fire ke paas folk music sunna aur artisans ko apni aankhon ke saamne bandhani aur embroidery karte
+    dekhna. Hum Bhuj tak flight le sakte hain aur wahan se short drive kar sakte hain, aur comfortable tent city mein
+    stay kar sakte hain jahan relax karne ke liye quiet corners hain. Main sab plan kar dungi, tumhe bas enjoy karna
+    hai. Kuch memories thodi effort ke layak hoti hain, aur main ye memory tumhare saath banana chahti hoon. Love, Priya
+
+- item_id: mtbhi-write-110
+  source_id: "110"
+  question_en: >-
+    Write a persuasive email encouraging a colleague, who usually prefers to work behind the scenes, to lead the
+    project presentation at the upcoming meeting. Address their hesitations and give persuasive reasons to accept this
+    opportunity.
+  en: >-
+    Subject: Would you lead Thursday's project presentation? Hi Arun, I'd like you to lead our project presentation at
+    Thursday's meeting. No one understands the analysis better than you; much of what we will present came from your
+    work, so it should come from you. I know you prefer working behind the scenes and may feel nervous about speaking,
+    but you won't be alone: we can rehearse together, I'll handle the introduction and support you during questions,
+    and you can keep notes in front of you. This is also a real chance for senior management to see your contribution,
+    which could open doors for the projects you care about. I think you'll do brilliantly. Shall we schedule a practice
+    run on Tuesday? Best, Kavya
+  hi: >-
+    विषय: क्या आप गुरुवार की परियोजना प्रस्तुति का नेतृत्व करेंगे? नमस्ते अरुण, मैं चाहती हूँ कि गुरुवार की बैठक में हमारी परियोजना
+    प्रस्तुति का नेतृत्व आप करें। विश्लेषण को आपसे बेहतर कोई नहीं समझता; हम जो प्रस्तुत करने वाले हैं उसका बड़ा हिस्सा आपके काम से
+    निकला है, इसलिए इसे आपकी ओर से ही आना चाहिए। मुझे पता है कि आप पर्दे के पीछे काम करना पसंद करते हैं और बोलने को लेकर घबराहट
+    महसूस कर सकते हैं, लेकिन आप अकेले नहीं होंगे: हम साथ में अभ्यास कर सकते हैं, परिचय मैं सँभालूँगी और प्रश्नों के दौरान आपका साथ
+    दूँगी, और आप अपने सामने नोट्स रख सकते हैं। यह वरिष्ठ प्रबंधन के लिए आपका योगदान देखने का भी सच्चा अवसर है, जिससे उन परियोजनाओं
+    के रास्ते खुल सकते हैं जिनकी आपको परवाह है। मुझे लगता है कि आप शानदार करेंगे। क्या हम मंगलवार को एक अभ्यास तय करें? शुभकामनाओं
+    सहित, काव्या
+  hi_rom: >-
+    Vishay: Kya aap Guruvaar ki pariyojana prastuti ka netritva karenge? Namaste Arun, main chaahti hoon ki Guruvaar
+    ki baithak mein hamaari pariyojana prastuti ka netritva aap karein. Vishleshan ko aapse behtar koi nahi samajhta;
+    hum jo prastut karne waale hain uska bada hissa aapke kaam se nikla hai, isliye ise aapki or se hi aana chahiye.
+    Mujhe pata hai ki aap parde ke peechhe kaam karna pasand karte hain aur bolne ko lekar ghabraahat mehsoos kar sakte
+    hain, lekin aap akele nahi honge: hum saath mein abhyaas kar sakte hain, parichay main sambhaaloongi aur prashnon
+    ke dauraan aapka saath doongi, aur aap apne saamne notes rakh sakte hain. Yah varishth prabandhan ke liye aapka
+    yogdaan dekhne ka bhi sachcha avsar hai, jisse un pariyojanaaon ke raaste khul sakte hain jinki aapko parvaah hai.
+    Mujhe lagta hai ki aap shaandaar karenge. Kya hum Mangalvaar ko ek abhyaas tay karein? Shubhkaamnaaon sahit, Kavya
+  hinglish: >-
+    Subject: Kya aap Thursday ka project presentation lead karenge? Hi Arun, main chahti hoon ki Thursday ki meeting
+    mein hamara project presentation aap lead karein. Analysis ko aapse better koi nahi samajhta; hum jo present karne
+    wale hain uska bada hissa aapke kaam se aaya hai, isliye ye aapki taraf se hi aana chahiye. Mujhe pata hai ki aap
+    behind the scenes kaam karna prefer karte hain aur speaking ko lekar nervous feel kar sakte hain, lekin aap akele
+    nahi honge: hum saath mein rehearse kar sakte hain, introduction main handle karungi aur questions ke time aapko
+    support karungi, aur aap apne saamne notes rakh sakte hain. Ye senior management ke liye aapka contribution dekhne
+    ka bhi real chance hai, jisse un projects ke liye doors khul sakte hain jinki aapko care hai. Mujhe lagta hai aap
+    brilliantly karenge. Kya hum Tuesday ko ek practice run schedule karein? Best, Kavya

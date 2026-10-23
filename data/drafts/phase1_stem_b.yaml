@@ -1,0 +1,434 @@
+# Phase 1 drafts, MMMLU STEM batch B (21 items). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+# Technical vocabulary in hi / hi_rom follows standard Hindi technical terms (NCERT / CSTT style) where one
+# exists; checkers should replace any term that a Hindi reader would not recognise.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mmmlu-compsec-0036
+  source_id: computer_security/36
+  reference_en: (C) Public-key system.
+  en: >-
+    The answer is (C), a public-key system. The signer creates the signature with a private key that only they
+    hold, and anyone can verify it with the matching public key. A shared-key system cannot prove who signed,
+    because both parties hold the same key.
+  hi: >-
+    सही उत्तर (C) है, सार्वजनिक-कुंजी प्रणाली। हस्ताक्षरकर्ता ऐसी निजी कुंजी से हस्ताक्षर बनाता है जो केवल उसके
+    पास होती है, और कोई भी उससे मेल खाने वाली सार्वजनिक कुंजी से उसकी जाँच कर सकता है। साझा-कुंजी प्रणाली यह सिद्ध
+    नहीं कर सकती कि हस्ताक्षर किसने किए, क्योंकि दोनों पक्षों के पास एक ही कुंजी होती है।
+  hi_rom: >-
+    Sahi uttar (C) hai, saarvajanik-kunji pranaali. Hastaaksharkarta aisi niji kunji se hastaakshar banaata hai jo
+    keval uske paas hoti hai, aur koi bhi usse mel khaane waali saarvajanik kunji se uski jaanch kar sakta hai.
+    Saajha-kunji pranaali yah siddh nahi kar sakti ki hastaakshar kisne kiye, kyonki dono pakshon ke paas ek hi
+    kunji hoti hai.
+  hinglish: >-
+    Sahi answer (C) hai, public-key system. Signer ek private key se signature banata hai jo sirf uske paas hoti
+    hai, aur koi bhi matching public key se use verify kar sakta hai. Shared-key system ye prove nahi kar sakta ki
+    sign kisne kiya, kyunki dono parties ke paas same key hoti hai.
+
+- item_id: mmmlu-compsec-0049
+  source_id: computer_security/49
+  reference_en: (C) Boundary checks.
+  en: >-
+    The answer is (C), boundary checks. A buffer overflow happens when a program writes more data into a buffer
+    than it can hold, spilling into adjacent memory. Checking that every write stays within the buffer's bounds
+    prevents this bug.
+  hi: >-
+    सही उत्तर (C) है, सीमा जाँच। बफ़र ओवरफ़्लो तब होता है जब कोई प्रोग्राम किसी बफ़र में उसकी क्षमता से अधिक डेटा
+    लिख देता है, जो पास की मेमोरी में फैल जाता है। यह जाँचना कि हर लेखन बफ़र की सीमाओं के भीतर रहे, इस दोष को
+    रोकता है।
+  hi_rom: >-
+    Sahi uttar (C) hai, seema jaanch. Buffer overflow tab hota hai jab koi program kisi buffer mein uski kshamata
+    se adhik data likh deta hai, jo paas ki memory mein phail jaata hai. Yah jaanchna ki har lekhan buffer ki
+    seemaaon ke bheetar rahe, is dosh ko rokta hai.
+  hinglish: >-
+    Sahi answer (C) hai, boundary checks. Buffer overflow tab hota hai jab koi program kisi buffer mein uski
+    capacity se zyada data write kar deta hai, jo adjacent memory mein spill ho jaata hai. Ye check karna ki har
+    write buffer ke bounds ke andar rahe, is bug ko prevent karta hai.
+
+- item_id: mmmlu-colbio-0008
+  source_id: college_biology/8
+  reference_en: (D) Bursts of speciation followed by long periods of little change.
+  en: >-
+    The answer is (D): bursts of speciation followed by relatively unchanging lineages. Proposed by Eldredge and
+    Gould, the idea is that species stay largely stable for long periods, with most change concentrated in short
+    episodes when new species form. It concerns evolution, not ecological succession.
+  hi: >-
+    सही उत्तर (D) है: प्रजाति-उद्भवन के अचानक दौर, जिनके बाद वंशक्रम अपेक्षाकृत अपरिवर्तित रहते हैं। एल्ड्रेज और
+    गूल्ड द्वारा प्रस्तावित इस विचार के अनुसार प्रजातियाँ लंबे समय तक काफ़ी हद तक स्थिर रहती हैं, और अधिकांश
+    परिवर्तन उन छोटे दौरों में होता है जब नई प्रजातियाँ बनती हैं। इसका संबंध विकास से है, पारिस्थितिक अनुक्रमण से
+    नहीं।
+  hi_rom: >-
+    Sahi uttar (D) hai: prajaati-udbhavan ke achaanak daur, jinke baad vanshkram apekshaakrit aparivartit rehte
+    hain. Eldredge aur Gould dwara prastaavit is vichaar ke anusaar prajaatiyaan lambe samay tak kaafi had tak
+    sthir rehti hain, aur adhikaansh parivartan un chhote dauron mein hota hai jab nayi prajaatiyaan banti hain.
+    Iska sambandh vikaas se hai, paaristhitik anukraman se nahi.
+  hinglish: >-
+    Sahi answer (D) hai: speciation ke sudden bursts, jinke baad lineages relatively unchanged rehte hain. Eldredge
+    aur Gould ke propose kiye is idea ke according species lambe time tak largely stable rehti hain, aur zyada
+    change un short episodes mein hota hai jab new species banti hain. Iska connection evolution se hai,
+    ecological succession se nahi.
+
+- item_id: mmmlu-colbio-0009
+  source_id: college_biology/9
+  reference_en: (C) Replicate its genetic material and synthesize viral proteins.
+  en: >-
+    The answer is (C): it replicates its genetic material and synthesizes viral proteins. Influenza is an RNA
+    virus that copies its RNA genome with its own RNA polymerase and uses the host's ribosomes to make viral
+    proteins. It is not a retrovirus, so it does not make DNA with reverse transcriptase or integrate into the
+    host chromosome.
+  hi: >-
+    सही उत्तर (C) है: यह अपनी आनुवंशिक सामग्री की प्रतिकृति बनाता है और विषाणु प्रोटीन संश्लेषित करता है।
+    इन्फ़्लुएंज़ा एक RNA विषाणु है, जो अपने RNA जीनोम की प्रतिलिपि अपने RNA पॉलिमरेज़ से बनाता है और विषाणु प्रोटीन
+    बनाने के लिए परपोषी के राइबोसोम का उपयोग करता है। यह रेट्रोवायरस नहीं है, इसलिए यह रिवर्स ट्रांसक्रिप्टेज़
+    से DNA नहीं बनाता और न ही परपोषी के गुणसूत्र में जुड़ता है।
+  hi_rom: >-
+    Sahi uttar (C) hai: yah apni aanuvanshik saamagri ki pratikriti banaata hai aur vishaanu protein sanshleshit
+    karta hai. Influenza ek RNA vishaanu hai, jo apne RNA genome ki pratilipi apne RNA polymerase se banaata hai
+    aur vishaanu protein banaane ke liye parposhi ke ribosome ka upyog karta hai. Yah retrovirus nahi hai, isliye
+    yah reverse transcriptase se DNA nahi banaata aur na hi parposhi ke gunsootra mein judta hai.
+  hinglish: >-
+    Sahi answer (C) hai: ye apne genetic material ko replicate karta hai aur viral proteins synthesize karta hai.
+    Influenza ek RNA virus hai, jo apne RNA genome ko apne RNA polymerase se copy karta hai aur viral proteins
+    banane ke liye host ke ribosomes use karta hai. Ye retrovirus nahi hai, isliye ye reverse transcriptase se DNA
+    nahi banata aur na hi host chromosome mein integrate hota hai.
+
+- item_id: mmmlu-colbio-0081
+  source_id: college_biology/81
+  reference_en: (D) Electrophoretic mobility shift assay (EMSA).
+  en: >-
+    The answer is (D), the electrophoretic mobility shift assay. When a protein binds a labelled DNA fragment, the
+    complex moves more slowly through a gel than free DNA, producing a visible band shift. Western, Northern and
+    Southern blots detect proteins, RNA and DNA respectively, not protein–DNA binding.
+  hi: >-
+    सही उत्तर (D) है, इलेक्ट्रोफ़ोरेटिक मोबिलिटी शिफ़्ट परख। जब कोई प्रोटीन चिह्नित DNA खंड से जुड़ता है, तो यह
+    संकुल मुक्त DNA की तुलना में जेल में धीमे चलता है, जिससे पट्टी का दिखाई देने वाला विस्थापन होता है। वेस्टर्न,
+    नॉर्दर्न और सदर्न ब्लॉट क्रमशः प्रोटीन, RNA और DNA का पता लगाते हैं, प्रोटीन-DNA बंधन का नहीं।
+  hi_rom: >-
+    Sahi uttar (D) hai, electrophoretic mobility shift parakh. Jab koi protein chihnit DNA khand se judta hai, to
+    yah sankul mukt DNA ki tulna mein gel mein dheeme chalta hai, jisse patti ka dikhaai dene waala visthaapan hota
+    hai. Western, Northern aur Southern blot kramashah protein, RNA aur DNA ka pata lagaate hain, protein-DNA
+    bandhan ka nahi.
+  hinglish: >-
+    Sahi answer (D) hai, electrophoretic mobility shift assay. Jab koi protein labelled DNA fragment se bind karta
+    hai, toh ye complex free DNA ke comparison mein gel mein slowly move karta hai, jisse visible band shift hota
+    hai. Western, Northern aur Southern blots respectively proteins, RNA aur DNA detect karte hain, protein–DNA
+    binding nahi.
+
+- item_id: mmmlu-colbio-0117
+  source_id: college_biology/117
+  reference_en: (C) Water availability and warm temperatures foster photosynthesis.
+  en: >-
+    The answer is (C). Photosynthesis is fastest where plants have plenty of water, warmth and sunlight throughout
+    the year, and tropical regions offer all three. That is why tropical forests are among the areas with the
+    highest net primary productivity on land.
+  hi: >-
+    सही उत्तर (C) है। प्रकाश-संश्लेषण वहाँ सबसे तेज़ होता है जहाँ पौधों को पूरे वर्ष भरपूर जल, गर्मी और
+    सूर्य-प्रकाश मिलता है, और उष्णकटिबंधीय क्षेत्रों में ये तीनों उपलब्ध होते हैं। इसीलिए उष्णकटिबंधीय वन स्थल
+    पर सबसे अधिक शुद्ध प्राथमिक उत्पादकता वाले क्षेत्रों में गिने जाते हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai. Prakaash-sanshleshan vahaan sabse tez hota hai jahaan paudhon ko poore varsh bharpoor jal,
+    garmi aur surya-prakaash milta hai, aur ushnakatibandhiya kshetron mein ye teenon uplabdh hote hain. Isiliye
+    ushnakatibandhiya van sthal par sabse adhik shuddh praathmik utpaadakta waale kshetron mein gine jaate hain.
+  hinglish: >-
+    Sahi answer (C) hai. Photosynthesis wahan sabse fast hota hai jahan plants ko poore saal plenty of water,
+    warmth aur sunlight milti hai, aur tropical regions mein ye teeno available hote hain. Isliye tropical forests
+    land par highest net primary productivity wale areas mein gine jaate hain.
+
+- item_id: mmmlu-hsphys-0143
+  source_id: high_school_physics/143
+  reference_en: (A) 4F, since F = qvB does not depend on mass.
+  en: >-
+    The answer is (A), 4F. The magnetic force on a moving charge is F = qvB, so it depends on charge and velocity
+    but not on mass. Doubling both the charge and the velocity multiplies the force by 2 × 2 = 4.
+  hi: >-
+    सही उत्तर (A) है, 4F। गतिमान आवेश पर चुंबकीय बल F = qvB होता है, यानी यह आवेश और वेग पर निर्भर करता है,
+    द्रव्यमान पर नहीं। आवेश और वेग दोनों को दोगुना करने से बल 2 × 2 = 4 गुना हो जाता है।
+  hi_rom: >-
+    Sahi uttar (A) hai, 4F. Gatimaan aavesh par chumbakiya bal F = qvB hota hai, yaani yah aavesh aur veg par
+    nirbhar karta hai, dravyamaan par nahi. Aavesh aur veg dono ko doguna karne se bal 2 × 2 = 4 guna ho jaata hai.
+  hinglish: >-
+    Sahi answer (A) hai, 4F. Moving charge par magnetic force F = qvB hota hai, yaani ye charge aur velocity par
+    depend karta hai, mass par nahi. Charge aur velocity dono ko double karne se force 2 × 2 = 4 guna ho jaata hai.
+
+- item_id: mmmlu-hsphys-0029
+  source_id: high_school_physics/29
+  reference_en: (D) Decreases nonlinearly (N = mg cos θ).
+  en: >-
+    The answer is (D): it decreases nonlinearly. The normal force on a box resting on an incline equals mg cos θ,
+    where θ is the angle of the incline. Because cosine is not a linear function, the normal force falls slowly at
+    first and then faster as the angle grows.
+  hi: >-
+    सही उत्तर (D) है: यह अरैखिक रूप से घटता है। ढलान पर रखे डिब्बे पर अभिलंब बल mg cos θ के बराबर होता है, जहाँ
+    θ ढलान का कोण है। चूँकि कोसाइन रैखिक फलन नहीं है, इसलिए कोण बढ़ने पर अभिलंब बल पहले धीरे-धीरे और फिर तेज़ी से
+    घटता है।
+  hi_rom: >-
+    Sahi uttar (D) hai: yah arekhik roop se ghatata hai. Dhalaan par rakhe dibbe par abhilamb bal mg cos θ ke
+    baraabar hota hai, jahaan θ dhalaan ka kon hai. Choonki cosine rekhik phalan nahi hai, isliye kon badhne par
+    abhilamb bal pehle dheere-dheere aur phir tezi se ghatata hai.
+  hinglish: >-
+    Sahi answer (D) hai: ye nonlinearly decrease hota hai. Incline par rakhe box par normal force mg cos θ ke
+    barabar hota hai, jahan θ incline ka angle hai. Kyunki cosine linear function nahi hai, isliye angle badhne par
+    normal force pehle dheere aur phir fast decrease hota hai.
+
+- item_id: mmmlu-hsphys-0049
+  source_id: high_school_physics/49
+  reference_en: (D) Nothing would happen; photon energy, not intensity, decides emission.
+  en: >-
+    The answer is (D): nothing would happen. Whether electrons are emitted depends on the energy of each photon,
+    which is set by the wavelength, not on the brightness of the light. If 550 nm photons are below the metal's
+    work function, making the light more intense only sends more of these photons, and still none can free an
+    electron.
+  hi: >-
+    सही उत्तर (D) है: कुछ नहीं होगा। इलेक्ट्रॉन उत्सर्जित होंगे या नहीं, यह हर फ़ोटॉन की ऊर्जा पर निर्भर करता है,
+    जो तरंगदैर्ध्य से तय होती है, प्रकाश की तीव्रता पर नहीं। यदि 550 nm के फ़ोटॉन धातु के कार्य-फलन से कम ऊर्जा
+    वाले हैं, तो प्रकाश को अधिक तीव्र करने से केवल ऐसे और फ़ोटॉन आते हैं, और फिर भी कोई इलेक्ट्रॉन मुक्त नहीं कर
+    पाता।
+  hi_rom: >-
+    Sahi uttar (D) hai: kuch nahi hoga. Electron utsarjit honge ya nahi, yah har photon ki urja par nirbhar karta
+    hai, jo tarangdairghya se tay hoti hai, prakaash ki teevrata par nahi. Yadi 550 nm ke photon dhaatu ke
+    kaarya-phalan se kam urja waale hain, to prakaash ko adhik teevra karne se keval aise aur photon aate hain, aur
+    phir bhi koi electron mukt nahi kar paata.
+  hinglish: >-
+    Sahi answer (D) hai: kuch nahi hoga. Electrons emit honge ya nahi, ye har photon ki energy par depend karta
+    hai, jo wavelength se decide hoti hai, light ki intensity par nahi. Agar 550 nm ke photons ki energy metal ke
+    work function se kam hai, toh light ko zyada intense karne se sirf aise aur photons aate hain, aur phir bhi koi
+    electron free nahi kar paata.
+
+- item_id: mmmlu-hsphys-0125
+  source_id: high_school_physics/125
+  reference_en: (A) Negative direction, because the puck is slowing down.
+  en: >-
+    The answer is (A): the net force is in the negative direction. At x = 1.0 m the student is no longer pushing,
+    and the puck is moving in the positive direction while slowing down. Slowing down means its acceleration, and
+    therefore the net force (friction), points opposite to its motion.
+  hi: >-
+    सही उत्तर (A) है: कुल बल ऋणात्मक दिशा में है। x = 1.0 m पर छात्र अब धक्का नहीं दे रहा, और पक धनात्मक दिशा
+    में चलते हुए धीमा हो रहा है। धीमा होने का अर्थ है कि उसका त्वरण, और इसलिए कुल बल (घर्षण), उसकी गति की
+    विपरीत दिशा में है।
+  hi_rom: >-
+    Sahi uttar (A) hai: kul bal rinaatmak disha mein hai. x = 1.0 m par chhaatra ab dhakka nahi de raha, aur puck
+    dhanaatmak disha mein chalte hue dheema ho raha hai. Dheema hone ka arth hai ki uska tvaran, aur isliye kul bal
+    (gharshan), uski gati ki vipreet disha mein hai.
+  hinglish: >-
+    Sahi answer (A) hai: net force negative direction mein hai. x = 1.0 m par student ab push nahi kar raha, aur
+    puck positive direction mein move karte hue slow ho raha hai. Slow hone ka matlab hai ki uska acceleration, aur
+    isliye net force (friction), uski motion ke opposite direction mein hai.
+
+- item_id: mmmlu-nutr-0006
+  source_id: nutrition/6
+  reference_en: (B) Oestrogen.
+  en: >-
+    The answer is (B), oestrogen. After menopause, fat tissue becomes a major source of oestrogen, so women with
+    obesity have higher oestrogen levels. Unopposed oestrogen stimulates growth of the endometrium, raising the
+    risk of endometrial cancer.
+  hi: >-
+    सही उत्तर (B) है, एस्ट्रोजन। रजोनिवृत्ति के बाद वसा ऊतक एस्ट्रोजन का मुख्य स्रोत बन जाता है, इसलिए मोटापे से
+    ग्रस्त महिलाओं में एस्ट्रोजन का स्तर अधिक होता है। असंतुलित एस्ट्रोजन गर्भाशय अंतःस्तर की वृद्धि को उत्तेजित
+    करता है, जिससे गर्भाशय अंतःस्तर के कैंसर का खतरा बढ़ता है।
+  hi_rom: >-
+    Sahi uttar (B) hai, estrogen. Rajonivritti ke baad vasa ootak estrogen ka mukhya srot ban jaata hai, isliye
+    motaape se grast mahilaon mein estrogen ka star adhik hota hai. Asantulit estrogen garbhaashay antahstar ki
+    vriddhi ko uttejit karta hai, jisse garbhaashay antahstar ke cancer ka khatra badhta hai.
+  hinglish: >-
+    Sahi answer (B) hai, oestrogen. Menopause ke baad fat tissue oestrogen ka main source ban jaata hai, isliye
+    obesity wali women mein oestrogen levels zyada hote hain. Unopposed oestrogen endometrium ki growth ko
+    stimulate karta hai, jisse endometrial cancer ka risk badhta hai.
+
+- item_id: mmmlu-nutr-0024
+  source_id: nutrition/24
+  reference_en: (C) An increased appetite; appetite usually falls with age.
+  en: >-
+    The answer is (C), an increased appetite. Ageing typically brings a loss of lean body mass, lower bone density
+    and weaker immune function. Appetite, however, usually declines with age, a change sometimes called the
+    anorexia of ageing.
+  hi: >-
+    सही उत्तर (C) है, भूख का बढ़ना। बढ़ती उम्र के साथ आमतौर पर वसा-रहित शरीर द्रव्यमान में कमी, अस्थि घनत्व में कमी
+    और प्रतिरक्षा क्षमता में कमज़ोरी आती है। लेकिन भूख आमतौर पर उम्र के साथ घटती है, जिसे कभी-कभी वृद्धावस्था की
+    अरुचि कहा जाता है।
+  hi_rom: >-
+    Sahi uttar (C) hai, bhookh ka badhna. Badhti umra ke saath aamtaur par vasa-rahit shareer dravyamaan mein kami,
+    asthi ghanatva mein kami aur pratiraksha kshamata mein kamzori aati hai. Lekin bhookh aamtaur par umra ke saath
+    ghatti hai, jise kabhi-kabhi vriddhaavastha ki aruchi kaha jaata hai.
+  hinglish: >-
+    Sahi answer (C) hai, increased appetite. Age badhne ke saath usually lean body mass kam hota hai, bone density
+    ghatti hai aur immune function weak hota hai. Lekin appetite usually age ke saath kam hoti hai, jise
+    kabhi-kabhi anorexia of ageing kehte hain.
+
+- item_id: mmmlu-nutr-0095
+  source_id: nutrition/95
+  reference_en: (C) It does not distinguish between fat and fat-free mass.
+  en: >-
+    The answer is (C): BMI does not distinguish between fat and fat-free mass. It is calculated only from weight
+    and height, so a muscular athlete can be classed as overweight despite having little body fat. It also says
+    nothing about where fat is stored.
+  hi: >-
+    सही उत्तर (C) है: BMI वसा और वसा-रहित द्रव्यमान में अंतर नहीं करता। इसकी गणना केवल वज़न और लंबाई से होती है,
+    इसलिए एक मांसल खिलाड़ी को कम शारीरिक वसा होने के बावजूद अधिक वज़न वाला माना जा सकता है। यह इस बारे में भी कुछ
+    नहीं बताता कि वसा शरीर में कहाँ जमा है।
+  hi_rom: >-
+    Sahi uttar (C) hai: BMI vasa aur vasa-rahit dravyamaan mein antar nahi karta. Iski ganana keval vazan aur
+    lambaai se hoti hai, isliye ek maansal khiladi ko kam shaareerik vasa hone ke baavjood adhik vazan waala maana
+    ja sakta hai. Yah is baare mein bhi kuch nahi bataata ki vasa shareer mein kahaan jama hai.
+  hinglish: >-
+    Sahi answer (C) hai: BMI fat aur fat-free mass mein difference nahi karta. Ise sirf weight aur height se
+    calculate kiya jaata hai, isliye ek muscular athlete ko kam body fat hone ke bawajood overweight maana ja sakta
+    hai. Ye is baare mein bhi kuch nahi batata ki fat body mein kahan store hai.
+
+- item_id: mmmlu-hscs-0000
+  source_id: high_school_computer_science/0
+  reference_en: (C) 8.
+  en: >-
+    The answer is (C), 8. The << operator shifts the bits of a number to the left, and each shift multiplies it by
+    2. Shifting 1 (binary 1) left by three places gives binary 1000, which is 8.
+  hi: >-
+    सही उत्तर (C) है, 8। << संकारक किसी संख्या के बिट्स को बाईं ओर खिसकाता है, और हर खिसकाव संख्या को 2 से गुणा कर
+    देता है। 1 (द्विआधारी 1) को तीन स्थान बाईं ओर खिसकाने पर द्विआधारी 1000 मिलता है, जो 8 है।
+  hi_rom: >-
+    Sahi uttar (C) hai, 8. << sankaarak kisi sankhya ke bits ko baayin or khiskaata hai, aur har khiskaav sankhya
+    ko 2 se guna kar deta hai. 1 (dviaadhaari 1) ko teen sthaan baayin or khiskaane par dviaadhaari 1000 milta hai,
+    jo 8 hai.
+  hinglish: >-
+    Sahi answer (C) hai, 8. << operator kisi number ke bits ko left shift karta hai, aur har shift number ko 2 se
+    multiply kar deta hai. 1 (binary 1) ko teen places left shift karne par binary 1000 milta hai, jo 8 hai.
+
+- item_id: mmmlu-hscs-0052
+  source_id: high_school_computer_science/52
+  reference_en: (A) O(1).
+  en: >-
+    The answer is (A), O(1). Constant time does not grow at all as the input size n increases. Logarithmic time
+    grows slowly, linear time grows in proportion to n, and quadratic time grows fastest of the four.
+  hi: >-
+    सही उत्तर (A) है, O(1)। स्थिर समय इनपुट के आकार n के बढ़ने पर बिल्कुल नहीं बढ़ता। लघुगणकीय समय धीरे बढ़ता है,
+    रैखिक समय n के अनुपात में बढ़ता है, और द्विघाती समय इन चारों में सबसे तेज़ी से बढ़ता है।
+  hi_rom: >-
+    Sahi uttar (A) hai, O(1). Sthir samay input ke aakaar n ke badhne par bilkul nahi badhta. Laghuganakiya samay
+    dheere badhta hai, rekhik samay n ke anupaat mein badhta hai, aur dvighaati samay in chaaron mein sabse tezi se
+    badhta hai.
+  hinglish: >-
+    Sahi answer (A) hai, O(1). Constant time input size n ke badhne par bilkul nahi badhta. Logarithmic time slowly
+    badhta hai, linear time n ke proportion mein badhta hai, aur quadratic time in chaaron mein sabse fast badhta
+    hai.
+
+- item_id: mmmlu-ee-0014
+  source_id: electrical_engineering/14
+  reference_en: (C) The ratio of 1 C to 1 V.
+  en: >-
+    The answer is (C): the ratio of 1 coulomb to 1 volt. Capacitance is defined as C = Q/V, so a capacitor has a
+    capacitance of one farad if it stores one coulomb of charge when one volt is applied across it. The ohm is the
+    unit of resistance, not capacitance.
+  hi: >-
+    सही उत्तर (C) है: 1 कूलॉम और 1 वोल्ट का अनुपात। धारिता को C = Q/V से परिभाषित किया जाता है, इसलिए किसी
+    संधारित्र की धारिता एक फ़ैराड होती है यदि उस पर एक वोल्ट लगाने पर वह एक कूलॉम आवेश संचित करे। ओम प्रतिरोध की
+    इकाई है, धारिता की नहीं।
+  hi_rom: >-
+    Sahi uttar (C) hai: 1 coulomb aur 1 volt ka anupaat. Dhaarita ko C = Q/V se paribhaashit kiya jaata hai,
+    isliye kisi sandhaaritra ki dhaarita ek farad hoti hai yadi us par ek volt lagaane par vah ek coulomb aavesh
+    sanchit kare. Ohm pratirodh ki ikaai hai, dhaarita ki nahi.
+  hinglish: >-
+    Sahi answer (C) hai: 1 coulomb aur 1 volt ka ratio. Capacitance ko C = Q/V se define kiya jaata hai, isliye
+    kisi capacitor ki capacitance ek farad hoti hai agar us par ek volt lagane par woh ek coulomb charge store
+    kare. Ohm resistance ki unit hai, capacitance ki nahi.
+
+- item_id: mmmlu-ee-0043
+  source_id: electrical_engineering/43
+  reference_en: (B) Closed-loop control system.
+  en: >-
+    The answer is (B), a closed-loop control system. In a closed-loop system the output is measured and fed back
+    to adjust the input, as in a thermostat that switches a heater on or off according to the room temperature. In
+    an open-loop system the output has no effect on the input.
+  hi: >-
+    सही उत्तर (B) है, संवृत-पाश नियंत्रण प्रणाली। संवृत-पाश प्रणाली में निर्गत को मापकर वापस भेजा जाता है ताकि
+    निवेश को समायोजित किया जा सके, जैसे तापस्थापी कमरे के तापमान के अनुसार हीटर को चालू या बंद करता है।
+    विवृत-पाश प्रणाली में निर्गत का निवेश पर कोई प्रभाव नहीं पड़ता।
+  hi_rom: >-
+    Sahi uttar (B) hai, samvrit-paash niyantran pranaali. Samvrit-paash pranaali mein nirgat ko maapkar vaapas
+    bheja jaata hai taaki nivesh ko samaayojit kiya ja sake, jaise taapsthaapi kamre ke taapmaan ke anusaar heater
+    ko chaalu ya band karta hai. Vivrit-paash pranaali mein nirgat ka nivesh par koi prabhaav nahi padta.
+  hinglish: >-
+    Sahi answer (B) hai, closed-loop control system. Closed-loop system mein output ko measure karke wapas feed
+    kiya jaata hai taaki input adjust ho sake, jaise thermostat room temperature ke hisaab se heater ko on ya off
+    karta hai. Open-loop system mein output ka input par koi effect nahi hota.
+
+- item_id: mmmlu-ee-0119
+  source_id: electrical_engineering/119
+  reference_en: (A) The absolute error divided by the true value.
+  en: >-
+    The answer is (A): the ratio of the absolute error to the true value. Absolute error is the difference between
+    a measured value and the true value, and dividing it by the true value expresses the error as a fraction or
+    percentage. For example, an error of 2 cm in a 100 cm length is a relative error of 0.02, or 2%.
+  hi: >-
+    सही उत्तर (A) है: निरपेक्ष त्रुटि और वास्तविक मान का अनुपात। निरपेक्ष त्रुटि मापे गए मान और वास्तविक मान का
+    अंतर है, और इसे वास्तविक मान से भाग देने पर त्रुटि भिन्न या प्रतिशत के रूप में व्यक्त होती है। उदाहरण के लिए,
+    100 cm लंबाई में 2 cm की त्रुटि की सापेक्ष त्रुटि 0.02, यानी 2% है।
+  hi_rom: >-
+    Sahi uttar (A) hai: nirpeksh truti aur vaastavik maan ka anupaat. Nirpeksh truti maape gaye maan aur vaastavik
+    maan ka antar hai, aur ise vaastavik maan se bhaag dene par truti bhinn ya pratishat ke roop mein vyakt hoti
+    hai. Udaaharan ke liye, 100 cm lambaai mein 2 cm ki truti ki saapeksh truti 0.02, yaani 2% hai.
+  hinglish: >-
+    Sahi answer (A) hai: absolute error aur true value ka ratio. Absolute error measured value aur true value ka
+    difference hai, aur ise true value se divide karne par error fraction ya percentage mein express hota hai.
+    Example ke liye, 100 cm length mein 2 cm ki error ka relative error 0.02, yaani 2% hai.
+
+- item_id: mmmlu-medgen-0013
+  source_id: medical_genetics/13
+  reference_en: (D) A point mutation (a single base substitution).
+  en: >-
+    The answer is (D), a point mutation. Sickle-cell disease is caused by a single base substitution in the
+    beta-globin gene, which replaces glutamic acid with valine at position 6 of the protein. No DNA is deleted,
+    duplicated or inserted.
+  hi: >-
+    सही उत्तर (D) है, बिंदु उत्परिवर्तन। सिकल-सेल रोग बीटा-ग्लोबिन जीन में एक क्षार के प्रतिस्थापन से होता है,
+    जिससे प्रोटीन के छठे स्थान पर ग्लूटामिक अम्ल की जगह वेलीन आ जाता है। इसमें कोई DNA हटता, दोहराया या जोड़ा नहीं
+    जाता।
+  hi_rom: >-
+    Sahi uttar (D) hai, bindu utparivartan. Sickle-cell rog beta-globin gene mein ek kshaar ke pratisthaapan se
+    hota hai, jisse protein ke chhathe sthaan par glutamic aml ki jagah valine aa jaata hai. Ismein koi DNA hatta,
+    dohraaya ya joda nahi jaata.
+  hinglish: >-
+    Sahi answer (D) hai, point mutation. Sickle-cell disease beta-globin gene mein ek single base substitution se
+    hoti hai, jisse protein ki position 6 par glutamic acid ki jagah valine aa jaata hai. Ismein koi DNA delete,
+    duplicate ya insert nahi hota.
+
+- item_id: mmmlu-medgen-0029
+  source_id: medical_genetics/29
+  reference_en: (D) 1; every child is affected.
+  en: >-
+    The answer is (D): the probability is 1. A person affected by an autosomal recessive disorder carries two
+    copies of the disease allele. If both parents are affected, each can pass on only the disease allele, so every
+    child inherits two copies and is affected.
+  hi: >-
+    सही उत्तर (D) है: प्रायिकता 1 है। ऑटोसोमल अप्रभावी विकार से प्रभावित व्यक्ति में रोग वाले एलील की दो प्रतियाँ
+    होती हैं। यदि माता-पिता दोनों प्रभावित हैं, तो दोनों केवल रोग वाला एलील ही आगे दे सकते हैं, इसलिए हर बच्चे को
+    दो प्रतियाँ मिलती हैं और वह प्रभावित होता है।
+  hi_rom: >-
+    Sahi uttar (D) hai: praayikta 1 hai. Autosomal aprabhaavi vikaar se prabhaavit vyakti mein rog waale allele ki
+    do pratiyaan hoti hain. Yadi maata-pita dono prabhaavit hain, to dono keval rog waala allele hi aage de sakte
+    hain, isliye har bachche ko do pratiyaan milti hain aur vah prabhaavit hota hai.
+  hinglish: >-
+    Sahi answer (D) hai: probability 1 hai. Autosomal recessive disorder se affected person mein disease allele ki
+    do copies hoti hain. Agar dono parents affected hain, toh dono sirf disease allele hi pass kar sakte hain,
+    isliye har bachche ko do copies milti hain aur woh affected hota hai.
+
+- item_id: mmmlu-medgen-0071
+  source_id: medical_genetics/71
+  reference_en: (D) Succinylcholine.
+  en: >-
+    The answer is (D), succinylcholine. Pseudocholinesterase is the plasma enzyme that breaks down the muscle
+    relaxant succinylcholine. People with an inherited deficiency clear the drug slowly, so a normal dose can cause
+    prolonged paralysis and breathing difficulty after anaesthesia.
+  hi: >-
+    सही उत्तर (D) है, सक्सिनिलकोलीन। स्यूडोकोलीनएस्टरेज़ प्लाज़्मा का वह एंजाइम है जो पेशी शिथिलक सक्सिनिलकोलीन
+    को तोड़ता है। जिन लोगों में इसकी वंशानुगत कमी होती है, उनके शरीर से यह दवा धीरे-धीरे निकलती है, इसलिए सामान्य
+    खुराक भी निश्चेतना के बाद लंबे समय तक लकवा और साँस लेने में कठिनाई पैदा कर सकती है।
+  hi_rom: >-
+    Sahi uttar (D) hai, succinylcholine. Pseudocholinesterase plasma ka vah enzyme hai jo peshi shithilak
+    succinylcholine ko todta hai. Jin logon mein iski vanshaanugat kami hoti hai, unke shareer se yah dawa
+    dheere-dheere nikalti hai, isliye saamaanya khuraak bhi nishchetana ke baad lambe samay tak lakva aur saans lene
+    mein kathinaai paida kar sakti hai.
+  hinglish: >-
+    Sahi answer (D) hai, succinylcholine. Pseudocholinesterase plasma ka woh enzyme hai jo muscle relaxant
+    succinylcholine ko break down karta hai. Jin logon mein iski inherited deficiency hoti hai, unki body se ye drug
+    slowly clear hoti hai, isliye normal dose bhi anaesthesia ke baad prolonged paralysis aur breathing difficulty
+    cause kar sakti hai.

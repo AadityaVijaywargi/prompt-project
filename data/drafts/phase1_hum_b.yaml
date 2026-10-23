@@ -1,0 +1,447 @@
+# Phase 1 drafts, MMMLU humanities batch B (21 items). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mmmlu-usfp-0080
+  source_id: us_foreign_policy/80
+  reference_en: (C) Creation of a National Intelligence Director.
+  en: >-
+    The answer is (C): the creation of a National Intelligence Director. The 9/11 Commission found that the many
+    intelligence agencies did not share information well, so it recommended a single official to oversee and
+    coordinate them. Congress created the post of Director of National Intelligence in 2004.
+  hi: >-
+    सही उत्तर (C) है: राष्ट्रीय खुफ़िया निदेशक का पद बनाना। 9/11 आयोग ने पाया कि अनेक खुफ़िया एजेंसियाँ आपस में जानकारी
+    ठीक से साझा नहीं करती थीं, इसलिए उसने उनकी निगरानी और समन्वय के लिए एक ही अधिकारी की सिफ़ारिश की। कांग्रेस ने 2004
+    में राष्ट्रीय खुफ़िया निदेशक का पद बनाया।
+  hi_rom: >-
+    Sahi uttar (C) hai: Raashtriya Khufiya Nideshak ka pad banaana. 9/11 aayog ne paaya ki anek khufiya agenciyaan
+    aapas mein jaankaari theek se saajha nahi karti thin, isliye usne unki nigraani aur samanvay ke liye ek hi
+    adhikaari ki sifaarish ki. Congress ne 2004 mein Raashtriya Khufiya Nideshak ka pad banaaya.
+  hinglish: >-
+    Sahi answer (C) hai: National Intelligence Director ka post create karna. 9/11 Commission ne paaya ki kai
+    intelligence agencies aapas mein information theek se share nahi karti thi, isliye usne unhe oversee aur
+    coordinate karne ke liye ek single official recommend kiya. Congress ne 2004 mein Director of National
+    Intelligence ka post create kiya.
+
+- item_id: mmmlu-soc-0051
+  source_id: sociology/51
+  reference_en: (B) The idea of race is socially constructed through powerful ideologies.
+  en: >-
+    The answer is (B): the idea of race is socially constructed through powerful ideologies. These theories argue
+    that racial categories are not natural biological divisions but are created and maintained through language,
+    media and political discourse. Such discourse can justify inequality by presenting social differences as
+    natural.
+  hi: >-
+    सही उत्तर (B) है: नस्ल का विचार शक्तिशाली विचारधाराओं के ज़रिए सामाजिक रूप से निर्मित होता है। ये सिद्धांत तर्क देते
+    हैं कि नस्लीय श्रेणियाँ प्राकृतिक जैविक विभाजन नहीं हैं, बल्कि भाषा, संचार माध्यमों और राजनीतिक विमर्श के माध्यम से
+    बनाई और बनाए रखी जाती हैं। ऐसा विमर्श सामाजिक अंतरों को प्राकृतिक बताकर असमानता को उचित ठहरा सकता है।
+  hi_rom: >-
+    Sahi uttar (B) hai: nasl ka vichaar shaktishaali vichaardhaaraon ke zariye saamaajik roop se nirmit hota hai. Ye
+    siddhaant tark dete hain ki nasliya shreniyaan praakritik jaivik vibhaajan nahi hain, balki bhasha, sanchaar
+    maadhyamon aur raajnaitik vimarsh ke maadhyam se banaai aur banaaye rakhi jaati hain. Aisa vimarsh saamaajik
+    antaron ko praakritik bataakar asamaanata ko uchit thehra sakta hai.
+  hinglish: >-
+    Sahi answer (B) hai: race ka idea powerful ideologies ke through socially constructed hota hai. Ye theories
+    argue karti hain ki racial categories natural biological divisions nahi hain, balki language, media aur political
+    discourse ke through banai aur maintain ki jaati hain. Aisa discourse social differences ko natural batakar
+    inequality ko justify kar sakta hai.
+
+- item_id: mmmlu-soc-0086
+  source_id: sociology/86
+  reference_en: (D) Rules and expectations about interaction that regulate social life.
+  en: >-
+    The answer is (D): rules and expectations about interaction that regulate social life. Norms tell people how
+    they are expected to behave in particular situations, such as queuing or greeting others. They range from
+    informal customs to formal laws, and breaking them usually brings some form of disapproval or sanction.
+  hi: >-
+    सही उत्तर (D) है: अंतःक्रिया से जुड़े ऐसे नियम और अपेक्षाएँ जो सामाजिक जीवन को नियंत्रित करते हैं। मानदंड लोगों को
+    बताते हैं कि विशेष परिस्थितियों में उनसे किस तरह के व्यवहार की अपेक्षा है, जैसे कतार में खड़े होना या दूसरों का
+    अभिवादन करना। ये अनौपचारिक रीति-रिवाजों से लेकर औपचारिक कानूनों तक होते हैं, और इन्हें तोड़ने पर आमतौर पर किसी न
+    किसी रूप में अस्वीकृति या दंड मिलता है।
+  hi_rom: >-
+    Sahi uttar (D) hai: antahkriya se jude aise niyam aur apekshaayein jo saamaajik jeevan ko niyantrit karte hain.
+    Maanadand logon ko bataate hain ki vishesh paristhitiyon mein unse kis tarah ke vyavahaar ki apeksha hai, jaise
+    kataar mein khade hona ya doosron ka abhivaadan karna. Ye anaupchaarik reeti-rivaajon se lekar aupchaarik
+    kaanoonon tak hote hain, aur inhein todne par aamtaur par kisi na kisi roop mein asveekriti ya dand milta hai.
+  hinglish: >-
+    Sahi answer (D) hai: interaction se jude aise rules aur expectations jo social life ko regulate karte hain. Norms
+    logon ko batate hain ki particular situations mein unse kaisa behaviour expected hai, jaise queue mein khade hona
+    ya doosron ko greet karna. Ye informal customs se lekar formal laws tak hote hain, aur inhe todne par usually
+    kisi na kisi form mein disapproval ya sanction milta hai.
+
+- item_id: mmmlu-soc-0138
+  source_id: sociology/138
+  reference_en: (D) A unit with a division of labour that extends across ethnic and cultural groups.
+  en: >-
+    The answer is (D): a unit with a division of labour that extends across ethnic and cultural groups. Wallerstein
+    argued that the capitalist world economy is a single system in which core, semi-periphery and periphery regions
+    play different economic roles. It is held together by market exchange rather than by one political centre.
+  hi: >-
+    सही उत्तर (D) है: ऐसी इकाई जिसमें श्रम विभाजन विभिन्न जातीय और सांस्कृतिक समूहों तक फैला होता है। वॉलरस्टीन का तर्क था
+    कि पूँजीवादी विश्व अर्थव्यवस्था एक ही व्यवस्था है, जिसमें केंद्र, अर्ध-परिधि और परिधि क्षेत्र अलग-अलग आर्थिक भूमिकाएँ
+    निभाते हैं। यह किसी एक राजनीतिक केंद्र के बजाय बाज़ार विनिमय से जुड़ी रहती है।
+  hi_rom: >-
+    Sahi uttar (D) hai: aisi ikaai jismein shram vibhaajan vibhinn jaatiya aur saanskritik samoohon tak phaila hota
+    hai. Wallerstein ka tark tha ki poonjeevaadi vishva arthvyavastha ek hi vyavastha hai, jismein kendra,
+    ardh-paridhi aur paridhi kshetra alag-alag aarthik bhoomikaayein nibhaate hain. Yah kisi ek raajnaitik kendra ke
+    bajaay baazaar vinimay se judi rehti hai.
+  hinglish: >-
+    Sahi answer (D) hai: ek aisi unit jismein division of labour alag-alag ethnic aur cultural groups tak extend hota
+    hai. Wallerstein ka argument tha ki capitalist world economy ek single system hai, jismein core, semi-periphery
+    aur periphery regions alag economic roles play karte hain. Ye kisi ek political centre ke bajaye market exchange
+    se juda rehta hai.
+
+- item_id: mmmlu-soc-0166
+  source_id: sociology/166
+  reference_en: (B) The estimated minimum income needed for subsistence.
+  en: >-
+    The answer is (B): the estimated minimum income needed for subsistence. An absolute poverty line is based on the
+    cost of basic necessities such as food, shelter and clothing, regardless of how others in the society live.
+    Relative poverty, by contrast, measures people against the typical living standards of their society.
+  hi: >-
+    सही उत्तर (B) है: जीवन निर्वाह के लिए आवश्यक न्यूनतम आय का अनुमान। निरपेक्ष गरीबी रेखा भोजन, आवास और कपड़े जैसी
+    बुनियादी ज़रूरतों की लागत पर आधारित होती है, चाहे समाज के दूसरे लोग कैसे भी रहते हों। इसके विपरीत, सापेक्ष गरीबी
+    लोगों को उनके समाज के सामान्य जीवन स्तर की तुलना में मापती है।
+  hi_rom: >-
+    Sahi uttar (B) hai: jeevan nirvaah ke liye aavashyak nyoontam aay ka anumaan. Nirpeksh gareebi rekha bhojan,
+    aavaas aur kapde jaisi buniyaadi zarooraton ki laagat par aadhaarit hoti hai, chaahe samaaj ke doosre log kaise
+    bhi rehte hon. Iske vipreet, saapeksh gareebi logon ko unke samaaj ke saamaanya jeevan star ki tulna mein maapti
+    hai.
+  hinglish: >-
+    Sahi answer (B) hai: subsistence ke liye zaroori minimum income ka estimate. Absolute poverty line food, shelter
+    aur clothing jaisi basic necessities ki cost par based hoti hai, chaahe society ke doosre log kaise bhi rehte
+    hon. Iske opposite, relative poverty logon ko unki society ke typical living standards ke comparison mein
+    measure karti hai.
+
+- item_id: mmmlu-macro-0124
+  source_id: high_school_macroeconomics/124
+  reference_en: (B) It is the basis of Classical economic analysis.
+  en: >-
+    The answer is (B): it is the basis of Classical economic analysis. Say's Law states that supply creates its own
+    demand, because producing goods generates the income needed to buy them. Classical economists used it to argue
+    that general overproduction and long-term unemployment are unlikely, a view Keynes later rejected.
+  hi: >-
+    सही उत्तर (B) है: यह प्रतिष्ठित आर्थिक विश्लेषण का आधार है। से का नियम कहता है कि आपूर्ति अपनी माँग स्वयं पैदा करती
+    है, क्योंकि वस्तुओं के उत्पादन से उन्हें खरीदने के लिए आवश्यक आय बनती है। प्रतिष्ठित अर्थशास्त्रियों ने इसके आधार पर
+    तर्क दिया कि सामान्य अति-उत्पादन और दीर्घकालिक बेरोज़गारी की संभावना कम है, जिस मत को बाद में कीन्स ने अस्वीकार किया।
+  hi_rom: >-
+    Sahi uttar (B) hai: yah pratishthit aarthik vishleshan ka aadhaar hai. Say ka niyam kehta hai ki aapoorti apni
+    maang swayam paida karti hai, kyonki vastuon ke utpaadan se unhein khareedne ke liye aavashyak aay banti hai.
+    Pratishthit arthshaastriyon ne iske aadhaar par tark diya ki saamaanya ati-utpaadan aur deerghkaalik berozgaari
+    ki sambhaavna kam hai, jis mat ko baad mein Keynes ne asveekaar kiya.
+  hinglish: >-
+    Sahi answer (B) hai: ye Classical economic analysis ka basis hai. Say's Law kehta hai ki supply apni demand khud
+    create karti hai, kyunki goods ke production se unhe khareedne ke liye zaroori income banti hai. Classical
+    economists ne iske basis par argue kiya ki general overproduction aur long-term unemployment ke chances kam
+    hain, jis view ko baad mein Keynes ne reject kiya.
+
+- item_id: mmmlu-macro-0263
+  source_id: high_school_macroeconomics/263
+  reference_en: (D) The velocity of money is stable.
+  en: >-
+    The answer is (D): the velocity of money is stable. Monetarists use the equation of exchange, MV = PQ, and argue
+    that if velocity is stable and predictable, changes in the money supply mainly drive changes in nominal output
+    and prices. This is why they favour steady, rule-based growth of the money supply.
+  hi: >-
+    सही उत्तर (D) है: मुद्रा का वेग स्थिर रहता है। मुद्रावादी विनिमय समीकरण MV = PQ का उपयोग करते हैं और तर्क देते हैं कि
+    यदि वेग स्थिर और पूर्वानुमेय है, तो मुद्रा आपूर्ति में बदलाव ही मुख्य रूप से नाममात्र उत्पादन और कीमतों में बदलाव लाते
+    हैं। इसीलिए वे मुद्रा आपूर्ति की स्थिर, नियम-आधारित वृद्धि का समर्थन करते हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai: mudra ka veg sthir rehta hai. Mudraavaadi vinimay sameekaran MV = PQ ka upyog karte hain aur
+    tark dete hain ki yadi veg sthir aur poorvaanumeya hai, to mudra aapoorti mein badlaav hi mukhya roop se
+    naammaatra utpaadan aur keemton mein badlaav laate hain. Isiliye ve mudra aapoorti ki sthir, niyam-aadhaarit
+    vriddhi ka samarthan karte hain.
+  hinglish: >-
+    Sahi answer (D) hai: money ki velocity stable hai. Monetarists equation of exchange MV = PQ use karte hain aur
+    argue karte hain ki agar velocity stable aur predictable hai, toh money supply mein changes hi mainly nominal
+    output aur prices mein changes laate hain. Isliye woh money supply ki steady, rule-based growth ko support karte
+    hain.
+
+- item_id: mmmlu-macro-0371
+  source_id: high_school_macroeconomics/371
+  reference_en: (A) It is not backed by any precious commodity.
+  en: >-
+    The answer is (A): fiat money is not backed by any precious commodity. Its value comes from government decree,
+    legal-tender status and public trust, not from gold or silver. Most modern currencies, including the Indian rupee
+    and the US dollar, are fiat money.
+  hi: >-
+    सही उत्तर (A) है: आदेश मुद्रा के पीछे किसी बहुमूल्य वस्तु का आधार नहीं होता। इसका मूल्य सरकारी आदेश, विधिक मुद्रा के
+    दर्जे और जनता के भरोसे से आता है, सोने या चाँदी से नहीं। भारतीय रुपया और अमेरिकी डॉलर सहित अधिकांश आधुनिक मुद्राएँ
+    आदेश मुद्रा हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: aadesh mudra ke peechhe kisi bahumoolya vastu ka aadhaar nahi hota. Iska moolya sarkaari
+    aadesh, vidhik mudra ke darje aur janta ke bharose se aata hai, sone ya chaandi se nahi. Bhaarateeya rupaya aur
+    Ameriki dollar sahit adhikaansh aadhunik mudraayein aadesh mudra hain.
+  hinglish: >-
+    Sahi answer (A) hai: fiat money ke peeche kisi precious commodity ki backing nahi hoti. Iski value government
+    decree, legal tender status aur public trust se aati hai, gold ya silver se nahi. Indian rupee aur US dollar
+    samet zyada tar modern currencies fiat money hain.
+
+- item_id: mmmlu-macro-0384
+  source_id: high_school_macroeconomics/384
+  reference_en: (C) There is a capital account surplus.
+  en: >-
+    The answer is (C): there is a capital account surplus. In the balance of payments, the current account and the
+    capital and financial account must sum to zero, apart from statistical error. A current account deficit is
+    therefore matched by a net inflow of foreign capital, which is a capital account surplus.
+  hi: >-
+    सही उत्तर (C) है: पूँजी खाते में अधिशेष है। भुगतान संतुलन में चालू खाते और पूँजी तथा वित्तीय खाते का योग, सांख्यिकीय
+    त्रुटि को छोड़कर, शून्य होना चाहिए। इसलिए चालू खाते का घाटा विदेशी पूँजी के शुद्ध अंतर्वाह से संतुलित होता है, जो पूँजी
+    खाते का अधिशेष है।
+  hi_rom: >-
+    Sahi uttar (C) hai: poonji khaate mein adhishesh hai. Bhugtaan santulan mein chaalu khaate aur poonji tatha
+    vitteeya khaate ka yog, saankhyikeeya truti ko chhodkar, shoonya hona chahiye. Isliye chaalu khaate ka ghaata
+    videshi poonji ke shuddh antarvaah se santulit hota hai, jo poonji khaate ka adhishesh hai.
+  hinglish: >-
+    Sahi answer (C) hai: capital account surplus hai. Balance of payments mein current account aur capital and
+    financial account ka sum, statistical error ko chhodkar, zero hona chahiye. Isliye current account deficit
+    foreign capital ke net inflow se balance hota hai, jo capital account surplus hai.
+
+- item_id: mmmlu-psych-0002
+  source_id: high_school_psychology/2
+  reference_en: (D) Hierarchy of needs.
+  en: >-
+    The answer is (D), the hierarchy of needs. Maslow arranged human needs in levels, with physiological needs such
+    as food and water at the base, followed by safety, belonging, esteem and finally self-actualisation. Lower, more
+    basic needs generally have to be met before higher ones motivate behaviour.
+  hi: >-
+    सही उत्तर (D) है, आवश्यकताओं का पदानुक्रम। मैस्लो ने मानव आवश्यकताओं को स्तरों में व्यवस्थित किया, जिसमें भोजन और
+    पानी जैसी शारीरिक आवश्यकताएँ सबसे नीचे हैं, फिर सुरक्षा, अपनापन, सम्मान और अंत में आत्म-सिद्धि। आमतौर पर निचली, अधिक
+    बुनियादी आवश्यकताएँ पूरी होने के बाद ही ऊँची आवश्यकताएँ व्यवहार को प्रेरित करती हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai, aavashyaktaon ka padaanukram. Maslow ne maanav aavashyaktaon ko staron mein vyavasthit kiya,
+    jismein bhojan aur paani jaisi shaareerik aavashyaktaayein sabse neeche hain, phir suraksha, apnaapan, sammaan
+    aur ant mein aatm-siddhi. Aamtaur par nichli, adhik buniyaadi aavashyaktaayein poori hone ke baad hi oonchi
+    aavashyaktaayein vyavahaar ko prerit karti hain.
+  hinglish: >-
+    Sahi answer (D) hai, hierarchy of needs. Maslow ne human needs ko levels mein arrange kiya, jismein food aur water
+    jaisi physiological needs sabse neeche hain, phir safety, belonging, esteem aur last mein self-actualisation.
+    Usually lower, zyada basic needs poori hone ke baad hi higher needs behaviour ko motivate karti hain.
+
+- item_id: mmmlu-psych-0003
+  source_id: high_school_psychology/3
+  reference_en: (A) It measures what it purports to measure.
+  en: >-
+    The answer is (A): the degree to which a test measures what it claims to measure. A valid intelligence test, for
+    example, should actually reflect intelligence rather than reading speed or cultural knowledge. Consistency of
+    results across administrations is reliability, a different property.
+  hi: >-
+    सही उत्तर (A) है: वह सीमा जिस तक कोई परीक्षण वही मापता है जिसे मापने का दावा करता है। उदाहरण के लिए, एक वैध बुद्धि
+    परीक्षण को वास्तव में बुद्धि को दर्शाना चाहिए, न कि पढ़ने की गति या सांस्कृतिक जानकारी को। बार-बार देने पर परिणामों की
+    एकरूपता विश्वसनीयता कहलाती है, जो एक अलग गुण है।
+  hi_rom: >-
+    Sahi uttar (A) hai: vah seema jis tak koi pareekshan vahi maapta hai jise maapne ka daava karta hai. Udaaharan ke
+    liye, ek vaidh buddhi pareekshan ko vaastav mein buddhi ko darshaana chahiye, na ki padhne ki gati ya saanskritik
+    jaankaari ko. Baar-baar dene par parinaamon ki ekroopta vishvasaneeyata kehlaati hai, jo ek alag gun hai.
+  hinglish: >-
+    Sahi answer (A) hai: woh degree jis tak koi test wahi measure karta hai jo measure karne ka claim karta hai.
+    Example ke liye, ek valid intelligence test ko actually intelligence reflect karni chahiye, na ki reading speed
+    ya cultural knowledge. Baar-baar dene par results ki consistency reliability kehlaati hai, jo ek alag property
+    hai.
+
+- item_id: mmmlu-psych-0074
+  source_id: high_school_psychology/74
+  reference_en: (D) Telegraphic speech.
+  en: >-
+    The answer is (D), telegraphic speech. Around the age of two, children start combining two or more words while
+    leaving out small grammatical words, much like an old telegram, as in "Get cookie" or "Daddy go". Holophrases are
+    single words used to express a whole idea, and babbling and cooing come earlier.
+  hi: >-
+    सही उत्तर (D) है, तार-शैली की वाणी। लगभग दो वर्ष की उम्र में बच्चे दो या अधिक शब्दों को जोड़ने लगते हैं और छोटे
+    व्याकरणिक शब्द छोड़ देते हैं, ठीक पुराने तार संदेश की तरह, जैसे "Get cookie" या "Daddy go"। एकशब्दीय वाक्य ऐसे अकेले
+    शब्द हैं जो पूरे विचार को व्यक्त करते हैं, और बड़बड़ाना तथा कूजन इससे पहले आते हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai, taar-shaili ki vaani. Lagbhag do varsh ki umra mein bachche do ya adhik shabdon ko jodne lagte
+    hain aur chhote vyaakaranik shabd chhod dete hain, theek puraane taar sandesh ki tarah, jaise "Get cookie" ya
+    "Daddy go". Ekshabdiya vaakya aise akele shabd hain jo poore vichaar ko vyakt karte hain, aur badbadaana tatha
+    koojan isse pehle aate hain.
+  hinglish: >-
+    Sahi answer (D) hai, telegraphic speech. Lagbhag do saal ki age mein bachche do ya zyada words combine karne lagte
+    hain aur chhote grammatical words chhod dete hain, bilkul purane telegram ki tarah, jaise "Get cookie" ya "Daddy
+    go". Holophrases single words hain jo poora idea express karte hain, aur babbling aur cooing isse pehle aate hain.
+
+- item_id: mmmlu-psych-0193
+  source_id: high_school_psychology/193
+  reference_en: (C) Chemicals travel between neurons and influence whether the next neuron fires.
+  en: >-
+    The answer is (C). When a neuron fires, it releases chemical messengers called neurotransmitters into the
+    synapse, the tiny gap between cells. These chemicals bind to receptors on the next neuron and make it more or less
+    likely to fire; most neurons do not touch each other directly.
+  hi: >-
+    सही उत्तर (C) है। जब कोई तंत्रिका कोशिका सक्रिय होती है, तो वह अंतर्ग्रथन, यानी कोशिकाओं के बीच के छोटे अंतराल, में
+    तंत्रिकाप्रेषी नामक रासायनिक संदेशवाहक छोड़ती है। ये रसायन अगली तंत्रिका कोशिका के ग्राहियों से जुड़ते हैं और उसके
+    सक्रिय होने की संभावना को बढ़ाते या घटाते हैं; अधिकांश तंत्रिका कोशिकाएँ एक-दूसरे को सीधे नहीं छूतीं।
+  hi_rom: >-
+    Sahi uttar (C) hai. Jab koi tantrika koshika sakriya hoti hai, to vah antargrathan, yaani koshikaaon ke beech ke
+    chhote antaraal, mein tantrikaapreshi naamak raasaayanik sandeshvaahak chhodti hai. Ye rasaayan agli tantrika
+    koshika ke graahiyon se judte hain aur uske sakriya hone ki sambhaavna ko badhaate ya ghataate hain; adhikaansh
+    tantrika koshikaayein ek-doosre ko seedhe nahi chhootin.
+  hinglish: >-
+    Sahi answer (C) hai. Jab koi neuron fire karta hai, toh woh synapse, yaani cells ke beech ke chhote gap, mein
+    neurotransmitters naam ke chemical messengers release karta hai. Ye chemicals agle neuron ke receptors se bind
+    karte hain aur uske fire hone ke chances badhate ya ghatate hain; zyada tar neurons ek-doosre ko directly touch
+    nahi karte.
+
+- item_id: mmmlu-psych-0406
+  source_id: high_school_psychology/406
+  reference_en: (A) MRI.
+  en: >-
+    The answer is (A), an MRI scan. MRI produces detailed images of the brain's structure and can reveal injuries
+    such as bleeding, swelling or tissue damage. PET and fMRI show brain activity rather than structure, and an EEG
+    records electrical activity, not anatomy.
+  hi: >-
+    सही उत्तर (A) है, MRI स्कैन। MRI मस्तिष्क की संरचना की विस्तृत छवियाँ बनाता है और रक्तस्राव, सूजन या ऊतक क्षति जैसी
+    चोटें दिखा सकता है। PET और fMRI संरचना के बजाय मस्तिष्क की गतिविधि दिखाते हैं, और EEG विद्युत गतिविधि दर्ज करता है,
+    शारीरिक संरचना नहीं।
+  hi_rom: >-
+    Sahi uttar (A) hai, MRI scan. MRI mastishk ki sanrachna ki vistrit chhaviyaan banaata hai aur raktasraav, soojan
+    ya ootak kshati jaisi chotein dikha sakta hai. PET aur fMRI sanrachna ke bajaay mastishk ki gatividhi dikhaate
+    hain, aur EEG vidyut gatividhi darj karta hai, shaareerik sanrachna nahi.
+  hinglish: >-
+    Sahi answer (A) hai, MRI scan. MRI brain ke structure ki detailed images banata hai aur bleeding, swelling ya
+    tissue damage jaisi injuries dikha sakta hai. PET aur fMRI structure ke bajaye brain activity dikhate hain, aur
+    EEG electrical activity record karta hai, anatomy nahi.
+
+- item_id: mmmlu-logic-0000
+  source_id: logical_fallacies/0
+  reference_en: (A) It includes two or more alternatives.
+  en: >-
+    The answer is (A): a major premise that includes two or more alternatives. A disjunctive syllogism starts from
+    an "either...or" statement, such as "Either it is raining or the sprinklers are on." The minor premise rules out
+    one alternative, and the conclusion affirms the remaining one.
+  hi: >-
+    सही उत्तर (A) है: ऐसा मुख्य आधार-वाक्य जिसमें दो या अधिक विकल्प हों। वियोजक न्यायवाक्य "या तो...या" वाले कथन से
+    शुरू होता है, जैसे "या तो बारिश हो रही है या फव्वारे चल रहे हैं।" गौण आधार-वाक्य एक विकल्प को खारिज करता है, और
+    निष्कर्ष बचे हुए विकल्प की पुष्टि करता है।
+  hi_rom: >-
+    Sahi uttar (A) hai: aisa mukhya aadhaar-vaakya jismein do ya adhik vikalp hon. Viyojak nyaayavaakya "ya to...ya"
+    waale kathan se shuru hota hai, jaise "Ya to baarish ho rahi hai ya favvaare chal rahe hain." Gaun aadhaar-vaakya
+    ek vikalp ko khaarij karta hai, aur nishkarsh bache hue vikalp ki pushti karta hai.
+  hinglish: >-
+    Sahi answer (A) hai: ek major premise jismein do ya zyada alternatives hon. Disjunctive syllogism "either...or"
+    wale statement se start hota hai, jaise "Ya toh baarish ho rahi hai ya sprinklers on hain." Minor premise ek
+    alternative ko rule out karta hai, aur conclusion bache hue alternative ko affirm karta hai.
+
+- item_id: mmmlu-logic-0023
+  source_id: logical_fallacies/23
+  reference_en: (B) Arguing that what is true of the parts must be true of the whole.
+  en: >-
+    The answer is (B): arguing that what is true of the parts must be true of the whole. For example, "Every player on
+    this team is excellent, so the team must be excellent" ignores how the parts work together. The reverse error,
+    from whole to parts, is the fallacy of division.
+  hi: >-
+    सही उत्तर (B) है: यह तर्क देना कि जो अंशों के लिए सत्य है, वह पूरे के लिए भी सत्य होगा। उदाहरण के लिए, "इस टीम का हर
+    खिलाड़ी उत्कृष्ट है, इसलिए टीम भी उत्कृष्ट होगी" यह नज़रअंदाज़ करता है कि अंश एक साथ कैसे काम करते हैं। इसका उल्टा दोष,
+    पूरे से अंशों की ओर, विभाजन दोष कहलाता है।
+  hi_rom: >-
+    Sahi uttar (B) hai: yah tark dena ki jo anshon ke liye satya hai, vah poore ke liye bhi satya hoga. Udaaharan ke
+    liye, "Is team ka har khiladi utkrisht hai, isliye team bhi utkrisht hogi" yah nazarandaaz karta hai ki ansh ek
+    saath kaise kaam karte hain. Iska ulta dosh, poore se anshon ki or, vibhaajan dosh kehlaata hai.
+  hinglish: >-
+    Sahi answer (B) hai: ye argue karna ki jo parts ke liye true hai, woh whole ke liye bhi true hoga. Example ke
+    liye, "Is team ka har player excellent hai, isliye team bhi excellent hogi" ye ignore karta hai ki parts saath
+    mein kaise kaam karte hain. Iska reverse error, whole se parts ki taraf, fallacy of division kehlaata hai.
+
+- item_id: mmmlu-logic-0078
+  source_id: logical_fallacies/78
+  reference_en: (D) Getting agreement only by arousing the person's feelings about the subject.
+  en: >-
+    The answer is (D): trying to get someone to agree to a claim only by arousing their feelings about the subject.
+    Instead of offering evidence, the arguer relies on fear, pity, anger or pride to win agreement. Making an
+    opponent's argument look ridiculous is a different fallacy, ridicule.
+  hi: >-
+    सही उत्तर (D) है: किसी व्यक्ति को केवल विषय के बारे में उसकी भावनाएँ भड़काकर किसी दावे से सहमत कराने की कोशिश करना।
+    प्रमाण देने के बजाय तर्क देने वाला सहमति पाने के लिए डर, दया, क्रोध या गर्व का सहारा लेता है। विरोधी के तर्क को
+    हास्यास्पद दिखाना एक अलग दोष है, उपहास।
+  hi_rom: >-
+    Sahi uttar (D) hai: kisi vyakti ko keval vishay ke baare mein uski bhaavnaayein bhadkaakar kisi daave se sahmat
+    karaane ki koshish karna. Pramaan dene ke bajaay tark dene waala sahmati paane ke liye dar, daya, krodh ya garv ka
+    sahaara leta hai. Virodhi ke tark ko haasyaaspad dikhaana ek alag dosh hai, upahaas.
+  hinglish: >-
+    Sahi answer (D) hai: kisi person ko sirf subject ke baare mein uski feelings arouse karke kisi claim se agree
+    karwane ki koshish karna. Evidence dene ke bajaye arguer agreement paane ke liye fear, pity, anger ya pride ka
+    sahara leta hai. Opponent ke argument ko ridiculous dikhana ek alag fallacy hai, ridicule.
+
+- item_id: mmmlu-logic-0130
+  source_id: logical_fallacies/130
+  reference_en: (C) Appeal to pride.
+  en: >-
+    The answer is (C), appeal to pride. The arguer flatters you as reasonable and intelligent so that you will accept
+    the claim to protect that image, rather than because of any evidence. It is a form of appeal to emotion, not an
+    argument from authority.
+  hi: >-
+    सही उत्तर (C) है, गौरव-भावना का आह्वान। तर्क देने वाला आपको समझदार और बुद्धिमान बताकर आपकी चापलूसी करता है, ताकि आप
+    अपनी उस छवि को बचाने के लिए दावा मान लें, न कि किसी प्रमाण के कारण। यह भावनाओं के आह्वान का एक रूप है, प्राधिकार पर
+    आधारित तर्क नहीं।
+  hi_rom: >-
+    Sahi uttar (C) hai, gaurav-bhaavna ka aahvaan. Tark dene waala aapko samajhdaar aur buddhimaan bataakar aapki
+    chaaploosi karta hai, taaki aap apni us chhavi ko bachaane ke liye daava maan lein, na ki kisi pramaan ke kaaran.
+    Yah bhaavnaaon ke aahvaan ka ek roop hai, praadhikaar par aadhaarit tark nahi.
+  hinglish: >-
+    Sahi answer (C) hai, appeal to pride. Arguer aapko reasonable aur intelligent bolkar aapko flatter karta hai,
+    taaki aap apni us image ko bachane ke liye claim maan lein, na ki kisi evidence ki wajah se. Ye appeal to emotion
+    ka ek form hai, argument from authority nahi.
+
+- item_id: mmmlu-misc-0019
+  source_id: miscellaneous/19
+  reference_en: (A) Ireland.
+  en: >-
+    The answer is (A), Ireland. Leprechauns are small, mischievous fairy shoemakers from Irish folklore, often said to
+    hide a pot of gold at the end of the rainbow. They have become a popular symbol of Ireland, especially on St
+    Patrick's Day.
+  hi: >-
+    सही उत्तर (A) है, आयरलैंड। लेप्रेकॉन आयरिश लोककथाओं के छोटे, शरारती परी मोची हैं, जिनके बारे में अक्सर कहा जाता है कि
+    वे इंद्रधनुष के छोर पर सोने से भरा घड़ा छिपाते हैं। वे आयरलैंड का एक लोकप्रिय प्रतीक बन गए हैं, ख़ासकर संत पैट्रिक दिवस
+    पर।
+  hi_rom: >-
+    Sahi uttar (A) hai, Ireland. Leprechaun Irish lokkathaaon ke chhote, sharaarti pari mochi hain, jinke baare mein
+    aksar kaha jaata hai ki ve indradhanush ke chhor par sone se bhara ghada chhipaate hain. Ve Ireland ka ek
+    lokpriya prateek ban gaye hain, khaaskar Sant Patrick Divas par.
+  hinglish: >-
+    Sahi answer (A) hai, Ireland. Leprechauns Irish folklore ke chhote, naughty fairy shoemakers hain, jinke baare
+    mein often kaha jaata hai ki woh rainbow ke end par pot of gold chhupate hain. Woh Ireland ka ek popular symbol
+    ban gaye hain, especially St Patrick's Day par.
+
+- item_id: mmmlu-phil-0017
+  source_id: philosophy/17
+  reference_en: (D) Beyond sense experience to unchanging, rationally ordered Forms.
+  en: >-
+    The answer is (D): by appealing beyond sense experience to unchanging, rationally ordered Forms. In the Divided
+    Line, Plato places belief and opinion about the changing physical world below knowledge, which grasps the eternal
+    Forms through reason. Sense experience can give only opinion, not knowledge.
+  hi: >-
+    सही उत्तर (D) है: इंद्रिय-अनुभव से आगे जाकर अपरिवर्तनशील, बौद्धिक रूप से व्यवस्थित प्रत्ययों का सहारा लेकर। विभाजित
+    रेखा में प्लेटो परिवर्तनशील भौतिक जगत के बारे में विश्वास और मत को ज्ञान से नीचे रखते हैं, जो तर्क के द्वारा शाश्वत
+    प्रत्ययों को ग्रहण करता है। इंद्रिय-अनुभव केवल मत दे सकता है, ज्ञान नहीं।
+  hi_rom: >-
+    Sahi uttar (D) hai: indriya-anubhav se aage jaakar aparivartansheel, bauddhik roop se vyavasthit pratyayon ka
+    sahaara lekar. Vibhaajit rekha mein Plato parivartansheel bhautik jagat ke baare mein vishvaas aur mat ko gyaan se
+    neeche rakhte hain, jo tark ke dwara shaashvat pratyayon ko grahan karta hai. Indriya-anubhav keval mat de sakta
+    hai, gyaan nahi.
+  hinglish: >-
+    Sahi answer (D) hai: sense experience se aage jaakar unchanging, rationally ordered Forms ko appeal karke.
+    Divided Line mein Plato changing physical world ke baare mein belief aur opinion ko knowledge se neeche rakhte
+    hain, jo reason ke through eternal Forms ko grasp karta hai. Sense experience sirf opinion de sakta hai,
+    knowledge nahi.
+
+- item_id: mmmlu-phil-0225
+  source_id: philosophy/225
+  reference_en: (C) Representation.
+  en: >-
+    The answer is (C), representation. From Plato and Aristotle onward, art was traditionally understood as mimesis,
+    the imitation or representation of reality. This definition was widely challenged in the modern era, especially
+    by abstract art that represents nothing recognisable.
+  hi: >-
+    सही उत्तर (C) है, निरूपण। प्लेटो और अरस्तू के समय से कला को पारंपरिक रूप से अनुकरण, यानी यथार्थ की नकल या निरूपण, माना
+    जाता रहा। आधुनिक युग में इस परिभाषा को व्यापक चुनौती मिली, ख़ासकर अमूर्त कला से, जो किसी पहचानने योग्य वस्तु का चित्रण
+    नहीं करती।
+  hi_rom: >-
+    Sahi uttar (C) hai, niroopan. Plato aur Arastu ke samay se kala ko paaramparik roop se anukaran, yaani yathaarth
+    ki nakal ya niroopan, maana jaata raha. Aadhunik yug mein is paribhaasha ko vyaapak chunauti mili, khaaskar amoort
+    kala se, jo kisi pehchaanne yogya vastu ka chitran nahi karti.
+  hinglish: >-
+    Sahi answer (C) hai, representation. Plato aur Aristotle ke time se art ko traditionally mimesis, yaani reality
+    ki imitation ya representation, maana jaata raha. Modern era mein is definition ko widely challenge kiya gaya,
+    especially abstract art se, jo kisi recognisable cheez ko represent nahi karti.

@@ -1,0 +1,15 @@
+You are grading an answer to a question. Score each criterion from 1 to 5.
+
+Question: {question}
+{reference_block}
+Answer to grade:
+{answer}
+
+Criteria
+- correctness:      1 = wrong, 5 = fully correct
+- completeness:     1 = misses the main points, 5 = covers them fully
+- clarity:          1 = confusing, 5 = clear and well organised
+- language_quality: 1 = hard to read in its own language, 5 = fluent and natural
+
+Return only JSON: {"correctness": n, "completeness": n, "clarity": n,
+"language_quality": n, "comment": "one short sentence"}
