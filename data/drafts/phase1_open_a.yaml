@@ -1,0 +1,403 @@
+# Phase 1 drafts, MT-Bench open-ended batch A (15 items). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+# Open-ended items are not reference-guided (reference_guided: factual), so no reference_en.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mtb-stem-03
+  source_id: "46091167"
+  en: >-
+    Superposition is the principle that a quantum system can exist in a combination of several possible states at
+    once until it is measured. For example, an electron's spin can be in a superposition of "up" and "down", and
+    measurement gives one outcome with a certain probability. Entanglement builds on superposition: when two particles
+    are entangled, they share a single joint superposition, so their states cannot be described separately. Measuring
+    one particle then instantly determines the correlated result for the other, however far apart they are, although
+    this cannot be used to send information faster than light.
+  hi: >-
+    अध्यारोपण वह सिद्धांत है जिसके अनुसार कोई क्वांटम तंत्र मापे जाने तक एक साथ कई संभावित अवस्थाओं के संयोजन में रह सकता
+    है। उदाहरण के लिए, किसी इलेक्ट्रॉन का चक्रण "ऊपर" और "नीचे" के अध्यारोपण में हो सकता है, और मापने पर एक निश्चित
+    प्रायिकता के साथ कोई एक परिणाम मिलता है। उलझाव अध्यारोपण पर ही आधारित है: जब दो कण उलझे होते हैं, तो वे एक ही संयुक्त
+    अध्यारोपण साझा करते हैं, इसलिए उनकी अवस्थाओं का अलग-अलग वर्णन नहीं किया जा सकता। तब एक कण को मापने से दूसरे कण का
+    सहसंबद्ध परिणाम तुरंत तय हो जाता है, चाहे वे कितनी भी दूर हों, हालाँकि इसका उपयोग प्रकाश से तेज़ सूचना भेजने के लिए
+    नहीं किया जा सकता।
+  hi_rom: >-
+    Adhyaaropan vah siddhaant hai jiske anusaar koi quantum tantra maape jaane tak ek saath kai sambhaavit avasthaaon
+    ke sanyojan mein reh sakta hai. Udaaharan ke liye, kisi electron ka chakran "oopar" aur "neeche" ke adhyaaropan
+    mein ho sakta hai, aur maapne par ek nishchit praayikta ke saath koi ek parinaam milta hai. Uljhaav adhyaaropan par
+    hi aadhaarit hai: jab do kan uljhe hote hain, to ve ek hi sanyukt adhyaaropan saajha karte hain, isliye unki
+    avasthaaon ka alag-alag varnan nahi kiya ja sakta. Tab ek kan ko maapne se doosre kan ka sahsambaddh parinaam
+    turant tay ho jaata hai, chaahe ve kitni bhi door hon, haalaanki iska upyog prakaash se tez soochna bhejne ke liye
+    nahi kiya ja sakta.
+  hinglish: >-
+    Superposition woh principle hai jiske according koi quantum system measure hone tak ek saath kai possible states
+    ke combination mein reh sakta hai. Example ke liye, kisi electron ka spin "up" aur "down" ke superposition mein ho
+    sakta hai, aur measure karne par ek certain probability ke saath koi ek outcome milta hai. Entanglement
+    superposition par hi based hai: jab do particles entangled hote hain, toh woh ek hi joint superposition share karte
+    hain, isliye unke states ko alag-alag describe nahi kiya ja sakta. Phir ek particle ko measure karne se doosre
+    particle ka correlated result turant decide ho jaata hai, chaahe woh kitni bhi door hon, haalanki iska use light
+    se fast information bhejne ke liye nahi kiya ja sakta.
+
+- item_id: mtb-stem-04
+  source_id: "67710207"
+  en: >-
+    For a satellite in a circular orbit, gravity supplies the centripetal force, so GMm/r² = mv²/r, which gives
+    v = √(GM/r). The orbital speed is therefore inversely related to the square root of the radius: a satellite moving
+    more slowly in a circular orbit must be farther from Earth. So if the satellite's speed decreases and it remains in
+    a circular orbit, its orbital radius increases. Its period, T = 2πr/v, also increases, because the path becomes
+    longer while the speed drops; this matches Kepler's third law, T² ∝ r³.
+  hi: >-
+    वृत्ताकार कक्षा में उपग्रह के लिए गुरुत्व ही अभिकेंद्र बल प्रदान करता है, इसलिए GMm/r² = mv²/r, जिससे v = √(GM/r)
+    मिलता है। अतः कक्षीय वेग त्रिज्या के वर्गमूल के व्युत्क्रमानुपाती है: वृत्ताकार कक्षा में धीमे चलने वाले उपग्रह को
+    पृथ्वी से अधिक दूर होना चाहिए। इसलिए यदि उपग्रह का वेग घटता है और वह वृत्ताकार कक्षा में बना रहता है, तो उसकी कक्षीय
+    त्रिज्या बढ़ जाती है। उसका परिक्रमण काल, T = 2πr/v, भी बढ़ता है, क्योंकि पथ लंबा हो जाता है जबकि वेग घटता है; यह
+    केप्लर के तीसरे नियम, T² ∝ r³, से मेल खाता है।
+  hi_rom: >-
+    Vrittaakaar kaksha mein upgrah ke liye gurutva hi abhikendra bal pradaan karta hai, isliye GMm/r² = mv²/r, jisse
+    v = √(GM/r) milta hai. Atah kaksheeya veg trijya ke vargmool ke vyutkramaanupaati hai: vrittaakaar kaksha mein
+    dheeme chalne waale upgrah ko prithvi se adhik door hona chahiye. Isliye yadi upgrah ka veg ghatata hai aur vah
+    vrittaakaar kaksha mein bana rehta hai, to uski kaksheeya trijya badh jaati hai. Uska parikraman kaal, T = 2πr/v,
+    bhi badhta hai, kyonki path lamba ho jaata hai jabki veg ghatata hai; yah Kepler ke teesre niyam, T² ∝ r³, se mel
+    khaata hai.
+  hinglish: >-
+    Circular orbit mein satellite ke liye gravity hi centripetal force provide karti hai, isliye GMm/r² = mv²/r, jisse
+    v = √(GM/r) milta hai. Toh orbital speed radius ke square root ke inversely related hai: circular orbit mein slowly
+    move karne wale satellite ko Earth se zyada door hona chahiye. Isliye agar satellite ki speed decrease hoti hai aur
+    woh circular orbit mein rehta hai, toh uska orbital radius badh jaata hai. Uska period, T = 2πr/v, bhi badhta hai,
+    kyunki path lamba ho jaata hai jabki speed kam hoti hai; ye Kepler ke third law, T² ∝ r³, se match karta hai.
+
+- item_id: mtb-stem-05
+  source_id: "30694245"
+  en: >-
+    When solid calcium carbonate is added to hydrochloric acid, the acid reacts with the carbonate to produce calcium
+    chloride, water and carbon dioxide gas. The balanced equation is CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+    This is an acid–carbonate reaction, a type of double displacement in which the carbonic acid formed immediately
+    breaks down into water and carbon dioxide. Signs that the reaction is happening include fizzing or bubbling as CO₂
+    escapes, the solid gradually disappearing, and a slight warming of the mixture. Passing the gas through limewater
+    turns it milky, confirming carbon dioxide.
+  hi: >-
+    जब ठोस कैल्शियम कार्बोनेट को हाइड्रोक्लोरिक अम्ल में डाला जाता है, तो अम्ल कार्बोनेट से अभिक्रिया करके कैल्शियम
+    क्लोराइड, जल और कार्बन डाइऑक्साइड गैस बनाता है। संतुलित समीकरण है: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)।
+    यह अम्ल–कार्बोनेट अभिक्रिया है, जो एक प्रकार की द्विविस्थापन अभिक्रिया है, जिसमें बना कार्बोनिक अम्ल तुरंत जल और
+    कार्बन डाइऑक्साइड में टूट जाता है। अभिक्रिया होने के संकेतों में CO₂ निकलने से झाग या बुलबुले बनना, ठोस का धीरे-धीरे
+    गायब होना और मिश्रण का हल्का गर्म होना शामिल हैं। गैस को चूने के पानी से गुज़ारने पर वह दूधिया हो जाता है, जिससे कार्बन
+    डाइऑक्साइड की पुष्टि होती है।
+  hi_rom: >-
+    Jab thos calcium carbonate ko hydrochloric aml mein daala jaata hai, to aml carbonate se abhikriya karke calcium
+    chloride, jal aur carbon dioxide gas banaata hai. Santulit sameekaran hai: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l)
+    + CO₂(g). Yah aml–carbonate abhikriya hai, jo ek prakaar ki dvivisthaapan abhikriya hai, jismein bana carbonic aml
+    turant jal aur carbon dioxide mein toot jaata hai. Abhikriya hone ke sanketon mein CO₂ nikalne se jhaag ya bulbule
+    banna, thos ka dheere-dheere gaayab hona aur mishran ka halka garm hona shaamil hain. Gas ko choone ke paani se
+    guzaarne par vah doodhiya ho jaata hai, jisse carbon dioxide ki pushti hoti hai.
+  hinglish: >-
+    Jab solid calcium carbonate ko hydrochloric acid mein daala jaata hai, toh acid carbonate se react karke calcium
+    chloride, water aur carbon dioxide gas banata hai. Balanced equation hai: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) +
+    CO₂(g). Ye acid–carbonate reaction hai, jo ek type ka double displacement reaction hai, jismein bana carbonic acid
+    turant water aur carbon dioxide mein break ho jaata hai. Reaction hone ke signs mein CO₂ nikalne se fizzing ya
+    bubbles banna, solid ka dheere-dheere gayab hona aur mixture ka halka garam hona shaamil hain. Gas ko limewater se
+    pass karne par woh milky ho jaata hai, jisse carbon dioxide confirm hoti hai.
+
+- item_id: mtb-stem-06
+  source_id: "65106343"
+  en: >-
+    Exothermic reactions release energy to their surroundings, usually as heat, while endothermic reactions absorb
+    energy from their surroundings. The main criterion is the enthalpy change, ΔH: it is negative for exothermic
+    reactions because the products have less energy than the reactants, and positive for endothermic reactions. In
+    practice, an exothermic reaction makes its surroundings warmer, and an endothermic one makes them cooler. Burning
+    methane in a gas stove is exothermic, releasing heat for cooking. An instant cold pack is endothermic: when
+    ammonium nitrate dissolves in water inside the pack, it absorbs heat and the pack feels cold.
+  hi: >-
+    ऊष्माक्षेपी अभिक्रियाएँ अपने परिवेश को ऊर्जा, आमतौर पर ऊष्मा के रूप में, देती हैं, जबकि ऊष्माशोषी अभिक्रियाएँ अपने परिवेश
+    से ऊर्जा लेती हैं। मुख्य कसौटी एन्थैल्पी परिवर्तन, ΔH, है: ऊष्माक्षेपी अभिक्रियाओं में यह ऋणात्मक होता है क्योंकि उत्पादों
+    में अभिकारकों से कम ऊर्जा होती है, और ऊष्माशोषी अभिक्रियाओं में धनात्मक। व्यवहार में, ऊष्माक्षेपी अभिक्रिया अपने परिवेश को
+    गर्म करती है और ऊष्माशोषी अभिक्रिया उसे ठंडा करती है। गैस चूल्हे में मीथेन का जलना ऊष्माक्षेपी है, जो खाना पकाने के लिए
+    ऊष्मा देता है। तत्काल ठंडक देने वाला पैक ऊष्माशोषी है: जब पैक के अंदर अमोनियम नाइट्रेट पानी में घुलता है, तो वह ऊष्मा
+    सोखता है और पैक ठंडा लगता है।
+  hi_rom: >-
+    Ushmaakshepi abhikriyaayein apne parivesh ko urja, aamtaur par ushma ke roop mein, deti hain, jabki ushmaashoshi
+    abhikriyaayein apne parivesh se urja leti hain. Mukhya kasauti enthalpy parivartan, ΔH, hai: ushmaakshepi
+    abhikriyaaon mein yah rinaatmak hota hai kyonki utpaadon mein abhikaarakon se kam urja hoti hai, aur ushmaashoshi
+    abhikriyaaon mein dhanaatmak. Vyavahaar mein, ushmaakshepi abhikriya apne parivesh ko garm karti hai aur
+    ushmaashoshi abhikriya use thanda karti hai. Gas choolhe mein methane ka jalna ushmaakshepi hai, jo khaana pakaane
+    ke liye ushma deta hai. Tatkaal thandak dene waala pack ushmaashoshi hai: jab pack ke andar ammonium nitrate paani
+    mein ghulta hai, to vah ushma sokhta hai aur pack thanda lagta hai.
+  hinglish: >-
+    Exothermic reactions apne surroundings ko energy, usually heat ke form mein, release karti hain, jabki endothermic
+    reactions surroundings se energy absorb karti hain. Main criterion enthalpy change, ΔH, hai: exothermic reactions
+    mein ye negative hota hai kyunki products mein reactants se kam energy hoti hai, aur endothermic reactions mein
+    positive. Practically, exothermic reaction surroundings ko garam karti hai aur endothermic reaction unhe thanda
+    karti hai. Gas stove mein methane ka jalna exothermic hai, jo cooking ke liye heat deta hai. Instant cold pack
+    endothermic hai: jab pack ke andar ammonium nitrate water mein dissolve hota hai, toh woh heat absorb karta hai aur
+    pack thanda lagta hai.
+
+- item_id: mtb-stem-07
+  source_id: "24063625"
+  en: >-
+    Machine learning is a branch of artificial intelligence in which computers learn patterns from data instead of
+    following rules written by hand. In supervised learning, the model is trained on labelled examples, such as emails
+    marked "spam" or "not spam", and learns to predict the label for new data. In unsupervised learning, the data has
+    no labels, and the model finds structure on its own, for example grouping customers with similar shopping habits.
+    In reinforcement learning, an agent learns by trial and error, receiving rewards or penalties for its actions, as
+    when a program learns to play chess or a robot learns to walk.
+  hi: >-
+    मशीन लर्निंग कृत्रिम बुद्धिमत्ता की एक शाखा है, जिसमें कंप्यूटर हाथ से लिखे नियमों का पालन करने के बजाय आँकड़ों से प्रतिरूप
+    सीखते हैं। पर्यवेक्षित अधिगम में मॉडल को लेबल लगे उदाहरणों पर प्रशिक्षित किया जाता है, जैसे "स्पैम" या "स्पैम नहीं" के रूप
+    में चिह्नित ईमेल, और वह नए आँकड़ों के लिए लेबल का पूर्वानुमान लगाना सीखता है। अपर्यवेक्षित अधिगम में आँकड़ों पर कोई लेबल
+    नहीं होता, और मॉडल स्वयं संरचना ढूँढता है, जैसे मिलती-जुलती खरीदारी की आदतों वाले ग्राहकों के समूह बनाना। प्रबलन अधिगम
+    में एक एजेंट प्रयास और त्रुटि से सीखता है और अपने कार्यों के लिए पुरस्कार या दंड पाता है, जैसे कोई प्रोग्राम शतरंज खेलना
+    सीखता है या कोई रोबोट चलना सीखता है।
+  hi_rom: >-
+    Machine learning kritrim buddhimatta ki ek shaakha hai, jismein computer haath se likhe niyamon ka paalan karne ke
+    bajaay aankadon se pratiroop seekhte hain. Paryavekshit adhigam mein model ko label lage udaaharanon par
+    prashikshit kiya jaata hai, jaise "spam" ya "spam nahi" ke roop mein chihnit email, aur vah naye aankadon ke liye
+    label ka poorvaanumaan lagaana seekhta hai. Aparyavekshit adhigam mein aankadon par koi label nahi hota, aur model
+    swayam sanrachna dhoondhta hai, jaise milti-julti khareedaari ki aadaton waale graahakon ke samooh banaana. Prabalan
+    adhigam mein ek agent prayaas aur truti se seekhta hai aur apne kaaryon ke liye puraskaar ya dand paata hai, jaise
+    koi program shatranj khelna seekhta hai ya koi robot chalna seekhta hai.
+  hinglish: >-
+    Machine learning artificial intelligence ki ek branch hai, jismein computers hand-written rules follow karne ke
+    bajaye data se patterns seekhte hain. Supervised learning mein model ko labelled examples par train kiya jaata hai,
+    jaise "spam" ya "not spam" mark kiye gaye emails, aur woh new data ke liye label predict karna seekhta hai.
+    Unsupervised learning mein data par koi labels nahi hote, aur model khud structure dhoondhta hai, jaise similar
+    shopping habits wale customers ke groups banana. Reinforcement learning mein ek agent trial and error se seekhta hai
+    aur apne actions ke liye rewards ya penalties paata hai, jaise koi program chess khelna seekhta hai ya koi robot
+    chalna seekhta hai.
+
+- item_id: mtb-stem-08
+  source_id: "25568812"
+  en: >-
+    The Alps and the Rhine have shaped Western Europe in three main ways. First, the Alps acted as a natural barrier
+    that limited movement and concentrated settlement in valleys and lowlands, while their passes became important
+    trade routes. Second, the Rhine has served for centuries as a major transport corridor, so cities and industry grew
+    along its banks, from Basel to Cologne and Rotterdam. Third, both support agriculture: Alpine meltwater feeds rivers
+    that irrigate farmland, the Rhine valley's fertile soils and mild climate support vineyards and crops, and Alpine
+    slopes are used for dairy farming and seasonal grazing.
+  hi: >-
+    आल्प्स और राइन ने पश्चिमी यूरोप को तीन मुख्य तरीकों से प्रभावित किया है। पहला, आल्प्स एक प्राकृतिक बाधा बने, जिसने आवागमन
+    को सीमित किया और बस्तियों को घाटियों और निचले मैदानों में केंद्रित किया, जबकि उनके दर्रे महत्वपूर्ण व्यापार मार्ग बन गए।
+    दूसरा, राइन सदियों से एक प्रमुख परिवहन गलियारा रही है, इसलिए बासेल से कोलोन और रॉटरडैम तक उसके किनारों पर शहर और उद्योग
+    विकसित हुए। तीसरा, दोनों कृषि को सहारा देते हैं: आल्प्स की बर्फ़ पिघलने से नदियों को पानी मिलता है जो खेतों की सिंचाई करती
+    हैं, राइन घाटी की उपजाऊ मिट्टी और सौम्य जलवायु अंगूर के बागों और फ़सलों के लिए अनुकूल है, और आल्प्स की ढलानों का उपयोग
+    डेयरी पालन और मौसमी चराई के लिए होता है।
+  hi_rom: >-
+    Alps aur Rhine ne pashchimi Europe ko teen mukhya tareekon se prabhaavit kiya hai. Pehla, Alps ek praakritik baadha
+    bane, jisne aavaagaman ko seemit kiya aur bastiyon ko ghaatiyon aur nichle maidaanon mein kendrit kiya, jabki unke
+    darre mahatvapoorn vyaapaar maarg ban gaye. Doosra, Rhine sadiyon se ek pramukh parivahan galiyaara rahi hai,
+    isliye Basel se Cologne aur Rotterdam tak uske kinaaron par shahar aur udyog viksit hue. Teesra, dono krishi ko
+    sahaara dete hain: Alps ki barf pighalne se nadiyon ko paani milta hai jo kheton ki sinchaai karti hain, Rhine
+    ghaati ki upjaau mitti aur saumya jalvaayu angoor ke baagon aur faslon ke liye anukool hai, aur Alps ki dhalaanon
+    ka upyog dairy paalan aur mausami charaai ke liye hota hai.
+  hinglish: >-
+    Alps aur Rhine ne Western Europe ko teen main tareekon se shape kiya hai. Pehla, Alps ek natural barrier bane,
+    jisne movement ko limit kiya aur settlements ko valleys aur lowlands mein concentrate kiya, jabki unke passes
+    important trade routes ban gaye. Doosra, Rhine centuries se ek major transport corridor rahi hai, isliye Basel se
+    Cologne aur Rotterdam tak uske banks par cities aur industry develop hui. Teesra, dono agriculture ko support karte
+    hain: Alpine meltwater rivers ko feed karta hai jo farmland ko irrigate karti hain, Rhine valley ki fertile soil aur
+    mild climate vineyards aur crops ke liye suitable hai, aur Alpine slopes dairy farming aur seasonal grazing ke liye
+    use hote hain.
+
+- item_id: mtb-reason-02
+  source_id: "45070360"
+  en: >-
+    The White House is in Washington, D.C., at 1600 Pennsylvania Avenue; it is the official residence of the President
+    of the United States. The houses described in the question, a red house, a greenhouse and a heated pink place, are
+    just a playful description of nearby buildings and give no real clue. The question is a riddle that relies on the
+    name "White House" sounding like one more coloured house in the scene.
+  hi: >-
+    व्हाइट हाउस वॉशिंगटन, डी.सी. में 1600 पेंसिल्वेनिया एवेन्यू पर है; यह संयुक्त राज्य अमेरिका के राष्ट्रपति का आधिकारिक निवास
+    है। प्रश्न में बताए गए घर, एक लाल घर, एक ग्रीनहाउस और एक गर्म गुलाबी जगह, बस आसपास की इमारतों का मज़ेदार वर्णन हैं और कोई
+    वास्तविक संकेत नहीं देते। यह प्रश्न एक पहेली है, जो इस बात पर टिकी है कि "व्हाइट हाउस" नाम दृश्य में एक और रंगीन घर जैसा
+    लगता है।
+  hi_rom: >-
+    White House Washington, D.C. mein 1600 Pennsylvania Avenue par hai; yah Sanyukt Raajya America ke raashtrapati ka
+    aadhikaarik nivaas hai. Prashn mein bataaye gaye ghar, ek laal ghar, ek greenhouse aur ek garm gulaabi jagah, bas
+    aaspaas ki imaaraton ka mazedaar varnan hain aur koi vaastavik sanket nahi dete. Yah prashn ek paheli hai, jo is
+    baat par tiki hai ki "White House" naam drishya mein ek aur rangeen ghar jaisa lagta hai.
+  hinglish: >-
+    White House Washington, D.C. mein 1600 Pennsylvania Avenue par hai; ye United States ke President ka official
+    residence hai. Question mein bataye gaye houses, ek red house, ek greenhouse aur ek heated pink place, bas aas-paas
+    ki buildings ka playful description hain aur koi real clue nahi dete. Ye question ek riddle hai, jo is baat par
+    based hai ki "White House" naam scene mein ek aur coloured house jaisa lagta hai.
+
+- item_id: mtb-reason-03
+  source_id: "40319087"
+  en: >-
+    David has no brothers. Each of his three sisters has exactly one brother, and that brother is David himself. So the
+    family has four children, three girls and one boy, and David is the only boy.
+  hi: >-
+    डेविड का कोई भाई नहीं है। उसकी तीनों बहनों में से हर एक का ठीक एक भाई है, और वह भाई स्वयं डेविड है। इसलिए परिवार में चार
+    बच्चे हैं, तीन लड़कियाँ और एक लड़का, और डेविड अकेला लड़का है।
+  hi_rom: >-
+    David ka koi bhai nahi hai. Uski teenon behnon mein se har ek ka theek ek bhai hai, aur vah bhai swayam David hai.
+    Isliye parivaar mein chaar bachche hain, teen ladkiyaan aur ek ladka, aur David akela ladka hai.
+  hinglish: >-
+    David ka koi brother nahi hai. Uski teeno sisters mein se har ek ka exactly ek brother hai, aur woh brother khud
+    David hai. Isliye family mein chaar bachche hain, teen girls aur ek boy, aur David akela boy hai.
+
+- item_id: mtb-reason-04
+  source_id: "30350920"
+  en: >-
+    The third statement is true. From statement 1, oranges cost more than apples, and from statement 2, bananas cost
+    more than oranges. So the order of prices is apples < oranges < bananas. That means bananas cost more than apples
+    and bananas cost more than oranges, which are exactly the two parts of statement 3.
+  hi: >-
+    तीसरा कथन सत्य है। कथन 1 से संतरे सेब से महँगे हैं, और कथन 2 से केले संतरे से महँगे हैं। इसलिए कीमतों का क्रम है: सेब <
+    संतरा < केला। इसका अर्थ है कि केले सेब से महँगे हैं और केले संतरे से भी महँगे हैं, जो ठीक कथन 3 के दोनों भाग हैं।
+  hi_rom: >-
+    Teesra kathan satya hai. Kathan 1 se santare seb se mehange hain, aur kathan 2 se kele santare se mehange hain.
+    Isliye keemton ka kram hai: seb < santara < kela. Iska arth hai ki kele seb se mehange hain aur kele santare se bhi
+    mehange hain, jo theek kathan 3 ke dono bhaag hain.
+  hinglish: >-
+    Third statement true hai. Statement 1 se oranges apples se mehange hain, aur statement 2 se bananas oranges se
+    mehange hain. Isliye prices ka order hai: apples < oranges < bananas. Iska matlab hai ki bananas apples se mehange
+    hain aur bananas oranges se bhi mehange hain, jo exactly statement 3 ke dono parts hain.
+
+- item_id: mtb-reason-05
+  source_id: "90276646"
+  en: >-
+    A is the grandfather of C. A is B's father, and B is C's father, so A is the father of C's father. In other words,
+    A is C's paternal grandfather, and C is A's grandchild.
+  hi: >-
+    A, C के दादा हैं। A, B के पिता हैं और B, C के पिता हैं, इसलिए A, C के पिता के पिता हैं। दूसरे शब्दों में, A, C के दादा
+    (पिता की ओर से) हैं, और C, A का पोता या पोती है।
+  hi_rom: >-
+    A, C ke daada hain. A, B ke pita hain aur B, C ke pita hain, isliye A, C ke pita ke pita hain. Doosre shabdon mein,
+    A, C ke daada (pita ki or se) hain, aur C, A ka pota ya poti hai.
+  hinglish: >-
+    A, C ke grandfather hain. A, B ke father hain aur B, C ke father hain, isliye A, C ke father ke father hain. In
+    other words, A, C ke paternal grandfather hain, aur C, A ka grandchild hai.
+
+- item_id: mtb-reason-06
+  source_id: "32663300"
+  en: >-
+    The word that does not belong is "car". Tyre, steering wheel and engine are all parts of a car, while "car" is the
+    whole vehicle that contains them. The odd one out is therefore the whole rather than one of its components.
+  hi: >-
+    जो शब्द मेल नहीं खाता, वह "कार" है। टायर, स्टीयरिंग व्हील और इंजन सभी कार के हिस्से हैं, जबकि "कार" वह पूरा वाहन है जिसमें
+    ये सब होते हैं। इसलिए अलग शब्द उसके किसी हिस्से के बजाय पूरा वाहन है।
+  hi_rom: >-
+    Jo shabd mel nahi khaata, vah "car" hai. Tyre, steering wheel aur engine sabhi car ke hisse hain, jabki "car" vah
+    poora vaahan hai jismein ye sab hote hain. Isliye alag shabd uske kisi hisse ke bajaay poora vaahan hai.
+  hinglish: >-
+    Jo word belong nahi karta, woh "car" hai. Tyre, steering wheel aur engine sab car ke parts hain, jabki "car" woh
+    poora vehicle hai jismein ye sab hote hain. Isliye odd one out uska koi component nahi, balki poora vehicle hai.
+
+- item_id: mtb-reason-07
+  source_id: "28957987"
+  en: >-
+    The shadow was pointing west. In the morning the Sun rises in the east, so shadows fall towards the west. Since the
+    shadow fell exactly to Suresh's right, west was on his right. A person with west on their right is facing south, so
+    Suresh was facing south and the shadow pointed west.
+  hi: >-
+    छाया पश्चिम दिशा की ओर थी। सुबह सूर्य पूर्व में उगता है, इसलिए परछाइयाँ पश्चिम की ओर पड़ती हैं। चूँकि छाया ठीक सुरेश के दाईं
+    ओर पड़ी, इसलिए पश्चिम उसके दाईं ओर था। जिस व्यक्ति के दाईं ओर पश्चिम हो, उसका मुँह दक्षिण की ओर होता है, इसलिए सुरेश दक्षिण
+    की ओर देख रहा था और छाया पश्चिम की ओर थी।
+  hi_rom: >-
+    Chhaaya pashchim disha ki or thi. Subah surya poorv mein ugta hai, isliye parchhaaiyaan pashchim ki or padti hain.
+    Choonki chhaaya theek Suresh ke daayin or padi, isliye pashchim uske daayin or tha. Jis vyakti ke daayin or pashchim
+    ho, uska munh dakshin ki or hota hai, isliye Suresh dakshin ki or dekh raha tha aur chhaaya pashchim ki or thi.
+  hinglish: >-
+    Shadow west ki taraf point kar rahi thi. Morning mein Sun east mein rise hota hai, isliye shadows west ki taraf
+    padti hain. Kyunki shadow exactly Suresh ke right side par padi, isliye west uske right par tha. Jis person ke right
+    par west ho, woh south face kar raha hota hai, isliye Suresh south face kar raha tha aur shadow west ki taraf thi.
+
+- item_id: mtb-hum-03
+  source_id: "47292991"
+  en: >-
+    GDP, inflation and unemployment are closely linked. When GDP grows quickly, firms hire more workers, so
+    unemployment tends to fall; this inverse link is known as Okun's law. Strong demand can also push prices up, so fast
+    growth and low unemployment are often accompanied by higher inflation, a short-run trade-off described by the
+    Phillips curve. Fiscal policy, meaning government spending and taxes, can raise GDP and cut unemployment by boosting
+    demand, but may add to inflation. Monetary policy works through interest rates: a central bank raises rates to cool
+    inflation, which slows growth, and cuts them to support growth and jobs.
+  hi: >-
+    सकल घरेलू उत्पाद, मुद्रास्फीति और बेरोज़गारी आपस में गहराई से जुड़े हैं। जब सकल घरेलू उत्पाद तेज़ी से बढ़ता है, तो कंपनियाँ
+    अधिक कर्मचारियों को काम पर रखती हैं, इसलिए बेरोज़गारी घटने लगती है; इस विपरीत संबंध को ओकुन का नियम कहा जाता है। तेज़ माँग
+    कीमतों को भी ऊपर धकेल सकती है, इसलिए तेज़ वृद्धि और कम बेरोज़गारी के साथ अक्सर अधिक मुद्रास्फीति आती है, यह अल्पकालिक
+    विपरीत संबंध फ़िलिप्स वक्र द्वारा दर्शाया जाता है। राजकोषीय नीति, यानी सरकारी व्यय और कर, माँग बढ़ाकर सकल घरेलू उत्पाद बढ़ा
+    सकती है और बेरोज़गारी घटा सकती है, लेकिन इससे मुद्रास्फीति बढ़ सकती है। मौद्रिक नीति ब्याज दरों के माध्यम से काम करती है:
+    केंद्रीय बैंक मुद्रास्फीति को ठंडा करने के लिए दरें बढ़ाता है, जिससे वृद्धि धीमी होती है, और वृद्धि तथा रोज़गार को सहारा देने
+    के लिए दरें घटाता है।
+  hi_rom: >-
+    Sakal gharelu utpaad, mudraasphiti aur berozgaari aapas mein gehraai se jude hain. Jab sakal gharelu utpaad tezi se
+    badhta hai, to companiyaan adhik karmachaariyon ko kaam par rakhti hain, isliye berozgaari ghatne lagti hai; is
+    vipreet sambandh ko Okun ka niyam kaha jaata hai. Tez maang keemton ko bhi oopar dhakel sakti hai, isliye tez
+    vriddhi aur kam berozgaari ke saath aksar adhik mudraasphiti aati hai, yah alpkaalik vipreet sambandh Phillips
+    vakra dwara darshaaya jaata hai. Raajkoshiya neeti, yaani sarkaari vyay aur kar, maang badhaakar sakal gharelu
+    utpaad badha sakti hai aur berozgaari ghata sakti hai, lekin isse mudraasphiti badh sakti hai. Maudrik neeti byaaj
+    daron ke maadhyam se kaam karti hai: kendriya bank mudraasphiti ko thanda karne ke liye darein badhaata hai, jisse
+    vriddhi dheemi hoti hai, aur vriddhi tatha rozgaar ko sahaara dene ke liye darein ghataata hai.
+  hinglish: >-
+    GDP, inflation aur unemployment aapas mein closely linked hain. Jab GDP fast grow karta hai, toh firms zyada workers
+    hire karti hain, isliye unemployment kam hone lagti hai; is inverse link ko Okun's law kehte hain. Strong demand
+    prices ko bhi upar push kar sakti hai, isliye fast growth aur low unemployment ke saath often higher inflation aata
+    hai, ye short-run trade-off Phillips curve se describe hota hai. Fiscal policy, yaani government spending aur taxes,
+    demand boost karke GDP badha sakti hai aur unemployment kam kar sakti hai, lekin isse inflation badh sakta hai.
+    Monetary policy interest rates ke through kaam karti hai: central bank inflation ko cool karne ke liye rates badhata
+    hai, jisse growth slow hoti hai, aur growth aur jobs ko support karne ke liye rates kam karta hai.
+
+- item_id: mtb-hum-04
+  source_id: "68280443"
+  en: >-
+    Each stage of life changes how we experience time and how we think about death. In childhood, time feels slow and
+    the future seems endless, so mortality is distant or barely understood. In youth and early adulthood, people focus
+    on building careers and relationships, and time begins to feel like a resource to manage. In middle age, many
+    become aware that more of life lies behind them than ahead, which can prompt reflection about priorities and
+    legacy. In old age, time often seems to pass quickly, and accepting mortality can bring both grief and a stronger
+    sense of what truly matters.
+  hi: >-
+    जीवन का हर चरण यह बदल देता है कि हम समय को कैसे अनुभव करते हैं और मृत्यु के बारे में कैसे सोचते हैं। बचपन में समय धीरे
+    बीतता लगता है और भविष्य अनंत लगता है, इसलिए मृत्यु दूर की बात होती है या मुश्किल से समझ में आती है। युवावस्था और आरंभिक
+    वयस्कता में लोग करियर और रिश्ते बनाने पर ध्यान देते हैं, और समय एक ऐसा संसाधन लगने लगता है जिसे सँभालना है। मध्य आयु में
+    कई लोगों को एहसास होता है कि जीवन का अधिक भाग पीछे छूट गया है, आगे कम बचा है, जिससे प्राथमिकताओं और विरासत पर चिंतन शुरू
+    हो सकता है। वृद्धावस्था में समय अक्सर तेज़ी से बीतता लगता है, और मृत्यु को स्वीकार करना दुःख के साथ-साथ यह गहरी समझ भी ला
+    सकता है कि वास्तव में क्या महत्वपूर्ण है।
+  hi_rom: >-
+    Jeevan ka har charan yah badal deta hai ki hum samay ko kaise anubhav karte hain aur mrityu ke baare mein kaise
+    sochte hain. Bachpan mein samay dheere beetta lagta hai aur bhavishya anant lagta hai, isliye mrityu door ki baat
+    hoti hai ya mushkil se samajh mein aati hai. Yuvaavastha aur aarambhik vayaskata mein log career aur rishte banaane
+    par dhyaan dete hain, aur samay ek aisa sansaadhan lagne lagta hai jise sambhaalna hai. Madhya aayu mein kai logon
+    ko ehsaas hota hai ki jeevan ka adhik bhaag peechhe chhoot gaya hai, aage kam bacha hai, jisse praathmiktaaon aur
+    viraasat par chintan shuru ho sakta hai. Vriddhaavastha mein samay aksar tezi se beetta lagta hai, aur mrityu ko
+    sveekaar karna dukh ke saath-saath yah gehri samajh bhi la sakta hai ki vaastav mein kya mahatvapoorn hai.
+  hinglish: >-
+    Life ka har stage ye change kar deta hai ki hum time ko kaise experience karte hain aur death ke baare mein kaise
+    sochte hain. Childhood mein time slow lagta hai aur future endless lagta hai, isliye mortality door ki baat hoti hai
+    ya mushkil se samajh aati hai. Youth aur early adulthood mein log career aur relationships banane par focus karte
+    hain, aur time ek resource lagne lagta hai jise manage karna hai. Middle age mein kai logon ko realise hota hai ki
+    life ka zyada part peeche chhoot gaya hai, aage kam bacha hai, jisse priorities aur legacy par reflection shuru ho
+    sakta hai. Old age mein time often tezi se beetta lagta hai, aur mortality ko accept karna grief ke saath-saath ye
+    strong sense bhi la sakta hai ki actually kya matter karta hai.
+
+- item_id: mtb-hum-05
+  source_id: "30655190"
+  en: >-
+    Five key principles help in evaluating an argument. First, identify the claim: be clear about exactly what the
+    author wants you to accept. Second, examine the evidence: check whether it is relevant, reliable and sufficient to
+    support the claim. Third, test the reasoning: look for logical gaps or fallacies, such as confusing correlation with
+    causation. Fourth, uncover assumptions: ask what unstated beliefs the argument depends on and whether they hold.
+    Fifth, consider alternatives: think about counterarguments or other explanations the author has ignored, and judge
+    whether the argument still stands.
+  hi: >-
+    किसी तर्क का मूल्यांकन करने में पाँच मुख्य सिद्धांत मदद करते हैं। पहला, दावे को पहचानें: स्पष्ट हों कि लेखक आपसे ठीक-ठीक
+    क्या स्वीकार करवाना चाहता है। दूसरा, प्रमाण की जाँच करें: देखें कि वह दावे का समर्थन करने के लिए प्रासंगिक, विश्वसनीय और
+    पर्याप्त है या नहीं। तीसरा, तर्क-प्रक्रिया को परखें: तार्किक कमियों या दोषों को खोजें, जैसे सहसंबंध को कारण समझ लेना। चौथा,
+    पूर्वधारणाओं को उजागर करें: पूछें कि तर्क किन अनकही मान्यताओं पर टिका है और क्या वे सही हैं। पाँचवाँ, विकल्पों पर विचार
+    करें: उन प्रतितर्कों या अन्य व्याख्याओं के बारे में सोचें जिन्हें लेखक ने नज़रअंदाज़ किया है, और तय करें कि क्या तर्क फिर भी
+    टिकता है।
+  hi_rom: >-
+    Kisi tark ka moolyaankan karne mein paanch mukhya siddhaant madad karte hain. Pehla, daave ko pehchaanein: spasht
+    hon ki lekhak aapse theek-theek kya sveekaar karvaana chahta hai. Doosra, pramaan ki jaanch karein: dekhein ki vah
+    daave ka samarthan karne ke liye praasangik, vishvasaneeya aur paryaapt hai ya nahi. Teesra, tark-prakriya ko
+    parkhein: taarkik kamiyon ya doshon ko khojein, jaise sahsambandh ko kaaran samajh lena. Chautha, poorvadhaaranaaon
+    ko ujaagar karein: poochhein ki tark kin ankahi maanyataaon par tika hai aur kya ve sahi hain. Paanchvaan, vikalpon
+    par vichaar karein: un pratitarkon ya anya vyaakhyaaon ke baare mein sochein jinhein lekhak ne nazarandaaz kiya
+    hai, aur tay karein ki kya tark phir bhi tikta hai.
+  hinglish: >-
+    Kisi argument ko evaluate karne mein paanch key principles help karte hain. Pehla, claim identify karein: clear hon
+    ki author aapse exactly kya accept karwana chahta hai. Doosra, evidence examine karein: dekhein ki woh claim ko
+    support karne ke liye relevant, reliable aur sufficient hai ya nahi. Teesra, reasoning test karein: logical gaps ya
+    fallacies dhoondhein, jaise correlation ko causation samajh lena. Chautha, assumptions uncover karein: poochhein ki
+    argument kin unstated beliefs par depend karta hai aur kya woh sahi hain. Paanchvaan, alternatives consider karein:
+    un counterarguments ya doosri explanations ke baare mein sochein jinhe author ne ignore kiya hai, aur judge karein
+    ki kya argument phir bhi tikta hai.

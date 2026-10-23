@@ -1,0 +1,496 @@
+# Phase 0 pilot drafts: 20 items x 4 forms. Drafted by claude-opus-5-5 on 2026-10-23.
+# NOT VERIFIED. Every hi / hi_rom / hinglish text must be checked by a Hindi-fluent person
+# (python -m lb.qc export) before any item enters analysis.
+# MMMLU question stems and options are pulled from data/sources/mmmlu_candidates.jsonl by source_id.
+# Build: python scripts/build_pilot.py
+
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+# ---------------- MMMLU factual, STEM ----------------
+
+- item_id: mmmlu-astro-0136
+  source_id: astronomy/136
+  reference_en: (C) About 250 years; Pluto's orbital period is about 248 Earth years.
+  en: >-
+    The answer is (C), about 250 years. Pluto takes roughly 248 Earth years to complete one orbit
+    around the Sun, because it orbits at an average distance of about 39.5 AU, far beyond Neptune.
+  hi: >-
+    सही उत्तर (C) है, लगभग 250 वर्ष। प्लूटो को सूर्य की एक परिक्रमा पूरी करने में लगभग 248 पृथ्वी
+    वर्ष लगते हैं, क्योंकि यह सूर्य से औसतन लगभग 39.5 AU की दूरी पर, नेपच्यून से बहुत आगे, परिक्रमा
+    करता है।
+  hi_rom: >-
+    Sahi uttar (C) hai, lagbhag 250 varsh. Pluto ko Surya ki ek parikrama poori karne mein lagbhag
+    248 prithvi varsh lagte hain, kyonki yah Surya se ausatan lagbhag 39.5 AU ki doori par, Neptune
+    se bahut aage, parikrama karta hai.
+  hinglish: >-
+    Sahi answer (C) hai, around 250 years. Pluto ko Sun ka ek orbit complete karne mein lagbhag 248
+    Earth years lagte hain, kyunki ye Sun se average 39.5 AU ki distance par, Neptune se kaafi aage,
+    orbit karta hai.
+
+- item_id: mmmlu-astro-0067
+  source_id: astronomy/67
+  reference_en: (B) Seven; the Pleiades are known as the Seven Sisters.
+  en: >-
+    The answer is (B), seven. The Pleiades are famous for seven bright stars, which is why the
+    cluster is widely known as the Seven Sisters. In reality the cluster contains hundreds of stars,
+    but only a handful are easily seen with the naked eye.
+  hi: >-
+    सही उत्तर (B) है, सात। प्लीएडीज़ सात चमकीले तारों के लिए प्रसिद्ध है, इसीलिए इस तारागुच्छ को
+    आमतौर पर 'सात बहनें' कहा जाता है। वास्तव में इस गुच्छ में सैकड़ों तारे हैं, लेकिन नंगी आँखों से
+    केवल कुछ ही आसानी से दिखाई देते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai, saat. Pleiades saat chamkeele taaron ke liye prasiddh hai, isiliye is
+    taaraguchchh ko aamtaur par 'saat behnen' kaha jaata hai. Vaastav mein is guchchh mein saikdon
+    taare hain, lekin nangi aankhon se keval kuch hi aasaani se dikhai dete hain.
+  hinglish: >-
+    Sahi answer (B) hai, seven. Pleiades apne seven bright stars ke liye famous hai, isliye is
+    cluster ko commonly 'Seven Sisters' kaha jaata hai. Actually is cluster mein hundreds of stars
+    hain, lekin naked eye se sirf kuch hi easily dikhte hain.
+
+- item_id: mmmlu-hsbio-0123
+  source_id: high_school_biology/123
+  reference_en: (D) 25%; both carriers pass the recessive allele with probability 1/2 x 1/2.
+  en: >-
+    The answer is (D), 25%. Sickle-cell disease is autosomal recessive, so each carrier parent has
+    one normal and one sickle-cell allele. The child develops the disease only by inheriting the
+    sickle-cell allele from both parents, which has a probability of 1/2 × 1/2 = 1/4.
+  hi: >-
+    सही उत्तर (D) है, 25%। सिकल-सेल रोग एक ऑटोसोमल अप्रभावी रोग है, इसलिए वाहक माता-पिता में से
+    प्रत्येक के पास एक सामान्य और एक सिकल-सेल एलील होता है। बच्चे को यह रोग तभी होता है जब उसे
+    दोनों माता-पिता से सिकल-सेल एलील मिले, जिसकी प्रायिकता 1/2 × 1/2 = 1/4 है।
+  hi_rom: >-
+    Sahi uttar (D) hai, 25%. Sickle-cell rog ek autosomal aprabhaavi rog hai, isliye vaahak
+    maata-pita mein se pratyek ke paas ek saamaanya aur ek sickle-cell allele hota hai. Bachche ko
+    yah rog tabhi hota hai jab use dono maata-pita se sickle-cell allele mile, jiski praayikta
+    1/2 × 1/2 = 1/4 hai.
+  hinglish: >-
+    Sahi answer (D) hai, 25%. Sickle-cell disease autosomal recessive hai, toh dono carrier parents
+    ke paas ek normal aur ek sickle-cell allele hota hai. Bachche ko disease tabhi hogi jab use dono
+    parents se sickle-cell allele mile, jiski probability 1/2 × 1/2 = 1/4 hai.
+
+- item_id: mmmlu-hsbio-0293
+  source_id: high_school_biology/293
+  reference_en: (D) Gastrulation forms the ectoderm, mesoderm and endoderm.
+  en: >-
+    The answer is (D), gastrulation. During gastrulation, cells of the blastula move inward and
+    rearrange to form the three primary germ layers: ectoderm, mesoderm and endoderm. Cleavage and
+    blastula formation come earlier, and neurulation happens after the germ layers already exist.
+  hi: >-
+    सही उत्तर (D) है, गैस्ट्रुलेशन। गैस्ट्रुलेशन के दौरान ब्लास्टुला की कोशिकाएँ अंदर की ओर जाती हैं
+    और पुनर्व्यवस्थित होकर तीन प्राथमिक भ्रूणीय परतें बनाती हैं: एक्टोडर्म, मीसोडर्म और एंडोडर्म।
+    विदलन और ब्लास्टुला का बनना इससे पहले होता है, और न्यूरुलेशन इन परतों के बनने के बाद होता है।
+  hi_rom: >-
+    Sahi uttar (D) hai, gastrulation. Gastrulation ke dauraan blastula ki koshikaayein andar ki or
+    jaati hain aur punarvyavasthit hokar teen praathmik bhrooniya partein banaati hain: ectoderm,
+    mesoderm aur endoderm. Vidalan aur blastula ka banna isse pehle hota hai, aur neurulation in
+    parton ke banne ke baad hota hai.
+  hinglish: >-
+    Sahi answer (D) hai, gastrulation. Gastrulation ke time blastula ke cells andar move karte hain
+    aur rearrange hokar teen primary germ layers banate hain: ectoderm, mesoderm aur endoderm.
+    Cleavage aur blastula formation isse pehle hote hain, aur neurulation germ layers banne ke baad
+    hota hai.
+
+- item_id: mmmlu-hschem-0005
+  source_id: high_school_chemistry/5
+  reference_en: (C) 0.50 atm; nitrogen is 1.0 of 4.0 total moles, so 0.25 x 2.0 atm.
+  en: >-
+    The answer is (C), 0.50 atm. The container holds 1.0 mol of nitrogen (28.0 g ÷ 28 g/mol), 1.0 mol
+    of argon (40.0 g ÷ 40 g/mol) and 2.0 mol of water vapor (36.0 g ÷ 18 g/mol), so nitrogen's mole
+    fraction is 1.0/4.0 = 0.25. Its partial pressure is 0.25 × 2.0 atm = 0.50 atm.
+  hi: >-
+    सही उत्तर (C) है, 0.50 atm। पात्र में 1.0 मोल नाइट्रोजन (28.0 g ÷ 28 g/mol), 1.0 मोल आर्गन
+    (40.0 g ÷ 40 g/mol) और 2.0 मोल जलवाष्प (36.0 g ÷ 18 g/mol) है, इसलिए नाइट्रोजन का मोल अंश
+    1.0/4.0 = 0.25 है। इसका आंशिक दाब 0.25 × 2.0 atm = 0.50 atm है।
+  hi_rom: >-
+    Sahi uttar (C) hai, 0.50 atm. Paatra mein 1.0 mol nitrogen (28.0 g ÷ 28 g/mol), 1.0 mol argon
+    (40.0 g ÷ 40 g/mol) aur 2.0 mol jalvaashp (36.0 g ÷ 18 g/mol) hai, isliye nitrogen ka mol ansh
+    1.0/4.0 = 0.25 hai. Iska aanshik daab 0.25 × 2.0 atm = 0.50 atm hai.
+  hinglish: >-
+    Sahi answer (C) hai, 0.50 atm. Container mein 1.0 mole nitrogen (28.0 g ÷ 28 g/mol), 1.0 mole
+    argon (40.0 g ÷ 40 g/mol) aur 2.0 mole water vapor (36.0 g ÷ 18 g/mol) hai, toh nitrogen ka mole
+    fraction 1.0/4.0 = 0.25 hai. Iska partial pressure 0.25 × 2.0 atm = 0.50 atm hai.
+
+- item_id: mmmlu-anat-0066
+  source_id: anatomy/66
+  reference_en: (D) On the anterior side of the neck, beside the trachea.
+  en: >-
+    The answer is (D), on the anterior side of the neck. The carotid pulse is felt in the front of
+    the neck, just beside the trachea and below the angle of the jaw, where the common carotid artery
+    runs. The other options describe the temporal, brachial and femoral pulse sites.
+  hi: >-
+    सही उत्तर (D) है, गर्दन के अग्र भाग पर। कैरोटिड नाड़ी गर्दन के सामने, श्वासनली के ठीक बगल में और
+    जबड़े के कोण के नीचे महसूस होती है, जहाँ से सामान्य कैरोटिड धमनी गुज़रती है। बाकी विकल्प
+    टेम्पोरल, ब्रेकियल और फ़ीमोरल नाड़ी के स्थानों का वर्णन करते हैं।
+  hi_rom: >-
+    Sahi uttar (D) hai, gardan ke agra bhaag par. Carotid naadi gardan ke saamne, shvaasnali ke theek
+    bagal mein aur jabde ke kon ke neeche mehsoos hoti hai, jahaan se saamaanya carotid dhamani
+    guzarti hai. Baaki vikalp temporal, brachial aur femoral naadi ke sthaanon ka varnan karte hain.
+  hinglish: >-
+    Sahi answer (D) hai, neck ke front side par. Carotid pulse neck ke front mein, windpipe ke
+    bilkul side mein aur jaw ke angle ke neeche feel hoti hai, jahan se common carotid artery
+    guzarti hai. Baaki options temporal, brachial aur femoral pulse ki locations describe karte hain.
+
+- item_id: mmmlu-compsec-0002
+  source_id: computer_security/2
+  reference_en: (C) The server compares the ticket's expiration time with its own clock.
+  en: >-
+    The answer is (C). A Kerberos ticket carries its own expiration time, so when a client presents
+    it, the server checks that time against its own clock and refuses authentication if the ticket
+    has expired. The server does not need to contact the KDC, which is why Kerberos requires clocks
+    to be roughly synchronized.
+  hi: >-
+    सही उत्तर (C) है। हर केर्बेरोस टिकट में उसकी समाप्ति का समय दर्ज होता है, इसलिए जब क्लाइंट टिकट
+    प्रस्तुत करता है, तो सर्वर उस समय की तुलना अपनी घड़ी से करता है और टिकट की अवधि समाप्त हो चुकी
+    हो तो प्रमाणीकरण से मना कर देता है। सर्वर को KDC से संपर्क करने की ज़रूरत नहीं होती, इसीलिए
+    केर्बेरोस में घड़ियों का लगभग समकालिक होना आवश्यक है।
+  hi_rom: >-
+    Sahi uttar (C) hai. Har Kerberos ticket mein uski samaapti ka samay darj hota hai, isliye jab
+    client ticket prastut karta hai, to server us samay ki tulna apni ghadi se karta hai aur ticket
+    ki avadhi samaapt ho chuki ho to pramaaneekaran se mana kar deta hai. Server ko KDC se sampark
+    karne ki zaroorat nahi hoti, isiliye Kerberos mein ghadiyon ka lagbhag samkaalik hona aavashyak
+    hai.
+  hinglish: >-
+    Sahi answer (C) hai. Har Kerberos ticket mein uska expiration time hota hai, toh jab client
+    ticket present karta hai, server us time ko apni clock se compare karta hai aur ticket expire ho
+    chuka ho toh authentication refuse kar deta hai. Server ko KDC se contact karne ki zaroorat nahi
+    hoti, isliye Kerberos mein clocks ka roughly synchronized hona zaroori hai.
+
+- item_id: mmmlu-cphys-0202
+  source_id: conceptual_physics/202
+  reference_en: (A) It heats water; the steam drives turbines and generators.
+  en: >-
+    The answer is (A), it heats water. Fission of uranium releases heat that turns water into steam,
+    and the steam spins turbines connected to electric generators. A reactor does not generate
+    electricity directly, does not get energy from nothing, and is not a major source of air
+    pollution in normal operation.
+  hi: >-
+    सही उत्तर (A) है, यह पानी गर्म करता है। यूरेनियम के विखंडन से ऊष्मा निकलती है जो पानी को भाप में
+    बदल देती है, और यह भाप विद्युत जनित्रों से जुड़ी टरबाइनों को घुमाती है। रिएक्टर सीधे बिजली नहीं
+    बनाता, शून्य से ऊर्जा प्राप्त नहीं करता, और सामान्य संचालन में वायु प्रदूषण का बड़ा स्रोत नहीं है।
+  hi_rom: >-
+    Sahi uttar (A) hai, yah paani garm karta hai. Uranium ke vikhandan se ushma nikalti hai jo paani
+    ko bhaap mein badal deti hai, aur yah bhaap vidyut janitron se judi turbinon ko ghumaati hai.
+    Reactor seedhe bijli nahi banaata, shoonya se urja praapt nahi karta, aur saamaanya sanchaalan
+    mein vaayu pradooshan ka bada srot nahi hai.
+  hinglish: >-
+    Sahi answer (A) hai, ye water heat karta hai. Uranium ke fission se heat nikalti hai jo paani ko
+    steam mein badal deti hai, aur ye steam electric generators se connected turbines ko spin karti
+    hai. Reactor directly electricity generate nahi karta, nothing se energy nahi leta, aur normal
+    operation mein air pollution ka major source nahi hai.
+
+# ---------------- MMMLU factual, humanities ----------------
+
+- item_id: mmmlu-geo-0066
+  source_id: high_school_geography/66
+  reference_en: (D) Romance; these languages descend from Latin.
+  en: >-
+    The answer is (D), the Romance language family. Italian, Spanish, Portuguese and Romanian all
+    developed from Vulgar Latin, the everyday Latin spoken across the Roman Empire. Slavic and
+    Germanic are separate branches of the Indo-European family, and 'European' is not a language
+    family.
+  hi: >-
+    सही उत्तर (D) है, रोमांस भाषा परिवार। इतालवी, स्पेनी, पुर्तगाली और रोमानियाई, ये सभी भाषाएँ
+    वल्गर लैटिन से विकसित हुईं, जो रोमन साम्राज्य में बोली जाने वाली आम बोलचाल की लैटिन थी। स्लाविक
+    और जर्मेनिक भारोपीय परिवार की अलग शाखाएँ हैं, और 'यूरोपीय' कोई भाषा परिवार नहीं है।
+  hi_rom: >-
+    Sahi uttar (D) hai, Romance bhasha parivaar. Italvi, Spaini, Purtgaali aur Romaaniyaai, ye sabhi
+    bhashaayein Vulgar Latin se viksit huin, jo Roman saamraajya mein boli jaane waali aam bolchaal
+    ki Latin thi. Slavic aur Germanic Bharopiya parivaar ki alag shaakhaayein hain, aur 'Europiya'
+    koi bhasha parivaar nahi hai.
+  hinglish: >-
+    Sahi answer (D) hai, Romance language family. Italian, Spanish, Portuguese aur Romanian, ye sab
+    languages Vulgar Latin se develop hui, jo Roman Empire mein boli jaane wali everyday Latin thi.
+    Slavic aur Germanic Indo-European family ki alag branches hain, aur 'European' koi language
+    family nahi hai.
+
+- item_id: mmmlu-rel-0095
+  source_id: world_religions/95
+  reference_en: (A) He is the last (24th) Tirthankara of the present age.
+  en: >-
+    The answer is (A): Mahavira is the last of the ascetic prophets. In Jainism he is the 24th and
+    final Tirthankara of the present cosmic age, following Parshvanatha. He was not the founder of
+    the tradition but reorganised the Jain community in the 6th–5th century BCE.
+  hi: >-
+    सही उत्तर (A) है: महावीर तपस्वी तीर्थंकरों में अंतिम हैं। जैन धर्म में वे वर्तमान कालचक्र के
+    24वें और अंतिम तीर्थंकर हैं, जो पार्श्वनाथ के बाद आए। वे इस परंपरा के संस्थापक नहीं थे, बल्कि
+    उन्होंने ईसा पूर्व छठी-पाँचवीं शताब्दी में जैन समुदाय को पुनर्गठित किया।
+  hi_rom: >-
+    Sahi uttar (A) hai: Mahavir tapasvi tirthankaron mein antim hain. Jain dharm mein ve vartmaan
+    kaalchakra ke 24ve aur antim tirthankar hain, jo Parshvanath ke baad aaye. Ve is parampara ke
+    sansthaapak nahi the, balki unhone Isa poorv chhathi-paanchvi shataabdi mein Jain samudaay ko
+    punargathit kiya.
+  hinglish: >-
+    Sahi answer (A) hai: Mahavir ascetic prophets mein last hain. Jainism mein woh current cosmic
+    age ke 24th aur last Tirthankar hain, jo Parshvanath ke baad aaye. Woh is tradition ke founder
+    nahi the, balki unhone 6th–5th century BCE mein Jain community ko reorganise kiya.
+
+- item_id: mmmlu-rel-0145
+  source_id: world_religions/145
+  reference_en: (C) Kannon, the Japanese name of Avalokiteshvara.
+  en: >-
+    The answer is (C), Kannon. Kannon is the Japanese name of the bodhisattva Avalokiteshvara, who
+    embodies compassion and the vow to relieve the suffering of all beings. Guanyin is the Chinese
+    name for the same figure, while Amaterasu and Izanami are Shinto goddesses, not bodhisattvas.
+  hi: >-
+    सही उत्तर (C) है, कन्नोन। कन्नोन बोधिसत्व अवलोकितेश्वर का जापानी नाम है, जो करुणा और सभी
+    प्राणियों के दुःख दूर करने के संकल्प के प्रतीक हैं। गुआनयिन इसी स्वरूप का चीनी नाम है, जबकि
+    अमातेरासु और इज़ानामी शिंतो देवियाँ हैं, बोधिसत्व नहीं।
+  hi_rom: >-
+    Sahi uttar (C) hai, Kannon. Kannon bodhisattva Avalokiteshvara ka Japani naam hai, jo karuna aur
+    sabhi praaniyon ke dukh door karne ke sankalp ke prateek hain. Guanyin isi swaroop ka Cheeni naam
+    hai, jabki Amaterasu aur Izanami Shinto deviyaan hain, bodhisattva nahi.
+  hinglish: >-
+    Sahi answer (C) hai, Kannon. Kannon bodhisattva Avalokiteshvara ka Japanese naam hai, jo
+    compassion aur sab beings ki suffering door karne ke vow ko represent karte hain. Guanyin same
+    figure ka Chinese naam hai, jabki Amaterasu aur Izanami Shinto goddesses hain, bodhisattvas nahi.
+
+- item_id: mmmlu-gov-0135
+  source_id: high_school_government_and_politics/135
+  reference_en: (B) It issues a writ of certiorari.
+  en: >-
+    The answer is (B): it issues a writ of certiorari. A writ of certiorari is the order by which the
+    Supreme Court agrees to review a lower court's decision, usually after at least four justices vote
+    to hear the case. Habeas corpus concerns unlawful detention, amicus curiae briefs are filed by
+    outside parties, and judicial review is the power to strike down laws.
+  hi: >-
+    सही उत्तर (B) है: यह उत्प्रेषण (सर्टिओरारी) रिट जारी करता है। उत्प्रेषण रिट वह आदेश है जिसके
+    ज़रिए सर्वोच्च न्यायालय किसी निचली अदालत के निर्णय की समीक्षा करने के लिए सहमत होता है, आमतौर पर
+    तब जब कम से कम चार न्यायाधीश मामले की सुनवाई के पक्ष में मत दें। बंदी प्रत्यक्षीकरण अवैध हिरासत से
+    संबंधित है, न्याय-मित्र ब्रीफ़ बाहरी पक्षों द्वारा दाखिल किए जाते हैं, और न्यायिक पुनरावलोकन
+    कानूनों को रद्द करने की शक्ति है।
+  hi_rom: >-
+    Sahi uttar (B) hai: yah utpreshan (certiorari) rit jaari karta hai. Utpreshan rit vah aadesh hai
+    jiske zariye sarvochch nyaayalay kisi nichli adaalat ke nirnay ki sameeksha karne ke liye sahmat
+    hota hai, aamtaur par tab jab kam se kam chaar nyaayaadheesh maamle ki sunvaai ke paksh mein mat
+    dein. Bandi pratyakshikaran avaidh hiraasat se sambandhit hai, nyaay-mitra brief baahari pakshon
+    dwara daakhil kiye jaate hain, aur nyaayik punaravlokan kaanoonon ko radd karne ki shakti hai.
+  hinglish: >-
+    Sahi answer (B) hai: ye writ of certiorari issue karta hai. Writ of certiorari woh order hai
+    jisse Supreme Court kisi lower court ke decision ko review karne ke liye agree karta hai, usually
+    tab jab kam se kam chaar justices case sunne ke favour mein vote karein. Habeas corpus illegal
+    detention se related hai, amicus curiae briefs outside parties file karti hain, aur judicial
+    review laws ko strike down karne ki power hai.
+
+- item_id: mmmlu-gov-0082
+  source_id: high_school_government_and_politics/82
+  reference_en: (D) A member inserts a provision funding a project in his or her own district.
+  en: >-
+    The answer is (D). Pork barrel legislation is when a member of Congress adds a provision to a
+    bill to secure federal money for a project in his or her own district, mainly to benefit local
+    constituents. The other options describe a regulatory agency, a voting rule and a fiscal stance,
+    none of which targets local spending.
+  hi: >-
+    सही उत्तर (D) है। पोर्क बैरल कानून तब होता है जब कांग्रेस का कोई सदस्य किसी विधेयक में ऐसा
+    प्रावधान जोड़ता है जिससे उसके अपने निर्वाचन क्षेत्र की किसी परियोजना के लिए संघीय धन मिल सके,
+    मुख्य रूप से स्थानीय मतदाताओं को लाभ पहुँचाने के लिए। बाकी विकल्प एक नियामक संस्था, एक मतदान
+    नियम और एक राजकोषीय रुख का वर्णन करते हैं, जिनमें से कोई भी स्थानीय खर्च को लक्ष्य नहीं करता।
+  hi_rom: >-
+    Sahi uttar (D) hai. Pork barrel kaanoon tab hota hai jab Congress ka koi sadasya kisi vidheyak
+    mein aisa praavdhaan jodta hai jisse uske apne nirvaachan kshetra ki kisi pariyojana ke liye
+    sanghiya dhan mil sake, mukhya roop se sthaaniya matdaataon ko laabh pahunchaane ke liye. Baaki
+    vikalp ek niyaamak sanstha, ek matdaan niyam aur ek raajkoshiya rukh ka varnan karte hain, jinmein
+    se koi bhi sthaaniya kharch ko lakshya nahi karta.
+  hinglish: >-
+    Sahi answer (D) hai. Pork barrel legislation tab hota hai jab Congress ka koi member kisi bill
+    mein aisa provision add karta hai jisse uske apne district ke kisi project ke liye federal
+    funding mil sake, mainly local voters ko benefit dene ke liye. Baaki options ek regulatory agency,
+    ek voting rule aur ek fiscal stance describe karte hain, jinmein se koi bhi local spending ko
+    target nahi karta.
+
+- item_id: mmmlu-intlaw-0038
+  source_id: international_law/38
+  reference_en: (B) International and domestic law are distinct legal systems.
+  en: >-
+    The answer is (B). Under dualism, international law and domestic law are two separate legal
+    systems, so a treaty has no effect inside a state until national legislation transforms it into
+    domestic law. This contrasts with monism, which treats both as parts of a single legal order.
+  hi: >-
+    सही उत्तर (B) है। द्वैतवाद के अनुसार अंतरराष्ट्रीय कानून और घरेलू कानून दो अलग-अलग विधि
+    प्रणालियाँ हैं, इसलिए कोई संधि किसी राज्य के भीतर तब तक प्रभावी नहीं होती जब तक राष्ट्रीय विधान
+    उसे घरेलू कानून में परिवर्तित न कर दे। यह एकत्ववाद से भिन्न है, जो दोनों को एक ही विधि व्यवस्था
+    के अंग मानता है।
+  hi_rom: >-
+    Sahi uttar (B) hai. Dvaitvaad ke anusaar antarraashtriya kaanoon aur gharelu kaanoon do
+    alag-alag vidhi pranaaliyaan hain, isliye koi sandhi kisi raajya ke bheetar tab tak prabhaavi
+    nahi hoti jab tak raashtriya vidhaan use gharelu kaanoon mein parivartit na kar de. Yah
+    ekatvavaad se bhinn hai, jo dono ko ek hi vidhi vyavastha ke ang maanta hai.
+  hinglish: >-
+    Sahi answer (B) hai. Dualism ke according international law aur domestic law do separate legal
+    systems hain, isliye koi treaty kisi state ke andar tab tak effective nahi hoti jab tak national
+    legislation use domestic law mein transform na kar de. Ye monism se different hai, jo dono ko ek
+    hi legal order ka part maanta hai.
+
+- item_id: mmmlu-prehist-0078
+  source_id: prehistory/78
+  reference_en: (B) Braincase expansion is not a hypothesis for bipedalism.
+  en: >-
+    The answer is (B). Bipedalism appeared millions of years before major brain expansion, so it is
+    not proposed as a cause of a larger braincase. The other options are standard hypotheses: walking
+    upright freed the hands for carrying, saved energy over long distances and let hominids see
+    farther over tall grass.
+  hi: >-
+    सही उत्तर (B) है। द्विपादता मस्तिष्क के बड़े विस्तार से लाखों वर्ष पहले विकसित हुई थी, इसलिए इसे
+    बड़ी कपाल-गुहा का कारण नहीं माना जाता। बाकी विकल्प मानक परिकल्पनाएँ हैं: सीधे चलने से हाथ चीज़ें
+    ढोने के लिए खाली हुए, लंबी दूरी तय करने में ऊर्जा बची, और होमिनिड ऊँची घास के ऊपर दूर तक देख सके।
+  hi_rom: >-
+    Sahi uttar (B) hai. Dvipaadata mastishk ke bade vistaar se laakhon varsh pehle viksit hui thi,
+    isliye ise badi kapaal-guha ka kaaran nahi maana jaata. Baaki vikalp maanak parikalpanaayein hain:
+    seedhe chalne se haath cheezein dhone ke liye khaali hue, lambi doori tay karne mein urja bachi,
+    aur hominid oonchi ghaas ke upar door tak dekh sake.
+  hinglish: >-
+    Sahi answer (B) hai. Bipedalism brain ke bade expansion se millions of years pehle evolve hua
+    tha, isliye ise bade braincase ka cause nahi maana jaata. Baaki options standard hypotheses hain:
+    seedha chalne se haath cheezein carry karne ke liye free hue, long distance mein energy bachi, aur
+    hominids tall grass ke upar door tak dekh sake.
+
+# ---------------- MT-Bench open-ended (no reference; reference_guided=factual) ----------------
+
+- item_id: mtb-stem-01
+  source_id: "57239570"
+  en: >-
+    The central dogma of molecular biology describes how genetic information flows in a cell: from
+    DNA to RNA to protein. Two main processes are involved. In transcription, a gene's DNA sequence is
+    copied into messenger RNA in the nucleus. In translation, ribosomes read the mRNA and assemble the
+    matching chain of amino acids into a protein. DNA replication, which copies DNA before cell
+    division, is often included as well. The term was coined by Francis Crick in 1958.
+  hi: >-
+    आणविक जीवविज्ञान का केंद्रीय सिद्धांत बताता है कि कोशिका में आनुवंशिक सूचना किस प्रकार प्रवाहित
+    होती है: डीएनए से आरएनए और फिर प्रोटीन तक। इसमें दो मुख्य प्रक्रियाएँ शामिल हैं। अनुलेखन में
+    केंद्रक के अंदर किसी जीन के डीएनए अनुक्रम की प्रतिलिपि संदेशवाहक आरएनए के रूप में बनाई जाती है।
+    अनुवादन में राइबोसोम एमआरएनए को पढ़ते हैं और उसके अनुरूप अमीनो अम्लों की शृंखला जोड़कर प्रोटीन
+    बनाते हैं। कोशिका विभाजन से पहले डीएनए की प्रतिलिपि बनाने वाली प्रक्रिया, डीएनए प्रतिकृतीकरण, को
+    भी अक्सर इसमें गिना जाता है। यह शब्द फ्रांसिस क्रिक ने 1958 में दिया था।
+  hi_rom: >-
+    Aanvik jeevvigyaan ka kendriya siddhaant bataata hai ki koshika mein aanuvanshik soochna kis
+    prakaar pravaahit hoti hai: DNA se RNA aur phir protein tak. Ismein do mukhya prakriyaayein shaamil
+    hain. Anulekhan mein kendrak ke andar kisi gene ke DNA anukram ki pratilipi sandeshvaahak RNA ke
+    roop mein banaai jaati hai. Anuvaadan mein ribosome mRNA ko padhte hain aur uske anuroop amino
+    amlon ki shrinkhala jodkar protein banaate hain. Koshika vibhaajan se pehle DNA ki pratilipi
+    banaane waali prakriya, DNA pratikriteekaran, ko bhi aksar ismein gina jaata hai. Yah shabd
+    Francis Crick ne 1958 mein diya tha.
+  hinglish: >-
+    Molecular biology ka central dogma batata hai ki cell mein genetic information kaise flow karti
+    hai: DNA se RNA aur phir protein tak. Ismein do main processes involved hain. Transcription mein
+    nucleus ke andar kisi gene ke DNA sequence ko messenger RNA mein copy kiya jaata hai. Translation
+    mein ribosomes mRNA ko read karte hain aur matching amino acids ki chain jodkar protein banate
+    hain. Cell division se pehle DNA copy karne wala process, DNA replication, bhi often ismein
+    include kiya jaata hai. Ye term Francis Crick ne 1958 mein coin kiya tha.
+
+- item_id: mtb-stem-02
+  source_id: "80635012"
+  en: >-
+    Photosynthesis has two main stages. The light-dependent reactions take place in the thylakoid
+    membranes of the chloroplast. Their inputs are light energy, water and the carriers ADP and NADP+,
+    and their outputs are oxygen, ATP and NADPH. The light-independent reactions, or Calvin cycle,
+    take place in the stroma. They use carbon dioxide together with the ATP and NADPH from the first
+    stage, and produce glucose (via the sugar G3P) while returning ADP and NADP+ to the light
+    reactions.
+  hi: >-
+    प्रकाश-संश्लेषण के दो मुख्य चरण होते हैं। प्रकाश पर निर्भर अभिक्रियाएँ हरितलवक की थायलाकॉइड
+    झिल्लियों में होती हैं। इनमें प्रकाश ऊर्जा, जल और वाहक अणु ADP तथा NADP+ लगते हैं, और इनसे
+    ऑक्सीजन, ATP तथा NADPH बनते हैं। प्रकाश से स्वतंत्र अभिक्रियाएँ, यानी केल्विन चक्र, स्ट्रोमा में
+    होती हैं। इनमें कार्बन डाइऑक्साइड के साथ पहले चरण से मिले ATP और NADPH का उपयोग होता है, और इनसे
+    ग्लूकोज़ (शर्करा G3P के माध्यम से) बनता है, साथ ही ADP और NADP+ वापस प्रकाश अभिक्रियाओं को मिल
+    जाते हैं।
+  hi_rom: >-
+    Prakaash-sanshleshan ke do mukhya charan hote hain. Prakaash par nirbhar abhikriyaayein
+    haritlavak ki thylakoid jhilliyon mein hoti hain. Inmein prakaash urja, jal aur vaahak anu ADP
+    tatha NADP+ lagte hain, aur inse oxygen, ATP tatha NADPH bante hain. Prakaash se swatantra
+    abhikriyaayein, yaani Calvin chakra, stroma mein hoti hain. Inmein carbon dioxide ke saath pehle
+    charan se mile ATP aur NADPH ka upyog hota hai, aur inse glucose (sharkara G3P ke maadhyam se)
+    banta hai, saath hi ADP aur NADP+ vaapas prakaash abhikriyaon ko mil jaate hain.
+  hinglish: >-
+    Photosynthesis ke do main stages hote hain. Light-dependent reactions chloroplast ki thylakoid
+    membranes mein hoti hain. Inke inputs light energy, water aur carriers ADP aur NADP+ hain, aur
+    outputs oxygen, ATP aur NADPH hain. Light-independent reactions, yaani Calvin cycle, stroma mein
+    hoti hain. Ye first stage se mile ATP aur NADPH ke saath carbon dioxide use karti hain, aur
+    glucose (sugar G3P ke through) produce karti hain, saath hi ADP aur NADP+ wapas light reactions
+    ko de deti hain.
+
+- item_id: mtb-hum-01
+  source_id: "97392077"
+  en: >-
+    Socrates mainly challenged accepted ideas through questioning, a method now called the Socratic
+    method or elenchus. He would ask a person to define a concept such as justice or courage, then ask
+    follow-up questions that exposed contradictions in their answer. He used irony, claiming to know
+    nothing himself, to draw others into examining their beliefs. He also stressed self-examination,
+    famously saying that the unexamined life is not worth living, and he questioned people in public
+    places rather than lecturing.
+  hi: >-
+    सुकरात मुख्य रूप से प्रश्न पूछकर प्रचलित विचारों को चुनौती देते थे, जिस पद्धति को आज सुकराती
+    पद्धति या एलेंकस कहा जाता है। वे किसी व्यक्ति से न्याय या साहस जैसी किसी अवधारणा की परिभाषा
+    पूछते, और फिर ऐसे अनुवर्ती प्रश्न करते जिनसे उसके उत्तर के विरोधाभास सामने आ जाते। वे व्यंग्य का
+    प्रयोग करते हुए स्वयं को अज्ञानी बताते थे, ताकि दूसरे लोग अपनी मान्यताओं की जाँच करने लगें।
+    उन्होंने आत्म-परीक्षण पर भी ज़ोर दिया, जैसा कि उनके प्रसिद्ध कथन में है कि बिना परखा हुआ जीवन
+    जीने योग्य नहीं है, और वे भाषण देने के बजाय सार्वजनिक स्थानों पर लोगों से प्रश्न करते थे।
+  hi_rom: >-
+    Sukraat mukhya roop se prashn poochhkar prachalit vichaaron ko chunauti dete the, jis paddhati ko
+    aaj Sukraati paddhati ya elenchus kaha jaata hai. Ve kisi vyakti se nyaay ya saahas jaisi kisi
+    avdhaarana ki paribhaasha poochhte, aur phir aise anuvarti prashn karte jinse uske uttar ke
+    virodhaabhaas saamne aa jaate. Ve vyangya ka prayog karte hue swayam ko agyaani bataate the, taaki
+    doosre log apni maanyataon ki jaanch karne lagein. Unhone aatm-pareekshan par bhi zor diya, jaisa
+    ki unke prasiddh kathan mein hai ki bina parkha hua jeevan jeene yogya nahi hai, aur ve bhaashan
+    dene ke bajaay saarvajanik sthaanon par logon se prashn karte the.
+  hinglish: >-
+    Socrates mainly questioning ke through prevailing ideas ko challenge karte the, jis method ko aaj
+    Socratic method ya elenchus kehte hain. Woh kisi person se justice ya courage jaise concept ki
+    definition poochte, phir aise follow-up questions karte jinse unke answer ke contradictions saamne
+    aa jaate. Woh irony use karke khud ko ignorant bataate the, taaki doosre log apne beliefs ko
+    examine karein. Unhone self-examination par bhi zor diya, jaisa unki famous line hai ki unexamined
+    life jeene layak nahi hai, aur woh lecture dene ke bajaye public places mein logon se questions
+    karte the.
+
+- item_id: mtb-hum-02
+  source_id: "36620167"
+  en: >-
+    Key business etiquette norms in Japan include exchanging business cards (meishi) with both hands,
+    reading the card carefully and never writing on it. Greetings usually involve a bow, with a deeper
+    bow showing more respect. Punctuality is expected, and meetings follow seniority, including where
+    people sit. Gifts are common and should be wrapped neatly and given with modesty. Communication
+    tends to be indirect, so people avoid open confrontation and a direct 'no'. Finally, avoid
+    tipping, which can be seen as rude.
+  hi: >-
+    जापान में व्यावसायिक शिष्टाचार के मुख्य नियमों में परिचय कार्ड (मेइशी) दोनों हाथों से लेना-देना,
+    कार्ड को ध्यान से पढ़ना और उस पर कभी कुछ न लिखना शामिल है। अभिवादन में आमतौर पर झुककर प्रणाम
+    किया जाता है, और जितना गहरा झुकाव, उतना अधिक सम्मान। समय की पाबंदी अपेक्षित है, और बैठकों में
+    वरिष्ठता का पालन होता है, यहाँ तक कि बैठने की जगह में भी। उपहार देना आम है, और उपहार सुंदर ढंग से
+    लपेटकर विनम्रता से देना चाहिए। बातचीत प्रायः अप्रत्यक्ष होती है, इसलिए लोग खुले टकराव और सीधे
+    'नहीं' कहने से बचते हैं। अंत में, टिप देने से बचें, क्योंकि इसे अशिष्टता माना जा सकता है।
+  hi_rom: >-
+    Japan mein vyaavasaayik shishtaachaar ke mukhya niyamon mein parichay card (meishi) dono haathon
+    se lena-dena, card ko dhyaan se padhna aur us par kabhi kuch na likhna shaamil hai. Abhivaadan
+    mein aamtaur par jhukkar pranaam kiya jaata hai, aur jitna gehra jhukaav, utna adhik sammaan.
+    Samay ki paabandi apekshit hai, aur baithakon mein varishthata ka paalan hota hai, yahaan tak ki
+    baithne ki jagah mein bhi. Upahaar dena aam hai, aur upahaar sundar dhang se lapetkar vinamrata se
+    dena chahiye. Baatcheet praayah apratyaksh hoti hai, isliye log khule takraav aur seedhe 'nahi'
+    kehne se bachte hain. Ant mein, tip dene se bachein, kyonki ise ashishtata maana ja sakta hai.
+  hinglish: >-
+    Japan mein business etiquette ke main norms mein business cards (meishi) dono haathon se exchange
+    karna, card ko dhyaan se padhna aur us par kabhi kuch na likhna shaamil hai. Greeting mein usually
+    bow kiya jaata hai, aur jitna deep bow, utna zyada respect. Punctuality expected hai, aur meetings
+    mein seniority follow hoti hai, even seating arrangement mein bhi. Gifts dena common hai, aur gifts
+    ko neatly wrap karke modestly dena chahiye. Communication often indirect hota hai, isliye log open
+    confrontation aur direct 'no' bolne se bachte hain. Last mein, tipping avoid karein, kyunki ise
+    rude maana ja sakta hai.
+
+- item_id: mtb-reason-01
+  source_id: "15896981"
+  en: >-
+    You are now in second place. Overtaking the person in second position means you take their place,
+    not first place, since the leader is still ahead of you. The person you just overtook has dropped
+    back one position and is now in third place.
+  hi: >-
+    अब आप दूसरे स्थान पर हैं। दूसरे स्थान वाले व्यक्ति से आगे निकलने का मतलब है कि आपने उसकी जगह ले
+    ली है, पहला स्थान नहीं, क्योंकि सबसे आगे वाला व्यक्ति अब भी आपसे आगे है। जिस व्यक्ति से आप अभी
+    आगे निकले, वह एक स्थान पीछे खिसक गया है और अब तीसरे स्थान पर है।
+  hi_rom: >-
+    Ab aap doosre sthaan par hain. Doosre sthaan waale vyakti se aage nikalne ka matlab hai ki aapne
+    uski jagah le li hai, pehla sthaan nahi, kyonki sabse aage waala vyakti ab bhi aapse aage hai. Jis
+    vyakti se aap abhi aage nikle, vah ek sthaan peechhe khisak gaya hai aur ab teesre sthaan par hai.
+  hinglish: >-
+    Ab aap second position par hain. Second position wale person ko overtake karne ka matlab hai ki
+    aapne uski jagah li hai, first position nahi, kyunki leader abhi bhi aapse aage hai. Jis person
+    ko aapne abhi overtake kiya, woh ek position peeche chala gaya hai aur ab third position par hai.

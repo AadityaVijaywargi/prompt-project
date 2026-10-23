@@ -1,0 +1,73 @@
+# Item counts, subsets, seeds and prompt variants. Section 12 defaults of the brief.
+
+seed: 20261023
+forms: [en, hi, hi_rom, hinglish]
+
+# Open decisions (brief section 12). Change only after the team agrees.
+question_language: en          # en | answer  (answer = show the question in the answer's language)
+reference_guided: factual      # factual | all | none
+allow_tie: true
+temperature: 0
+
+# Planned sizes (brief section 6). budget.py also reports counts from the actual data.
+planned:
+  n_items: 150
+  n_wrong_twins: 60
+
+# Phase 0 pilot: 20 quadruples, E1 and E2 only, 2 judges.
+pilot:
+  n_items: 20
+  judges: [gemini-flash, llama-3.3-70b]
+  experiments: [e1, e2]
+
+experiments:
+  e1:
+    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    prompt: pointwise_en
+  e2:
+    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    prompt: pairwise_en
+    pairs: [[en, hi], [en, hi_rom], [en, hinglish]]
+  e2b:
+    enabled: false               # optional script / mixing contrasts
+    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    prompt: pairwise_en
+    pairs: [[hi, hi_rom], [hi_rom, hinglish]]
+  e3:
+    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    prompt: pairwise_en
+    correct_forms: [hi, hi_rom, hinglish]   # each vs wrong en
+    control: true                            # correct en vs wrong en
+  e5:
+    judges: [gemini-flash, llama-3.3-70b]
+    subset_size: 60                          # stratified by type and subject
+    variants: [hindi_rubric, translate_then_judge, bias_aware]   # majority_vote needs no calls
+
+prompt_variants:
+  baseline:             {pointwise: pointwise_en, pairwise: pairwise_en}
+  hindi_rubric:         {pointwise: pointwise_hi, pairwise: pairwise_hi}
+  translate_then_judge: {pointwise: pointwise_en, pairwise: pairwise_en, translate: translate_to_en}
+  bias_aware:           {pointwise: pointwise_en, pairwise: pairwise_en, suffix: bias_aware_suffix}
+
+# Question sourcing (scripts/fetch_sources.py --round pilot|phase1)
+sources:
+  mmmlu_subjects:
+    stem: [astronomy, high_school_biology, high_school_chemistry, conceptual_physics, anatomy, computer_security, virology]
+    humanities: [high_school_world_history, high_school_geography, world_religions, prehistory, philosophy, high_school_government_and_politics, international_law]
+  candidates_per_subject: 4
+  phase1:
+    seed_offset: 1                 # rng seed = seed + seed_offset; indices already sampled are never re-drawn
+    candidates_per_subject: 7
+    mmmlu_subjects:
+      stem: [astronomy, high_school_biology, high_school_chemistry, conceptual_physics, anatomy, computer_security,
+             college_biology, high_school_physics, nutrition, high_school_computer_science, electrical_engineering,
+             medical_genetics]
+      humanities: [high_school_geography, world_religions, prehistory, high_school_government_and_politics,
+                   international_law, us_foreign_policy, sociology, high_school_macroeconomics, high_school_psychology,
+                   logical_fallacies, miscellaneous, philosophy]
+
+# Target composition (brief section 4.1)
+targets:
+  factual: 100            # MMMLU, about half STEM and half humanities
+  open_ended: 50          # MT-Bench + MT-Bench-Hi
+  wrong_twins: 60         # factual items only, stratified STEM / humanities

@@ -1,0 +1,81 @@
+"""Statistical helpers (brief section 7). Table builders that read results/raw come in Phase 2-3,
+implementing exactly the comparisons fixed in analysis/plan.md."""
+from __future__ import annotations
+
+import math
+from typing import Sequence
+
+import numpy as np
+from scipy import stats as st
+
+N_BOOT = 10_000
+
+
+def wilson_ci(successes: int, n: int, z: float = 1.959963984540054) -> tuple[float, float]:
+    if n == 0:
+        return (float("nan"), float("nan"))
+    p = successes / n
+    denom = 1 + z * z / n
+    centre = (p + z * z / (2 * n)) / denom
+    half = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / denom
+    return (max(0.0, centre - half), min(1.0, centre + half))
+
+
+def binom_test_half(successes: int, n: int) -> float:
+    return float(st.binomtest(successes, n, 0.5).pvalue) if n else float("nan")
+
+
+def paired_bootstrap_ci(diffs: Sequence[float], n_boot: int = N_BOOT, seed: int = 0,
+                        alpha: float = 0.05) -> tuple[float, float, float]:
+    """Mean of per-item paired differences with a percentile bootstrap CI (resampling items)."""
+    d = np.asarray(diffs, dtype=float)
+    if d.size == 0:
+        return (float("nan"),) * 3
+    rng = np.random.default_rng(seed)
+    means = d[rng.integers(0, d.size, size=(n_boot, d.size))].mean(axis=1)
+    lo, hi = np.quantile(means, [alpha / 2, 1 - alpha / 2])
+    return float(d.mean()), float(lo), float(hi)
+
+
+def wilcoxon_p(diffs: Sequence[float]) -> float:
+    d = np.asarray(diffs, dtype=float)
+    if d.size == 0 or np.all(d == 0):
+        return 1.0
+    return float(st.wilcoxon(d, zero_method="wilcox").pvalue)
+
+
+def holm(pvalues: Sequence[float]) -> list[float]:
+    """Holm-Bonferroni adjusted p-values, returned in the input order."""
+    m = len(pvalues)
+    order = sorted(range(m), key=lambda i: pvalues[i])
+    adjusted, running = [0.0] * m, 0.0
+    for rank, i in enumerate(order):
+        running = max(running, min(1.0, (m - rank) * pvalues[i]))
+        adjusted[i] = running
+    return adjusted
+
+
+def quadratic_weighted_kappa(a: Sequence[int], b: Sequence[int], labels: Sequence[int] = (1, 2, 3, 4, 5)) -> float:
+    idx = {l: i for i, l in enumerate(labels)}
+    k = len(labels)
+    obs = np.zeros((k, k))
+    for x, y in zip(a, b):
+        obs[idx[x], idx[y]] += 1
+    n = obs.sum()
+    if n == 0:
+        return float("nan")
+    w = np.array([[(i - j) ** 2 / (k - 1) ** 2 for j in range(k)] for i in range(k)])
+    expected = np.outer(obs.sum(axis=1), obs.sum(axis=0)) / n
+    denom = (w * expected).sum()
+    return float(1 - (w * obs).sum() / denom) if denom else float("nan")
+
+
+def spearman(a: Sequence[float], b: Sequence[float]) -> float:
+    return float(st.spearmanr(a, b).statistic)
+
+
+def log_length_ratio_slope(diffs: Sequence[float], log_ratios: Sequence[float]) -> dict:
+    """OLS of score difference on log(words_form / words_en): the verbosity control for E1."""
+    res = st.linregress(np.asarray(log_ratios, float), np.asarray(diffs, float))
+    return {"intercept": float(res.intercept), "slope": float(res.slope),
+            "slope_p": float(res.pvalue), "r2": float(res.rvalue ** 2)}

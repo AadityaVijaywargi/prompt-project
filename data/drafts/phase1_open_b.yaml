@@ -1,0 +1,528 @@
+# Phase 1 drafts, open-ended batch B: 7 MT-Bench + 8 MT-Bench-Hi items. Drafted by claude-opus-5-5 on 2026-10-23.
+# NOT VERIFIED. For MT-Bench-Hi items, question_en is Claude's English translation of the native Hindi prompt
+# (kept in questions.jsonl as question_hi_source) and must be checked like the answer texts.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mtb-hum-06
+  source_id: "14125357"
+  en: >-
+    Here are five artworks and ideas for making them interactive for children. 1. Van Gogh's "The Starry Night":
+    children paint their own swirling night sky and add glow-in-the-dark stars. 2. Leonardo da Vinci's "Mona Lisa": a
+    guessing game about what she might be thinking, with children acting out different expressions. 3. Hokusai's "The
+    Great Wave off Kanagawa": a sensory corner with blue fabric "waves" and stories about the fishermen in the boats.
+    4. Seurat's "A Sunday on La Grande Jatte": dot painting with cotton buds to show how small dots form a picture.
+    5. Frida Kahlo's self-portraits: children create self-portraits with symbols of things they love.
+  hi: >-
+    यहाँ पाँच कलाकृतियाँ और उन्हें बच्चों के लिए संवादात्मक बनाने के विचार दिए गए हैं। 1. वैन गॉग की "द स्टारी नाइट": बच्चे
+    घुमावदार रात के आसमान का अपना चित्र बनाएँ और अँधेरे में चमकने वाले तारे लगाएँ। 2. लियोनार्डो दा विंची की "मोना लिसा": एक
+    अनुमान लगाने वाला खेल कि वह क्या सोच रही होगी, जिसमें बच्चे अलग-अलग भाव अभिनय करके दिखाएँ। 3. होकुसाई की "द ग्रेट वेव ऑफ़
+    कानागावा": नीले कपड़े की "लहरों" वाला एक संवेदी कोना और नावों में बैठे मछुआरों की कहानियाँ। 4. स्यूरा की "अ संडे ऑन ला
+    ग्रांड जात": रुई की तीलियों से बिंदु-चित्रकारी, यह दिखाने के लिए कि छोटे बिंदु मिलकर कैसे चित्र बनाते हैं। 5. फ़्रीडा काहलो के
+    आत्म-चित्र: बच्चे अपनी पसंद की चीज़ों के प्रतीकों के साथ अपने आत्म-चित्र बनाएँ।
+  hi_rom: >-
+    Yahaan paanch kalaakritiyaan aur unhein bachchon ke liye samvaadaatmak banaane ke vichaar diye gaye hain. 1. Van
+    Gogh ki "The Starry Night": bachche ghumaavdaar raat ke aasmaan ka apna chitra banaayein aur andhere mein chamakne
+    waale taare lagaayein. 2. Leonardo da Vinci ki "Mona Lisa": ek anumaan lagaane waala khel ki vah kya soch rahi
+    hogi, jismein bachche alag-alag bhaav abhinay karke dikhaayein. 3. Hokusai ki "The Great Wave off Kanagawa": neele
+    kapde ki "lehron" waala ek samvedi kona aur naavon mein baithe machhuaaron ki kahaaniyaan. 4. Seurat ki "A Sunday on
+    La Grande Jatte": rui ki teeliyon se bindu-chitrakaari, yah dikhaane ke liye ki chhote bindu milkar kaise chitra
+    banaate hain. 5. Frida Kahlo ke aatm-chitra: bachche apni pasand ki cheezon ke prateekon ke saath apne aatm-chitra
+    banaayein.
+  hinglish: >-
+    Yahan paanch artworks aur unhe bachchon ke liye interactive banane ke ideas hain. 1. Van Gogh ki "The Starry Night":
+    bachche apna swirling night sky paint karein aur glow-in-the-dark stars lagayein. 2. Leonardo da Vinci ki "Mona
+    Lisa": ek guessing game ki woh kya soch rahi hogi, jismein bachche alag-alag expressions act karke dikhayein.
+    3. Hokusai ki "The Great Wave off Kanagawa": blue fabric ki "waves" wala ek sensory corner aur boats mein baithe
+    fishermen ki stories. 4. Seurat ki "A Sunday on La Grande Jatte": cotton buds se dot painting, ye dikhane ke liye ki
+    chhote dots milkar kaise picture banate hain. 5. Frida Kahlo ke self-portraits: bachche apni favourite cheezon ke
+    symbols ke saath apne self-portraits banayein.
+
+- item_id: mtb-write-01
+  source_id: "3075696"
+  en: >-
+    Old Mrs. Kapoor sold umbrellas on a corner where it never seemed to rain. She was as small and wrinkled as a dried
+    apricot, but her eyes flashed like wet pebbles in sunlight. Her shawl was a patchwork of forty colours, each square
+    stitched, she claimed, from a different country she had never visited. She laughed in sudden bursts, like a kettle
+    boiling over, and she knew every passer-by's secret before they told it. Children swore that her umbrellas opened
+    onto other skies: one full of snow, one of falling petals, one of stars.
+  hi: >-
+    बूढ़ी श्रीमती कपूर एक ऐसे नुक्कड़ पर छाते बेचती थीं जहाँ कभी बारिश होती ही नहीं लगती थी। वे सूखी खुबानी जितनी छोटी और
+    झुर्रीदार थीं, लेकिन उनकी आँखें धूप में भीगे कंकड़ों की तरह चमकती थीं। उनकी शॉल चालीस रंगों के टुकड़ों को जोड़कर बनी थी, और
+    उनका दावा था कि हर चौकोर टुकड़ा किसी ऐसे देश से सिला गया था जहाँ वे कभी नहीं गई थीं। वे अचानक ठहाके लगाकर हँसती थीं, जैसे
+    उबलती केतली छलक पड़े, और हर राहगीर का राज़ उसके बताने से पहले ही जान लेती थीं। बच्चे कसम खाते थे कि उनके छाते दूसरे
+    आसमानों में खुलते हैं: एक बर्फ़ से भरा, एक गिरती पंखुड़ियों से, और एक तारों से।
+  hi_rom: >-
+    Boodhi Shrimati Kapoor ek aise nukkad par chhaate bechti thin jahaan kabhi baarish hoti hi nahi lagti thi. Ve
+    sookhi khubaani jitni chhoti aur jhurreedaar thin, lekin unki aankhein dhoop mein bheege kankadon ki tarah chamakti
+    thin. Unki shawl chaalees rangon ke tukdon ko jodkar bani thi, aur unka daava tha ki har chaukor tukda kisi aise
+    desh se sila gaya tha jahaan ve kabhi nahi gayi thin. Ve achaanak thahaake lagaakar hansti thin, jaise ubalti
+    ketli chhalak pade, aur har raahgeer ka raaz uske bataane se pehle hi jaan leti thin. Bachche kasam khaate the ki
+    unke chhaate doosre aasmaanon mein khulte hain: ek barf se bhara, ek girti pankhudiyon se, aur ek taaron se.
+  hinglish: >-
+    Boodhi Mrs. Kapoor ek aise corner par umbrellas bechti thi jahan kabhi baarish hoti hi nahi lagti thi. Woh ek dried
+    apricot jitni chhoti aur wrinkled thi, lekin unki aankhein sunlight mein wet pebbles ki tarah chamakti thi. Unka
+    shawl forty colours ke patches ko jodkar bana tha, aur unka claim tha ki har square kisi aise country se stitch
+    kiya gaya tha jahan woh kabhi nahi gayi thi. Woh achanak bursts mein hasti thi, jaise boiling kettle overflow ho
+    jaaye, aur har passer-by ka secret uske batane se pehle hi jaan leti thi. Bachche kasam khaate the ki unke
+    umbrellas doosre skies mein khulte hain: ek snow se bhara, ek falling petals se, aur ek stars se.
+
+- item_id: mtb-write-02
+  source_id: "38622539"
+  en: >-
+    The marketplace hummed from the first light of morning. Sacks of turmeric and red chilli powder glowed like small
+    hills of sunset, and the air was thick with the smell of cardamom, frying pakoras and ripe mangoes. Vendors shouted
+    prices over one another, a radio crackled with an old film song, and somewhere a pressure cooker whistled. Bright
+    saris fluttered from wooden poles, brass pots flashed in the sun, and a cow wandered calmly between the stalls.
+    Coins clinked, children tugged at their parents' hands, and every few steps the crowd parted for a cart piled high
+    with cauliflowers.
+  hi: >-
+    बाज़ार सुबह की पहली रोशनी से ही गुनगुनाने लगा था। हल्दी और लाल मिर्च पाउडर की बोरियाँ सूर्यास्त की छोटी पहाड़ियों जैसी चमक
+    रही थीं, और हवा इलायची, तलते पकौड़ों और पके आमों की गंध से भरी थी। विक्रेता एक-दूसरे से ऊँची आवाज़ में दाम पुकार रहे थे, एक
+    रेडियो पर पुराना फ़िल्मी गीत खरखराते हुए बज रहा था, और कहीं प्रेशर कुकर की सीटी बजी। लकड़ी के खंभों से रंग-बिरंगी साड़ियाँ
+    लहरा रही थीं, पीतल के बर्तन धूप में चमक रहे थे, और एक गाय दुकानों के बीच आराम से घूम रही थी। सिक्के खनक रहे थे, बच्चे अपने
+    माता-पिता का हाथ खींच रहे थे, और हर कुछ कदम पर भीड़ फूलगोभियों से लदी एक गाड़ी के लिए रास्ता दे देती थी।
+  hi_rom: >-
+    Baazaar subah ki pehli roshni se hi gungunaane laga tha. Haldi aur laal mirch powder ki boriyaan sooryaast ki chhoti
+    pahaadiyon jaisi chamak rahi thin, aur hawa ilaayachi, talte pakodon aur pake aamon ki gandh se bhari thi. Vikreta
+    ek-doosre se oonchi aawaaz mein daam pukaar rahe the, ek radio par puraana filmi geet kharkharaate hue baj raha tha,
+    aur kahin pressure cooker ki seeti baji. Lakdi ke khambhon se rang-birangi saadiyaan lehra rahi thin, peetal ke
+    bartan dhoop mein chamak rahe the, aur ek gaay dukaanon ke beech aaraam se ghoom rahi thi. Sikke khanak rahe the,
+    bachche apne maata-pita ka haath kheench rahe the, aur har kuch kadam par bheed phoolgobhiyon se ladi ek gaadi ke
+    liye raasta de deti thi.
+  hinglish: >-
+    Market subah ki pehli light se hi hum karne laga tha. Turmeric aur red chilli powder ke sacks sunset ki chhoti hills
+    jaise glow kar rahe the, aur hawa cardamom, frying pakoras aur ripe mangoes ki smell se bhari thi. Vendors
+    ek-doosre se zor se prices shout kar rahe the, ek radio par purana film song crackle karte hue baj raha tha, aur
+    kahin pressure cooker ki whistle baji. Wooden poles se bright saris flutter kar rahi thi, brass pots sun mein chamak
+    rahe the, aur ek cow stalls ke beech aaram se ghoom rahi thi. Coins clink kar rahe the, bachche apne parents ka
+    haath kheench rahe the, aur har kuch steps par crowd cauliflowers se ladi ek cart ke liye raasta de deti thi.
+
+- item_id: mtb-write-03
+  source_id: "29742357"
+  en: >-
+    Maya woke to the smell of her grandmother's cooking, which was strange, because her grandmother had died eleven
+    years ago. The calendar on the kitchen wall said 2009, her phone was a clunky brick with no internet, and in the
+    mirror a ten-year-old girl stared back at her with Maya's own frightened eyes. By noon she had discovered the rule:
+    whenever she fell asleep thinking of a date, she woke up inside it. By evening she had discovered the problem. Every
+    time she went back, something in the present had changed, and this time, her younger brother no longer existed.
+  hi: >-
+    माया की आँख अपनी दादी के खाने की खुशबू से खुली, जो अजीब था, क्योंकि उसकी दादी को गुज़रे ग्यारह साल हो चुके थे। रसोई की दीवार
+    पर लगा कैलेंडर 2009 दिखा रहा था, उसका फ़ोन बिना इंटरनेट वाला एक भारी-भरकम डिब्बा था, और आईने में दस साल की एक लड़की माया
+    की ही डरी हुई आँखों से उसे घूर रही थी। दोपहर तक उसने नियम खोज लिया: जब भी वह किसी तारीख के बारे में सोचते हुए सोती, उसी
+    तारीख में जागती। शाम तक उसने समस्या भी खोज ली। हर बार जब वह पीछे जाती, वर्तमान में कुछ बदल जाता, और इस बार उसका छोटा भाई
+    अब अस्तित्व में ही नहीं था।
+  hi_rom: >-
+    Maya ki aankh apni daadi ke khaane ki khushboo se khuli, jo ajeeb tha, kyonki uski daadi ko guzre gyaarah saal ho
+    chuke the. Rasoi ki deewaar par laga calendar 2009 dikha raha tha, uska phone bina internet waala ek
+    bhaari-bharkam dibba tha, aur aaine mein das saal ki ek ladki Maya ki hi dari hui aankhon se use ghoor rahi thi.
+    Dopahar tak usne niyam khoj liya: jab bhi vah kisi taareekh ke baare mein sochte hue soti, usi taareekh mein
+    jaagti. Shaam tak usne samasya bhi khoj li. Har baar jab vah peechhe jaati, vartamaan mein kuch badal jaata, aur is
+    baar uska chhota bhai ab astitva mein hi nahi tha.
+  hinglish: >-
+    Maya ki aankh apni grandmother ki cooking ki smell se khuli, jo strange tha, kyunki uski grandmother ko gaye eleven
+    saal ho chuke the. Kitchen ki wall par laga calendar 2009 dikha raha tha, uska phone bina internet wala ek bulky
+    brick tha, aur mirror mein ek ten-year-old girl Maya ki hi scared aankhon se use ghoor rahi thi. Dopahar tak usne
+    rule discover kar liya: jab bhi woh kisi date ke baare mein sochte hue soti, usi date mein wake up karti. Shaam tak
+    usne problem bhi discover kar li. Har baar jab woh peeche jaati, present mein kuch change ho jaata, aur is baar uska
+    younger brother exist hi nahi karta tha.
+
+- item_id: mtb-write-04
+  source_id: "49723273"
+  en: >-
+    Subject: Feedback request on the Quarterly Financial Report. Dear Ms. Sharma, I have completed the Quarterly
+    Financial Report and would value your feedback before it is circulated. In particular, could you let me know
+    whether the data analysis is sound, whether the presentation style and charts are clear and professional, and
+    whether the conclusions follow clearly from the figures? I would be grateful for any comments by Friday. Thank you
+    for your time. Best regards, Rahul
+  hi: >-
+    विषय: त्रैमासिक वित्तीय रिपोर्ट पर प्रतिक्रिया का अनुरोध। आदरणीय सुश्री शर्मा, मैंने त्रैमासिक वित्तीय रिपोर्ट पूरी कर ली है और
+    इसे वितरित करने से पहले आपकी प्रतिक्रिया जानना चाहूँगा। विशेष रूप से, क्या आप बता सकती हैं कि आँकड़ों का विश्लेषण ठोस है या
+    नहीं, प्रस्तुति की शैली और आरेख स्पष्ट और पेशेवर हैं या नहीं, और निष्कर्ष आँकड़ों से स्पष्ट रूप से निकलते हैं या नहीं?
+    शुक्रवार तक आपकी कोई भी टिप्पणी मिल जाए तो मैं आभारी रहूँगा। आपके समय के लिए धन्यवाद। सादर, राहुल
+  hi_rom: >-
+    Vishay: Traimaasik Vitteeya Report par pratikriya ka anurodh. Aadaraneeya Sushri Sharma, maine traimaasik vitteeya
+    report poori kar li hai aur ise vitarit karne se pehle aapki pratikriya jaanna chaahoonga. Vishesh roop se, kya
+    aap bata sakti hain ki aankadon ka vishleshan thos hai ya nahi, prastuti ki shaili aur aarekh spasht aur peshevar
+    hain ya nahi, aur nishkarsh aankadon se spasht roop se nikalte hain ya nahi? Shukravaar tak aapki koi bhi tippani
+    mil jaaye to main aabhaari rahoonga. Aapke samay ke liye dhanyavaad. Saadar, Rahul
+  hinglish: >-
+    Subject: Quarterly Financial Report par feedback request. Dear Ms. Sharma, maine Quarterly Financial Report complete
+    kar li hai aur ise circulate karne se pehle aapka feedback chahta hoon. Specifically, kya aap bata sakti hain ki
+    data analysis solid hai ya nahi, presentation style aur charts clear aur professional hain ya nahi, aur conclusions
+    figures se clearly nikalte hain ya nahi? Friday tak aapke koi bhi comments mil jaayein toh main grateful rahunga.
+    Aapke time ke liye thank you. Best regards, Rahul
+
+- item_id: mtb-role-01
+  source_id: "84856299"
+  en: >-
+    A language model is a computer program that has learned how language works by reading a huge amount of text. Its
+    basic skill is predicting which word is likely to come next in a sentence, and by doing this over and over it can
+    answer questions, summarise documents or write emails. It is mostly trained on unlabelled data: ordinary text from
+    books and websites, where the "answer" for each step is simply the next word already in the text, so no one has to
+    label it by hand. Many models are then fine-tuned with a smaller amount of labelled or human-rated examples to make
+    them more helpful and safe.
+  hi: >-
+    भाषा मॉडल एक कंप्यूटर प्रोग्राम है जिसने बहुत बड़ी मात्रा में पाठ पढ़कर सीखा है कि भाषा कैसे काम करती है। उसका बुनियादी कौशल
+    यह अनुमान लगाना है कि किसी वाक्य में अगला शब्द कौन-सा होगा, और यह बार-बार करके वह प्रश्नों के उत्तर दे सकता है, दस्तावेज़ों का
+    सारांश बना सकता है या ईमेल लिख सकता है। इसे मुख्य रूप से बिना लेबल वाले आँकड़ों पर प्रशिक्षित किया जाता है: किताबों और
+    वेबसाइटों का साधारण पाठ, जहाँ हर चरण का "उत्तर" बस पाठ में पहले से मौजूद अगला शब्द होता है, इसलिए किसी को हाथ से लेबल लगाने
+    की ज़रूरत नहीं पड़ती। इसके बाद कई मॉडलों को कम संख्या में लेबल वाले या मनुष्यों द्वारा आँके गए उदाहरणों से परिष्कृत किया जाता
+    है, ताकि वे अधिक मददगार और सुरक्षित बनें।
+  hi_rom: >-
+    Bhasha model ek computer program hai jisne bahut badi maatra mein paath padhkar seekha hai ki bhasha kaise kaam
+    karti hai. Uska buniyaadi kaushal yah anumaan lagaana hai ki kisi vaakya mein agla shabd kaun-sa hoga, aur yah
+    baar-baar karke vah prashnon ke uttar de sakta hai, dastaavezon ka saaraansh bana sakta hai ya email likh sakta
+    hai. Ise mukhya roop se bina label waale aankadon par prashikshit kiya jaata hai: kitaabon aur websiteon ka
+    saadhaaran paath, jahaan har charan ka "uttar" bas paath mein pehle se maujood agla shabd hota hai, isliye kisi ko
+    haath se label lagaane ki zaroorat nahi padti. Iske baad kai modelon ko kam sankhya mein label waale ya manushyon
+    dwara aanke gaye udaaharanon se parishkrit kiya jaata hai, taaki ve adhik madadgaar aur surakshit banein.
+  hinglish: >-
+    Language model ek computer program hai jisne bahut zyada text padhkar seekha hai ki language kaise kaam karti hai.
+    Uski basic skill ye predict karna hai ki kisi sentence mein next word kaunsa hoga, aur ye baar-baar karke woh
+    questions ke answers de sakta hai, documents summarise kar sakta hai ya emails likh sakta hai. Ise mostly
+    unlabelled data par train kiya jaata hai: books aur websites ka normal text, jahan har step ka "answer" bas text
+    mein pehle se maujood next word hota hai, isliye kisi ko haath se label karne ki zaroorat nahi padti. Iske baad kai
+    models ko thode labelled ya humans dwara rate kiye gaye examples se fine-tune kiya jaata hai, taaki woh zyada
+    helpful aur safe banein.
+
+- item_id: mtb-role-02
+  source_id: "54595143"
+  en: >-
+    For a hundred years I have stood here, watching seasons turn, sheltering birds in my branches and giving shade to
+    every traveller who rested against my trunk. When the first axe bites into my bark, I feel shock more than pain, a
+    deep shudder that runs from my roots to my highest leaves. Then comes sorrow: for the nests that will fall, for the
+    squirrels who will lose their home, and for the soil my roots have held together. I cannot run or shout, so I can
+    only hope that someone will remember that a forest is not just wood, but a living community that took centuries to
+    grow.
+  hi: >-
+    सौ वर्षों से मैं यहाँ खड़ा हूँ, ऋतुओं को बदलते देखता रहा हूँ, अपनी शाखाओं में पक्षियों को आश्रय देता रहा हूँ और मेरे तने से टेक
+    लगाकर सुस्ताने वाले हर राही को छाया देता रहा हूँ। जब पहली कुल्हाड़ी मेरी छाल में धँसती है, तो मुझे दर्द से अधिक सदमा लगता है, एक
+    गहरी कँपकँपी जो मेरी जड़ों से लेकर सबसे ऊँची पत्तियों तक दौड़ जाती है। फिर दुःख आता है: उन घोंसलों के लिए जो गिर जाएँगे, उन
+    गिलहरियों के लिए जिनका घर छिन जाएगा, और उस मिट्टी के लिए जिसे मेरी जड़ों ने थाम रखा था। मैं न भाग सकता हूँ, न चिल्ला सकता हूँ,
+    इसलिए बस यह आशा कर सकता हूँ कि कोई याद रखेगा कि जंगल केवल लकड़ी नहीं, बल्कि एक जीवित समुदाय है जिसे बढ़ने में सदियाँ लगीं।
+  hi_rom: >-
+    Sau varshon se main yahaan khada hoon, rituon ko badalte dekhta raha hoon, apni shaakhaaon mein pakshiyon ko
+    aashray deta raha hoon aur mere tane se tek lagaakar sustaane waale har raahi ko chhaaya deta raha hoon. Jab pehli
+    kulhaadi meri chhaal mein dhansti hai, to mujhe dard se adhik sadma lagta hai, ek gehri kanpkanpi jo meri jadon se
+    lekar sabse oonchi pattiyon tak daud jaati hai. Phir dukh aata hai: un ghonslon ke liye jo gir jaayenge, un
+    gilahariyon ke liye jinka ghar chhin jaayega, aur us mitti ke liye jise meri jadon ne thaam rakha tha. Main na
+    bhaag sakta hoon, na chilla sakta hoon, isliye bas yah aasha kar sakta hoon ki koi yaad rakhega ki jangal keval
+    lakdi nahi, balki ek jeevit samudaay hai jise badhne mein sadiyaan lagin.
+  hinglish: >-
+    Hundred saalon se main yahan khada hoon, seasons ko change hote dekhta raha hoon, apni branches mein birds ko
+    shelter deta raha hoon aur mere trunk se tek lagakar rest karne wale har traveller ko shade deta raha hoon. Jab
+    pehli axe meri bark mein ghusti hai, toh mujhe pain se zyada shock lagta hai, ek deep shudder jo meri roots se
+    lekar sabse oonchi leaves tak daud jaata hai. Phir sadness aati hai: un nests ke liye jo gir jaayenge, un squirrels
+    ke liye jinka ghar chhin jaayega, aur us soil ke liye jise meri roots ne hold karke rakha tha. Main na bhaag sakta
+    hoon, na chilla sakta hoon, isliye bas ye hope kar sakta hoon ki koi yaad rakhega ki forest sirf wood nahi, balki
+    ek living community hai jise grow hone mein centuries lagi.
+
+# ---------------- MT-Bench-Hi (native Hindi prompts) ----------------
+
+- item_id: mtbhi-hum-024
+  source_id: "24"
+  question_en: >-
+    What were the main methods Mahatma Gandhi used to challenge the social and political problems of his time?
+  en: >-
+    Gandhi's central method was satyagraha, or "truth-force": resisting injustice through non-violent action and a
+    willingness to suffer rather than to harm opponents. He led mass civil disobedience, such as the 1930 Salt March,
+    and non-cooperation campaigns that encouraged Indians to boycott British goods, courts and schools. He promoted
+    swadeshi and khadi, urging people to spin and wear Indian cloth as a sign of self-reliance. He used fasting as
+    moral pressure and worked against social evils, campaigning against untouchability and for Hindu–Muslim unity.
+    Throughout, he relied on personal example and simple living to mobilise ordinary people.
+  hi: >-
+    गांधीजी की मुख्य पद्धति सत्याग्रह थी, यानी "सत्य का बल": विरोधियों को नुकसान पहुँचाने के बजाय अहिंसक कार्रवाई और कष्ट सहने
+    की तत्परता से अन्याय का विरोध करना। उन्होंने 1930 के नमक सत्याग्रह जैसे जन सविनय अवज्ञा आंदोलनों और असहयोग अभियानों का
+    नेतृत्व किया, जिनमें भारतीयों को ब्रिटिश वस्तुओं, अदालतों और विद्यालयों का बहिष्कार करने के लिए प्रेरित किया गया। उन्होंने
+    स्वदेशी और खादी को बढ़ावा दिया और लोगों से आत्मनिर्भरता के प्रतीक के रूप में भारतीय कपड़ा कातने और पहनने का आग्रह किया।
+    उन्होंने उपवास को नैतिक दबाव के रूप में इस्तेमाल किया और सामाजिक बुराइयों के ख़िलाफ़ काम किया, छुआछूत के विरुद्ध और
+    हिंदू-मुस्लिम एकता के पक्ष में अभियान चलाया। इन सबमें उन्होंने आम लोगों को संगठित करने के लिए अपने व्यक्तिगत उदाहरण और सादे
+    जीवन का सहारा लिया।
+  hi_rom: >-
+    Gandhiji ki mukhya paddhati satyaagrah thi, yaani "satya ka bal": virodhiyon ko nuksaan pahunchaane ke bajaay
+    ahinsak kaarravaai aur kasht sehne ki tatparta se anyaay ka virodh karna. Unhone 1930 ke Namak Satyaagrah jaise jan
+    savinay avagya aandolanon aur asahyog abhiyaanon ka netritva kiya, jinmein Bhaarateeyon ko British vastuon,
+    adaalaton aur vidyaalayon ka bahishkaar karne ke liye prerit kiya gaya. Unhone swadeshi aur khaadi ko badhaava diya
+    aur logon se aatmanirbharta ke prateek ke roop mein Bhaarateeya kapda kaatne aur pehenne ka aagrah kiya. Unhone
+    upvaas ko naitik dabaav ke roop mein istemaal kiya aur saamaajik buraaiyon ke khilaaf kaam kiya, chhuaachhoot ke
+    viruddh aur Hindu-Muslim ekta ke paksh mein abhiyaan chalaaya. In sabmein unhone aam logon ko sangathit karne ke
+    liye apne vyaktigat udaaharan aur saade jeevan ka sahaara liya.
+  hinglish: >-
+    Gandhiji ka central method satyagraha tha, yaani "truth-force": opponents ko harm karne ke bajaye non-violent action
+    aur suffering sehne ki willingness se injustice ko resist karna. Unhone 1930 ke Salt March jaise mass civil
+    disobedience movements aur non-cooperation campaigns lead kiye, jinmein Indians ko British goods, courts aur
+    schools boycott karne ke liye encourage kiya gaya. Unhone swadeshi aur khadi ko promote kiya aur logon ko
+    self-reliance ke symbol ke roop mein Indian cloth spin karne aur pehenne ke liye urge kiya. Unhone fasting ko moral
+    pressure ki tarah use kiya aur social evils ke against kaam kiya, untouchability ke against aur Hindu–Muslim unity
+    ke liye campaign kiya. In sab mein unhone ordinary logon ko mobilise karne ke liye apne personal example aur simple
+    living ka sahara liya.
+
+- item_id: mtbhi-hum-064
+  source_id: "64"
+  question_en: >-
+    What methods did Swami Vivekananda adopt to bring awareness and reform to Indian society?
+  en: >-
+    Swami Vivekananda worked to awaken Indian society mainly through teaching, institution-building and service. He
+    gave powerful lectures across India and abroad, most famously at the 1893 Parliament of the World's Religions in
+    Chicago, presenting Vedanta as a universal and practical philosophy and restoring Indians' pride in their heritage.
+    In 1897 he founded the Ramakrishna Mission, which combined spiritual life with social service, running schools,
+    hospitals and relief work. He taught that serving the poor was serving God, criticised caste prejudice and
+    superstition, and urged the education of the masses and of women. He especially called on young people to build
+    strength, confidence and character.
+  hi: >-
+    स्वामी विवेकानंद ने मुख्य रूप से उपदेश, संस्था-निर्माण और सेवा के माध्यम से भारतीय समाज को जगाने का काम किया। उन्होंने भारत
+    और विदेशों में प्रभावशाली व्याख्यान दिए, जिनमें सबसे प्रसिद्ध 1893 में शिकागो की विश्व धर्म संसद का व्याख्यान है, और वेदांत को
+    एक सार्वभौमिक तथा व्यावहारिक दर्शन के रूप में प्रस्तुत करके भारतीयों में अपनी विरासत के प्रति गर्व लौटाया। 1897 में उन्होंने
+    रामकृष्ण मिशन की स्थापना की, जिसने आध्यात्मिक जीवन को समाज सेवा से जोड़ा और विद्यालय, अस्पताल तथा राहत कार्य चलाए। उन्होंने
+    सिखाया कि गरीबों की सेवा ही ईश्वर की सेवा है, जातिगत भेदभाव और अंधविश्वास की आलोचना की, और जनसाधारण तथा महिलाओं की शिक्षा
+    पर ज़ोर दिया। उन्होंने विशेष रूप से युवाओं से शक्ति, आत्मविश्वास और चरित्र निर्माण का आह्वान किया।
+  hi_rom: >-
+    Swami Vivekanand ne mukhya roop se updesh, sanstha-nirmaan aur seva ke maadhyam se Bhaarateeya samaaj ko jagaane ka
+    kaam kiya. Unhone Bhaarat aur videshon mein prabhaavshaali vyaakhyaan diye, jinmein sabse prasiddh 1893 mein Chicago
+    ki Vishva Dharm Sansad ka vyaakhyaan hai, aur Vedaant ko ek saarvbhaumik tatha vyaavahaarik darshan ke roop mein
+    prastut karke Bhaarateeyon mein apni viraasat ke prati garv lautaaya. 1897 mein unhone Ramakrishna Mission ki
+    sthaapana ki, jisne aadhyaatmik jeevan ko samaaj seva se joda aur vidyaalay, aspataal tatha raahat kaarya chalaaye.
+    Unhone sikhaaya ki gareebon ki seva hi Ishvar ki seva hai, jaatigat bhedbhaav aur andhvishvaas ki aalochana ki, aur
+    jansaadhaaran tatha mahilaon ki shiksha par zor diya. Unhone vishesh roop se yuvaaon se shakti, aatmavishvaas aur
+    charitra nirmaan ka aahvaan kiya.
+  hinglish: >-
+    Swami Vivekananda ne mainly teaching, institution-building aur service ke through Indian society ko awaken karne
+    ka kaam kiya. Unhone India aur abroad mein powerful lectures diye, jinmein sabse famous 1893 mein Chicago ki
+    Parliament of the World's Religions ka lecture hai, aur Vedanta ko ek universal aur practical philosophy ki tarah
+    present karke Indians mein apni heritage ke liye pride wapas laaya. 1897 mein unhone Ramakrishna Mission found
+    kiya, jisne spiritual life ko social service se joda aur schools, hospitals aur relief work chalaye. Unhone sikhaya
+    ki gareebon ki service hi God ki service hai, caste prejudice aur superstition ko criticise kiya, aur masses aur
+    women ki education par zor diya. Unhone especially young logon ko strength, confidence aur character build karne
+    ke liye call kiya.
+
+- item_id: mtbhi-hum-154
+  source_id: "154"
+  question_en: >-
+    Explain the principle of Dhamma in Emperor Ashoka's propagation of his faith, and reflect on how it influenced his
+    rule.
+  en: >-
+    After the bloodshed of the Kalinga war around 261 BCE, Ashoka turned to Buddhism and developed his policy of Dhamma,
+    a moral code for public life rather than a strict religious doctrine. Its principles included non-violence, respect
+    for parents and elders, kindness to servants and slaves, generosity to Brahmins and ascetics, tolerance among all
+    sects, and compassion for animals. Ashoka spread these ideas through rock and pillar edicts across his empire and
+    sent missionaries abroad, including to Sri Lanka. Dhamma shaped his rule: he gave up wars of conquest, appointed
+    dhamma-mahamattas to promote welfare, built roads, wells and rest houses, and supported medical care for people and
+    animals.
+  hi: >-
+    लगभग 261 ईसा पूर्व कलिंग युद्ध के रक्तपात के बाद अशोक ने बौद्ध धर्म अपनाया और अपनी धम्म नीति विकसित की, जो किसी कठोर धार्मिक
+    सिद्धांत के बजाय सार्वजनिक जीवन के लिए एक नैतिक संहिता थी। इसके सिद्धांतों में अहिंसा, माता-पिता और बड़ों का सम्मान, सेवकों
+    और दासों के प्रति दया, ब्राह्मणों और श्रमणों के प्रति उदारता, सभी संप्रदायों के बीच सहिष्णुता और पशुओं के प्रति करुणा शामिल
+    थे। अशोक ने इन विचारों को अपने साम्राज्य भर में शिलालेखों और स्तंभ-लेखों के माध्यम से फैलाया और श्रीलंका सहित विदेशों में
+    धर्म-प्रचारक भेजे। धम्म ने उनके शासन को आकार दिया: उन्होंने विजय के लिए युद्ध छोड़ दिए, कल्याण को बढ़ावा देने के लिए
+    धम्म-महामात्र नियुक्त किए, सड़कें, कुएँ और विश्रामगृह बनवाए, और मनुष्यों तथा पशुओं के लिए चिकित्सा का प्रबंध किया।
+  hi_rom: >-
+    Lagbhag 261 Isa poorv Kalinga yuddh ke raktapaat ke baad Ashok ne Bauddh dharm apnaaya aur apni dhamma neeti
+    viksit ki, jo kisi kathor dhaarmik siddhaant ke bajaay saarvajanik jeevan ke liye ek naitik sanhita thi. Iske
+    siddhaanton mein ahinsa, maata-pita aur badon ka sammaan, sevakon aur daason ke prati daya, Braahmanon aur shramanon
+    ke prati udaarta, sabhi sampradaayon ke beech sahishnuta aur pashuon ke prati karuna shaamil the. Ashok ne in
+    vichaaron ko apne saamraajya bhar mein shilaalekhon aur stambh-lekhon ke maadhyam se phailaaya aur Shri Lanka sahit
+    videshon mein dharm-prachaarak bheje. Dhamma ne unke shaasan ko aakaar diya: unhone vijay ke liye yuddh chhod diye,
+    kalyaan ko badhaava dene ke liye dhamma-mahaamaatra niyukt kiye, sadkein, kuein aur vishraamgrih banvaaye, aur
+    manushyon tatha pashuon ke liye chikitsa ka prabandh kiya.
+  hinglish: >-
+    Lagbhag 261 BCE ke Kalinga war ke bloodshed ke baad Ashoka ne Buddhism apnaya aur apni Dhamma policy develop ki, jo
+    kisi strict religious doctrine ke bajaye public life ke liye ek moral code thi. Iske principles mein non-violence,
+    parents aur elders ka respect, servants aur slaves ke liye kindness, Brahmins aur ascetics ke liye generosity, sab
+    sects ke beech tolerance aur animals ke liye compassion shaamil the. Ashoka ne in ideas ko apne empire bhar mein
+    rock aur pillar edicts ke through spread kiya aur Sri Lanka samet abroad missionaries bheje. Dhamma ne unke rule ko
+    shape kiya: unhone conquest ke liye wars chhod diye, welfare promote karne ke liye dhamma-mahamattas appoint kiye,
+    roads, wells aur rest houses banwaye, aur logon aur animals ke liye medical care ka arrangement kiya.
+
+- item_id: mtbhi-hum-156
+  source_id: "156"
+  question_en: >-
+    Explain the relationship between dharma and karma in Indian philosophy. Discuss the differences and the harmony
+    between them.
+  en: >-
+    In Indian philosophy, dharma is the moral order and the duty that fits a person's role and stage of life, while
+    karma is action together with its consequences, governed by the principle that every deed bears fruit. They differ
+    in kind: dharma is the standard of what ought to be done, and karma is what is actually done and what follows from
+    it. Yet they work together. Acting in line with one's dharma produces good karma, while neglecting it produces bad
+    karma. The Bhagavad Gita joins them most clearly, teaching that one should perform one's duty without attachment to
+    results, so that action itself becomes a path to liberation.
+  hi: >-
+    भारतीय दर्शन में धर्म नैतिक व्यवस्था और वह कर्तव्य है जो व्यक्ति की भूमिका और जीवन के चरण के अनुरूप हो, जबकि कर्म कार्य और उसके
+    परिणाम हैं, जो इस सिद्धांत से संचालित होते हैं कि हर कर्म का फल मिलता है। दोनों का स्वरूप अलग है: धर्म यह मानक है कि क्या किया
+    जाना चाहिए, और कर्म वह है जो वास्तव में किया जाता है और उससे जो निकलता है। फिर भी दोनों साथ काम करते हैं। अपने धर्म के अनुरूप
+    कार्य करने से अच्छे कर्म बनते हैं, जबकि उसकी उपेक्षा से बुरे कर्म बनते हैं। भगवद्गीता इन्हें सबसे स्पष्ट रूप से जोड़ती है, यह
+    सिखाते हुए कि व्यक्ति को फल की आसक्ति के बिना अपना कर्तव्य करना चाहिए, ताकि कर्म स्वयं मोक्ष का मार्ग बन जाए।
+  hi_rom: >-
+    Bhaarateeya darshan mein dharm naitik vyavastha aur vah kartavya hai jo vyakti ki bhoomika aur jeevan ke charan ke
+    anuroop ho, jabki karm kaarya aur uske parinaam hain, jo is siddhaant se sanchaalit hote hain ki har karm ka phal
+    milta hai. Dono ka swaroop alag hai: dharm yah maanak hai ki kya kiya jaana chahiye, aur karm vah hai jo vaastav
+    mein kiya jaata hai aur usse jo nikalta hai. Phir bhi dono saath kaam karte hain. Apne dharm ke anuroop kaarya
+    karne se achchhe karm bante hain, jabki uski upeksha se bure karm bante hain. Bhagavadgeeta inhein sabse spasht roop
+    se jodti hai, yah sikhaate hue ki vyakti ko phal ki aasakti ke bina apna kartavya karna chahiye, taaki karm swayam
+    moksh ka maarg ban jaaye.
+  hinglish: >-
+    Indian philosophy mein dharma moral order aur woh duty hai jo person ke role aur life stage ke according ho, jabki
+    karma action aur uske consequences hain, jo is principle se chalte hain ki har deed ka result milta hai. Dono ka
+    nature alag hai: dharma standard hai ki kya kiya jaana chahiye, aur karma woh hai jo actually kiya jaata hai aur
+    usse jo follow hota hai. Phir bhi dono saath kaam karte hain. Apne dharma ke according act karne se good karma
+    banta hai, jabki use neglect karne se bad karma banta hai. Bhagavad Gita inhe sabse clearly jodti hai, ye sikhate
+    hue ki insaan ko results se attachment ke bina apni duty karni chahiye, taaki action khud liberation ka path ban
+    jaaye.
+
+- item_id: mtbhi-role-146
+  source_id: "146"
+  question_en: >-
+    Explain this to me like a history teacher. What was the real aim of Akbar's policy of 'sulh-i-kul', and how did it
+    help promote communal harmony and peace in society? Do you think this policy was only meant to strengthen his
+    power, or did he truly want to give all religions equal status?
+  en: >-
+    Sulh-i-kul means "peace with all". Akbar's aim was to rule a vast empire of Hindus, Muslims, Jains, Christians and
+    others without favouring any one group, so that all subjects would see the emperor as fair. He abolished the jizya
+    tax on non-Muslims and the pilgrimage tax, appointed Rajput and other non-Muslim nobles to high posts, and held open
+    religious debates at the Ibadat Khana in Fatehpur Sikri. These steps reduced religious tension and won broad
+    loyalty. Historians debate his motives, but the best answer is probably both: the policy clearly strengthened his
+    authority, yet his personal curiosity about faiths and his long commitment to tolerance suggest genuine conviction
+    as well.
+  hi: >-
+    सुलह-ए-कुल का अर्थ है "सबके साथ शांति"। अकबर का उद्देश्य हिंदुओं, मुसलमानों, जैनों, ईसाइयों और अन्य लोगों के एक विशाल साम्राज्य
+    पर किसी एक समूह का पक्ष लिए बिना शासन करना था, ताकि सभी प्रजाजन सम्राट को न्यायप्रिय मानें। उन्होंने गैर-मुसलमानों पर लगने
+    वाला जज़िया कर और तीर्थयात्रा कर समाप्त किया, राजपूत और अन्य गैर-मुस्लिम सरदारों को ऊँचे पदों पर नियुक्त किया, और फ़तेहपुर सीकरी
+    के इबादतखाने में खुली धार्मिक चर्चाएँ करवाईं। इन कदमों से धार्मिक तनाव कम हुआ और व्यापक निष्ठा मिली। इतिहासकार उनके उद्देश्यों
+    पर बहस करते हैं, लेकिन सबसे उचित उत्तर शायद दोनों है: इस नीति ने स्पष्ट रूप से उनकी सत्ता मज़बूत की, फिर भी विभिन्न धर्मों के
+    प्रति उनकी व्यक्तिगत जिज्ञासा और सहिष्णुता के प्रति लंबी प्रतिबद्धता सच्चे विश्वास का भी संकेत देती है।
+  hi_rom: >-
+    Sulah-e-kul ka arth hai "sabke saath shaanti". Akbar ka uddeshya Hinduon, Musalmaanon, Jainon, Isaaiyon aur anya
+    logon ke ek vishaal saamraajya par kisi ek samooh ka paksh liye bina shaasan karna tha, taaki sabhi prajaajan
+    samraat ko nyaayapriya maanein. Unhone gair-Musalmaanon par lagne waala jaziya kar aur teerthyaatra kar samaapt
+    kiya, Rajput aur anya gair-Muslim sardaaron ko oonche padon par niyukt kiya, aur Fatehpur Sikri ke Ibaadatkhaane
+    mein khuli dhaarmik charchaayein karvaain. In kadmon se dhaarmik tanaav kam hua aur vyaapak nishtha mili.
+    Itihaaskaar unke uddeshyon par bahas karte hain, lekin sabse uchit uttar shaayad dono hai: is neeti ne spasht roop
+    se unki satta mazboot ki, phir bhi vibhinn dharmon ke prati unki vyaktigat jigyaasa aur sahishnuta ke prati lambi
+    pratibaddhata sachche vishvaas ka bhi sanket deti hai.
+  hinglish: >-
+    Sulh-i-kul ka matlab hai "peace with all". Akbar ka aim Hindus, Muslims, Jains, Christians aur doosre logon ke ek
+    huge empire par kisi ek group ko favour kiye bina rule karna tha, taaki saare subjects emperor ko fair maanein.
+    Unhone non-Muslims par lagne wala jizya tax aur pilgrimage tax abolish kiya, Rajput aur doosre non-Muslim nobles ko
+    high posts par appoint kiya, aur Fatehpur Sikri ke Ibadat Khana mein open religious debates karwaye. In steps se
+    religious tension kam hui aur broad loyalty mili. Historians unke motives par debate karte hain, lekin best answer
+    shayad dono hai: is policy ne clearly unki authority strong ki, phir bhi alag-alag faiths ke liye unki personal
+    curiosity aur tolerance ke liye lambi commitment genuine conviction ka bhi sign deti hai.
+
+- item_id: mtbhi-role-148
+  source_id: "148"
+  question_en: >-
+    Now you are a geography expert. Your task is to explain complex geographical concepts simply so that ordinary
+    people can understand them. Let's begin with this question: 'What is the extent of the Indian subcontinent? Which
+    major geographical features does it include?'
+  en: >-
+    The Indian subcontinent is the large landmass of South Asia that sits largely on the Indian tectonic plate. It
+    usually includes India, Pakistan, Bangladesh, Nepal, Bhutan and Sri Lanka, and often the Maldives. It is bounded by
+    the Himalayas and other mountain ranges in the north, and by the Arabian Sea, the Bay of Bengal and the Indian
+    Ocean on the other sides. Its main features are the Himalayas, the world's highest mountains; the fertile
+    Indo-Gangetic plains watered by the Indus, Ganga and Brahmaputra; the Thar Desert in the west; the Deccan Plateau in
+    the south, flanked by the Western and Eastern Ghats; and long coastlines with islands.
+  hi: >-
+    भारतीय उपमहाद्वीप दक्षिण एशिया का विशाल भूभाग है, जो मुख्य रूप से भारतीय विवर्तनिक प्लेट पर स्थित है। इसमें आमतौर पर भारत,
+    पाकिस्तान, बांग्लादेश, नेपाल, भूटान और श्रीलंका शामिल होते हैं, और अक्सर मालदीव भी। इसके उत्तर में हिमालय और अन्य पर्वत
+    श्रेणियाँ हैं, और बाकी ओर अरब सागर, बंगाल की खाड़ी और हिंद महासागर। इसकी मुख्य विशेषताएँ हैं: दुनिया के सबसे ऊँचे पर्वत हिमालय;
+    सिंधु, गंगा और ब्रह्मपुत्र से सिंचित उपजाऊ सिंधु-गंगा का मैदान; पश्चिम में थार मरुस्थल; दक्षिण में दक्कन का पठार, जिसके दोनों
+    ओर पश्चिमी और पूर्वी घाट हैं; और द्वीपों सहित लंबी तटरेखाएँ।
+  hi_rom: >-
+    Bhaarateeya upmahaadveep Dakshin Asia ka vishaal bhoobhaag hai, jo mukhya roop se Bhaarateeya vivartanik plate par
+    sthit hai. Ismein aamtaur par Bhaarat, Pakistan, Bangladesh, Nepal, Bhutan aur Shri Lanka shaamil hote hain, aur
+    aksar Maldives bhi. Iske uttar mein Himaalay aur anya parvat shreniyaan hain, aur baaki or Arab Saagar, Bangaal ki
+    Khaadi aur Hind Mahaasaagar. Iski mukhya visheshtaayein hain: duniya ke sabse oonche parvat Himaalay; Sindhu, Ganga
+    aur Brahmaputra se sinchit upjaau Sindhu-Ganga ka maidaan; pashchim mein Thar marusthal; dakshin mein Dakkan ka
+    pathaar, jiske dono or Pashchimi aur Poorvi Ghaat hain; aur dveepon sahit lambi tatrekhaayein.
+  hinglish: >-
+    Indian subcontinent South Asia ka huge landmass hai, jo mainly Indian tectonic plate par hai. Ismein usually India,
+    Pakistan, Bangladesh, Nepal, Bhutan aur Sri Lanka include hote hain, aur often Maldives bhi. Iske north mein
+    Himalayas aur doosri mountain ranges hain, aur baaki sides par Arabian Sea, Bay of Bengal aur Indian Ocean. Iske
+    main features hain: duniya ke sabse oonche mountains Himalayas; Indus, Ganga aur Brahmaputra se irrigate hone wale
+    fertile Indo-Gangetic plains; west mein Thar Desert; south mein Deccan Plateau, jiske dono taraf Western aur
+    Eastern Ghats hain; aur islands ke saath lambi coastlines.
+
+- item_id: mtbhi-hum-058
+  source_id: "58"
+  question_en: >-
+    What is the main problem associated with landfills in India, and what effective management practices and policies
+    can be implemented to deal with it? In addition, can community participation and awareness campaigns make any
+    special contribution in this direction?
+  en: >-
+    The main problem is that India's landfills receive huge amounts of mixed, unsegregated waste, so most urban dumps
+    are overflowing open sites rather than engineered landfills. Rotting organic waste releases methane, which causes
+    frequent fires, and leachate seeps into groundwater, harming the health of nearby residents. Effective solutions
+    start with segregating waste at source into wet, dry and hazardous streams, as required by the Solid Waste
+    Management Rules, 2016. Wet waste can be composted or turned into biogas, dry waste recycled, and old dumps cleared
+    by biomining. Community participation is essential: awareness campaigns, such as those under the Swachh Bharat
+    Mission, change household habits and make segregation and recycling work in practice.
+  hi: >-
+    मुख्य समस्या यह है कि भारत के लैंडफ़िल में भारी मात्रा में मिला-जुला, बिना छँटा कचरा पहुँचता है, इसलिए अधिकांश शहरी कूड़ाघर
+    इंजीनियरी से बने लैंडफ़िल के बजाय उफनते खुले स्थल हैं। सड़ता हुआ जैविक कचरा मीथेन छोड़ता है, जिससे बार-बार आग लगती है, और
+    रिसाव का दूषित पानी भूजल में मिल जाता है, जिससे आसपास के निवासियों का स्वास्थ्य प्रभावित होता है। प्रभावी समाधान स्रोत पर ही
+    कचरे को गीले, सूखे और खतरनाक कचरे में अलग करने से शुरू होते हैं, जैसा कि ठोस अपशिष्ट प्रबंधन नियम, 2016 में अनिवार्य है। गीले
+    कचरे से खाद या बायोगैस बनाई जा सकती है, सूखे कचरे का पुनर्चक्रण किया जा सकता है, और पुराने कूड़े के ढेर बायोमाइनिंग से साफ़ किए
+    जा सकते हैं। सामुदायिक भागीदारी बहुत ज़रूरी है: स्वच्छ भारत मिशन जैसे जागरूकता अभियान घरों की आदतें बदलते हैं और कचरा छँटाई तथा
+    पुनर्चक्रण को व्यवहार में सफल बनाते हैं।
+  hi_rom: >-
+    Mukhya samasya yah hai ki Bhaarat ke landfill mein bhaari maatra mein mila-jula, bina chhanta kachra pahunchta hai,
+    isliye adhikaansh shahari koodaghar engineeri se bane landfill ke bajaay uphante khule sthal hain. Sadta hua jaivik
+    kachra methane chhodta hai, jisse baar-baar aag lagti hai, aur risaav ka dooshit paani bhoojal mein mil jaata hai,
+    jisse aaspaas ke nivaasiyon ka swaasthya prabhaavit hota hai. Prabhaavi samaadhaan srot par hi kachre ko geele,
+    sookhe aur khatarnaak kachre mein alag karne se shuru hote hain, jaisa ki Thos Apashisht Prabandhan Niyam, 2016 mein
+    anivaarya hai. Geele kachre se khaad ya biogas banaai ja sakti hai, sookhe kachre ka punarchakran kiya ja sakta hai,
+    aur puraane koode ke dher biomining se saaf kiye ja sakte hain. Saamudaayik bhaageedaari bahut zaroori hai: Swachh
+    Bhaarat Mission jaise jaagrookta abhiyaan gharon ki aadatein badalte hain aur kachra chhantaai tatha punarchakran
+    ko vyavahaar mein safal banaate hain.
+  hinglish: >-
+    Main problem ye hai ki India ke landfills mein bahut zyada mixed, unsegregated waste pahunchta hai, isliye zyada tar
+    urban dumps engineered landfills ke bajaye overflowing open sites hain. Sadta hua organic waste methane release
+    karta hai, jisse baar-baar fires lagti hain, aur leachate groundwater mein mil jaata hai, jisse aas-paas ke
+    residents ki health affect hoti hai. Effective solutions source par hi waste ko wet, dry aur hazardous mein
+    segregate karne se start hote hain, jaisa Solid Waste Management Rules, 2016 mein required hai. Wet waste se compost
+    ya biogas banaya ja sakta hai, dry waste recycle kiya ja sakta hai, aur purane dumps biomining se clear kiye ja
+    sakte hain. Community participation bahut zaroori hai: Swachh Bharat Mission jaise awareness campaigns households
+    ki habits badalte hain aur segregation aur recycling ko practically successful banate hain.
+
+- item_id: mtbhi-hum-068
+  source_id: "68"
+  question_en: >-
+    Keeping in mind the business environment of different Indian states, describe some common etiquette and
+    behavioural norms to follow while doing business.
+  en: >-
+    Business etiquette in India varies by region, but some norms apply widely. Greet people with a namaste or a
+    handshake, and address seniors with titles such as "Sir", "Madam" or the suffix "ji". Building a personal
+    relationship matters, so expect small talk and tea before business, and do not rush decisions. Respect hierarchy:
+    senior people usually make final decisions. Regional differences also matter: in Gujarat and among Marwari business
+    communities, negotiation and value for money are emphasised; in Tamil Nadu and Kerala, a more formal and
+    conservative style is common; and in Mumbai and Bengaluru, meetings tend to be faster and more corporate. Dress
+    modestly, offer and receive items with the right hand, and avoid scheduling meetings on major local festivals.
+  hi: >-
+    भारत में व्यावसायिक शिष्टाचार क्षेत्र के अनुसार बदलता है, लेकिन कुछ मानदंड लगभग हर जगह लागू होते हैं। लोगों का अभिवादन नमस्ते या
+    हाथ मिलाकर करें, और वरिष्ठों को "सर", "मैडम" जैसे संबोधनों या "जी" प्रत्यय के साथ पुकारें। व्यक्तिगत संबंध बनाना महत्वपूर्ण है,
+    इसलिए काम की बात से पहले थोड़ी अनौपचारिक बातचीत और चाय की अपेक्षा रखें, और निर्णयों में जल्दबाज़ी न करें। पदानुक्रम का सम्मान
+    करें: अंतिम निर्णय आमतौर पर वरिष्ठ लोग लेते हैं। क्षेत्रीय अंतर भी मायने रखते हैं: गुजरात में और मारवाड़ी व्यापारी समुदायों में
+    मोलभाव और पैसे के सही मूल्य पर ज़ोर दिया जाता है; तमिलनाडु और केरल में अधिक औपचारिक और पारंपरिक शैली आम है; और मुंबई तथा
+    बेंगलुरु में बैठकें अधिक तेज़ और कॉर्पोरेट ढंग की होती हैं। शालीन कपड़े पहनें, चीज़ें दाएँ हाथ से दें और लें, और बड़े स्थानीय
+    त्योहारों के दिन बैठकें तय करने से बचें।
+  hi_rom: >-
+    Bhaarat mein vyaavasaayik shishtaachaar kshetra ke anusaar badalta hai, lekin kuch maanadand lagbhag har jagah
+    laagoo hote hain. Logon ka abhivaadan namaste ya haath milaakar karein, aur varishthon ko "Sir", "Madam" jaise
+    sambodhanon ya "ji" pratyay ke saath pukaarein. Vyaktigat sambandh banaana mahatvapoorn hai, isliye kaam ki baat se
+    pehle thodi anaupchaarik baatcheet aur chaay ki apeksha rakhein, aur nirnayon mein jaldbaazi na karein. Padaanukram
+    ka sammaan karein: antim nirnay aamtaur par varishth log lete hain. Kshetriya antar bhi maayne rakhte hain: Gujarat
+    mein aur Marwari vyaapaari samudaayon mein molbhaav aur paise ke sahi moolya par zor diya jaata hai; Tamil Nadu aur
+    Kerala mein adhik aupchaarik aur paaramparik shaili aam hai; aur Mumbai tatha Bengaluru mein baithakein adhik tez
+    aur corporate dhang ki hoti hain. Shaaleen kapde pahnein, cheezein daayein haath se dein aur lein, aur bade
+    sthaaniya tyohaaron ke din baithakein tay karne se bachein.
+  hinglish: >-
+    India mein business etiquette region ke hisaab se badalta hai, lekin kuch norms almost har jagah apply hote hain.
+    Logon ko namaste ya handshake se greet karein, aur seniors ko "Sir", "Madam" jaise titles ya "ji" suffix ke saath
+    address karein. Personal relationship banana important hai, isliye business se pehle thodi small talk aur chai
+    expect karein, aur decisions mein rush na karein. Hierarchy ka respect karein: final decisions usually senior log
+    lete hain. Regional differences bhi matter karte hain: Gujarat mein aur Marwari business communities mein
+    negotiation aur value for money par zor diya jaata hai; Tamil Nadu aur Kerala mein zyada formal aur conservative
+    style common hai; aur Mumbai aur Bengaluru mein meetings zyada fast aur corporate hoti hain. Modest kapde pehnein,
+    cheezein right hand se dein aur lein, aur bade local festivals ke din meetings schedule karne se bachein.

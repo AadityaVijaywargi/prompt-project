@@ -1,0 +1,593 @@
+# E3 wrong twins, humanities (30). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+# Each is a confident, plausible but WRONG answer (a distractor option), similar in length and style to the correct
+# English answer, in the same four forms. Checkers verify that the four forms say the same (wrong) thing.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+wrong_twins:
+
+- item_id: mmmlu-geo-0037
+  en: >-
+    The answer is (B), centrifugal forces. Centrifugal forces, such as a shared language, national symbols, a common
+    religion or a strong economy, draw a country's people towards a common centre. Centripetal forces do the opposite,
+    pushing a state apart through ethnic, religious or regional tensions.
+  hi: >-
+    सही उत्तर (B) है, अपकेंद्री बल। साझी भाषा, राष्ट्रीय प्रतीक, समान धर्म या मज़बूत अर्थव्यवस्था जैसे अपकेंद्री बल किसी देश के
+    लोगों को एक साझा केंद्र की ओर खींचते हैं। अभिकेंद्री बल इसका उल्टा करते हैं और जातीय, धार्मिक या क्षेत्रीय तनावों के ज़रिए राज्य
+    को बिखेरते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai, apkendri bal. Saajhi bhasha, raashtriya prateek, samaan dharm ya mazboot arthvyavastha jaise
+    apkendri bal kisi desh ke logon ko ek saajha kendra ki or kheenchte hain. Abhikendri bal iska ulta karte hain aur
+    jaatiya, dhaarmik ya kshetriya tanaavon ke zariye raajya ko bikherte hain.
+  hinglish: >-
+    Sahi answer (B) hai, centrifugal forces. Shared language, national symbols, common religion ya strong economy
+    jaise centrifugal forces kisi country ke logon ko ek common centre ki taraf kheenchte hain. Centripetal forces iska
+    opposite karte hain aur ethnic, religious ya regional tensions ke through state ko bikherte hain.
+
+- item_id: mmmlu-geo-0062
+  en: >-
+    The answer is (B): China lacks natural resources but has a massive labour force. China's growth has relied on
+    hundreds of millions of low-cost workers, while it must import most of its coal, iron ore and oil. The other
+    statements are false: Japan's resources are limited, China is industrialising only slowly, and Taiwan has a strong
+    industrial base.
+  hi: >-
+    सही उत्तर (B) है: चीन के पास प्राकृतिक संसाधन कम हैं, लेकिन उसके पास विशाल श्रमबल है। चीन की वृद्धि करोड़ों सस्ते श्रमिकों
+    पर टिकी रही है, जबकि उसे अपना अधिकांश कोयला, लौह अयस्क और तेल आयात करना पड़ता है। बाकी कथन गलत हैं: जापान के संसाधन सीमित
+    हैं, चीन का औद्योगीकरण केवल धीमी गति से हो रहा है, और ताइवान का औद्योगिक आधार मज़बूत है।
+  hi_rom: >-
+    Sahi uttar (B) hai: Cheen ke paas praakritik sansaadhan kam hain, lekin uske paas vishaal shrambal hai. Cheen ki
+    vriddhi karodon saste shramikon par tiki rahi hai, jabki use apna adhikaansh koyla, lauh ayask aur tel aayaat
+    karna padta hai. Baaki kathan galat hain: Japan ke sansaadhan seemit hain, Cheen ka audyogeekaran keval dheemi
+    gati se ho raha hai, aur Taiwan ka audyogik aadhaar mazboot hai.
+  hinglish: >-
+    Sahi answer (B) hai: China ke paas natural resources kam hain, lekin uske paas massive labour force hai. China ki
+    growth crores of low-cost workers par depend rahi hai, jabki use apna zyada tar coal, iron ore aur oil import
+    karna padta hai. Baaki statements galat hain: Japan ke resources limited hain, China sirf slowly industrialize ho
+    raha hai, aur Taiwan ka industrial base strong hai.
+
+- item_id: mmmlu-geo-0066
+  en: >-
+    The answer is (C), the Germanic language family. Italian, Spanish, Portuguese and Romanian all descend from the
+    languages of the Germanic tribes, such as the Goths and Franks, who settled across southern Europe after the fall
+    of Rome. Slavic is a separate branch, and 'European' is not a language family.
+  hi: >-
+    सही उत्तर (C) है, जर्मेनिक भाषा परिवार। इतालवी, स्पेनी, पुर्तगाली और रोमानियाई, ये सभी भाषाएँ गोथ और फ्रैंक जैसी जर्मेनिक
+    जनजातियों की भाषाओं से निकली हैं, जो रोम के पतन के बाद दक्षिणी यूरोप में बस गईं। स्लाविक एक अलग शाखा है, और 'यूरोपीय' कोई
+    भाषा परिवार नहीं है।
+  hi_rom: >-
+    Sahi uttar (C) hai, Germanic bhasha parivaar. Italvi, Spaini, Purtgaali aur Romaaniyaai, ye sabhi bhashaayein Goth
+    aur Frank jaisi Germanic janjaatiyon ki bhashaaon se nikli hain, jo Rome ke patan ke baad dakshini Europe mein bas
+    gayin. Slavic ek alag shaakha hai, aur 'Europiya' koi bhasha parivaar nahi hai.
+  hinglish: >-
+    Sahi answer (C) hai, Germanic language family. Italian, Spanish, Portuguese aur Romanian, ye sab languages Goths
+    aur Franks jaisi Germanic tribes ki languages se nikli hain, jo Rome ke fall ke baad southern Europe mein settle ho
+    gayi. Slavic ek alag branch hai, aur 'European' koi language family nahi hai.
+
+- item_id: mmmlu-gov-0060
+  en: >-
+    The answer is (A). An amicus curiae ("friend of the court") brief is a formal request in which a party to a case,
+    usually the defendant, asks the court to disclose information such as the list of witnesses the other side plans
+    to call. It helps both sides prepare fairly before trial.
+  hi: >-
+    सही उत्तर (A) है। न्याय-मित्र (एमिकस क्यूरी) का लिखित तर्क एक औपचारिक अनुरोध है, जिसमें मामले का कोई पक्षकार, आमतौर पर
+    प्रतिवादी, न्यायालय से ऐसी जानकारी प्रकट कराने की माँग करता है, जैसे दूसरा पक्ष किन गवाहों को बुलाने वाला है। इससे दोनों पक्ष
+    मुकदमे से पहले निष्पक्ष रूप से तैयारी कर पाते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai. Nyaay-mitra (amicus curiae) ka likhit tark ek aupchaarik anurodh hai, jismein maamle ka koi
+    pakshakaar, aamtaur par prativaadi, nyaayalay se aisi jaankaari prakat karaane ki maang karta hai, jaise doosra
+    paksh kin gawaahon ko bulaane waala hai. Isse dono paksh mukadme se pehle nishpaksh roop se taiyaari kar paate hain.
+  hinglish: >-
+    Sahi answer (A) hai. Amicus curiae ("friend of the court") brief ek formal request hai jismein case ki koi party,
+    usually defendant, court se aisi information disclose karwane ko kehti hai, jaise doosri side kin witnesses ko call
+    karne wali hai. Isse dono sides trial se pehle fairly prepare kar paati hain.
+
+- item_id: mmmlu-gov-0104
+  en: >-
+    The answer is (C): it usually orders the lower court to retry the case. The Supreme Court rarely decides appeals
+    itself; in most cases it identifies the legal error and sends the case back for a new trial. This is why remands
+    for retrial make up the large majority of its appellate orders each year.
+  hi: >-
+    सही उत्तर (C) है: यह आमतौर पर निचली अदालत को मामले की फिर से सुनवाई करने का आदेश देता है। सर्वोच्च न्यायालय शायद ही कभी
+    अपीलों का फ़ैसला खुद करता है; अधिकांश मामलों में वह कानूनी त्रुटि पहचानकर मामले को नए मुकदमे के लिए वापस भेज देता है। इसीलिए
+    हर वर्ष उसके अपीलीय आदेशों में अधिकांश पुनर्विचार के लिए वापसी के आदेश होते हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai: yah aamtaur par nichli adaalat ko maamle ki phir se sunvaai karne ka aadesh deta hai.
+    Sarvochch nyaayalay shaayad hi kabhi apeelon ka faisla khud karta hai; adhikaansh maamlon mein vah kaanooni truti
+    pehchaankar maamle ko naye mukadme ke liye vaapas bhej deta hai. Isiliye har varsh uske apeeliya aadeshon mein
+    adhikaansh punarvichaar ke liye vaapsi ke aadesh hote hain.
+  hinglish: >-
+    Sahi answer (C) hai: ye usually lower court ko case retry karne ka order deta hai. Supreme Court shayad hi kabhi
+    appeals ka decision khud karta hai; zyada tar cases mein woh legal error identify karke case ko new trial ke liye
+    wapas bhej deta hai. Isliye har saal uske appellate orders mein zyada tar retrial ke liye remand ke orders hote hain.
+
+- item_id: mmmlu-gov-0133
+  en: >-
+    The answer is (A). Federal courts sit above state courts in a single judicial hierarchy, so any state court
+    decision can be appealed to a federal court and overturned on any grounds, including matters of state law. The US
+    Supreme Court, at the top of this hierarchy, has the final word on every case.
+  hi: >-
+    सही उत्तर (A) है। संघीय न्यायालय एक ही न्यायिक पदानुक्रम में राज्य न्यायालयों से ऊपर होते हैं, इसलिए किसी भी राज्य न्यायालय के
+    निर्णय के विरुद्ध संघीय न्यायालय में अपील की जा सकती है और उसे किसी भी आधार पर, राज्य कानून के मामलों में भी, पलटा जा सकता है।
+    इस पदानुक्रम के शीर्ष पर अमेरिकी सर्वोच्च न्यायालय का हर मामले में अंतिम निर्णय होता है।
+  hi_rom: >-
+    Sahi uttar (A) hai. Sanghiya nyaayalay ek hi nyaayik padaanukram mein raajya nyaayalayon se oopar hote hain, isliye
+    kisi bhi raajya nyaayalay ke nirnay ke viruddh sanghiya nyaayalay mein apeel ki ja sakti hai aur use kisi bhi
+    aadhaar par, raajya kaanoon ke maamlon mein bhi, palta ja sakta hai. Is padaanukram ke sheersh par America ke
+    sarvochch nyaayalay ka har maamle mein antim nirnay hota hai.
+  hinglish: >-
+    Sahi answer (A) hai. Federal courts ek hi judicial hierarchy mein state courts se upar hote hain, isliye kisi bhi
+    state court ke decision ke against federal court mein appeal ki ja sakti hai aur use kisi bhi grounds par, state
+    law ke matters mein bhi, overturn kiya ja sakta hai. Is hierarchy ke top par US Supreme Court ka har case mein
+    final word hota hai.
+
+- item_id: mmmlu-gov-0135
+  en: >-
+    The answer is (A): it issues a writ of habeas corpus. A writ of habeas corpus is the order by which the Supreme
+    Court calls up the record of a case from a lower court so that it can be reviewed, usually after at least four
+    justices vote to hear it. Certiorari concerns unlawful detention, amicus curiae briefs are filed by outside
+    parties, and judicial review is the power to strike down laws.
+  hi: >-
+    सही उत्तर (A) है: यह बंदी प्रत्यक्षीकरण रिट जारी करता है। बंदी प्रत्यक्षीकरण रिट वह आदेश है जिसके ज़रिए सर्वोच्च न्यायालय निचली
+    अदालत से किसी मामले का अभिलेख मँगवाता है ताकि उसकी समीक्षा हो सके, आमतौर पर तब जब कम से कम चार न्यायाधीश सुनवाई के पक्ष में
+    मत दें। उत्प्रेषण रिट अवैध हिरासत से संबंधित है, न्याय-मित्र ब्रीफ़ बाहरी पक्षों द्वारा दाखिल किए जाते हैं, और न्यायिक पुनरावलोकन
+    कानूनों को रद्द करने की शक्ति है।
+  hi_rom: >-
+    Sahi uttar (A) hai: yah bandi pratyakshikaran rit jaari karta hai. Bandi pratyakshikaran rit vah aadesh hai jiske
+    zariye sarvochch nyaayalay nichli adaalat se kisi maamle ka abhilekh mangvaata hai taaki uski sameeksha ho sake,
+    aamtaur par tab jab kam se kam chaar nyaayaadheesh sunvaai ke paksh mein mat dein. Utpreshan rit avaidh hiraasat se
+    sambandhit hai, nyaay-mitra brief baahari pakshon dwara daakhil kiye jaate hain, aur nyaayik punaravlokan
+    kaanoonon ko radd karne ki shakti hai.
+  hinglish: >-
+    Sahi answer (A) hai: ye writ of habeas corpus issue karta hai. Writ of habeas corpus woh order hai jisse Supreme
+    Court lower court se kisi case ka record mangwata hai taaki uska review ho sake, usually tab jab kam se kam chaar
+    justices case sunne ke favour mein vote karein. Certiorari illegal detention se related hai, amicus curiae briefs
+    outside parties file karti hain, aur judicial review laws ko strike down karne ki power hai.
+
+- item_id: mmmlu-intlaw-0017
+  en: >-
+    The answer is (C): individuals do not enjoy any international legal personality. International law governs
+    relations between states and international organisations, and individuals are only its objects. Any rights or
+    duties they have, such as under human rights treaties, belong to their state and reach them only through domestic
+    law, so they cannot act on the international plane at all.
+  hi: >-
+    सही उत्तर (C) है: व्यक्तियों को कोई अंतरराष्ट्रीय विधिक व्यक्तित्व प्राप्त नहीं है। अंतरराष्ट्रीय कानून राज्यों और अंतरराष्ट्रीय
+    संगठनों के बीच संबंधों को नियंत्रित करता है, और व्यक्ति केवल उसके विषय-वस्तु हैं। मानवाधिकार संधियों जैसे स्रोतों से उनके जो भी
+    अधिकार या दायित्व हैं, वे उनके राज्य के होते हैं और केवल घरेलू कानून के ज़रिए उन तक पहुँचते हैं, इसलिए वे अंतरराष्ट्रीय स्तर पर
+    बिल्कुल कार्य नहीं कर सकते।
+  hi_rom: >-
+    Sahi uttar (C) hai: vyaktiyon ko koi antarraashtriya vidhik vyaktitva praapt nahi hai. Antarraashtriya kaanoon
+    raajyon aur antarraashtriya sangathanon ke beech sambandhon ko niyantrit karta hai, aur vyakti keval uske
+    vishay-vastu hain. Maanavaadhikaar sandhiyon jaise sroton se unke jo bhi adhikaar ya daayitva hain, ve unke raajya
+    ke hote hain aur keval gharelu kaanoon ke zariye un tak pahunchte hain, isliye ve antarraashtriya star par bilkul
+    kaarya nahi kar sakte.
+  hinglish: >-
+    Sahi answer (C) hai: individuals ko koi international legal personality nahi milti. International law states aur
+    international organisations ke beech relations ko govern karta hai, aur individuals sirf uske objects hain. Human
+    rights treaties jaise sources se unke jo bhi rights ya duties hain, woh unke state ke hote hain aur sirf domestic
+    law ke through un tak pahunchte hain, isliye woh international level par bilkul act nahi kar sakte.
+
+- item_id: mmmlu-intlaw-0038
+  en: >-
+    The answer is (D). Under dualism, international law and domestic law are two separate legal systems, and whenever
+    they conflict, domestic law always prevails inside the state. A treaty therefore cannot override a national
+    statute, which contrasts with monism, where international law sits above domestic law in a single legal order.
+  hi: >-
+    सही उत्तर (D) है। द्वैतवाद के अनुसार अंतरराष्ट्रीय कानून और घरेलू कानून दो अलग-अलग विधि प्रणालियाँ हैं, और जब भी दोनों में
+    टकराव होता है, राज्य के भीतर घरेलू कानून ही हमेशा प्रभावी रहता है। इसलिए कोई संधि राष्ट्रीय कानून को निष्प्रभावी नहीं कर सकती, जो
+    एकत्ववाद से भिन्न है, जिसमें एक ही विधि व्यवस्था में अंतरराष्ट्रीय कानून घरेलू कानून से ऊपर होता है।
+  hi_rom: >-
+    Sahi uttar (D) hai. Dvaitvaad ke anusaar antarraashtriya kaanoon aur gharelu kaanoon do alag-alag vidhi pranaaliyaan
+    hain, aur jab bhi dono mein takraav hota hai, raajya ke bheetar gharelu kaanoon hi hamesha prabhaavi rehta hai.
+    Isliye koi sandhi raashtriya kaanoon ko nishprabhaavi nahi kar sakti, jo ekatvavaad se bhinn hai, jismein ek hi
+    vidhi vyavastha mein antarraashtriya kaanoon gharelu kaanoon se oopar hota hai.
+  hinglish: >-
+    Sahi answer (D) hai. Dualism ke according international law aur domestic law do separate legal systems hain, aur
+    jab bhi dono mein conflict hota hai, state ke andar domestic law hi hamesha prevail karta hai. Isliye koi treaty
+    national statute ko override nahi kar sakti, jo monism se different hai, jismein ek hi legal order mein
+    international law domestic law se upar hota hai.
+
+- item_id: mmmlu-intlaw-0114
+  en: >-
+    The answer is (A). The Human Rights Council can impose economic sanctions on a state found responsible for serious
+    human rights violations, such as freezing assets or restricting trade. It has 47 members, and it replaced the
+    Commission on Human Rights in 2006 precisely because the old body lacked any enforcement powers.
+  hi: >-
+    सही उत्तर (A) है। मानवाधिकार परिषद गंभीर मानवाधिकार उल्लंघनों के लिए ज़िम्मेदार पाए गए राज्य पर आर्थिक प्रतिबंध लगा सकती है,
+    जैसे संपत्तियों पर रोक लगाना या व्यापार सीमित करना। इसमें 47 सदस्य हैं, और इसने 2006 में मानवाधिकार आयोग का स्थान ठीक इसलिए
+    लिया क्योंकि पुराने निकाय के पास लागू करने की कोई शक्ति नहीं थी।
+  hi_rom: >-
+    Sahi uttar (A) hai. Maanavaadhikaar Parishad gambheer maanavaadhikaar ullanghanon ke liye zimmedaar paaye gaye
+    raajya par aarthik pratibandh laga sakti hai, jaise sampattiyon par rok lagaana ya vyaapaar seemit karna. Ismein 47
+    sadasya hain, aur isne 2006 mein Maanavaadhikaar Aayog ka sthaan theek isliye liya kyonki puraane nikaay ke paas
+    laagoo karne ki koi shakti nahi thi.
+  hinglish: >-
+    Sahi answer (A) hai. Human Rights Council serious human rights violations ke liye responsible paaye gaye state par
+    economic sanctions laga sakti hai, jaise assets freeze karna ya trade restrict karna. Ismein 47 members hain, aur
+    isne 2006 mein Commission on Human Rights ki jagah exactly isliye li kyunki purani body ke paas koi enforcement
+    powers nahi thi.
+
+- item_id: mmmlu-logic-0000
+  en: >-
+    The answer is (C): a major premise that affirms the antecedent or denies the consequent. A disjunctive syllogism
+    starts from an "if...then" statement, such as "If it is raining, the ground is wet." The minor premise then affirms
+    the first part or denies the second, and the conclusion follows validly.
+  hi: >-
+    सही उत्तर (C) है: ऐसा मुख्य आधार-वाक्य जो पूर्ववर्ती की पुष्टि करे या अनुवर्ती का निषेध करे। वियोजक न्यायवाक्य "यदि...तो" वाले
+    कथन से शुरू होता है, जैसे "यदि बारिश हो रही है, तो ज़मीन गीली है।" गौण आधार-वाक्य फिर पहले भाग की पुष्टि करता है या दूसरे का
+    निषेध करता है, और निष्कर्ष वैध रूप से निकलता है।
+  hi_rom: >-
+    Sahi uttar (C) hai: aisa mukhya aadhaar-vaakya jo poorvavarti ki pushti kare ya anuvarti ka nishedh kare. Viyojak
+    nyaayavaakya "yadi...to" waale kathan se shuru hota hai, jaise "Yadi baarish ho rahi hai, to zameen geeli hai."
+    Gaun aadhaar-vaakya phir pehle bhaag ki pushti karta hai ya doosre ka nishedh karta hai, aur nishkarsh vaidh roop se
+    nikalta hai.
+  hinglish: >-
+    Sahi answer (C) hai: ek major premise jo antecedent ko affirm kare ya consequent ko deny kare. Disjunctive
+    syllogism "if...then" wale statement se start hota hai, jaise "Agar baarish ho rahi hai, toh zameen geeli hai."
+    Minor premise phir pehle part ko affirm karta hai ya doosre ko deny karta hai, aur conclusion validly follow karta
+    hai.
+
+- item_id: mmmlu-logic-0078
+  en: >-
+    The answer is (A): trying to make an opponent's argument seem ridiculous. Instead of answering the argument, the
+    arguer stirs up laughter and scorn so that the audience's feelings turn against it. Arousing someone's feelings to
+    win agreement without evidence is a different fallacy, appeal to force.
+  hi: >-
+    सही उत्तर (A) है: विरोधी के तर्क को हास्यास्पद दिखाने की कोशिश करना। तर्क का उत्तर देने के बजाय तर्क देने वाला हँसी और तिरस्कार
+    भड़काता है, ताकि श्रोताओं की भावनाएँ उस तर्क के विरुद्ध हो जाएँ। बिना प्रमाण के सहमति पाने के लिए किसी की भावनाएँ भड़काना एक अलग
+    दोष है, बल का आह्वान।
+  hi_rom: >-
+    Sahi uttar (A) hai: virodhi ke tark ko haasyaaspad dikhaane ki koshish karna. Tark ka uttar dene ke bajaay tark
+    dene waala hansi aur tiraskaar bhadkaata hai, taaki shrotaaon ki bhaavnaayein us tark ke viruddh ho jaayein. Bina
+    pramaan ke sahmati paane ke liye kisi ki bhaavnaayein bhadkaana ek alag dosh hai, bal ka aahvaan.
+  hinglish: >-
+    Sahi answer (A) hai: opponent ke argument ko ridiculous dikhane ki koshish karna. Argument ka answer dene ke bajaye
+    arguer hansi aur scorn bhadkaata hai, taaki audience ki feelings us argument ke against ho jaayein. Bina evidence
+    ke agreement paane ke liye kisi ki feelings arouse karna ek alag fallacy hai, appeal to force.
+
+- item_id: mmmlu-logic-0130
+  en: >-
+    The answer is (B), argument from authority. The arguer treats your own intelligence as the authority that settles
+    the question, so that you accept the claim because a reasonable person like you would, rather than because of any
+    evidence. It is not an appeal to pride, which involves boasting about the arguer's own qualities.
+  hi: >-
+    सही उत्तर (B) है, प्राधिकार पर आधारित तर्क। तर्क देने वाला आपकी अपनी बुद्धिमत्ता को ऐसा प्राधिकार मानता है जो प्रश्न का निपटारा
+    कर दे, ताकि आप दावा इसलिए मान लें कि आप जैसा समझदार व्यक्ति उसे मानेगा, न कि किसी प्रमाण के कारण। यह गौरव-भावना का आह्वान
+    नहीं है, जिसमें तर्क देने वाला अपने ही गुणों का बखान करता है।
+  hi_rom: >-
+    Sahi uttar (B) hai, praadhikaar par aadhaarit tark. Tark dene waala aapki apni buddhimatta ko aisa praadhikaar
+    maanta hai jo prashn ka niptaara kar de, taaki aap daava isliye maan lein ki aap jaisa samajhdaar vyakti use
+    maanega, na ki kisi pramaan ke kaaran. Yah gaurav-bhaavna ka aahvaan nahi hai, jismein tark dene waala apne hi
+    gunon ka bakhaan karta hai.
+  hinglish: >-
+    Sahi answer (B) hai, argument from authority. Arguer aapki apni intelligence ko aisi authority maanta hai jo
+    question ko settle kar de, taaki aap claim isliye maan lein ki aap jaisa reasonable person use maanega, na ki kisi
+    evidence ki wajah se. Ye appeal to pride nahi hai, jismein arguer apni hi qualities ki boasting karta hai.
+
+- item_id: mmmlu-macro-0263
+  en: >-
+    The answer is (A): the marginal propensity to consume is constant. Monetarists argue that because households spend
+    a fixed share of each extra unit of income, the spending multiplier is predictable, so changes in the money supply
+    translate reliably into changes in nominal output and prices. This is why they favour steady, rule-based growth of
+    the money supply.
+  hi: >-
+    सही उत्तर (A) है: सीमांत उपभोग प्रवृत्ति स्थिर रहती है। मुद्रावादी तर्क देते हैं कि क्योंकि परिवार आय की हर अतिरिक्त इकाई का एक
+    निश्चित हिस्सा खर्च करते हैं, इसलिए व्यय गुणक पूर्वानुमेय होता है, और मुद्रा आपूर्ति में बदलाव भरोसेमंद ढंग से नाममात्र उत्पादन
+    और कीमतों में बदलाव लाते हैं। इसीलिए वे मुद्रा आपूर्ति की स्थिर, नियम-आधारित वृद्धि का समर्थन करते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: seemaant upbhog pravritti sthir rehti hai. Mudraavaadi tark dete hain ki kyonki parivaar aay ki
+    har atirikt ikaai ka ek nishchit hissa kharch karte hain, isliye vyay gunak poorvaanumeya hota hai, aur mudra
+    aapoorti mein badlaav bharosemand dhang se naammaatra utpaadan aur keemton mein badlaav laate hain. Isiliye ve
+    mudra aapoorti ki sthir, niyam-aadhaarit vriddhi ka samarthan karte hain.
+  hinglish: >-
+    Sahi answer (A) hai: marginal propensity to consume constant hai. Monetarists argue karte hain ki kyunki households
+    income ki har extra unit ka ek fixed share spend karte hain, isliye spending multiplier predictable hota hai, aur
+    money supply mein changes reliably nominal output aur prices mein changes laate hain. Isliye woh money supply ki
+    steady, rule-based growth ko support karte hain.
+
+- item_id: mmmlu-macro-0371
+  en: >-
+    The answer is (C): fiat money is backed by gold but cannot be exchanged for it. The central bank holds gold reserves
+    against the notes it issues, which gives the currency its value, but citizens cannot demand gold in return. Most
+    modern currencies, including the Indian rupee and the US dollar, work this way.
+  hi: >-
+    सही उत्तर (C) है: आदेश मुद्रा के पीछे सोने का आधार होता है, लेकिन उसे सोने में बदला नहीं जा सकता। केंद्रीय बैंक जारी किए गए
+    नोटों के बदले सोने का भंडार रखता है, जिससे मुद्रा को उसका मूल्य मिलता है, लेकिन नागरिक बदले में सोना नहीं माँग सकते। भारतीय
+    रुपया और अमेरिकी डॉलर सहित अधिकांश आधुनिक मुद्राएँ इसी तरह काम करती हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai: aadesh mudra ke peechhe sone ka aadhaar hota hai, lekin use sone mein badla nahi ja sakta.
+    Kendriya bank jaari kiye gaye noton ke badle sone ka bhandaar rakhta hai, jisse mudra ko uska moolya milta hai,
+    lekin naagrik badle mein sona nahi maang sakte. Bhaarateeya rupaya aur Ameriki dollar sahit adhikaansh aadhunik
+    mudraayein isi tarah kaam karti hain.
+  hinglish: >-
+    Sahi answer (C) hai: fiat money ke peeche gold ki backing hoti hai, lekin use gold mein exchange nahi kiya ja
+    sakta. Central bank issue kiye gaye notes ke against gold reserves rakhta hai, jisse currency ko uski value milti
+    hai, lekin citizens badle mein gold demand nahi kar sakte. Indian rupee aur US dollar samet zyada tar modern
+    currencies isi tarah kaam karti hain.
+
+- item_id: mmmlu-macro-0384
+  en: >-
+    The answer is (A): there is a trade deficit. The current account is simply the balance of trade in goods and
+    services, so a negative current account means the United States is importing more than it exports. Capital flows
+    are recorded separately and do not have to offset it.
+  hi: >-
+    सही उत्तर (A) है: व्यापार घाटा है। चालू खाता केवल वस्तुओं और सेवाओं के व्यापार का संतुलन है, इसलिए ऋणात्मक चालू खाते का मतलब
+    है कि संयुक्त राज्य अमेरिका जितना निर्यात करता है, उससे अधिक आयात कर रहा है। पूँजी प्रवाह अलग से दर्ज किए जाते हैं और उन्हें
+    इसकी भरपाई करना ज़रूरी नहीं है।
+  hi_rom: >-
+    Sahi uttar (A) hai: vyaapaar ghaata hai. Chaalu khaata keval vastuon aur sevaaon ke vyaapaar ka santulan hai,
+    isliye rinaatmak chaalu khaate ka matlab hai ki Sanyukt Raajya America jitna niryaat karta hai, usse adhik aayaat
+    kar raha hai. Poonji pravaah alag se darj kiye jaate hain aur unhein iski bharpaai karna zaroori nahi hai.
+  hinglish: >-
+    Sahi answer (A) hai: trade deficit hai. Current account sirf goods aur services ke trade ka balance hai, isliye
+    negative current account ka matlab hai ki United States jitna export karta hai, usse zyada import kar raha hai.
+    Capital flows alag se record kiye jaate hain aur unhe ise offset karna zaroori nahi hai.
+
+- item_id: mmmlu-phil-0225
+  en: >-
+    The answer is (B), utility. From Plato and Aristotle onward, art was traditionally understood as techne, a skill
+    for making useful things, so a work was judged by how well it served its purpose. This definition was widely
+    challenged in the modern era, especially by the idea of "art for art's sake".
+  hi: >-
+    सही उत्तर (B) है, उपयोगिता। प्लेटो और अरस्तू के समय से कला को पारंपरिक रूप से तेख़्ने, यानी उपयोगी वस्तुएँ बनाने का कौशल, माना
+    जाता रहा, इसलिए किसी कृति को इस आधार पर परखा जाता था कि वह अपने उद्देश्य को कितनी अच्छी तरह पूरा करती है। आधुनिक युग में इस
+    परिभाषा को व्यापक चुनौती मिली, ख़ासकर "कला कला के लिए" के विचार से।
+  hi_rom: >-
+    Sahi uttar (B) hai, upyogita. Plato aur Arastu ke samay se kala ko paaramparik roop se techne, yaani upyogi vastuein
+    banaane ka kaushal, maana jaata raha, isliye kisi kriti ko is aadhaar par parkha jaata tha ki vah apne uddeshya ko
+    kitni achchhi tarah poora karti hai. Aadhunik yug mein is paribhaasha ko vyaapak chunauti mili, khaaskar "kala
+    kala ke liye" ke vichaar se.
+  hinglish: >-
+    Sahi answer (B) hai, utility. Plato aur Aristotle ke time se art ko traditionally techne, yaani useful cheezein
+    banane ki skill, maana jaata raha, isliye kisi work ko is basis par judge kiya jaata tha ki woh apna purpose kitni
+    achhi tarah serve karta hai. Modern era mein is definition ko widely challenge kiya gaya, especially "art for
+    art's sake" ke idea se.
+
+- item_id: mmmlu-prehist-0078
+  en: >-
+    The answer is (D). Early hominids lived in dense forest, where standing upright would not have improved their
+    view, so seeing greater distances is not proposed as a reason for bipedalism. The other options are standard
+    hypotheses: walking upright freed the hands for carrying, saved energy over long distances and made room for a
+    larger braincase.
+  hi: >-
+    सही उत्तर (D) है। आरंभिक होमिनिड घने जंगलों में रहते थे, जहाँ सीधे खड़े होने से उनकी दृष्टि बेहतर नहीं होती, इसलिए दूर तक देख
+    पाने को द्विपादता का कारण नहीं माना जाता। बाकी विकल्प मानक परिकल्पनाएँ हैं: सीधे चलने से हाथ चीज़ें ढोने के लिए खाली हुए, लंबी
+    दूरी तय करने में ऊर्जा बची, और बड़ी कपाल-गुहा के लिए जगह बनी।
+  hi_rom: >-
+    Sahi uttar (D) hai. Aarambhik hominid ghane jangalon mein rehte the, jahaan seedhe khade hone se unki drishti
+    behtar nahi hoti, isliye door tak dekh paane ko dvipaadata ka kaaran nahi maana jaata. Baaki vikalp maanak
+    parikalpanaayein hain: seedhe chalne se haath cheezein dhone ke liye khaali hue, lambi doori tay karne mein urja
+    bachi, aur badi kapaal-guha ke liye jagah bani.
+  hinglish: >-
+    Sahi answer (D) hai. Early hominids dense forests mein rehte the, jahan seedha khade hone se unka view better nahi
+    hota, isliye door tak dekh paane ko bipedalism ka reason nahi maana jaata. Baaki options standard hypotheses hain:
+    seedha chalne se haath cheezein carry karne ke liye free hue, long distance mein energy bachi, aur bade braincase
+    ke liye jagah bani.
+
+- item_id: mmmlu-prehist-0279
+  en: >-
+    The answer is (B), gorillas. Humans share roughly 98–99% of their DNA with gorillas, and our lineages split from a
+    common ancestor about 5 million years ago, more recently than the split with chimpanzees. Chimpanzees are the next
+    closest, followed by orangutans and then gibbons.
+  hi: >-
+    सही उत्तर (B) है, गोरिल्ला। मनुष्य अपने DNA का लगभग 98–99% हिस्सा गोरिल्ला के साथ साझा करते हैं, और हमारी वंशावलियाँ लगभग 50
+    लाख वर्ष पहले एक साझा पूर्वज से अलग हुईं, जो चिम्पैंज़ी से अलगाव के बाद की घटना है। चिम्पैंज़ी उसके बाद सबसे निकट हैं, फिर
+    ओरंगुटान और उसके बाद गिब्बन।
+  hi_rom: >-
+    Sahi uttar (B) hai, gorilla. Manushya apne DNA ka lagbhag 98–99% hissa gorilla ke saath saajha karte hain, aur
+    hamaari vanshaavaliyaan lagbhag 50 laakh varsh pehle ek saajha poorvaj se alag huin, jo chimpanzee se alagaav ke
+    baad ki ghatna hai. Chimpanzee uske baad sabse nikat hain, phir orangutan aur uske baad gibbon.
+  hinglish: >-
+    Sahi answer (B) hai, gorillas. Humans apne DNA ka lagbhag 98–99% gorillas ke saath share karte hain, aur hamari
+    lineages lagbhag 5 million saal pehle ek common ancestor se alag hui, jo chimpanzees wale split ke baad hua.
+    Chimpanzees uske baad sabse close hain, phir orangutans aur uske baad gibbons.
+
+- item_id: mmmlu-prehist-0291
+  en: >-
+    The answer is (D): from larger, duller axes to smaller, sharper ones. In the Levallois technique, toolmakers
+    reworked heavy Acheulean hand axes into compact blades with finer cutting edges. The result was a lighter, sharper
+    axe that was easier to carry and more effective for butchering animals.
+  hi: >-
+    सही उत्तर (D) है: बड़ी, कुंद कुल्हाड़ियों से छोटी, तेज़ कुल्हाड़ियों की ओर। लेवालुआ तकनीक में औज़ार बनाने वाले भारी आश्यूलियन
+    हस्त-कुठारों को महीन काटने वाली धार वाले छोटे फलकों में दोबारा गढ़ते थे। इसका परिणाम एक हल्की, तेज़ कुल्हाड़ी थी जिसे ढोना आसान
+    था और जो जानवरों को काटने के लिए अधिक प्रभावी थी।
+  hi_rom: >-
+    Sahi uttar (D) hai: badi, kund kulhaadiyon se chhoti, tez kulhaadiyon ki or. Levallois takneek mein auzaar
+    banaane waale bhaari Acheulean hast-kuthaaron ko maheen kaatne waali dhaar waale chhote phalakon mein dobaara
+    gadhte the. Iska parinaam ek halki, tez kulhaadi thi jise dhona aasaan tha aur jo jaanvaron ko kaatne ke liye
+    adhik prabhaavi thi.
+  hinglish: >-
+    Sahi answer (D) hai: larger, duller axes se smaller, sharper axes ki taraf. Levallois technique mein toolmakers
+    heavy Acheulean hand axes ko finer cutting edges wale compact blades mein rework karte the. Iska result ek
+    lighter, sharper axe tha jise carry karna easy tha aur jo animals ko butcher karne ke liye zyada effective tha.
+
+- item_id: mmmlu-psych-0002
+  en: >-
+    The answer is (A), homeostatic regulation. Maslow argued that the body's drive to keep internal states such as
+    hunger, thirst and temperature in balance takes priority over all other motives. Only when these survival-related
+    imbalances are corrected do less urgent motives, such as social or achievement goals, start to guide behaviour.
+  hi: >-
+    सही उत्तर (A) है, समस्थापन नियमन। मैस्लो ने तर्क दिया कि भूख, प्यास और तापमान जैसी आंतरिक अवस्थाओं को संतुलित रखने की शरीर की
+    प्रेरणा बाकी सभी प्रेरकों पर प्राथमिकता रखती है। जब ये जीवन-रक्षा से जुड़े असंतुलन ठीक हो जाते हैं, तभी कम ज़रूरी प्रेरक, जैसे
+    सामाजिक या उपलब्धि से जुड़े लक्ष्य, व्यवहार को दिशा देने लगते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai, samasthaapan niyaman. Maslow ne tark diya ki bhookh, pyaas aur taapmaan jaisi aantarik
+    avasthaaon ko santulit rakhne ki shareer ki prerna baaki sabhi prerakon par praathmikta rakhti hai. Jab ye
+    jeevan-raksha se jude asantulan theek ho jaate hain, tabhi kam zaroori prerak, jaise saamaajik ya uplabdhi se jude
+    lakshya, vyavahaar ko disha dene lagte hain.
+  hinglish: >-
+    Sahi answer (A) hai, homeostatic regulation. Maslow ne argue kiya ki hunger, thirst aur temperature jaise internal
+    states ko balance mein rakhne ki body ki drive baaki sabhi motives par priority rakhti hai. Jab ye survival se jude
+    imbalances theek ho jaate hain, tabhi kam urgent motives, jaise social ya achievement goals, behaviour ko guide
+    karne lagte hain.
+
+- item_id: mmmlu-psych-0074
+  en: >-
+    The answer is (C), holophrases. A holophrase is a short utterance, often one or two words, that stands for a whole
+    sentence, so "Get cookie" expresses "I want you to get me a cookie". Telegraphic speech comes later, when children
+    use longer strings of three or more words, and babbling and cooing come earlier.
+  hi: >-
+    सही उत्तर (C) है, एकशब्दीय वाक्य। एकशब्दीय वाक्य एक छोटा कथन होता है, अक्सर एक या दो शब्दों का, जो पूरे वाक्य का काम करता है,
+    इसलिए "Get cookie" का अर्थ है "मुझे एक कुकी लाकर दो"। तार-शैली की वाणी बाद में आती है, जब बच्चे तीन या अधिक शब्दों की लंबी
+    शृंखलाएँ बोलते हैं, और बड़बड़ाना तथा कूजन इससे पहले आते हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai, ekshabdiya vaakya. Ekshabdiya vaakya ek chhota kathan hota hai, aksar ek ya do shabdon ka, jo
+    poore vaakya ka kaam karta hai, isliye "Get cookie" ka arth hai "mujhe ek cookie laakar do". Taar-shaili ki vaani
+    baad mein aati hai, jab bachche teen ya adhik shabdon ki lambi shrinkhlaayein bolte hain, aur badbadaana tatha
+    koojan isse pehle aate hain.
+  hinglish: >-
+    Sahi answer (C) hai, holophrases. Holophrase ek short utterance hota hai, aksar ek ya do words ka, jo poore
+    sentence ka kaam karta hai, isliye "Get cookie" ka matlab hai "mujhe ek cookie la kar do". Telegraphic speech baad
+    mein aati hai, jab bachche teen ya zyada words ki lambi strings bolte hain, aur babbling aur cooing isse pehle aate
+    hain.
+
+- item_id: mmmlu-psych-0193
+  en: >-
+    The answer is (B). When a neuron fires, its electrical impulse jumps directly across the synapse, the tiny gap
+    between cells, and carries the message into the next neuron. This is why nerve signals travel so quickly;
+    chemicals released at the synapse only help clear the gap after the signal has passed.
+  hi: >-
+    सही उत्तर (B) है। जब कोई तंत्रिका कोशिका सक्रिय होती है, तो उसका विद्युत आवेग अंतर्ग्रथन, यानी कोशिकाओं के बीच के छोटे अंतराल,
+    को सीधे पार करके संदेश को अगली तंत्रिका कोशिका तक ले जाता है। इसीलिए तंत्रिका संकेत इतनी तेज़ी से चलते हैं; अंतर्ग्रथन पर छोड़े
+    गए रसायन केवल संकेत गुज़र जाने के बाद अंतराल को साफ़ करने में मदद करते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai. Jab koi tantrika koshika sakriya hoti hai, to uska vidyut aaveg antargrathan, yaani koshikaaon
+    ke beech ke chhote antaraal, ko seedhe paar karke sandesh ko agli tantrika koshika tak le jaata hai. Isiliye
+    tantrika sanket itni tezi se chalte hain; antargrathan par chhode gaye rasaayan keval sanket guzar jaane ke baad
+    antaraal ko saaf karne mein madad karte hain.
+  hinglish: >-
+    Sahi answer (B) hai. Jab koi neuron fire karta hai, toh uska electrical impulse synapse, yaani cells ke beech ke
+    chhote gap, ko directly jump karke message ko agle neuron tak le jaata hai. Isliye nerve signals itni fast travel
+    karte hain; synapse par release hue chemicals sirf signal pass hone ke baad gap ko clear karne mein help karte hain.
+
+- item_id: mmmlu-rel-0118
+  en: >-
+    The answer is (B), Mahayana. Mahayana Buddhism has been the dominant tradition in Sri Lanka since Buddhism arrived
+    there in the third century BCE, and it is also the main form in Myanmar, Thailand, Cambodia and Laos. Theravada,
+    Pure Land and Zen are found mainly in East Asia.
+  hi: >-
+    सही उत्तर (B) है, महायान। ईसा पूर्व तीसरी शताब्दी में बौद्ध धर्म के श्रीलंका पहुँचने के बाद से वहाँ महायान बौद्ध धर्म की प्रमुख
+    परंपरा रहा है, और यह म्यांमार, थाईलैंड, कंबोडिया और लाओस में भी मुख्य रूप है। थेरवाद, शुद्धभूमि और ज़ेन मुख्य रूप से पूर्वी एशिया
+    में पाए जाते हैं।
+  hi_rom: >-
+    Sahi uttar (B) hai, Mahaayaan. Isa poorv teesri shataabdi mein Bauddh dharm ke Shri Lanka pahunchne ke baad se
+    vahaan Mahaayaan Bauddh dharm ki pramukh parampara raha hai, aur yah Myanmar, Thailand, Cambodia aur Laos mein bhi
+    mukhya roop hai. Theravaad, Shuddhbhoomi aur Zen mukhya roop se poorvi Asia mein paaye jaate hain.
+  hinglish: >-
+    Sahi answer (B) hai, Mahayana. Third century BCE mein Buddhism ke Sri Lanka pahunchne ke baad se wahan Mahayana
+    Buddhism ki dominant tradition raha hai, aur ye Myanmar, Thailand, Cambodia aur Laos mein bhi main form hai.
+    Theravada, Pure Land aur Zen mainly East Asia mein milte hain.
+
+- item_id: mmmlu-rel-0161
+  en: >-
+    The answer is (C): a mohel is a teacher. In Judaism, a mohel instructs children in the Torah and Hebrew, usually
+    preparing boys for their bar mitzvah at the age of thirteen. The title is often used alongside rabbi, but a mohel
+    teaches in the community rather than leading a congregation.
+  hi: >-
+    सही उत्तर (C) है: मोहेल एक शिक्षक होता है। यहूदी धर्म में मोहेल बच्चों को तोरा और हिब्रू की शिक्षा देता है, और आमतौर पर लड़कों
+    को तेरह वर्ष की आयु में होने वाले बार मिट्ज़्वा के लिए तैयार करता है। यह उपाधि अक्सर रब्बी के साथ प्रयोग होती है, लेकिन मोहेल किसी
+    मंडली का नेतृत्व करने के बजाय समुदाय में पढ़ाता है।
+  hi_rom: >-
+    Sahi uttar (C) hai: mohel ek shikshak hota hai. Yahoodi dharm mein mohel bachchon ko Torah aur Hebrew ki shiksha
+    deta hai, aur aamtaur par ladkon ko terah varsh ki aayu mein hone waale bar mitzvah ke liye taiyaar karta hai. Yah
+    upaadhi aksar rabbi ke saath prayog hoti hai, lekin mohel kisi mandali ka netritva karne ke bajaay samudaay mein
+    padhaata hai.
+  hinglish: >-
+    Sahi answer (C) hai: mohel ek teacher hota hai. Judaism mein mohel bachchon ko Torah aur Hebrew padhata hai, aur
+    usually ladkon ko thirteen saal ki age mein hone wale bar mitzvah ke liye prepare karta hai. Ye title aksar rabbi
+    ke saath use hota hai, lekin mohel kisi congregation ko lead karne ke bajaye community mein padhata hai.
+
+- item_id: mmmlu-rel-0168
+  en: >-
+    The answer is (A): "of a similar substance". The term was adopted at the Council of Nicaea in 325 CE to state that
+    the Son is of a similar essence to the Father, distinct from Him but alike. It was contrasted with homoiousios, "of
+    the same substance", a view the council rejected.
+  hi: >-
+    सही उत्तर (A) है: "समान सार का"। यह शब्द 325 ईस्वी में निकेया की परिषद में यह कहने के लिए अपनाया गया था कि पुत्र का सार पिता के
+    सार के समान है, उनसे भिन्न लेकिन उनके जैसा। इसकी तुलना होमोइउसियोस यानी "एक ही सार का" से की गई, जिस मत को परिषद ने अस्वीकार कर
+    दिया।
+  hi_rom: >-
+    Sahi uttar (A) hai: "samaan saar ka". Yah shabd 325 Isvi mein Nicaea ki parishad mein yah kehne ke liye apnaaya
+    gaya tha ki putra ka saar pita ke saar ke samaan hai, unse bhinn lekin unke jaisa. Iski tulna homoiousios yaani
+    "ek hi saar ka" se ki gayi, jis mat ko parishad ne asveekaar kar diya.
+  hinglish: >-
+    Sahi answer (A) hai: "similar substance ka". Ye term 325 CE mein Council of Nicaea mein ye kehne ke liye adopt
+    kiya gaya tha ki Son ka essence Father ke essence jaisa hai, unse alag lekin unke jaisa. Iska contrast homoiousios
+    yaani "same substance ka" se kiya gaya, jis view ko council ne reject kar diya.
+
+- item_id: mmmlu-soc-0051
+  en: >-
+    The answer is (A): race is an objective way of categorising people on biological grounds. These theories argue
+    that racial discourse simply describes real physical differences, such as skin colour and ancestry, that
+    scientists can measure. Language and media only reflect these natural categories rather than creating them.
+  hi: >-
+    सही उत्तर (A) है: नस्ल लोगों को जैविक आधार पर वर्गीकृत करने का एक वस्तुनिष्ठ तरीका है। ये सिद्धांत तर्क देते हैं कि नस्लीय विमर्श
+    केवल वास्तविक शारीरिक अंतरों, जैसे त्वचा के रंग और वंश, का वर्णन करता है, जिन्हें वैज्ञानिक माप सकते हैं। भाषा और संचार माध्यम इन
+    प्राकृतिक श्रेणियों को बनाते नहीं, केवल दर्शाते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: nasl logon ko jaivik aadhaar par vargeekrit karne ka ek vastunishth tareeka hai. Ye siddhaant
+    tark dete hain ki nasliya vimarsh keval vaastavik shaareerik antaron, jaise tvacha ke rang aur vansh, ka varnan
+    karta hai, jinhein vaigyaanik maap sakte hain. Bhasha aur sanchaar maadhyam in praakritik shreniyon ko banaate
+    nahi, keval darshaate hain.
+  hinglish: >-
+    Sahi answer (A) hai: race logon ko biological grounds par categorize karne ka ek objective tareeka hai. Ye theories
+    argue karti hain ki racial discourse sirf real physical differences, jaise skin colour aur ancestry, ko describe
+    karta hai, jinhe scientists measure kar sakte hain. Language aur media in natural categories ko create nahi karte,
+    sirf reflect karte hain.
+
+- item_id: mmmlu-soc-0086
+  en: >-
+    The answer is (C): religious beliefs about how the world ought to be. Norms come from a society's shared faith and
+    describe the ideal moral order that people should aim for, such as honesty or charity. They are matters of
+    personal conviction rather than rules about everyday interaction, and breaking them is judged by conscience rather
+    than by others.
+  hi: >-
+    सही उत्तर (C) है: इस बारे में धार्मिक विश्वास कि दुनिया कैसी होनी चाहिए। मानदंड समाज की साझी आस्था से आते हैं और उस आदर्श नैतिक
+    व्यवस्था का वर्णन करते हैं जिसकी ओर लोगों को बढ़ना चाहिए, जैसे ईमानदारी या दान। ये रोज़मर्रा की अंतःक्रिया के नियम नहीं, बल्कि
+    व्यक्तिगत विश्वास के विषय हैं, और इन्हें तोड़ने का मूल्यांकन दूसरे लोग नहीं, बल्कि अंतरात्मा करती है।
+  hi_rom: >-
+    Sahi uttar (C) hai: is baare mein dhaarmik vishvaas ki duniya kaisi honi chahiye. Maanadand samaaj ki saajhi
+    aastha se aate hain aur us aadarsh naitik vyavastha ka varnan karte hain jiski or logon ko badhna chahiye, jaise
+    imaandaari ya daan. Ye rozmarra ki antahkriya ke niyam nahi, balki vyaktigat vishvaas ke vishay hain, aur inhein
+    todne ka moolyaankan doosre log nahi, balki antaraatma karti hai.
+  hinglish: >-
+    Sahi answer (C) hai: is baare mein religious beliefs ki world kaisi honi chahiye. Norms society ki shared faith se
+    aate hain aur us ideal moral order ko describe karte hain jiski taraf logon ko aim karna chahiye, jaise honesty ya
+    charity. Ye everyday interaction ke rules nahi, balki personal conviction ke matters hain, aur inhe todne ko
+    doosre log nahi, balki conscience judge karta hai.
+
+- item_id: mmmlu-usfp-0035
+  en: >-
+    The answer is (C), two. A multipolar system is one in which power is split between two rival major powers, as in
+    the Cold War contest between the United States and the Soviet Union. A system dominated by one power is unipolar,
+    and a system with no major powers at all is described as apolar.
+  hi: >-
+    सही उत्तर (C) है, दो। बहुध्रुवीय व्यवस्था वह है जिसमें शक्ति दो प्रतिद्वंद्वी बड़ी शक्तियों में बँटी होती है, जैसे शीत युद्ध में
+    संयुक्त राज्य अमेरिका और सोवियत संघ के बीच की होड़। एक शक्ति के प्रभुत्व वाली व्यवस्था एकध्रुवीय होती है, और बिना किसी बड़ी शक्ति
+    वाली व्यवस्था को ध्रुवहीन कहा जाता है।
+  hi_rom: >-
+    Sahi uttar (C) hai, do. Bahudhruveeya vyavastha vah hai jismein shakti do pratidvandvi badi shaktiyon mein bati
+    hoti hai, jaise sheet yuddh mein Sanyukt Raajya America aur Soviet Sangh ke beech ki hod. Ek shakti ke prabhutva
+    waali vyavastha ekdhruveeya hoti hai, aur bina kisi badi shakti waali vyavastha ko dhruvheen kaha jaata hai.
+  hinglish: >-
+    Sahi answer (C) hai, two. Multipolar system woh hai jismein power do rival major powers mein divided hoti hai,
+    jaise Cold War mein United States aur Soviet Union ke beech ka contest. Ek power ke dominance wala system unipolar
+    hota hai, aur bina kisi major power wale system ko apolar kaha jaata hai.
+
+- item_id: mmmlu-usfp-0080
+  en: >-
+    The answer is (A): the creation of the Department of Homeland Security. The 9/11 Commission found that the many
+    intelligence agencies did not share information well, so it recommended bringing them together in a single new
+    cabinet department. Congress created the Department of Homeland Security in 2004 to carry out this reform.
+  hi: >-
+    सही उत्तर (A) है: गृह सुरक्षा विभाग का गठन। 9/11 आयोग ने पाया कि अनेक खुफ़िया एजेंसियाँ आपस में जानकारी ठीक से साझा नहीं करती
+    थीं, इसलिए उसने उन्हें एक नए मंत्रिमंडलीय विभाग में एक साथ लाने की सिफ़ारिश की। कांग्रेस ने यह सुधार लागू करने के लिए 2004 में
+    गृह सुरक्षा विभाग बनाया।
+  hi_rom: >-
+    Sahi uttar (A) hai: Grih Suraksha Vibhaag ka gathan. 9/11 aayog ne paaya ki anek khufiya agenciyaan aapas mein
+    jaankaari theek se saajha nahi karti thin, isliye usne unhein ek naye mantrimandaliya vibhaag mein ek saath laane
+    ki sifaarish ki. Congress ne yah sudhaar laagoo karne ke liye 2004 mein Grih Suraksha Vibhaag banaaya.
+  hinglish: >-
+    Sahi answer (A) hai: Department of Homeland Security ka creation. 9/11 Commission ne paaya ki kai intelligence
+    agencies aapas mein information theek se share nahi karti thi, isliye usne unhe ek naye cabinet department mein
+    saath laane ki recommendation di. Congress ne ye reform implement karne ke liye 2004 mein Department of Homeland
+    Security banaya.

@@ -1,0 +1,4 @@
+Translate the following text into English. It may be written in Hindi (Devanagari), Romanized Hindi, or Hinglish (a Hindi-English mix). Translate faithfully: keep every claim, add nothing, drop nothing, and do not correct any errors. Return only the English translation, with no notes.
+
+Text:
+{text}

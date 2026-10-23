@@ -1,0 +1,465 @@
+# Phase 1 drafts, MMMLU humanities batch A (22 items). Drafted by claude-opus-5-5 on 2026-10-23. NOT VERIFIED.
+drafted_by: claude-opus-5-5
+drafted_on: 2026-10-23
+
+items:
+
+- item_id: mmmlu-geo-0013
+  source_id: high_school_geography/13
+  reference_en: (D) Hinterland.
+  en: >-
+    The answer is (D), the hinterland. A hinterland is the surrounding area that a city or port serves, supplying it
+    with goods and labour and depending on it for services and markets. Range and threshold are terms from central
+    place theory, and redlining refers to discriminatory lending.
+  hi: >-
+    सही उत्तर (D) है, पृष्ठप्रदेश। पृष्ठप्रदेश किसी नगर या बंदरगाह के आसपास का वह क्षेत्र है जिसकी वह सेवा करता है;
+    यह क्षेत्र उसे वस्तुएँ और श्रम देता है और सेवाओं तथा बाज़ार के लिए उस पर निर्भर रहता है। परास और देहली केंद्रीय
+    स्थान सिद्धांत के शब्द हैं, और रेडलाइनिंग का अर्थ भेदभावपूर्ण ऋण देना है।
+  hi_rom: >-
+    Sahi uttar (D) hai, prishthpradesh. Prishthpradesh kisi nagar ya bandargaah ke aaspaas ka vah kshetra hai jiski
+    vah seva karta hai; yah kshetra use vastuyein aur shram deta hai aur sevaon tatha baazaar ke liye us par nirbhar
+    rehta hai. Paraas aur dehli kendriya sthaan siddhaant ke shabd hain, aur redlining ka arth bhedbhaavpoorn rin
+    dena hai.
+  hinglish: >-
+    Sahi answer (D) hai, hinterland. Hinterland kisi city ya port ke around ka woh area hai jise woh serve karta hai;
+    ye area use goods aur labour deta hai aur services aur markets ke liye us par depend karta hai. Range aur
+    threshold central place theory ke terms hain, aur redlining ka matlab discriminatory lending hai.
+
+- item_id: mmmlu-geo-0037
+  source_id: high_school_geography/37
+  reference_en: (C) Centripetal.
+  en: >-
+    The answer is (C), centripetal forces. Centripetal forces, such as a shared language, national symbols, a common
+    religion or a strong economy, pull a country's people together. Centrifugal forces do the opposite, dividing a
+    state through ethnic, religious or regional tensions.
+  hi: >-
+    सही उत्तर (C) है, अभिकेंद्री बल। साझी भाषा, राष्ट्रीय प्रतीक, समान धर्म या मज़बूत अर्थव्यवस्था जैसे अभिकेंद्री बल
+    किसी देश के लोगों को आपस में जोड़ते हैं। अपकेंद्री बल इसका उल्टा करते हैं और जातीय, धार्मिक या क्षेत्रीय तनावों के
+    ज़रिए राज्य को बाँटते हैं।
+  hi_rom: >-
+    Sahi uttar (C) hai, abhikendri bal. Saajhi bhasha, raashtriya prateek, samaan dharm ya mazboot arthvyavastha
+    jaise abhikendri bal kisi desh ke logon ko aapas mein jodte hain. Apkendri bal iska ulta karte hain aur jaatiya,
+    dhaarmik ya kshetriya tanaavon ke zariye raajya ko baantte hain.
+  hinglish: >-
+    Sahi answer (C) hai, centripetal forces. Shared language, national symbols, common religion ya strong economy
+    jaise centripetal forces kisi country ke logon ko saath laate hain. Centrifugal forces iska opposite karte hain
+    aur ethnic, religious ya regional tensions ke through state ko divide karte hain.
+
+- item_id: mmmlu-geo-0062
+  source_id: high_school_geography/62
+  reference_en: (C) China is industrializing rapidly.
+  en: >-
+    The answer is (C): China is industrializing rapidly. Since economic reforms began in 1978, China has become one
+    of the world's largest manufacturing economies. The other statements are false: Japan has few natural resources,
+    China has substantial resources such as coal, and Taiwan has a strong industrial base and an educated workforce.
+  hi: >-
+    सही उत्तर (C) है: चीन तेज़ी से औद्योगीकरण कर रहा है। 1978 में आर्थिक सुधार शुरू होने के बाद से चीन दुनिया की सबसे
+    बड़ी विनिर्माण अर्थव्यवस्थाओं में से एक बन गया है। बाकी कथन गलत हैं: जापान के पास प्राकृतिक संसाधन कम हैं, चीन के
+    पास कोयले जैसे प्रचुर संसाधन हैं, और ताइवान का औद्योगिक आधार मज़बूत है और वहाँ शिक्षित कार्यबल है।
+  hi_rom: >-
+    Sahi uttar (C) hai: Cheen tezi se audyogeekaran kar raha hai. 1978 mein aarthik sudhaar shuru hone ke baad se
+    Cheen duniya ki sabse badi vinirmaan arthvyavasthaon mein se ek ban gaya hai. Baaki kathan galat hain: Japan ke
+    paas praakritik sansaadhan kam hain, Cheen ke paas koyle jaise prachur sansaadhan hain, aur Taiwan ka audyogik
+    aadhaar mazboot hai aur vahaan shikshit kaaryabal hai.
+  hinglish: >-
+    Sahi answer (C) hai: China rapidly industrialize ho raha hai. 1978 mein economic reforms shuru hone ke baad se
+    China duniya ki sabse badi manufacturing economies mein se ek ban gaya hai. Baaki statements galat hain: Japan ke
+    paas natural resources kam hain, China ke paas coal jaise kaafi resources hain, aur Taiwan ka industrial base
+    strong hai aur wahan educated workforce hai.
+
+- item_id: mmmlu-prehist-0291
+  source_id: prehistory/291
+  reference_en: (A) From producing core tools to producing flakes.
+  en: >-
+    The answer is (A): from producing core tools to producing flakes. In the Levallois technique, a stone core was
+    carefully shaped in advance so that a flake of predictable size and shape could be struck off. The flake itself
+    became the tool, rather than the core being worked into a hand axe.
+  hi: >-
+    सही उत्तर (A) है: क्रोड औज़ार बनाने से शल्क बनाने की ओर। लेवालुआ तकनीक में पत्थर के क्रोड को पहले से सावधानी से
+    आकार दिया जाता था, ताकि उस पर चोट करके पूर्वानुमानित आकार और रूप का शल्क अलग किया जा सके। क्रोड को हस्त-कुठार
+    में बदलने के बजाय वह शल्क ही औज़ार बन जाता था।
+  hi_rom: >-
+    Sahi uttar (A) hai: krod auzaar banaane se shalk banaane ki or. Levallois takneek mein patthar ke krod ko pehle se
+    saavdhaani se aakaar diya jaata tha, taaki us par chot karke poorvaanumaanit aakaar aur roop ka shalk alag kiya
+    ja sake. Krod ko hast-kuthaar mein badalne ke bajaay vah shalk hi auzaar ban jaata tha.
+  hinglish: >-
+    Sahi answer (A) hai: core tools banane se flakes banane ki taraf. Levallois technique mein stone core ko pehle se
+    carefully shape kiya jaata tha, taaki us par strike karke predictable size aur shape ka flake alag kiya ja sake.
+    Core ko hand axe mein badalne ke bajaye wahi flake tool ban jaata tha.
+
+- item_id: mmmlu-rel-0073
+  source_id: world_religions/73
+  reference_en: (A) The Namokar (Navkar) Mantra.
+  en: >-
+    The answer is (A), the Namokar Mantra. Also called the Navkar Mantra, it is the most important prayer in Jainism
+    and offers reverence to the five supreme beings: the arihants, siddhas, acharyas, upadhyayas and all sadhus. It
+    names no particular god and asks for no favours.
+  hi: >-
+    सही उत्तर (A) है, णमोकार मंत्र। इसे नवकार मंत्र भी कहते हैं; यह जैन धर्म की सबसे महत्वपूर्ण प्रार्थना है और पाँच
+    परमेष्ठियों को नमन करती है: अरिहंत, सिद्ध, आचार्य, उपाध्याय और सभी साधु। इसमें किसी विशेष देवता का नाम नहीं है और
+    कोई वरदान नहीं माँगा जाता।
+  hi_rom: >-
+    Sahi uttar (A) hai, Namokar Mantra. Ise Navkar Mantra bhi kehte hain; yah Jain dharm ki sabse mahatvapoorn
+    praarthana hai aur paanch parmeshthiyon ko naman karti hai: arihant, siddh, aachaarya, upaadhyaay aur sabhi
+    saadhu. Ismein kisi vishesh devta ka naam nahi hai aur koi vardaan nahi maanga jaata.
+  hinglish: >-
+    Sahi answer (A) hai, Namokar Mantra. Ise Navkar Mantra bhi kehte hain; ye Jainism ki sabse important prayer hai
+    aur five supreme beings ko respect deti hai: arihants, siddhas, acharyas, upadhyayas aur sab sadhus. Ismein kisi
+    particular god ka naam nahi hai aur koi favour nahi maanga jaata.
+
+- item_id: mmmlu-rel-0118
+  source_id: world_religions/118
+  reference_en: (A) Theravada.
+  en: >-
+    The answer is (A), Theravada. Theravada Buddhism has been the dominant tradition in Sri Lanka since Buddhism
+    arrived there in the third century BCE, and it is also the main form in Myanmar, Thailand, Cambodia and Laos.
+    Mahayana, Pure Land and Zen are found mainly in East Asia.
+  hi: >-
+    सही उत्तर (A) है, थेरवाद। ईसा पूर्व तीसरी शताब्दी में बौद्ध धर्म के श्रीलंका पहुँचने के बाद से वहाँ थेरवाद बौद्ध
+    धर्म की प्रमुख परंपरा रहा है, और यह म्यांमार, थाईलैंड, कंबोडिया और लाओस में भी मुख्य रूप है। महायान, शुद्धभूमि
+    और ज़ेन मुख्य रूप से पूर्वी एशिया में पाए जाते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai, Theravaad. Isa poorv teesri shataabdi mein Bauddh dharm ke Shri Lanka pahunchne ke baad se
+    vahaan Theravaad Bauddh dharm ki pramukh parampara raha hai, aur yah Myanmar, Thailand, Cambodia aur Laos mein
+    bhi mukhya roop hai. Mahaayaan, Shuddhbhoomi aur Zen mukhya roop se poorvi Asia mein paaye jaate hain.
+  hinglish: >-
+    Sahi answer (A) hai, Theravada. Third century BCE mein Buddhism ke Sri Lanka pahunchne ke baad se wahan
+    Theravada Buddhism ki dominant tradition raha hai, aur ye Myanmar, Thailand, Cambodia aur Laos mein bhi main form
+    hai. Mahayana, Pure Land aur Zen mainly East Asia mein milte hain.
+
+- item_id: mmmlu-rel-0161
+  source_id: world_religions/161
+  reference_en: (A) A ritual circumciser.
+  en: >-
+    The answer is (A): a mohel is a ritual circumciser. In Judaism, a mohel is trained to perform the brit milah, the
+    circumcision of a baby boy on the eighth day after birth. The ceremony marks the covenant between God and
+    Abraham, but the word mohel refers to the person, not the covenant.
+  hi: >-
+    सही उत्तर (A) है: मोहेल एक धार्मिक खतना करने वाला व्यक्ति है। यहूदी धर्म में मोहेल को ब्रित मिलाह करने का
+    प्रशिक्षण दिया जाता है, जो जन्म के आठवें दिन बालक का खतना है। यह संस्कार ईश्वर और अब्राहम के बीच की वाचा का
+    प्रतीक है, लेकिन मोहेल शब्द व्यक्ति को दर्शाता है, वाचा को नहीं।
+  hi_rom: >-
+    Sahi uttar (A) hai: mohel ek dhaarmik khatna karne waala vyakti hai. Yahoodi dharm mein mohel ko brit milah
+    karne ka prashikshan diya jaata hai, jo janm ke aathvein din baalak ka khatna hai. Yah sanskaar Ishvar aur
+    Abraham ke beech ki vaacha ka prateek hai, lekin mohel shabd vyakti ko darshaata hai, vaacha ko nahi.
+  hinglish: >-
+    Sahi answer (A) hai: mohel ek ritual circumciser hai. Judaism mein mohel ko brit milah perform karne ki training
+    di jaati hai, jo birth ke eighth day par baby boy ka circumcision hai. Ye ceremony God aur Abraham ke beech ke
+    covenant ko mark karti hai, lekin mohel word person ko refer karta hai, covenant ko nahi.
+
+- item_id: mmmlu-rel-0168
+  source_id: world_religions/168
+  reference_en: (B) Of the same substance.
+  en: >-
+    The answer is (B): "of the same substance". The term was adopted at the Council of Nicaea in 325 CE to state
+    that the Son is of the same essence as the Father. It was contrasted with homoiousios, "of similar substance", a
+    view the council rejected.
+  hi: >-
+    सही उत्तर (B) है: "एक ही सार का"। यह शब्द 325 ईस्वी में निकेया की परिषद में यह कहने के लिए अपनाया गया था कि
+    पुत्र और पिता एक ही सार के हैं। इसकी तुलना होमोइउसियोस यानी "समान सार का" से की गई, जिस मत को परिषद ने अस्वीकार
+    कर दिया।
+  hi_rom: >-
+    Sahi uttar (B) hai: "ek hi saar ka". Yah shabd 325 Isvi mein Nicaea ki parishad mein yah kehne ke liye apnaaya
+    gaya tha ki putra aur pita ek hi saar ke hain. Iski tulna homoiousios yaani "samaan saar ka" se ki gayi, jis mat
+    ko parishad ne asveekaar kar diya.
+  hinglish: >-
+    Sahi answer (B) hai: "same substance ka". Ye term 325 CE mein Council of Nicaea mein ye kehne ke liye adopt kiya
+    gaya tha ki Son aur Father same essence ke hain. Iska contrast homoiousios yaani "similar substance ka" se kiya
+    gaya, jis view ko council ne reject kar diya.
+
+- item_id: mmmlu-prehist-0071
+  source_id: prehistory/71
+  reference_en: (B) Petroglyph.
+  en: >-
+    The answer is (B), a petroglyph. Petroglyphs are images carved, pecked or scratched into a rock surface.
+    Pictographs, by contrast, are painted onto rock with pigments, and petrification is the process by which organic
+    material turns to stone.
+  hi: >-
+    सही उत्तर (B) है, शैलोत्कीर्णन। शैलोत्कीर्णन वे आकृतियाँ हैं जो चट्टान की सतह पर खोदी, ठोकी या खरोंची जाती हैं।
+    इसके विपरीत, शैलचित्र रंगों से चट्टान पर बनाए जाते हैं, और अश्मीभवन वह प्रक्रिया है जिसमें जैविक पदार्थ पत्थर में
+    बदल जाता है।
+  hi_rom: >-
+    Sahi uttar (B) hai, shailotkeernan. Shailotkeernan ve aakritiyaan hain jo chattaan ki satah par khodi, thoki ya
+    kharonchi jaati hain. Iske vipreet, shailchitra rangon se chattaan par banaaye jaate hain, aur ashmeebhavan vah
+    prakriya hai jismein jaivik padaarth patthar mein badal jaata hai.
+  hinglish: >-
+    Sahi answer (B) hai, petroglyph. Petroglyphs woh images hain jo rock surface par carve, peck ya scratch ki jaati
+    hain. Iske opposite, pictographs pigments se rock par paint kiye jaate hain, aur petrification woh process hai
+    jismein organic material stone mein badal jaata hai.
+
+- item_id: mmmlu-prehist-0112
+  source_id: prehistory/112
+  reference_en: (B) Mit'a.
+  en: >-
+    The answer is (B), mit'a. Under the mit'a system, households in the Inca empire owed the state periodic labour,
+    such as farming state lands, building roads or serving in the army, in return for access to land. Khipu were
+    knotted cords used for record-keeping, and capacocha was a ritual child sacrifice.
+  hi: >-
+    सही उत्तर (B) है, मिता। मिता व्यवस्था के तहत इंका साम्राज्य के परिवार भूमि के उपयोग के बदले राज्य को समय-समय पर
+    श्रम देते थे, जैसे राजकीय खेतों में खेती, सड़कें बनाना या सेना में सेवा। खिपू गाँठ लगी डोरियाँ थीं जिनका उपयोग लेखा
+    रखने के लिए होता था, और कापाकोचा बच्चों की एक अनुष्ठानिक बलि थी।
+  hi_rom: >-
+    Sahi uttar (B) hai, mit'a. Mit'a vyavastha ke tahat Inca saamraajya ke parivaar bhoomi ke upyog ke badle raajya
+    ko samay-samay par shram dete the, jaise raajkiya kheton mein kheti, sadkein banaana ya sena mein seva. Khipu
+    gaanth lagi doriyaan thin jinka upyog lekha rakhne ke liye hota tha, aur capacocha bachchon ki ek anushthaanik
+    bali thi.
+  hinglish: >-
+    Sahi answer (B) hai, mit'a. Mit'a system ke under Inca empire ke households land use ke badle state ko
+    periodically labour dete the, jaise state ke fields mein farming, roads banana ya army mein serve karna. Khipu
+    knotted cords the jinka use record-keeping ke liye hota tha, aur capacocha ek ritual child sacrifice tha.
+
+- item_id: mmmlu-prehist-0270
+  source_id: prehistory/270
+  reference_en: (D) Foraging.
+  en: >-
+    The answer is (D), foraging. For hundreds of thousands of years, people lived by gathering wild plants, hunting
+    and fishing; agriculture appeared only about 10,000 to 12,000 years ago. Foraging covers collecting plants and
+    fishing, so it is the most complete answer.
+  hi: >-
+    सही उत्तर (D) है, खाद्य-संग्रहण। लाखों वर्षों तक मनुष्य जंगली पौधे इकट्ठा करके, शिकार करके और मछली पकड़कर जीवन यापन
+    करते रहे; कृषि केवल लगभग 10,000 से 12,000 वर्ष पहले शुरू हुई। खाद्य-संग्रहण में पौधे इकट्ठा करना और मछली पकड़ना
+    दोनों शामिल हैं, इसलिए यह सबसे पूर्ण उत्तर है।
+  hi_rom: >-
+    Sahi uttar (D) hai, khaadya-sangrahan. Laakhon varshon tak manushya jangli paudhe ikattha karke, shikaar karke aur
+    machhli pakadkar jeevan yaapan karte rahe; krishi keval lagbhag 10,000 se 12,000 varsh pehle shuru hui.
+    Khaadya-sangrahan mein paudhe ikattha karna aur machhli pakadna dono shaamil hain, isliye yah sabse poorn uttar hai.
+  hinglish: >-
+    Sahi answer (D) hai, foraging. Laakhon saalon tak log wild plants gather karke, hunting aur fishing karke survive
+    karte rahe; agriculture sirf lagbhag 10,000 se 12,000 saal pehle start hua. Foraging mein plants collect karna
+    aur fishing dono include hain, isliye ye sabse complete answer hai.
+
+- item_id: mmmlu-prehist-0279
+  source_id: prehistory/279
+  reference_en: (A) Chimpanzees.
+  en: >-
+    The answer is (A), chimpanzees. Humans share roughly 98–99% of their DNA with chimpanzees and bonobos, and our
+    lineages split from a common ancestor about 6 to 7 million years ago. Gorillas are the next closest, followed by
+    orangutans and then gibbons.
+  hi: >-
+    सही उत्तर (A) है, चिम्पैंज़ी। मनुष्य अपने DNA का लगभग 98–99% हिस्सा चिम्पैंज़ी और बोनोबो के साथ साझा करते हैं, और
+    हमारी वंशावलियाँ लगभग 60 से 70 लाख वर्ष पहले एक साझा पूर्वज से अलग हुईं। गोरिल्ला उसके बाद सबसे निकट हैं, फिर
+    ओरंगुटान और उसके बाद गिब्बन।
+  hi_rom: >-
+    Sahi uttar (A) hai, chimpanzee. Manushya apne DNA ka lagbhag 98–99% hissa chimpanzee aur bonobo ke saath saajha
+    karte hain, aur hamaari vanshaavaliyaan lagbhag 60 se 70 laakh varsh pehle ek saajha poorvaj se alag huin.
+    Gorilla uske baad sabse nikat hain, phir orangutan aur uske baad gibbon.
+  hinglish: >-
+    Sahi answer (A) hai, chimpanzees. Humans apne DNA ka lagbhag 98–99% chimpanzees aur bonobos ke saath share karte
+    hain, aur hamari lineages lagbhag 6 se 7 million saal pehle ek common ancestor se alag hui. Gorillas uske baad
+    sabse close hain, phir orangutans aur uske baad gibbons.
+
+- item_id: mmmlu-gov-0045
+  source_id: high_school_government_and_politics/45
+  reference_en: (C) The Supreme Court has held that privacy is implied by the Bill of Rights.
+  en: >-
+    The answer is (C). The Constitution never mentions privacy explicitly, but in Griswold v. Connecticut (1965) the
+    Supreme Court held that a right to privacy is implied by several guarantees in the Bill of Rights. Later cases
+    built on that reasoning, so the right is neither found in the Preamble nor left entirely to the states.
+  hi: >-
+    सही उत्तर (C) है। संविधान में निजता का स्पष्ट उल्लेख कहीं नहीं है, लेकिन ग्रिसवोल्ड बनाम कनेक्टिकट (1965) मामले में
+    सर्वोच्च न्यायालय ने माना कि अधिकार-पत्र के कई प्रावधानों में निजता का अधिकार निहित है। बाद के मामलों ने इसी तर्क को
+    आगे बढ़ाया, इसलिए यह अधिकार न तो प्रस्तावना में है और न ही पूरी तरह राज्यों पर छोड़ा गया है।
+  hi_rom: >-
+    Sahi uttar (C) hai. Samvidhaan mein nijta ka spasht ullekh kahin nahi hai, lekin Griswold banaam Connecticut
+    (1965) maamle mein sarvochch nyaayalay ne maana ki adhikaar-patra ke kai praavdhaanon mein nijta ka adhikaar
+    nihit hai. Baad ke maamlon ne isi tark ko aage badhaaya, isliye yah adhikaar na to prastaavana mein hai aur na hi
+    poori tarah raajyon par chhoda gaya hai.
+  hinglish: >-
+    Sahi answer (C) hai. Constitution mein privacy ka explicitly mention kahin nahi hai, lekin Griswold v.
+    Connecticut (1965) case mein Supreme Court ne kaha ki Bill of Rights ki kai guarantees mein right to privacy
+    implied hai. Baad ke cases ne isi reasoning ko aage badhaya, isliye ye right na Preamble mein hai aur na hi
+    poori tarah states par chhoda gaya hai.
+
+- item_id: mmmlu-gov-0060
+  source_id: high_school_government_and_politics/60
+  reference_en: (D) Companies not party to the case that wish to affect its outcome.
+  en: >-
+    The answer is (D). An amicus curiae ("friend of the court") brief is filed by an individual or group that is not
+    a party to a case but has a strong interest in its outcome, such as a company, interest group or government. It
+    offers arguments or information to help the court decide.
+  hi: >-
+    सही उत्तर (D) है। न्याय-मित्र (एमिकस क्यूरी) का लिखित तर्क ऐसा व्यक्ति या समूह दाखिल करता है जो मामले का पक्षकार
+    नहीं है लेकिन उसके परिणाम में गहरी रुचि रखता है, जैसे कोई कंपनी, हित समूह या सरकार। इसमें न्यायालय को निर्णय लेने
+    में मदद के लिए तर्क या जानकारी दी जाती है।
+  hi_rom: >-
+    Sahi uttar (D) hai. Nyaay-mitra (amicus curiae) ka likhit tark aisa vyakti ya samooh daakhil karta hai jo maamle
+    ka pakshakaar nahi hai lekin uske parinaam mein gehri ruchi rakhta hai, jaise koi company, hit samooh ya sarkaar.
+    Ismein nyaayalay ko nirnay lene mein madad ke liye tark ya jaankaari di jaati hai.
+  hinglish: >-
+    Sahi answer (D) hai. Amicus curiae ("friend of the court") brief aisa individual ya group file karta hai jo case
+    ki party nahi hai lekin uske outcome mein strong interest rakhta hai, jaise koi company, interest group ya
+    government. Ismein court ko decide karne mein help ke liye arguments ya information di jaati hai.
+
+- item_id: mmmlu-gov-0104
+  source_id: high_school_government_and_politics/104
+  reference_en: (A) It usually refuses to hear the appeal.
+  en: >-
+    The answer is (A): it usually refuses to hear the appeal. The Supreme Court receives several thousand petitions
+    each year but grants review in fewer than 100 cases, usually around 60 to 70. When it denies certiorari, the
+    lower court's decision stands.
+  hi: >-
+    सही उत्तर (A) है: यह आमतौर पर अपील सुनने से मना कर देता है। सर्वोच्च न्यायालय को हर वर्ष कई हज़ार याचिकाएँ मिलती हैं,
+    लेकिन वह 100 से कम मामलों में, आमतौर पर लगभग 60 से 70 मामलों में, सुनवाई स्वीकार करता है। जब वह उत्प्रेषण रिट से
+    इनकार करता है, तो निचली अदालत का निर्णय कायम रहता है।
+  hi_rom: >-
+    Sahi uttar (A) hai: yah aamtaur par apeel sunne se mana kar deta hai. Sarvochch nyaayalay ko har varsh kai hazaar
+    yaachikaayein milti hain, lekin vah 100 se kam maamlon mein, aamtaur par lagbhag 60 se 70 maamlon mein, sunvaai
+    sveekaar karta hai. Jab vah utpreshan rit se inkaar karta hai, to nichli adaalat ka nirnay kaayam rehta hai.
+  hinglish: >-
+    Sahi answer (A) hai: ye usually appeal sunne se mana kar deta hai. Supreme Court ko har saal kai thousand
+    petitions milti hain, lekin woh 100 se kam cases mein, usually lagbhag 60 se 70 cases mein, review grant karta
+    hai. Jab woh certiorari deny karta hai, toh lower court ka decision stand karta hai.
+
+- item_id: mmmlu-gov-0133
+  source_id: high_school_government_and_politics/133
+  reference_en: (C) Generally autonomous, but federal courts may rule on the constitutionality of state decisions.
+  en: >-
+    The answer is (C). Federal and state courts are separate systems that mostly handle their own cases, but when a
+    state court decision raises a question of federal constitutional law, it can be reviewed in the federal system,
+    ultimately by the US Supreme Court. Federal courts cannot overturn state decisions on matters of purely state
+    law.
+  hi: >-
+    सही उत्तर (C) है। संघीय और राज्य न्यायालय अलग-अलग व्यवस्थाएँ हैं जो अधिकतर अपने-अपने मामले देखती हैं, लेकिन जब
+    किसी राज्य न्यायालय के निर्णय में संघीय संवैधानिक कानून का प्रश्न उठता है, तो संघीय व्यवस्था में, अंततः अमेरिकी
+    सर्वोच्च न्यायालय द्वारा, उसकी समीक्षा हो सकती है। संघीय न्यायालय केवल राज्य कानून से जुड़े मामलों में राज्य के
+    निर्णयों को पलट नहीं सकते।
+  hi_rom: >-
+    Sahi uttar (C) hai. Sanghiya aur raajya nyaayalay alag-alag vyavasthaayein hain jo adhiktar apne-apne maamle
+    dekhti hain, lekin jab kisi raajya nyaayalay ke nirnay mein sanghiya samvaidhaanik kaanoon ka prashn uthta hai,
+    to sanghiya vyavastha mein, antatah America ke sarvochch nyaayalay dwara, uski sameeksha ho sakti hai. Sanghiya
+    nyaayalay keval raajya kaanoon se jude maamlon mein raajya ke nirnayon ko palat nahi sakte.
+  hinglish: >-
+    Sahi answer (C) hai. Federal aur state courts alag systems hain jo mostly apne-apne cases handle karte hain,
+    lekin jab kisi state court ke decision mein federal constitutional law ka question uthta hai, toh federal system
+    mein, ultimately US Supreme Court dwara, uska review ho sakta hai. Federal courts purely state law wale matters
+    mein state decisions ko overturn nahi kar sakte.
+
+- item_id: mmmlu-intlaw-0017
+  source_id: international_law/17
+  reference_en: (A) Yes, but their international legal personality is limited.
+  en: >-
+    The answer is (A): individuals have international legal personality, but it is limited. They hold certain rights
+    under human rights law and can bear duties, for example criminal responsibility for war crimes, and some treaties
+    let them bring complaints. However, they cannot make treaties or exercise the full range of rights that states
+    have.
+  hi: >-
+    सही उत्तर (A) है: व्यक्तियों को अंतरराष्ट्रीय विधिक व्यक्तित्व प्राप्त है, लेकिन यह सीमित है। मानवाधिकार कानून के तहत
+    उनके कुछ अधिकार हैं और उन पर दायित्व भी हो सकते हैं, जैसे युद्ध अपराधों के लिए आपराधिक उत्तरदायित्व, और कुछ संधियाँ
+    उन्हें शिकायत दर्ज करने देती हैं। फिर भी, वे संधियाँ नहीं कर सकते और न ही राज्यों जैसे सभी अधिकारों का प्रयोग कर
+    सकते हैं।
+  hi_rom: >-
+    Sahi uttar (A) hai: vyaktiyon ko antarraashtriya vidhik vyaktitva praapt hai, lekin yah seemit hai. Maanavaadhikaar
+    kaanoon ke tahat unke kuch adhikaar hain aur un par daayitva bhi ho sakte hain, jaise yuddh apraadhon ke liye
+    aapraadhik uttardaayitva, aur kuch sandhiyaan unhein shikaayat darj karne deti hain. Phir bhi, ve sandhiyaan nahi
+    kar sakte aur na hi raajyon jaise sabhi adhikaaron ka prayog kar sakte hain.
+  hinglish: >-
+    Sahi answer (A) hai: individuals ko international legal personality milti hai, lekin ye limited hai. Human rights
+    law ke under unke kuch rights hain aur un par duties bhi ho sakti hain, jaise war crimes ke liye criminal
+    responsibility, aur kuch treaties unhe complaints file karne deti hain. Phir bhi, woh treaties nahi bana sakte
+    aur na hi states jaise saare rights use kar sakte hain.
+
+- item_id: mmmlu-intlaw-0069
+  source_id: international_law/69
+  reference_en: (C) The authorisation of armed force by the UN Security Council.
+  en: >-
+    The answer is (C): the authorisation of armed force by the UN Security Council. Under Chapter VII of the UN
+    Charter, the Security Council can decide that a threat to peace exists and authorise member states to use force
+    collectively in response. Self-defence, alone or with allies, is a separate right under Article 51.
+  hi: >-
+    सही उत्तर (C) है: संयुक्त राष्ट्र सुरक्षा परिषद द्वारा सशस्त्र बल के प्रयोग की अनुमति। संयुक्त राष्ट्र चार्टर के
+    अध्याय VII के तहत सुरक्षा परिषद यह तय कर सकती है कि शांति के लिए ख़तरा मौजूद है और सदस्य राज्यों को उसके जवाब में
+    सामूहिक रूप से बल प्रयोग की अनुमति दे सकती है। आत्मरक्षा, अकेले या सहयोगियों के साथ, अनुच्छेद 51 के तहत एक अलग
+    अधिकार है।
+  hi_rom: >-
+    Sahi uttar (C) hai: Sanyukt Raashtra Suraksha Parishad dwara sashastra bal ke prayog ki anumati. Sanyukt Raashtra
+    Charter ke adhyaay VII ke tahat Suraksha Parishad yah tay kar sakti hai ki shaanti ke liye khatra maujood hai aur
+    sadasya raajyon ko uske jawaab mein saamoohik roop se bal prayog ki anumati de sakti hai. Aatmaraksha, akele ya
+    sahyogiyon ke saath, anuchchhed 51 ke tahat ek alag adhikaar hai.
+  hinglish: >-
+    Sahi answer (C) hai: UN Security Council dwara armed force ka authorisation. UN Charter ke Chapter VII ke under
+    Security Council decide kar sakti hai ki peace ke liye threat hai aur member states ko response mein
+    collectively force use karne ka authorisation de sakti hai. Self-defence, akele ya allies ke saath, Article 51
+    ke under ek alag right hai.
+
+- item_id: mmmlu-intlaw-0114
+  source_id: international_law/114
+  reference_en: (B) It scrutinises the human rights records of all UN member states.
+  en: >-
+    The answer is (B). Through the Universal Periodic Review, the Human Rights Council examines the human rights
+    record of every UN member state, including its own members. The Council has 47 members, cannot impose sanctions,
+    and replaced the Commission on Human Rights in 2006.
+  hi: >-
+    सही उत्तर (B) है। सार्वभौमिक आवधिक समीक्षा के माध्यम से मानवाधिकार परिषद संयुक्त राष्ट्र के हर सदस्य राज्य की
+    मानवाधिकार स्थिति की जाँच करती है, जिसमें उसके अपने सदस्य भी शामिल हैं। परिषद में 47 सदस्य हैं, यह प्रतिबंध नहीं
+    लगा सकती, और इसने 2006 में मानवाधिकार आयोग का स्थान लिया।
+  hi_rom: >-
+    Sahi uttar (B) hai. Saarvbhaumik aavadhik sameeksha ke maadhyam se Maanavaadhikaar Parishad Sanyukt Raashtra ke
+    har sadasya raajya ki maanavaadhikaar sthiti ki jaanch karti hai, jismein uske apne sadasya bhi shaamil hain.
+    Parishad mein 47 sadasya hain, yah pratibandh nahi laga sakti, aur isne 2006 mein Maanavaadhikaar Aayog ka sthaan
+    liya.
+  hinglish: >-
+    Sahi answer (B) hai. Universal Periodic Review ke through Human Rights Council har UN member state ke human
+    rights record ko examine karti hai, jismein uske apne members bhi included hain. Council mein 47 members hain, ye
+    sanctions nahi laga sakti, aur isne 2006 mein Commission on Human Rights ki jagah li.
+
+- item_id: mmmlu-usfp-0035
+  source_id: us_foreign_policy/35
+  reference_en: (D) Three or more.
+  en: >-
+    The answer is (D), three or more. A multipolar system is one in which power is spread among three or more major
+    powers, as in Europe before the First World War. A system dominated by one power is unipolar, and one with two
+    rival powers, like the Cold War, is bipolar.
+  hi: >-
+    सही उत्तर (D) है, तीन या उससे अधिक। बहुध्रुवीय व्यवस्था वह है जिसमें शक्ति तीन या उससे अधिक बड़ी शक्तियों में बँटी
+    होती है, जैसे प्रथम विश्व युद्ध से पहले का यूरोप। एक शक्ति के प्रभुत्व वाली व्यवस्था एकध्रुवीय होती है, और दो
+    प्रतिद्वंद्वी शक्तियों वाली व्यवस्था, जैसे शीत युद्ध, द्विध्रुवीय होती है।
+  hi_rom: >-
+    Sahi uttar (D) hai, teen ya usse adhik. Bahudhruveeya vyavastha vah hai jismein shakti teen ya usse adhik badi
+    shaktiyon mein bati hoti hai, jaise pratham vishva yuddh se pehle ka Europe. Ek shakti ke prabhutva waali
+    vyavastha ekdhruveeya hoti hai, aur do pratidvandvi shaktiyon waali vyavastha, jaise sheet yuddh, dvidhruveeya
+    hoti hai.
+  hinglish: >-
+    Sahi answer (D) hai, three ya usse zyada. Multipolar system woh hai jismein power three ya usse zyada major
+    powers mein divided hoti hai, jaise First World War se pehle ka Europe. Ek power ke dominance wala system unipolar
+    hota hai, aur do rival powers wala system, jaise Cold War, bipolar hota hai.
+
+- item_id: mmmlu-usfp-0046
+  source_id: us_foreign_policy/46
+  reference_en: (C) Anticommunism.
+  en: >-
+    The answer is (C), anticommunism. In his first term Reagan called the Soviet Union an "evil empire", built up the
+    military and supported anti-communist movements abroad, an approach later called the Reagan Doctrine. He moved
+    away from the détente of the 1970s, and arms-control deals came mostly in his second term.
+  hi: >-
+    सही उत्तर (C) है, साम्यवाद-विरोध। अपने पहले कार्यकाल में रीगन ने सोवियत संघ को "दुष्ट साम्राज्य" कहा, सेना का विस्तार
+    किया और विदेशों में साम्यवाद-विरोधी आंदोलनों का समर्थन किया, जिसे बाद में रीगन सिद्धांत कहा गया। वे 1970 के दशक की
+    तनाव-शैथिल्य नीति से दूर हटे, और हथियार-नियंत्रण समझौते अधिकतर उनके दूसरे कार्यकाल में हुए।
+  hi_rom: >-
+    Sahi uttar (C) hai, saamyavaad-virodh. Apne pehle kaaryakaal mein Reagan ne Soviet Sangh ko "dusht saamraajya"
+    kaha, sena ka vistaar kiya aur videshon mein saamyavaad-virodhi aandolanon ka samarthan kiya, jise baad mein
+    Reagan siddhaant kaha gaya. Ve 1970 ke dashak ki tanaav-shaithilya neeti se door hate, aur hathiyaar-niyantran
+    samjhaute adhiktar unke doosre kaaryakaal mein hue.
+  hinglish: >-
+    Sahi answer (C) hai, anticommunism. Apne first term mein Reagan ne Soviet Union ko "evil empire" kaha, military
+    build-up kiya aur abroad anti-communist movements ko support kiya, jise baad mein Reagan Doctrine kaha gaya. Woh
+    1970s ki détente policy se door hue, aur arms-control deals mostly unke second term mein hui.
+
+- item_id: mmmlu-usfp-0049
+  source_id: us_foreign_policy/49
+  reference_en: (B) Ronald Reagan.
+  en: >-
+    The answer is (B), Ronald Reagan. During the 1980s, the Reagan administration carried out the largest peacetime
+    military build-up in US history, raising defense spending sharply to confront the Soviet Union. Programmes
+    included new bombers, a 600-ship navy goal and the Strategic Defense Initiative.
+  hi: >-
+    सही उत्तर (B) है, रोनाल्ड रीगन। 1980 के दशक में रीगन प्रशासन ने सोवियत संघ का मुकाबला करने के लिए अमेरिकी इतिहास में
+    शांतिकाल का सबसे बड़ा सैन्य विस्तार किया और रक्षा व्यय तेज़ी से बढ़ाया। इसमें नए बमवर्षक विमान, 600 जहाज़ों की
+    नौसेना का लक्ष्य और सामरिक रक्षा पहल जैसे कार्यक्रम शामिल थे।
+  hi_rom: >-
+    Sahi uttar (B) hai, Ronald Reagan. 1980 ke dashak mein Reagan prashaasan ne Soviet Sangh ka muqaabla karne ke liye
+    America ke itihaas mein shaantikaal ka sabse bada sainya vistaar kiya aur raksha vyay tezi se badhaaya. Ismein
+    naye bamvarshak vimaan, 600 jahaazon ki nausena ka lakshya aur saamrik raksha pahal jaise kaaryakram shaamil the.
+  hinglish: >-
+    Sahi answer (B) hai, Ronald Reagan. 1980s mein Reagan administration ne Soviet Union ko counter karne ke liye US
+    history ka sabse bada peacetime military build-up kiya aur defense spending tezi se badhaya. Ismein new bombers,
+    600-ship navy ka goal aur Strategic Defense Initiative jaise programmes shaamil the.
