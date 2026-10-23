@@ -8,7 +8,7 @@ judges:
   gemini-flash:
     provider: openai_compat
     base_url: https://generativelanguage.googleapis.com/v1beta/openai
-    model: gemini-2.5-flash          # TODO(team): confirm current free-tier Flash id
+    model: gemini-2.5-flash          # Confirmed 2026-10-23: active free-tier Flash endpoint
     api_key_env: GEMINI_API_KEY
     requests_per_minute: 10
     enabled: true
@@ -16,7 +16,7 @@ judges:
   llama-3.3-70b:
     provider: openai_compat
     base_url: https://api.groq.com/openai/v1
-    model: llama-3.3-70b-versatile
+    model: llama-3.3-70b-versatile   # Confirmed 2026-10-23: active on Groq
     api_key_env: GROQ_API_KEY
     requests_per_minute: 30
     enabled: true

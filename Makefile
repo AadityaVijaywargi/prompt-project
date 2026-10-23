@@ -9,8 +9,8 @@ export PYTHONIOENCODING := utf-8
 export PYTHONUTF8 := 1
 ARGS ?=
 
-.PHONY: setup test data-check qc-export qc-import budget budget-pilot pilot \
-        run-e1 run-e2 run-e2b run-e3 run-e5 stats app reproduce
+.PHONY: setup test data-check qc-export qc-import budget budget-pilot pilot pilot-report \
+        run-e1 run-e2 run-e2b run-e3 run-e5 stats app reproduce reproduce-pilot
 
 setup:
 	uv venv --python 3.12 .venv
@@ -59,3 +59,11 @@ reproduce: data-check
 	$(PY) -m lb.runners.e1_pointwise --offline $(ARGS)
 	$(PY) -m lb.runners.e2_pairwise --offline $(ARGS)
 	$(PY) -m lb.runners.e3_wrong --offline $(ARGS)
+
+pilot-report:
+	$(PY) scripts/pilot_report.py $(ARGS)
+
+reproduce-pilot: data-check
+	$(PY) -m lb.runners.e1_pointwise --pilot --offline $(ARGS)
+	$(PY) -m lb.runners.e2_pairwise --pilot --offline $(ARGS)
+	$(PY) scripts/pilot_report.py $(ARGS)
