@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the shift in Levallois technology, while Answer B discusses a different technological shift.\"}",
+ "tokens": {
+  "prompt": 472,
+  "completion": 34
+ },
+ "created": "2026-10-24T08:47:01.525499+00:00"
+}
