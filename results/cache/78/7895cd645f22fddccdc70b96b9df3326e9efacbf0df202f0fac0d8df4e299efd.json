@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The paragraph is well-written and accurately describes the effects of the monsoon in India.\"}",
+ "tokens": {
+  "prompt": 918,
+  "completion": 52
+ },
+ "created": "2026-10-24T07:33:54.858157+00:00"
+}

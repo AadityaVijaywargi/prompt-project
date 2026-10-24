@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"Correct answer, mostly complete, clear and well-organized, minor improvement could be made to the definition of the hierarchy of needs.\"}",
+ "tokens": {
+  "prompt": 290,
+  "completion": 61
+ },
+ "created": "2026-10-24T07:15:35.749489+00:00"
+}

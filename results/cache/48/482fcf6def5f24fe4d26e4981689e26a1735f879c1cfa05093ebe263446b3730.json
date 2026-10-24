@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The answer is well-structured, covers all aspects of the question, and is written fluently in Hindi.\"}",
+ "tokens": {
+  "prompt": 518,
+  "completion": 57
+ },
+ "created": "2026-10-24T07:31:08.088147+00:00"
+}
