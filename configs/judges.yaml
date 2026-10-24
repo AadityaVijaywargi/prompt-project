@@ -8,7 +8,7 @@ judges:
   gemini-flash:
     provider: openai_compat
     base_url: https://generativelanguage.googleapis.com/v1beta/openai
-    model: gemini-2.5-flash          # Confirmed 2026-10-23: active free-tier Flash endpoint
+    model: gemini-3.5-flash          # 2026-10-24: 2.5-flash is 404 for new keys; 3.8-flash took 85-182 s per call on free tier, 3.5-flash ~2 s
     api_key_env: GEMINI_API_KEY
     requests_per_minute: 10
     enabled: true

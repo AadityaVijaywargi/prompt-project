@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The answer provides the correct option, detailed calculations for each gas, and clear step-by-step reasoning in fluent Hindi.\"}\n```",
+ "tokens": {
+  "prompt": 415,
+  "completion": 64
+ },
+ "created": "2026-10-24T05:44:09.002602+00:00"
+}
