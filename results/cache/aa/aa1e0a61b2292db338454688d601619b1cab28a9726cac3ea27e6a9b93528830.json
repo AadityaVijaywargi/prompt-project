@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly give (C) ~250 years with the same supporting details\"}",
+ "tokens": {
+  "prompt": 310,
+  "completion": 116
+ },
+ "created": "2026-10-24T06:36:25.927190+00:00"
+}

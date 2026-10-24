@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurately identifies (B) and explains why the other options are valid hypotheses.\"\n}",
+ "tokens": {
+  "prompt": 392,
+  "completion": 326
+ },
+ "created": "2026-10-24T06:31:08.510952+00:00"
+}

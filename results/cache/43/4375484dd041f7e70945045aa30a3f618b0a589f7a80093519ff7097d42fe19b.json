@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurately identifies D, explains why it fits pork‑barrel legislation, and dismisses the other options clearly.\"\n}",
+ "tokens": {
+  "prompt": 416,
+  "completion": 205
+ },
+ "created": "2026-10-24T06:30:08.116521+00:00"
+}

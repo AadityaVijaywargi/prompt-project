@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Covers the main Socratic methods well, but mixed language and phrasing affect clarity.\"\n}",
+ "tokens": {
+  "prompt": 367,
+  "completion": 310
+ },
+ "created": "2026-10-24T06:33:28.406680+00:00"
+}
