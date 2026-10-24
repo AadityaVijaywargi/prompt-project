@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"English is the preferred language for clarity and global understanding.\"}",
+ "tokens": {
+  "prompt": 530,
+  "completion": 23
+ },
+ "created": "2026-10-24T14:54:02.579430+00:00"
+}

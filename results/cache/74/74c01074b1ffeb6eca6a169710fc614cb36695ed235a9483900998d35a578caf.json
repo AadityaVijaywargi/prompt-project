@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A uses the correct term 'boundary checks'.\"}",
+ "tokens": {
+  "prompt": 238,
+  "completion": 23
+ },
+ "created": "2026-10-24T15:54:23.351797+00:00"
+}

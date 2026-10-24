@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 4, \"language_quality\": 3, \"comment\": \"The email is mostly correct and covers the main points, but there are some grammatical errors and the tone could be more professional.\"}",
+ "tokens": {
+  "prompt": 410,
+  "completion": 61
+ },
+ "created": "2026-10-24T13:41:25.363181+00:00"
+}

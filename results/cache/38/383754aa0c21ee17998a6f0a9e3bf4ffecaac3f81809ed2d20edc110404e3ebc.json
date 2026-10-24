@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies waves as the best model for electron orbits.\"}",
+ "tokens": {
+  "prompt": 273,
+  "completion": 25
+ },
+ "created": "2026-10-24T15:52:36.057214+00:00"
+}

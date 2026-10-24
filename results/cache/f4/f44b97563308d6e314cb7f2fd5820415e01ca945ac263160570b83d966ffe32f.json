@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is in English and directly addresses the question, while Answer B is in Hindi and does not clearly state the direction of the net force.\"}",
+ "tokens": {
+  "prompt": 576,
+  "completion": 41
+ },
+ "created": "2026-10-24T15:20:58.855958+00:00"
+}

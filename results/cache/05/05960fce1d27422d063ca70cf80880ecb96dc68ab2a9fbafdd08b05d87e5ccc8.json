@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"准确且清晰地描述了神经元之间的化学传递过程。\"}",
+ "tokens": {
+  "prompt": 579,
+  "completion": 48
+ },
+ "created": "2026-10-24T13:29:27.955448+00:00"
+}

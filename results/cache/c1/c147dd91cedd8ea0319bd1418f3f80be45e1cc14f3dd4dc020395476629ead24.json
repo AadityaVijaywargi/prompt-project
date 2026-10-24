@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The email is well-written and conveys the message effectively, but there are a few factual errors about travel to Kutch.\"}",
+ "tokens": {
+  "prompt": 915,
+  "completion": 60
+ },
+ "created": "2026-10-24T13:54:17.672586+00:00"
+}

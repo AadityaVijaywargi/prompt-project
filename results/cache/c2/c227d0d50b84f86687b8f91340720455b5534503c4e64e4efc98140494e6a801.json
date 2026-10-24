@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A uses the correct term 'aanshik daab' (partial pressure) and provides a more detailed explanation in the context of the question.\"}",
+ "tokens": {
+  "prompt": 499,
+  "completion": 43
+ },
+ "created": "2026-10-24T15:28:19.446826+00:00"
+}

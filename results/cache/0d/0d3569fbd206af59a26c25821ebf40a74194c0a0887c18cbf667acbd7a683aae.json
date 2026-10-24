@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is more directly aligned with the reference answer and accurately reflects the typical outcome of Supreme Court appeals.\"}",
+ "tokens": {
+  "prompt": 352,
+  "completion": 33
+ },
+ "created": "2026-10-24T15:39:24.020814+00:00"
+}
