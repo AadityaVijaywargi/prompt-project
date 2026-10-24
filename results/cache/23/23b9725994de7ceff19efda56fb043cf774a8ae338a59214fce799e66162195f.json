@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A includes the word 'Sahi' which means correct in Hindi, making it more engaging.\"}",
+ "tokens": {
+  "prompt": 284,
+  "completion": 32
+ },
+ "created": "2026-10-24T08:57:12.528693+00:00"
+}
