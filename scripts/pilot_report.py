@@ -24,11 +24,13 @@ from lb.stats import (
 )
 
 
-def load_raw_calls(raw_dir: Path, pattern: str = "*pilot*.jsonl") -> list[dict]:
+def load_raw_calls(raw_dir: Path, pattern: str = "*pilot*.jsonl", variant: str = "baseline") -> list[dict]:
+    # Only one prompt variant per report: mixing variants would let one overwrite the other
+    # during the last-attempt dedup below.
     files = sorted(raw_dir.glob(pattern))
     calls = []
     for f in files:
-        calls.extend(read_jsonl(f))
+        calls.extend(c for c in read_jsonl(f) if c.get("prompt_variant") == variant)
     return calls
 
 
@@ -311,12 +313,14 @@ def write_csv(path: Path, rows: list[dict]) -> None:
         w.writerows(rows)
 
 
-def render_markdown_report(e1_rows: list[dict], e2_rows: list[dict], report_path: Path) -> str:
+def render_markdown_report(e1_rows: list[dict], e2_rows: list[dict], report_path: Path,
+                           variant: str = "baseline") -> str:
     lines = [
         "# Pilot Report: Language-Bias Auditor for LLM Judges (Phase 0)",
         "",
         "> [!IMPORTANT]",
         "> **PILOT and exploratory (n = 20, below 30).**",
+        f"> Prompt variant: `{variant}`.",
         "> All metrics are generated strictly from the pilot results files under `results/tables/`.",
         "> Pilot items are preliminary and are not pooled with later main results.",
         "",
@@ -373,8 +377,9 @@ def render_markdown_report(e1_rows: list[dict], e2_rows: list[dict], report_path
 
 
 def generate_pilot_report(raw_dir: Path = RAW, tables_dir: Path = TABLES,
-                          report_path: Path = Path("pilot_report.md")) -> tuple[list[dict], list[dict]]:
-    calls = load_raw_calls(raw_dir)
+                          report_path: Path = Path("pilot_report.md"),
+                          variant: str = "baseline") -> tuple[list[dict], list[dict]]:
+    calls = load_raw_calls(raw_dir, variant=variant)
     items = load_quadruples(include_unverified=True)
     items_by_id = {q.item_id: q for q in items}
 
@@ -387,7 +392,7 @@ def generate_pilot_report(raw_dir: Path = RAW, tables_dir: Path = TABLES,
     write_csv(e1_csv, e1_rows)
     write_csv(e2_csv, e2_rows)
 
-    render_markdown_report(e1_rows, e2_rows, report_path)
+    render_markdown_report(e1_rows, e2_rows, report_path, variant)
     print(f"Wrote {len(e1_rows)} E1 rows to {e1_csv}")
     print(f"Wrote {len(e2_rows)} E2 rows to {e2_csv}")
     print(f"Rendered pilot report to {report_path}")
@@ -399,8 +404,9 @@ def main() -> None:
     p.add_argument("--raw-dir", type=Path, default=RAW)
     p.add_argument("--tables-dir", type=Path, default=TABLES)
     p.add_argument("--report", type=Path, default=Path("pilot_report.md"))
+    p.add_argument("--variant", default="baseline", help="prompt variant to report on (one per report)")
     args = p.parse_args()
-    generate_pilot_report(args.raw_dir, args.tables_dir, args.report)
+    generate_pilot_report(args.raw_dir, args.tables_dir, args.report, args.variant)
 
 
 if __name__ == "__main__":
