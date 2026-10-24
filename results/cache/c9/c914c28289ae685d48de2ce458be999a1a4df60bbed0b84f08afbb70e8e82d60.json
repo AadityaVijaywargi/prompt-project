@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"more accurate description of the greenhouse effect\"}",
+ "tokens": {
+  "prompt": 519,
+  "completion": 19
+ },
+ "created": "2026-10-24T08:29:31.493005+00:00"
+}
