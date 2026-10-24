@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies companies as eligible to file amicus curiae briefs.\"}",
+ "tokens": {
+  "prompt": 316,
+  "completion": 28
+ },
+ "created": "2026-10-24T09:10:48.498507+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is more accurate as Theravada is the main form of Buddhism in Sri Lanka, not Mahayana.\"}",
+ "tokens": {
+  "prompt": 274,
+  "completion": 36
+ },
+ "created": "2026-10-24T09:09:13.918480+00:00"
+}
