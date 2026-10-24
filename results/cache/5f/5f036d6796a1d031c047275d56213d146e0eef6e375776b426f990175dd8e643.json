@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is in English and directly addresses the question, while Answer B is in Hindi and includes unnecessary information.\"}",
+ "tokens": {
+  "prompt": 602,
+  "completion": 34
+ },
+ "created": "2026-10-24T08:05:44.877603+00:00"
+}

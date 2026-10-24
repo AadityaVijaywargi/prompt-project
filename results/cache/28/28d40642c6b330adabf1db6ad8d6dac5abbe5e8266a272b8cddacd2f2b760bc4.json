@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A uses the correct term 'Sahi' for 'correct' in Hindi.\"}",
+ "tokens": {
+  "prompt": 244,
+  "completion": 29
+ },
+ "created": "2026-10-24T08:00:08.489706+00:00"
+}

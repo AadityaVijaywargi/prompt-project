@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"English is the primary language for business communication in India, making Answer A more accessible.\"}",
+ "tokens": {
+  "prompt": 622,
+  "completion": 29
+ },
+ "created": "2026-10-24T07:53:15.977046+00:00"
+}

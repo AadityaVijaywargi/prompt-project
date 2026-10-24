@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"提供更多关于肌肉在安静呼吸中作用的详细信息\"}",
+ "tokens": {
+  "prompt": 508,
+  "completion": 23
+ },
+ "created": "2026-10-24T08:03:20.663431+00:00"
+}

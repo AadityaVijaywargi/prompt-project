@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is in Hindi and more detailed about the meaning and significance of the Namokar Mantra.\"}",
+ "tokens": {
+  "prompt": 462,
+  "completion": 33
+ },
+ "created": "2026-10-24T07:29:26.591240+00:00"
+}
