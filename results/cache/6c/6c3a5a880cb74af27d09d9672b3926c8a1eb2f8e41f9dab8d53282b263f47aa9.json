@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly compute the mole fractions and partial pressure with identical reasoning\"}",
+ "tokens": {
+  "prompt": 502,
+  "completion": 89
+ },
+ "created": "2026-10-24T06:41:06.095636+00:00"
+}

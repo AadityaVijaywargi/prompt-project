@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly compute the partial pressure with identical reasoning.\"\n}",
+ "tokens": {
+  "prompt": 518,
+  "completion": 73
+ },
+ "created": "2026-10-24T06:40:25.912819+00:00"
+}

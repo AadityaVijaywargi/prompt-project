@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify Kannon and give equivalent explanations.\"}",
+ "tokens": {
+  "prompt": 362,
+  "completion": 190
+ },
+ "created": "2026-10-24T06:46:46.303597+00:00"
+}

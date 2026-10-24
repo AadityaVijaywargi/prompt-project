@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer correctly identifies (C) and explains why, covering all key points clearly.\"\n}",
+ "tokens": {
+  "prompt": 483,
+  "completion": 159
+ },
+ "created": "2026-10-24T06:25:38.339614+00:00"
+}
