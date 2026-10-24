@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the hierarchy of needs as Maslow's approach.\"}",
+ "tokens": {
+  "prompt": 282,
+  "completion": 26
+ },
+ "created": "2026-10-24T08:54:28.338446+00:00"
+}

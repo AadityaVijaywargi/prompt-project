@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"提供更多关于联邦法院可以审查州法院决定的具体信息\"}",
+ "tokens": {
+  "prompt": 610,
+  "completion": 23
+ },
+ "created": "2026-10-24T08:50:21.941768+00:00"
+}

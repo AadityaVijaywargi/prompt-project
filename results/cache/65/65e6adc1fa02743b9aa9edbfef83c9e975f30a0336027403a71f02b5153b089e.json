@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is correct.\"}",
+ "tokens": {
+  "prompt": 268,
+  "completion": 17
+ },
+ "created": "2026-10-24T08:52:19.850037+00:00"
+}

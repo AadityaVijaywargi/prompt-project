@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides the correct number of bright stars and explains the origin of the name 'Seven Sisters' in both English and Hindi.\"}",
+ "tokens": {
+  "prompt": 425,
+  "completion": 38
+ },
+ "created": "2026-10-24T09:01:42.239070+00:00"
+}
