@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"more detailed description and additional chemical observation\"}",
+ "tokens": {
+  "prompt": 842,
+  "completion": 19
+ },
+ "created": "2026-10-24T08:25:08.891662+00:00"
+}

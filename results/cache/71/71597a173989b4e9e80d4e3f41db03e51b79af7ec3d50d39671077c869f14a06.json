@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides a clearer and more accurate definition of collective security.\"}",
+ "tokens": {
+  "prompt": 565,
+  "completion": 25
+ },
+ "created": "2026-10-24T08:15:54.221221+00:00"
+}

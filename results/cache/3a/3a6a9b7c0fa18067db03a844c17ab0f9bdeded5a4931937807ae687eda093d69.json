@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides a more accurate and concise explanation of Wallerstein's concept of a world system.\"}",
+ "tokens": {
+  "prompt": 354,
+  "completion": 32
+ },
+ "created": "2026-10-24T08:19:16.244796+00:00"
+}

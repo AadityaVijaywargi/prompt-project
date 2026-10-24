@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is in the native language of the reference answer and provides more detailed information about the spread of Theravada Buddhism.\"}",
+ "tokens": {
+  "prompt": 464,
+  "completion": 37
+ },
+ "created": "2026-10-24T08:12:24.521289+00:00"
+}
