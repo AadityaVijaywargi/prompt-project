@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the writ of certiorari as the correct term for the Supreme Court's decision to take a case on appeal.\"}",
+ "tokens": {
+  "prompt": 329,
+  "completion": 39
+ },
+ "created": "2026-10-24T09:22:53.456443+00:00"
+}
