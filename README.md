@@ -4,7 +4,7 @@ Do LLM judges score the same answer differently when it is written in English, H
 Romanized Hindi or Hinglish? This repo measures the gap (E1 pointwise, E2/E3 pairwise), checks judges
 against Hindi-speaking humans (E4), and tests prompt-level fixes (E5). Course project UE24AM343AB5.
 
-**Status (2026-10-23): Phase 0 in progress.** Skeleton, schemas, budget gate, and runners for E1-E3 are in place. 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins have been drafted by Claude; 0 are verified so far. **No judge has been called yet. No results exist.** Items enter analysis only after human verification via the QC sheet.
+**Status (2026-10-24): Phase 0 in progress.** Skeleton, schemas, budget gate, and runners for E1-E3 are in place. 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins have been drafted by Claude; all are now verified by a Hindi speaker. **No judge has been called yet. No results exist.** Items enter analysis only after human verification via the QC sheet.
 
 ## Setup
 
