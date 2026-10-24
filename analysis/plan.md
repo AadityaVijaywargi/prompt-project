@@ -90,3 +90,17 @@ matched (item, form) pairs from the baseline E1 run.
     no Llama output exists. `qwen/qwen3.8-27b` was not chosen: preview status, and the same family as the local
     Qwen judge.
   - Both changes were made before any analysis was run, so no result is affected.
+- **2026-10-24, main-study judges actually run (feasibility, no comparison changed).**
+  - E1-E3 baseline judges: `qwen2.5-7b-local` (complete: 1,980 calls, split across 4 laptops with
+    `--shard K/4`) and `gpt-oss-120b` (Groq free tier, same 4-way split, each team member on their own free
+    key). `gemini-flash` stays in `configs/experiments.yaml` but is pilot-only for now: Google's free tier
+    allows 20 requests/day per key, so 1,980 calls do not fit the project timeline without billing.
+  - Not used: Claude models (paid API only, and the same family as the drafting model, i.e. the
+    self-preference risk the drafter guard exists for); a second Ollama model (feasible, but another 7-9B
+    judge cannot test whether the effects hold for a large judge).
+  - Timing: decided after the Qwen E1-E3 tables were generated (commit fc41489). The judge was chosen for
+    availability, cost and size; no result was used to choose it, and no analysis in this plan changes.
+  - The 200 pilot `gpt-oss-120b` calls (20 items, E1 + E2) are byte-identical requests to the matching
+    main-study calls, so the main run takes them from the cache instead of sending them again. Pilot
+    run records themselves stay excluded from main tables (`lb.analysis` and `scripts/check_shard.py`
+    skip `pilot-` runs); the main run logs its own records for those calls.
