@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer correctly identifies option (C) and provides an accurate, well-explained response in clear Hinglish.\"\n}\n```",
+ "tokens": {
+  "prompt": 302,
+  "completion": 73
+ },
+ "created": "2026-10-24T05:39:58.254973+00:00"
+}
