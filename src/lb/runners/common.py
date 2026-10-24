@@ -118,7 +118,27 @@ def runner_args(description: str) -> argparse.ArgumentParser:
     p.add_argument("--offline", action="store_true", help="cache only; a miss is an error")
     p.add_argument("--yes", action="store_true", help="confirm the printed budget and run")
     p.add_argument("--run-id", default=None)
+    p.add_argument("--shard", default=None, metavar="K/N",
+                   help="run only part K of N (items K, K+N, K+2N, ... in data order), e.g. 1/4")
     return p
+
+
+def parse_shard(spec: str) -> tuple[int, int]:
+    try:
+        k, n = (int(x) for x in spec.split("/"))
+    except ValueError:
+        raise SystemExit(f"--shard must look like K/N, got {spec!r}")
+    if not 1 <= k <= n:
+        raise SystemExit(f"--shard {spec}: K must be between 1 and N")
+    return k, n
+
+
+def select_shard(items: list[Quadruple], spec: Optional[str]) -> list[Quadruple]:
+    """Round-robin split, so every part gets a similar mix of factual / open-ended items and wrong twins."""
+    if not spec:
+        return items
+    k, n = parse_shard(spec)
+    return [q for i, q in enumerate(items) if i % n == k - 1]
 
 
 def resolve(args, experiment: str) -> tuple[list[Quadruple], list[str], dict]:
@@ -128,12 +148,14 @@ def resolve(args, experiment: str) -> tuple[list[Quadruple], list[str], dict]:
     items = load_quadruples(include_unverified=args.include_unverified, pilot_only=args.pilot)
     if args.pilot:
         items = items[: exp_cfg["pilot"]["n_items"]]
-    judges = args.judges or (exp_cfg["pilot"]["judges"] if args.pilot else exp_cfg["experiments"][experiment]["judges"])
+    items = select_shard(items, args.shard)
+    judges =args.judges or (exp_cfg["pilot"]["judges"] if args.pilot else exp_cfg["experiments"][experiment]["judges"])
     return items, judges, exp_cfg
 
 
 def default_run_id(args) -> str:
-    return args.run_id or (("pilot-" if args.pilot else "") + args.variant + "-"
+    shard = "shard{}of{}-".format(*parse_shard(args.shard)) if args.shard else ""
+    return args.run_id or (("pilot-" if args.pilot else "") + args.variant + "-" + shard
                            + datetime.now().strftime("%Y%m%dT%H%M%S"))
 
 

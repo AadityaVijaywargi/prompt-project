@@ -24,7 +24,8 @@ class OpenAICompatProvider(Provider):
             raise RuntimeError(f"environment variable {key_env} is not set")
         self.min_interval = 60.0 / float(cfg.get("requests_per_minute", 30))
         self.max_retries = max_retries
-        self.client = httpx.Client(timeout=timeout)
+        # local models on a CPU can need minutes per call; judges.yaml may raise the default per judge
+        self.client = httpx.Client(timeout=float(cfg.get("timeout_s", timeout)))
         self._last = 0.0
 
     def _throttle(self) -> None:
