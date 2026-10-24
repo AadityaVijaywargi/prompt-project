@@ -27,6 +27,7 @@ judges:
     model: qwen2.5:7b-instruct       # run `ollama pull qwen2.5:7b-instruct` first
     api_key_env: null                # local, no key
     requests_per_minute: 60
+    timeout_s: 900                   # CPU-only laptops can take minutes per call
     enabled: true
 
   sarvam:
