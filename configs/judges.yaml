@@ -13,12 +13,12 @@ judges:
     requests_per_minute: 10
     enabled: true
 
-  llama-3.3-70b:
+  gpt-oss-120b:
     provider: openai_compat
     base_url: https://api.groq.com/openai/v1
-    model: llama-3.3-70b-versatile   # Confirmed 2026-10-23: active on Groq
+    model: openai/gpt-oss-120b       # 2026-10-24: replaces llama-3.3-70b-versatile (404 model_not_found, decommissioned)
     api_key_env: GROQ_API_KEY
-    requests_per_minute: 30
+    requests_per_minute: 6           # Groq lists 8K tokens/min for this model; ~1K tokens per judge call
     enabled: true
 
   qwen2.5-7b-local:
@@ -41,6 +41,6 @@ judges:
 translator:
   provider: openai_compat
   base_url: https://api.groq.com/openai/v1
-  model: llama-3.3-70b-versatile
+  model: openai/gpt-oss-120b         # 2026-10-24: llama-3.3-70b-versatile is decommissioned on Groq
   api_key_env: GROQ_API_KEY
-  requests_per_minute: 30
+  requests_per_minute: 6
