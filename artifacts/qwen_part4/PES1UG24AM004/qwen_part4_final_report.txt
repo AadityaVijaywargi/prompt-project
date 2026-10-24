@@ -1,0 +1,260 @@
+================================================================================
+FINAL AUDIT REPORT — PROMPT-PROJECT / QWEN PART 4 OF 4
+INDEPENDENT VERIFICATION OF EXECUTION, ARTIFACTS, GIT, AND FILESYSTEM SCOPE
+================================================================================
+
+A. OVERALL VERDICT
+--------------------------------------------------------------------------------
+VERDICT: FULLY VERIFIED
+
+The execution of Local Qwen Baseline Part 4 of 4 (Judge: qwen2.5-7b-local,
+Shard: 4/4) is independently verified in its entirety:
+1. All 498 planned calls across E1, E2, and E3 completed with 0 missing calls.
+2. The project completion checker (scripts/check_shard.py) reports COMPLETE (exit code 0).
+3. All three experiment commits (c290147, 1c8f747, ccbab19) are verified in Git
+   history and confirmed reachable from remote origin/main.
+4. Experiment commits strictly modified only results/raw/ and results/cache/.
+5. The local results ZIP archive (qwen_part4_results.zip) is verified intact,
+   containing exactly 507 member files (3 raw result JSONL files and 504 cache JSON files)
+   with 0 corrupted entries, 0 path traversals, and 0 extraneous files.
+6. The original run report and all three experiment execution logs are present,
+   readable, and corroborate the execution timeline.
+7. Local Qwen model files (~4.36 GB) are verified stored within the workspace boundary.
+8. Background processes (Ollama server daemon and keep-awake helper) are verified stopped.
+9. Workspace secret safety is verified: API-key.txt remained untouched and uncommitted.
+
+
+B. WORKSPACE AND FILESYSTEM BOUNDARIES
+--------------------------------------------------------------------------------
+- Permitted Workspace: <LOCAL_WORKSPACE>
+- Verified Repository:  <REPO_ROOT>
+
+Filesystem Scope Verification:
+- All task-created files, virtual environments, tool caches, logs, model files,
+  ZIP archives, and audit reports are strictly confined within $Workspace:
+  * Repository checkout:       $Workspace\prompt-project
+  * Virtual environment:       $Workspace\prompt-project\.venv
+  * Tool caches:               $Workspace\tool-cache (uv, pip)
+  * Ollama model storage:      $Workspace\ollama\models
+  * Execution logs:            $Workspace\run_logs
+  * Backup archive:            $Workspace\qwen_part4_results.zip
+  * Original run report:       $Workspace\qwen_part4_run_report.txt
+  * Final audit report:        $Workspace\qwen_part4_final_report.txt
+- Outside Scope Limitation: Per non-negotiable safety rules, directories outside
+  $Workspace were not traversed or searched. Consequently, complete external system
+  isolation is verified from session execution transcripts and Git diff scoping,
+  while independent verification of arbitrary outside directories is marked as
+  NOT INDEPENDENTLY VERIFIABLE by design.
+
+
+C. EXECUTION ENVIRONMENT
+--------------------------------------------------------------------------------
+- Python:          3.12.10 (Evidence: verified directly via .venv\Scripts\python.exe --version)
+- Git:             2.56.0.windows.3 (Evidence: verified directly via git --version)
+- uv:              0.12.4 (Evidence: verified directly via uv --version)
+- Ollama Client:   0.34.1 (Evidence: verified directly via ollama --version)
+- Model Name:      qwen2.5:7b-instruct (Evidence: verified via manifest at
+                   MINI\ollama\models\manifests\registry.ollama.ai\library\qwen2.5\7b-instruct)
+- Model ID:        845dbda0ea48 (Evidence: verified from recorded session task-70
+                   Ollama list output and run report; matches reference ID)
+- Model Location:  <LOCAL_WORKSPACE>\ollama\models
+                   (Evidence: verified 5 blob files totaling 4.36 GB stored locally)
+
+
+D. EXPERIMENT RESULTS
+--------------------------------------------------------------------------------
+Independent Checker Re-run Command:
+  .venv\Scripts\python.exe scripts/check_shard.py --judge qwen2.5-7b-local --shard 4/4
+Exit Code: 0
+
+Checker Output:
+  qwen2.5-7b-local, baseline, shard 4/4
+    e1: planned 148, parsed OK 148, unparsed after retries 0, missing 0
+    e2: planned 222, parsed OK 222, unparsed after retries 0, missing 0
+    e3: planned 128, parsed OK 125, unparsed after retries 3, missing 0
+  COMPLETE
+
+Detailed Per-Experiment Breakdown:
+- E1 (Pointwise scoring):
+  * Planned:    148
+  * Parsed OK:  148 (100.0%)
+  * Unparsed:   0
+  * Missing:    0
+  * Status:     COMPLETE
+
+- E2 (Pairwise comparison):
+  * Planned:    222
+  * Parsed OK:  222 (100.0%)
+  * Unparsed:   0
+  * Missing:    0
+  * Status:     COMPLETE
+
+- E3 (Wrong-answer comparison and control):
+  * Planned:    128
+  * Parsed OK:  125 (97.66%)
+  * Unparsed:   3 (recorded failures after 2 retries, per project specification)
+  * Missing:    0
+  * Status:     COMPLETE
+
+Aggregate Totals:
+- Total Planned Calls: 498
+- Coverage:            498 / 498 (100.0% calls made, 0 missing)
+- Parsed Success:      495 / 498 (99.40%)
+- Unparsed Failures:   3 / 498 (0.60%)
+- Overall Status:      COMPLETE
+
+
+E. LOCAL DELIVERABLES AUDIT
+--------------------------------------------------------------------------------
+1. Original Execution Run Report:
+   - Path:          <LOCAL_WORKSPACE>\qwen_part4_run_report.txt
+   - Exists:        Yes
+   - Size:          5,168 bytes
+   - Last Modified: 2026-10-24 14:35:59 +05:30
+   - Readability:   VERIFIED readable and fully populated
+
+2. Backup Results ZIP Archive:
+   - Path:          <LOCAL_WORKSPACE>\qwen_part4_results.zip
+   - Exists:        Yes
+   - Size:          276,948 bytes
+   - Last Modified: 2026-10-24 14:35:06 +05:30
+   - Readability:   VERIFIED readable and structurally intact
+
+3. E1 Execution Log:
+   - Path:          <LOCAL_WORKSPACE>\run_logs\e1_pointwise.log
+   - Exists:        Yes
+   - Size:          908 bytes
+   - Last Modified: 2026-10-24 13:22:38 +05:30
+   - Readability:   VERIFIED (Records 148/148 calls done, 0 unparsed, {'ok': 148, 'failed': 0})
+
+4. E2 Execution Log:
+   - Path:          <LOCAL_WORKSPACE>\run_logs\e2_pairwise.log
+   - Exists:        Yes
+   - Size:          1,082 bytes
+   - Last Modified: 2026-10-24 14:15:58 +05:30
+   - Readability:   VERIFIED (Records 222/222 calls done, 0 unparsed, {'ok': 222, 'failed': 0})
+
+5. E3 Execution Log:
+   - Path:          <LOCAL_WORKSPACE>\run_logs\e3_wrong.log
+   - Exists:        Yes
+   - Size:          908 bytes
+   - Last Modified: 2026-10-24 14:34:29 +05:30
+   - Readability:   VERIFIED (Records 128/128 calls done, 3 unparsed, {'ok': 125, 'failed': 3})
+
+
+F. ZIP ARCHIVE AUDIT (qwen_part4_results.zip)
+--------------------------------------------------------------------------------
+- Inspection Utility:      Python standard library `zipfile` module
+- Archive Member Count:    507 files (matches expected count exactly)
+- Archive Integrity:       VERIFIED (ZipFile.testzip() returned None; 0 CRC/header errors)
+- Path Traversal Check:    VERIFIED SAFE (0 absolute paths, 0 '..' traversal components)
+- Directory Scope Check:   VERIFIED SAFE:
+  * results/raw/ files:    3
+  * results/cache/ files:  504
+  * Other/extraneous:      0
+- Raw Result Files Verified Present in Archive:
+  1. results/raw/e1__baseline-shard4of4-20261024T123727.jsonl
+  2. results/raw/e2__baseline-shard4of4-20261024T132327.jsonl
+  3. results/raw/e3__baseline-shard4of4-20261024T141633.jsonl
+- Missing Expected Raw:    None (all 3 present)
+- Sensitive File Check:    0 credential, .env, pycache, or script files found in archive.
+
+
+G. GITHUB & GIT HISTORY VERIFICATION
+--------------------------------------------------------------------------------
+- Repository Git Root:     <REPO_ROOT>
+- Remote Origin URL:       https://github.com/AadityaVijaywargi/prompt-project.git
+- Branch:                  main
+- Local Working Tree:      Clean (git status --short returned 0 modifications)
+- Remote Fetch:            Executed successfully (git fetch origin main)
+
+Commit 1 (E1 Baseline):
+- Commit SHA:              c2901470a2db2ea85042085dfbe6e28422815be1
+- Commit Message:          "qwen part 4/4: e1 baseline"
+- Reachable from origin/main: VERIFIED (git merge-base --is-ancestor returned true)
+- Total Files Changed:     149
+- Raw Result Files:        1 (results/raw/e1__baseline-shard4of4-20261024T123727.jsonl)
+- Cache Files:             148
+- Non-Results Files:       0 (VERIFIED pure results commit)
+
+Commit 2 (E2 Baseline):
+- Commit SHA:              1c8f7477ef758806d9069e83535bdb907cccd675
+- Commit Message:          "qwen part 4/4: e2 baseline"
+- Reachable from origin/main: VERIFIED (git merge-base --is-ancestor returned true)
+- Total Files Changed:     223
+- Raw Result Files:        1 (results/raw/e2__baseline-shard4of4-20261024T132327.jsonl)
+- Cache Files:             222
+- Non-Results Files:       0 (VERIFIED pure results commit)
+
+Commit 3 (E3 Baseline):
+- Commit SHA:              ccbab19970deb47cf8b637b186908febb595fcab
+- Commit Message:          "qwen part 4/4: e3 baseline"
+- Reachable from origin/main: VERIFIED (git merge-base --is-ancestor returned true)
+- Total Files Changed:     135
+- Raw Result Files:        1 (results/raw/e3__baseline-shard4of4-20261024T141633.jsonl)
+- Cache Files:             134
+- Non-Results Files:       0 (VERIFIED pure results commit)
+
+Remote Branch State:
+- All three Part 4 raw result files exist on remote origin/main (verified via git ls-tree).
+- Subsequent teammate commits (e.g., 9f1f03a) exist on origin/main without conflict.
+
+
+H. CODE AND DATA INTEGRITY AUDIT
+--------------------------------------------------------------------------------
+- Python Source Code (src/):       VERIFIED UNTOUCHED (0 diffs across all commits)
+- Project Configurations (configs/): VERIFIED UNTOUCHED (0 diffs across all commits)
+- Judge Prompts (prompts/):         VERIFIED UNTOUCHED (0 diffs across all commits)
+- Verified Datasets (data/):       VERIFIED UNTOUCHED (0 diffs across all commits)
+- Existing Experiment Results:      VERIFIED UNTOUCHED (pure additive additions to results/raw and results/cache)
+- Git Configuration:                VERIFIED UNTOUCHED (local/global git config unchanged)
+- Windows System / Power Settings:  VERIFIED UNTOUCHED (process-scoped execution only)
+- Global Environment Variables:     VERIFIED UNTOUCHED (PowerShell process-scoped variables used)
+- External System Files:            NOT INDEPENDENTLY VERIFIABLE (strict workspace boundary preserved)
+
+
+I. DIRECTORY AND SECRET SAFETY AUDIT
+--------------------------------------------------------------------------------
+- Existing Secret Document:  API-key.txt exists in $Workspace outside Git checkout.
+- Exposure Audit:
+  * File was NEVER opened, read, printed, or parsed during execution.
+  * File was NEVER copied, moved, renamed, or modified.
+  * File was NEVER added, staged, or committed to Git (git ls-files confirms 0 matches).
+  * No .env file was created.
+  * No secrets or credentials appear in any Git log, runner log, or audit report.
+- Secret Safety Status:      VERIFIED SAFE
+
+
+J. TIMING AND PROCESS CLEANUP
+--------------------------------------------------------------------------------
+- Execution Start:          2026-10-24 12:28:42 +05:30
+- Execution End:            2026-10-24 14:35:46 +05:30
+- Total Execution Duration: 2 hours, 7 minutes, 4 seconds
+- Process Cleanup Audit:
+  * Ollama Server Daemon:   VERIFIED STOPPED (Get-Process *ollama* returned 0 processes)
+  * Keep-Awake Helper:      VERIFIED STOPPED (Get-Process keep_awake returned 0 processes)
+  * Background Task Manager: VERIFIED CLEAR (manage_task reports 0 running background tasks)
+
+
+K. ISSUES AND RECOMMENDATIONS
+--------------------------------------------------------------------------------
+- Confirmed Blocking Issues: None.
+- Non-blocking Observations:
+  * In E3, 3 judging calls remained unparseable after 2 automated retries.
+    Per project specification, these were correctly logged as unparsed failures
+    in the raw JSONL records, fulfilling full planned coverage (0 missing calls).
+- Recommendations:
+  * No further execution, recovery rounds, or manual file transfer is required.
+  * The results are successfully integrated on GitHub main.
+  * The local ZIP archive (qwen_part4_results.zip) is preserved in the workspace
+    if Aaditya requests a standalone copy.
+
+
+L. FINAL HANDOFF PATHS
+--------------------------------------------------------------------------------
+- Original Run Report:  <LOCAL_WORKSPACE>\qwen_part4_run_report.txt
+- Final Audit Report:   <LOCAL_WORKSPACE>\qwen_part4_final_report.txt
+- Results ZIP Archive:  <LOCAL_WORKSPACE>\qwen_part4_results.zip
+- Execution Logs:       <LOCAL_WORKSPACE>\run_logs
+- Status:               COMPLETE & VERIFIED. No human action required.
+================================================================================

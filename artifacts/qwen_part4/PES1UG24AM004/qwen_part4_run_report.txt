@@ -1,0 +1,113 @@
+================================================================================
+AUTONOMOUS EXECUTION FINAL REPORT — PROMPT-PROJECT / QWEN PART 4 OF 4
+================================================================================
+
+1. EXECUTION TIMESTAMPS & DURATION
+--------------------------------------------------------------------------------
+- Start Time: 2026-10-24 12:28:42 +05:30
+- End Time:   2026-10-24 14:35:46 +05:30
+- Total Elapsed Time: 2 hours, 7 minutes, 4 seconds
+
+2. ENVIRONMENT & TOOL VERSIONS
+--------------------------------------------------------------------------------
+- Workspace Directory: <LOCAL_WORKSPACE>
+- Repository Path:     <REPO_ROOT>
+- Repository Remote:   https://github.com/AadityaVijaywargi/prompt-project.git
+- Branch:              main
+- Python Version:      3.12.10 (virtual environment: .venv\Scripts\python.exe)
+- Git Version:         2.56.0.windows.3
+- uv Version:          0.12.4
+- Ollama Version:      0.34.1
+- Model Name:          qwen2.5:7b-instruct
+- Model ID:            845dbda0ea48
+- Hardware / Compute:  Intel(R) Iris(R) Xe Graphics (CPU inference via Ollama)
+
+3. INITIAL VALIDATION RESULTS
+--------------------------------------------------------------------------------
+- Pytest Test Suite:
+  58 passed, 1 warning in 4.01s (0 failures)
+- Dataset Integrity Check (lb.data_check):
+  150 valid records (100 factual, 50 open-ended), 150 qc.passed,
+  60 with wrong twins (60 verified), 20 pilot.
+  0 errors, 0 length warnings, 0 unverified items, 0 unverified wrong twins.
+
+4. EXPERIMENT EXECUTION & CALL COUNTS
+--------------------------------------------------------------------------------
+Judge: qwen2.5-7b-local
+Shard: 4/4
+Variant: baseline
+
+- Experiment 1 (E1 — Pointwise scoring):
+  * Planned calls:               148
+  * Parsed OK:                   148
+  * Unparsed after retries:      0
+  * Missing calls:               0
+  * Run ID:                      baseline-shard4of4-20261024T123727
+  * Execution log:               MINI\run_logs\e1_pointwise.log
+
+- Experiment 2 (E2 — Pairwise comparison):
+  * Planned calls:               222
+  * Parsed OK:                   222
+  * Unparsed after retries:      0
+  * Missing calls:               0
+  * Run ID:                      baseline-shard4of4-20261024T132327
+  * Execution log:               MINI\run_logs\e2_pairwise.log
+
+- Experiment 3 (E3 — Wrong-answer comparison & control):
+  * Planned calls:               128
+  * Parsed OK:                   125
+  * Unparsed after retries:      3
+  * Missing calls:               0
+  * Run ID:                      baseline-shard4of4-20261024T141633
+  * Execution log:               MINI\run_logs\e3_wrong.log
+
+Total Planned Calls: 498
+Total Parsed OK:     495
+Total Unparsed:      3 (recorded failures after max retries, per specification)
+Total Missing:       0
+
+5. FINAL SHARD CHECKER STATUS
+--------------------------------------------------------------------------------
+Command: .venv\Scripts\python.exe scripts/check_shard.py --judge qwen2.5-7b-local --shard 4/4
+Output:
+qwen2.5-7b-local, baseline, shard 4/4
+  e1: planned 148, parsed OK 148, unparsed after retries 0, missing 0
+  e2: planned 222, parsed OK 222, unparsed after retries 0, missing 0
+  e3: planned 128, parsed OK 125, unparsed after retries 3, missing 0
+COMPLETE
+
+6. GIT COMMITS & PUSH OUTCOME
+--------------------------------------------------------------------------------
+Only 'results/raw' and 'results/cache' were staged and committed for all runs.
+No code, prompts, configs, or dataset files were modified.
+
+Commits created and pushed:
+1. Commit c290147: "qwen part 4/4: e1 baseline"
+2. Commit 1c8f747: "qwen part 4/4: e2 baseline"
+3. Commit ccbab19: "qwen part 4/4: e3 baseline"
+
+Push Outcome:
+- All commits successfully pushed to origin/main.
+- Normal rebase occurred cleanly to integrate teammate commits.
+- Zero authentication or permission errors.
+- Final git status: On branch main, working tree clean, up to date with origin/main.
+
+7. BACKUP ARCHIVE (ZIP FALLBACK)
+--------------------------------------------------------------------------------
+- Archive Path: <LOCAL_WORKSPACE>\qwen_part4_results.zip
+- Generated via: scripts/check_shard.py --zip
+- Total Files Packaged: 507 files (raw result JSONL files and referenced cache JSON entries)
+
+8. RECOVERABLE & UNRECOVERABLE FAILURES
+--------------------------------------------------------------------------------
+- Recoverable Failures:
+  In E3, 3 judging calls remained unparsed after exhausting all retry attempts.
+  In accordance with project protocol, these are recorded as failures in results/raw,
+  not missing gaps.
+- Unrecoverable Failures: None.
+
+9. REMAINING ACTIONS REQUIRED
+--------------------------------------------------------------------------------
+None. All 498 calls are complete and results are published to the remote repository.
+The local ZIP archive is also available in the workspace as a backup.
+================================================================================
