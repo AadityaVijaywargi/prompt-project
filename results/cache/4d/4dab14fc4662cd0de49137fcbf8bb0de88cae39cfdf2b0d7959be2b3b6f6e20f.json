@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides a more accurate and comprehensive description of the UN Human Rights Council's function.\"}",
+ "tokens": {
+  "prompt": 400,
+  "completion": 30
+ },
+ "created": "2026-10-24T14:26:59.670176+00:00"
+}

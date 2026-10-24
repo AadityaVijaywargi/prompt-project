@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides the exact orbital period while Answer B repeats the reference answer without additional context.\"}",
+ "tokens": {
+  "prompt": 284,
+  "completion": 30
+ },
+ "created": "2026-10-24T15:26:33.710884+00:00"
+}

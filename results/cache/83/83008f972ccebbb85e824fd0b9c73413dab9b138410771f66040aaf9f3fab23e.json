@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"correctly identifies deceleration\"}",
+ "tokens": {
+  "prompt": 437,
+  "completion": 18
+ },
+ "created": "2026-10-24T15:58:54.774050+00:00"
+}

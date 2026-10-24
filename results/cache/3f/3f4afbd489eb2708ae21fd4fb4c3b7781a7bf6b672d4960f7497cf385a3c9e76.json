@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides the correct scientific explanation using de Broglie's theory.\"}",
+ "tokens": {
+  "prompt": 310,
+  "completion": 27
+ },
+ "created": "2026-10-24T15:15:14.300071+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"English is the preferred language for professional emails in this context.\"}",
+ "tokens": {
+  "prompt": 675,
+  "completion": 24
+ },
+ "created": "2026-10-24T14:47:56.473884+00:00"
+}
