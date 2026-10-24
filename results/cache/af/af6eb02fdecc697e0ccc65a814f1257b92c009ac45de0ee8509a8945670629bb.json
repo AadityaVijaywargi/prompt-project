@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"uses more specific and culturally relevant details like 'poori summer wait karte hain' and 'desh ka pet bharti hain'.\"}",
+ "tokens": {
+  "prompt": 516,
+  "completion": 42
+ },
+ "created": "2026-10-24T08:26:49.668591+00:00"
+}

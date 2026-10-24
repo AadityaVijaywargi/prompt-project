@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A uses the correct formula and units.\"}",
+ "tokens": {
+  "prompt": 420,
+  "completion": 21
+ },
+ "created": "2026-10-24T08:36:35.429938+00:00"
+}

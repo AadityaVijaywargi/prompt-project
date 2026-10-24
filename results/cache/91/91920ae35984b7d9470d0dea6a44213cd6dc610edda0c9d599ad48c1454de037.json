@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A uses more specific Indian traditional knowledge and natural remedies.\"}",
+ "tokens": {
+  "prompt": 572,
+  "completion": 24
+ },
+ "created": "2026-10-24T08:24:32.727220+00:00"
+}
