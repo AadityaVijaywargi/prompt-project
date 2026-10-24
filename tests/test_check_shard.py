@@ -31,6 +31,13 @@ def test_check_counts_ok_unparsed_and_missing(tmp_path):
                   "unparsed": 1, "missing": 1}
 
 
+def test_check_ignores_pilot_runs(tmp_path):
+    specs = e1_pointwise.plan(select_shard(load_quadruples(), "1/4"), [JUDGE], experiments_config())
+    write(tmp_path / "e1__pilot-baseline-x.jsonl", [{**record(s), "run_id": "pilot-baseline-x"} for s in specs])
+    e1 = check(JUDGE, "1/4", raw_dir=tmp_path)[0]
+    assert e1["parsed_ok"] == 0 and e1["missing"] == len(specs)
+
+
 def test_zip_packs_shard_raw_files_and_their_cache(tmp_path, monkeypatch):
     import scripts.check_shard as cs
     raw, cache = tmp_path / "results" / "raw", tmp_path / "results" / "cache"

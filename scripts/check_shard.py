@@ -3,7 +3,7 @@
     python scripts/check_shard.py --judge qwen2.5-7b-local --shard 2/4
     python scripts/check_shard.py --judge qwen2.5-7b-local --shard 2/4 --zip qwen_part2_results.zip
 
-A planned call counts as done when a raw record parsed OK, or when it was still unparseable after the
+Pilot runs are ignored. A planned call counts as done when a main-run raw record parsed OK, or when it was still unparseable after the
 last retry (that is a recorded failure, not a gap). Provider errors and calls never made are missing.
 Exit code 0 only when nothing is missing. --zip packs this shard's raw files and the cache entries
 they reference, for a teammate who cannot push.
@@ -33,7 +33,8 @@ def check(judge: str, shard: str | None = None, variant: str = "baseline",
     status = {}
     for f in sorted(raw_dir.glob("*.jsonl")):
         for r in read_jsonl(f):
-            if r["judge"] != judge or r.get("prompt_variant") != variant:
+            # pilot runs do not count, as in lb.analysis; a rerun re-logs identical calls from the cache
+            if r["judge"] != judge or r.get("prompt_variant") != variant or str(r.get("run_id", "")).startswith("pilot-"):
                 continue
             k = call_key(r["experiment"], r["item_id"], r["forms"], r.get("order"))
             if r["parse_ok"]:
