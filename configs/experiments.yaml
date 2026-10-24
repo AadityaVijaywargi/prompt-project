@@ -17,29 +17,29 @@ planned:
 # Phase 0 pilot: 20 quadruples, E1 and E2 only, 2 judges.
 pilot:
   n_items: 20
-  judges: [gemini-flash, llama-3.3-70b]
+  judges: [gemini-flash, gpt-oss-120b]
   experiments: [e1, e2]
 
 experiments:
   e1:
-    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    judges: [gemini-flash, gpt-oss-120b, qwen2.5-7b-local]
     prompt: pointwise_en
   e2:
-    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    judges: [gemini-flash, gpt-oss-120b, qwen2.5-7b-local]
     prompt: pairwise_en
     pairs: [[en, hi], [en, hi_rom], [en, hinglish]]
   e2b:
     enabled: false               # optional script / mixing contrasts
-    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    judges: [gemini-flash, gpt-oss-120b, qwen2.5-7b-local]
     prompt: pairwise_en
     pairs: [[hi, hi_rom], [hi_rom, hinglish]]
   e3:
-    judges: [gemini-flash, llama-3.3-70b, qwen2.5-7b-local]
+    judges: [gemini-flash, gpt-oss-120b, qwen2.5-7b-local]
     prompt: pairwise_en
     correct_forms: [hi, hi_rom, hinglish]   # each vs wrong en
     control: true                            # correct en vs wrong en
   e5:
-    judges: [gemini-flash, llama-3.3-70b]
+    judges: [gemini-flash, gpt-oss-120b]
     subset_size: 60                          # stratified by type and subject
     variants: [hindi_rubric, translate_then_judge, bias_aware]   # majority_vote needs no calls
 

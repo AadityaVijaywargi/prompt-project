@@ -81,4 +81,12 @@ matched (item, form) pairs from the baseline E1 run.
 
 ## Change log
 
-(none yet)
+- **2026-10-24, judge panel (model availability, no comparison changed).**
+  - `gemini-flash`: model `gemini-2.5-flash` -> `gemini-3.5-flash`. 2.5 returned 404 "no longer available to
+    new users" on the first call; `gemini-3.8-flash` answered but took 85-182 s per call on the free tier.
+    18 pilot E1 calls exist, all on 3.5. Google's quota error attributes these calls to `gemini-3.6-flash`.
+  - `llama-3.3-70b` replaced by `gpt-oss-120b` (`openai/gpt-oss-120b` on Groq), also as the E5(b)
+    translator. `llama-3.3-70b-versatile` returned 404 model_not_found (decommissioned) on its first call, so
+    no Llama output exists. `qwen/qwen3.8-27b` was not chosen: preview status, and the same family as the local
+    Qwen judge.
+  - Both changes were made before any analysis was run, so no result is affected.
