@@ -1,0 +1,16 @@
+judge,pair,items,items_both_orders,exploratory,id,measure,k,n,rate,ci_low,ci_high,binom_p,holm_p
+qwen2.5-7b-local,en vs hi,150,150,False,E2.1,English win-rate,174,300,0.58,0.5235,0.6345,0.0066,0.0066
+qwen2.5-7b-local,en vs hi,150,150,False,E2.2,tie rate,0,300,0.0,0.0,0.0126,,
+qwen2.5-7b-local,en vs hi,150,150,False,E2.3,position consistency,50,150,0.3333,0.2629,0.4121,,
+qwen2.5-7b-local,en vs hi,150,150,False,E2.4,A-slot rate,244,300,0.8133,0.7654,0.8534,,
+qwen2.5-7b-local,en vs hi,150,150,False,E2.5,order-consistent English win-rate,37,50,0.74,0.6045,0.8413,,
+qwen2.5-7b-local,en vs hi_rom,150,150,False,E2.1,English win-rate,226,300,0.7533,0.7016,0.7987,0.0,0.0
+qwen2.5-7b-local,en vs hi_rom,150,150,False,E2.2,tie rate,0,300,0.0,0.0,0.0126,,
+qwen2.5-7b-local,en vs hi_rom,150,150,False,E2.3,position consistency,78,150,0.52,0.4406,0.5984,,
+qwen2.5-7b-local,en vs hi_rom,150,150,False,E2.4,A-slot rate,216,300,0.72,0.6667,0.7678,,
+qwen2.5-7b-local,en vs hi_rom,150,150,False,E2.5,order-consistent English win-rate,77,78,0.9872,0.9309,0.9977,,
+qwen2.5-7b-local,en vs hinglish,150,148,False,E2.1,English win-rate,206,298,0.6913,0.6367,0.741,0.0,0.0
+qwen2.5-7b-local,en vs hinglish,150,148,False,E2.2,tie rate,0,298,0.0,0.0,0.0127,,
+qwen2.5-7b-local,en vs hinglish,150,148,False,E2.3,position consistency,58,148,0.3919,0.3169,0.4723,,
+qwen2.5-7b-local,en vs hinglish,150,148,False,E2.4,A-slot rate,237,298,0.7953,0.7459,0.8372,,
+qwen2.5-7b-local,en vs hinglish,150,148,False,E2.5,order-consistent English win-rate,57,58,0.9828,0.9086,0.9969,,
