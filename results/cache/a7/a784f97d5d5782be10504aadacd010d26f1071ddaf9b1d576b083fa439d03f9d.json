@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "```json\n{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The response is clear, complete, and correct in its explanation of collective security.\"}\n```",
+ "tokens": {
+  "prompt": 570,
+  "completion": 55
+ },
+ "created": "2026-10-24T07:29:07.323218+00:00"
+}

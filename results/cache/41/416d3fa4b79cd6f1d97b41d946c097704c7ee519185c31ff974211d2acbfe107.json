@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The response accurately defines collective security, includes relevant UN Charter references, and is well-organized and clear.\"}",
+ "tokens": {
+  "prompt": 400,
+  "completion": 56
+ },
+ "created": "2026-10-24T07:29:25.096833+00:00"
+}
