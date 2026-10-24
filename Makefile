@@ -51,7 +51,11 @@ run-e2b:
 run-e3:
 	$(PY) -m lb.runners.e3_wrong $(ARGS)
 
-run-e5 stats app:
+# E1-E3 tables per analysis/plan.md -> results/tables/main_<variant>_*, results/thresholds.json
+stats:
+	$(PY) -m lb.analysis $(ARGS)
+
+run-e5 app:
 	@echo "'$@' is built in Phase 3 (brief section 11); not available yet." && exit 1
 
 # Regenerate everything from cached responses with no network access.

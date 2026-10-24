@@ -1,0 +1,13 @@
+judge,criterion,id,comparison,n,mean_d,ci_low,ci_high
+qwen2.5-7b-local,correctness,E1.1,hi vs en,150,0.2067,0.0933,0.32
+qwen2.5-7b-local,correctness,E1.2,hi_rom vs en,150,0.0333,-0.1,0.1667
+qwen2.5-7b-local,correctness,E1.3,hinglish vs en,150,-0.0333,-0.1533,0.0867
+qwen2.5-7b-local,completeness,E1.1,hi vs en,150,0.3067,0.1933,0.4267
+qwen2.5-7b-local,completeness,E1.2,hi_rom vs en,150,0.1,-0.0333,0.24
+qwen2.5-7b-local,completeness,E1.3,hinglish vs en,150,0.02,-0.1067,0.1467
+qwen2.5-7b-local,clarity,E1.1,hi vs en,150,-0.0467,-0.12,0.0267
+qwen2.5-7b-local,clarity,E1.2,hi_rom vs en,150,-0.2067,-0.3133,-0.1067
+qwen2.5-7b-local,clarity,E1.3,hinglish vs en,150,-0.2867,-0.4067,-0.1733
+qwen2.5-7b-local,language_quality,E1.1,hi vs en,150,-0.08,-0.1667,0.0067
+qwen2.5-7b-local,language_quality,E1.2,hi_rom vs en,150,-0.2333,-0.3467,-0.1267
+qwen2.5-7b-local,language_quality,E1.3,hinglish vs en,150,-0.3067,-0.4333,-0.1933

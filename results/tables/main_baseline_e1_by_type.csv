@@ -1,0 +1,11 @@
+judge,type,id,comparison,n,mean_d,ci_low,ci_high,wilcoxon_p,exploratory
+qwen2.5-7b-local,factual,E1.1,hi vs en,100,0.32,0.22,0.4233,0.0,True
+qwen2.5-7b-local,factual,E1.2,hi_rom vs en,100,0.26,0.1467,0.37,0.0,True
+qwen2.5-7b-local,factual,E1.3,hinglish vs en,100,0.1733,0.06,0.29,0.0018,True
+qwen2.5-7b-local,factual,E1.4,hi vs hi_rom,100,0.06,-0.0267,0.15,0.1655,True
+qwen2.5-7b-local,factual,E1.5,hi_rom vs hinglish,100,0.0867,0.0033,0.1733,0.0466,True
+qwen2.5-7b-local,open_ended,E1.1,hi vs en,50,-0.1733,-0.32,-0.0267,0.0305,True
+qwen2.5-7b-local,open_ended,E1.2,hi_rom vs en,50,-0.5933,-0.78,-0.42,0.0,True
+qwen2.5-7b-local,open_ended,E1.3,hinglish vs en,50,-0.6467,-0.8067,-0.4867,0.0,True
+qwen2.5-7b-local,open_ended,E1.4,hi vs hi_rom,50,0.42,0.2267,0.6135,0.0006,True
+qwen2.5-7b-local,open_ended,E1.5,hi_rom vs hinglish,50,0.0533,-0.1133,0.22,0.454,True
