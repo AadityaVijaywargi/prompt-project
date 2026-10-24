@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 4, \"language_quality\": 4, \"comment\": \"The response is mostly correct and clear, but it slightly deviates from the reference answer by explaining the mechanism of gamma radiation.\"}",
+ "tokens": {
+  "prompt": 486,
+  "completion": 60
+ },
+ "created": "2026-10-24T07:12:54.230106+00:00"
+}

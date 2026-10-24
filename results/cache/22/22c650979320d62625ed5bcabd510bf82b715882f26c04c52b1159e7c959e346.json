@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 4, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The answer is correct and clear, but could include more details about the Great Red Spot.\"}",
+ "tokens": {
+  "prompt": 256,
+  "completion": 53
+ },
+ "created": "2026-10-24T07:09:03.913372+00:00"
+}
