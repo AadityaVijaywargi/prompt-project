@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer correctly identifies (D) Romance and provides a comprehensive, fluent explanation in Romanized Hindi.\"\n}\n```",
+ "tokens": {
+  "prompt": 297,
+  "completion": 71
+ },
+ "created": "2026-10-25T05:16:13.729238+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The response correctly identifies option (D) and provides accurate, well-explained anatomical details in clear Hindi.\"\n}\n```",
+ "tokens": {
+  "prompt": 303,
+  "completion": 72
+ },
+ "created": "2026-10-25T05:14:06.933549+00:00"
+}
