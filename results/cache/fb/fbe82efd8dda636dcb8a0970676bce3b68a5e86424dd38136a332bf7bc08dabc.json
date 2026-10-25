@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The response correctly identifies option (D) and provides a clear, accurate, and comprehensive explanation in fluent Romanized Hindi.\"\n}\n```",
+ "tokens": {
+  "prompt": 403,
+  "completion": 75
+ },
+ "created": "2026-10-25T07:33:57.866061+00:00"
+}

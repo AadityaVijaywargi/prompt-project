@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer correctly selects option (B) and provides a clear, accurate explanation of dualism.\"\n}\n```",
+ "tokens": {
+  "prompt": 356,
+  "completion": 70
+ },
+ "created": "2026-10-25T07:35:12.526878+00:00"
+}
