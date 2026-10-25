@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Well‑written persuasive email that addresses hesitations and offers support, though a bit mixed in language.\"\n}",
+ "tokens": {
+  "prompt": 481,
+  "completion": 418
+ },
+ "created": "2026-10-25T13:43:20.551302+00:00"
+}

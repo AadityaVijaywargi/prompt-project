@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers provide equally comprehensive traditional, natural, and modern solutions.\"\n}",
+ "tokens": {
+  "prompt": 703,
+  "completion": 485
+ },
+ "created": "2026-10-25T14:09:33.397945+00:00"
+}

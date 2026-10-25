@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Clear, concise English explanation correctly details the limited federal review of state decisions.\"\n}",
+ "tokens": {
+  "prompt": 448,
+  "completion": 212
+ },
+ "created": "2026-10-25T13:53:32.667356+00:00"
+}

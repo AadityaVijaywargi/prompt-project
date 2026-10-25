@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"Accurately identifies the key issue and proposes relevant practices and policies, with clear language and good readability.\"\n}",
+ "tokens": {
+  "prompt": 523,
+  "completion": 341
+ },
+ "created": "2026-10-25T13:40:20.357952+00:00"
+}

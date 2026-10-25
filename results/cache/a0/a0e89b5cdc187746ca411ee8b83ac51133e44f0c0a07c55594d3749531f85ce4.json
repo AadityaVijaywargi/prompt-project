@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"B provides a clear, well‑structured English email that directly addresses hesitations and offers persuasive benefits.\"\n}",
+ "tokens": {
+  "prompt": 631,
+  "completion": 146
+ },
+ "created": "2026-10-25T14:11:32.891304+00:00"
+}

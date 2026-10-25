@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers contain the same content and explanations, differing only in language.\"}",
+ "tokens": {
+  "prompt": 469,
+  "completion": 146
+ },
+ "created": "2026-10-25T14:03:52.784868+00:00"
+}

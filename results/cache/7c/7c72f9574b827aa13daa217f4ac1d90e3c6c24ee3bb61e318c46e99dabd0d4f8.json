@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Both give the correct answer, but A’s explanation is accurate while B contains a factual mistake about the contrasting term.\"\n}",
+ "tokens": {
+  "prompt": 324,
+  "completion": 280
+ },
+ "created": "2026-10-25T13:51:02.900628+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Good range of traditional and modern ideas, but presentation could be clearer and more polished.\"\n}",
+ "tokens": {
+  "prompt": 623,
+  "completion": 469
+ },
+ "created": "2026-10-25T13:41:50.516161+00:00"
+}

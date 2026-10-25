@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers provide equivalent content covering Dhamma's principles and its impact on Ashoka's rule.\"\n}",
+ "tokens": {
+  "prompt": 592,
+  "completion": 214
+ },
+ "created": "2026-10-25T14:06:32.766605+00:00"
+}

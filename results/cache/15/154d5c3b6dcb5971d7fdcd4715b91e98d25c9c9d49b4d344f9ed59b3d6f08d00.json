@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"tie\", \"reason\": \"Both answers correctly state O(1) as the smallest and provide equivalent explanations\"}",
+ "tokens": {
+  "prompt": 302,
+  "completion": 120
+ },
+ "created": "2026-10-25T14:20:02.658519+00:00"
+}

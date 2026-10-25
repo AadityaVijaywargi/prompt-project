@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Both are correct, but A uses clear English and explicitly names Classical analysis, making it more accurate and accessible.\"\n}",
+ "tokens": {
+  "prompt": 364,
+  "completion": 391
+ },
+ "created": "2026-10-25T13:56:03.311297+00:00"
+}

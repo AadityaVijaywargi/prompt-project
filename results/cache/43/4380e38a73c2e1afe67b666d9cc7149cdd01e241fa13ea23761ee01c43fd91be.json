@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Clear, vivid English prose with strong sensory details and well‑structured explanation of daily life and agriculture.\"\n}",
+ "tokens": {
+  "prompt": 610,
+  "completion": 151
+ },
+ "created": "2026-10-25T14:10:22.571476+00:00"
+}

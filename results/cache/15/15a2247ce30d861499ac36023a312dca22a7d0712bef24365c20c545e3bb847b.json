@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A delivers vivid, well‑crafted English imagery more fluently than the mixed‑language translation in B.\"\n}",
+ "tokens": {
+  "prompt": 492,
+  "completion": 186
+ },
+ "created": "2026-10-25T14:04:22.747053+00:00"
+}

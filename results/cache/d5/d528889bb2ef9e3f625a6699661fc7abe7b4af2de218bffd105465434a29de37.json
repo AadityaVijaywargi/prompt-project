@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify oestrogen and give an equivalent explanation.\"\n}",
+ "tokens": {
+  "prompt": 347,
+  "completion": 194
+ },
+ "created": "2026-10-25T14:19:12.703660+00:00"
+}

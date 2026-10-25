@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"tie\", \"reason\": \"Both answers correctly identify a point mutation and give equivalent explanations.\"}",
+ "tokens": {
+  "prompt": 299,
+  "completion": 97
+ },
+ "created": "2026-10-25T14:21:52.653079+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers equally satisfy the prompt with vivid sensory details and explanations of daily life and agriculture.\"\n}",
+ "tokens": {
+  "prompt": 579,
+  "completion": 287
+ },
+ "created": "2026-10-25T14:10:12.902285+00:00"
+}

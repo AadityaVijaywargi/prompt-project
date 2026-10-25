@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"A solid, well‑structured answer that accurately covers the key stages.\"\n}",
+ "tokens": {
+  "prompt": 347,
+  "completion": 281
+ },
+ "created": "2026-10-25T13:40:50.134613+00:00"
+}

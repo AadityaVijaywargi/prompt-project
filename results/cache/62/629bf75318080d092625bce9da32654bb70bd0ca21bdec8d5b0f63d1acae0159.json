@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"A clear, persuasive Hindi email that addresses hesitations and offers support, with minor language roughness.\"\n}",
+ "tokens": {
+  "prompt": 559,
+  "completion": 310
+ },
+ "created": "2026-10-25T13:43:10.077376+00:00"
+}

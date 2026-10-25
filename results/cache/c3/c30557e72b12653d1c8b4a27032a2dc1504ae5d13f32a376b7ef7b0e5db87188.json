@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A uses clear, professional English and a more polished persuasive tone.\"\n}",
+ "tokens": {
+  "prompt": 553,
+  "completion": 93
+ },
+ "created": "2026-10-25T14:11:42.666255+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly explain NAD⁺ regeneration with equivalent content\"\n}",
+ "tokens": {
+  "prompt": 427,
+  "completion": 190
+ },
+ "created": "2026-10-25T14:13:12.812926+00:00"
+}

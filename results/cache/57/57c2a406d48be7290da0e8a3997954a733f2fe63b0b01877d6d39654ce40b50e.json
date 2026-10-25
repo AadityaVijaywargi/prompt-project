@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies option A and explains Levallois technology, while Answer A gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 358,
+  "completion": 151
+ },
+ "created": "2026-10-25T14:21:54.439205+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"Accurately identifies the key issue and proposes relevant practices and community roles, though could be more detailed and better organized.\"\n}",
+ "tokens": {
+  "prompt": 453,
+  "completion": 322
+ },
+ "created": "2026-10-25T13:40:40.266386+00:00"
+}

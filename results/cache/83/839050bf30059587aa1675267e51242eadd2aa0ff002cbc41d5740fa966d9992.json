@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the shift as from core tools to flakes, while Answer B gives an incorrect option.\"\n}",
+ "tokens": {
+  "prompt": 344,
+  "completion": 164
+ },
+ "created": "2026-10-25T14:27:14.863618+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify MRI and give equivalent explanations.\"\n}",
+ "tokens": {
+  "prompt": 306,
+  "completion": 121
+ },
+ "created": "2026-10-25T13:58:42.623385+00:00"
+}

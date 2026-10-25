@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurate and clear, covering most key aspects of Ashoka's Dhamma and its impact.\"\n}",
+ "tokens": {
+  "prompt": 381,
+  "completion": 334
+ },
+ "created": "2026-10-25T13:39:18.083920+00:00"
+}
