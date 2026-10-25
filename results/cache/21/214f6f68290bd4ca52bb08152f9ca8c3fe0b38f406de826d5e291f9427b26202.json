@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Clear, vivid English opening that directly shows the child's new ability\"\n}",
+ "tokens": {
+  "prompt": 531,
+  "completion": 196
+ },
+ "created": "2026-10-25T05:40:42.914432+00:00"
+}

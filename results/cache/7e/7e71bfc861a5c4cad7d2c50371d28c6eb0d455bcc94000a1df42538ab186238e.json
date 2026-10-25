@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify centripetal forces and provide equivalent explanations.\"\n}",
+ "tokens": {
+  "prompt": 307,
+  "completion": 197
+ },
+ "created": "2026-10-25T05:20:13.195947+00:00"
+}

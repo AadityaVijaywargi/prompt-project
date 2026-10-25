@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"The paragraph captures the child's discovery and is engaging, but the Hindi phrasing is somewhat awkward and confusing.\"\n}",
+ "tokens": {
+  "prompt": 461,
+  "completion": 659
+ },
+ "created": "2026-10-25T05:11:51.483129+00:00"
+}

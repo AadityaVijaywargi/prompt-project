@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Clear, well‑structured English with the same comprehensive points makes it more effective.\"\n}",
+ "tokens": {
+  "prompt": 513,
+  "completion": 156
+ },
+ "created": "2026-10-25T05:40:12.670133+00:00"
+}

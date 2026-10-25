@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer correctly identifies the blueshift and explains why it indicates motion toward us.\"\n}",
+ "tokens": {
+  "prompt": 395,
+  "completion": 193
+ },
+ "created": "2026-10-25T05:12:10.910831+00:00"
+}

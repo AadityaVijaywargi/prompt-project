@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Both provide the same five principles, but the English answer matches the question’s language and is clearer for the intended audience.\"\n}",
+ "tokens": {
+  "prompt": 576,
+  "completion": 146
+ },
+ "created": "2026-10-25T05:38:42.756058+00:00"
+}

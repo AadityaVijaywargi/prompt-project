@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Accurately links yugas to life stages and notes moksha shifts, though with limited depth.\"\n}",
+ "tokens": {
+  "prompt": 544,
+  "completion": 351
+ },
+ "created": "2026-10-25T05:09:51.023305+00:00"
+}

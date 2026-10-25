@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Both list the same five principles, but B uses the question's language, making it clearer.\"\n}",
+ "tokens": {
+  "prompt": 436,
+  "completion": 184
+ },
+ "created": "2026-10-25T05:34:12.809549+00:00"
+}

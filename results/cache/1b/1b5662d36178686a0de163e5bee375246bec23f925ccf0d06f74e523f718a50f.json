@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both give the same correct location and explanation\"}",
+ "tokens": {
+  "prompt": 378,
+  "completion": 197
+ },
+ "created": "2026-10-25T05:31:32.853190+00:00"
+}

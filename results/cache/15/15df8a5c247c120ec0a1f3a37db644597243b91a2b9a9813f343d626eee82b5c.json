@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Clearer, well‑written English makes the opening more engaging and readable.\"\n}",
+ "tokens": {
+  "prompt": 446,
+  "completion": 109
+ },
+ "created": "2026-10-25T05:35:12.823746+00:00"
+}

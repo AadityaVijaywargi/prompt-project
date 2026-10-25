@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"Accurate equation and observations, minor mislabeling of reaction type.\"\n}",
+ "tokens": {
+  "prompt": 434,
+  "completion": 477
+ },
+ "created": "2026-10-25T05:05:21.332003+00:00"
+}

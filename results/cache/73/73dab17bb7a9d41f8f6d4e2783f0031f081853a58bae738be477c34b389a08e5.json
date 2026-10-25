@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Clear, well‑written English answer matches the question better than the Hindi version\"}",
+ "tokens": {
+  "prompt": 387,
+  "completion": 94
+ },
+ "created": "2026-10-25T05:31:42.760919+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify Theravada and give equivalent explanations\"}",
+ "tokens": {
+  "prompt": 309,
+  "completion": 225
+ },
+ "created": "2026-10-25T05:21:02.903434+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both provide equally comprehensive content covering Gandhi's key methods.\"\n}",
+ "tokens": {
+  "prompt": 514,
+  "completion": 166
+ },
+ "created": "2026-10-25T05:35:22.934350+00:00"
+}

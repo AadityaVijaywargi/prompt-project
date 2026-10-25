@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify a public‑key system and give equivalent explanations.\"\n}",
+ "tokens": {
+  "prompt": 346,
+  "completion": 179
+ },
+ "created": "2026-10-25T05:46:42.833524+00:00"
+}

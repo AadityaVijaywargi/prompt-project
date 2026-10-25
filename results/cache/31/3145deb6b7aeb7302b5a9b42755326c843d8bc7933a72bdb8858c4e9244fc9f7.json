@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurately identifies (C) and explains the limitation clearly and fluently.\"\n}",
+ "tokens": {
+  "prompt": 388,
+  "completion": 330
+ },
+ "created": "2026-10-25T05:17:51.032618+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify Mit'a and give equivalent explanations\"}",
+ "tokens": {
+  "prompt": 360,
+  "completion": 167
+ },
+ "created": "2026-10-25T05:21:32.748841+00:00"
+}

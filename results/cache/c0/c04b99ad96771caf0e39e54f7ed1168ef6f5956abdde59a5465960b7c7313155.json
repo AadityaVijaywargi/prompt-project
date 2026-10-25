@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers provide equivalent content, linking yugas to life stages and discussing moksha and the urgency of Kali Yuga.\"\n}",
+ "tokens": {
+  "prompt": 610,
+  "completion": 347
+ },
+ "created": "2026-10-25T05:37:53.032514+00:00"
+}

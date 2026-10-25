@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify the blueshift and explain that it indicates the star is moving toward us.\"\n}",
+ "tokens": {
+  "prompt": 417,
+  "completion": 146
+ },
+ "created": "2026-10-25T05:42:12.841292+00:00"
+}

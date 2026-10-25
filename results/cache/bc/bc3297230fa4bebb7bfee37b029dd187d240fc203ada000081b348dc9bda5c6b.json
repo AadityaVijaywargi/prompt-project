@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The answer gives the real White House location, not the riddle's intended answer.\"\n}",
+ "tokens": {
+  "prompt": 332,
+  "completion": 470
+ },
+ "created": "2026-10-25T05:05:31.243718+00:00"
+}
