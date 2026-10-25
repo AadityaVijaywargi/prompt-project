@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 2,\n  \"completeness\": 3,\n  \"clarity\": 4,\n  \"language_quality\": 3,\n  \"comment\": \"The answer explains the formulas well but gets the physical conclusion wrong (radius should decrease, not increase).\"\n}",
+ "tokens": {
+  "prompt": 410,
+  "completion": 695
+ },
+ "created": "2026-10-25T04:25:39.597975+00:00"
+}

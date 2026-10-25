@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Correctly identifies D and explains it, while B is incorrect\"}",
+ "tokens": {
+  "prompt": 394,
+  "completion": 105
+ },
+ "created": "2026-10-25T05:35:16.767327+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both provide equivalent content covering the stages of life and their impact on time and mortality.\"\n}",
+ "tokens": {
+  "prompt": 449,
+  "completion": 212
+ },
+ "created": "2026-10-25T04:53:41.404642+00:00"
+}

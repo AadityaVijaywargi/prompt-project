@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly identifies (A) as the major premise containing two or more alternatives, matching the reference answer.\"}",
+ "tokens": {
+  "prompt": 360,
+  "completion": 220
+ },
+ "created": "2026-10-25T06:27:40.083470+00:00"
+}

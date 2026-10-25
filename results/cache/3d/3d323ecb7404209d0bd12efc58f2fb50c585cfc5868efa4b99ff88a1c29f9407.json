@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Both are correct, but A uses clear English while B mixes Hindi, making A more universally understandable\"}",
+ "tokens": {
+  "prompt": 341,
+  "completion": 148
+ },
+ "created": "2026-10-25T05:09:21.467143+00:00"
+}

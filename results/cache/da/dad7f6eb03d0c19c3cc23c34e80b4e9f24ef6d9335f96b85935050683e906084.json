@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Clear, well‑structured English answer with concise, accurate coverage of each life stage.\"\n}",
+ "tokens": {
+  "prompt": 517,
+  "completion": 111
+ },
+ "created": "2026-10-25T04:54:11.352560+00:00"
+}

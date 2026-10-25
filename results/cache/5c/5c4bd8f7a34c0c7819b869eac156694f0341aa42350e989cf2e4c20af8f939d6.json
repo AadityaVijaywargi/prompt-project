@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that individuals have limited international legal personality with similar supporting details.\"}",
+ "tokens": {
+  "prompt": 423,
+  "completion": 312
+ },
+ "created": "2026-10-25T04:44:11.541370+00:00"
+}

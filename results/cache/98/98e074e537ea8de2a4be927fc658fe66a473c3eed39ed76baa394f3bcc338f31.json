@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Well‑structured, accurate, and fluent Hindi advice covering key agricultural and trade policies.\"\n}",
+ "tokens": {
+  "prompt": 523,
+  "completion": 318
+ },
+ "created": "2026-10-25T04:31:18.770402+00:00"
+}

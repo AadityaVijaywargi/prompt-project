@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify (C) anticommunism with equivalent explanations.\"}",
+ "tokens": {
+  "prompt": 367,
+  "completion": 132
+ },
+ "created": "2026-10-25T04:44:51.000552+00:00"
+}

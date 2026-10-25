@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the stable velocity of money as the key monetarist assumption, while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 338,
+  "completion": 120
+ },
+ "created": "2026-10-25T06:19:19.011452+00:00"
+}

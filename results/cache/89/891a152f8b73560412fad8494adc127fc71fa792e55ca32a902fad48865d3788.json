@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"The answer captures the tree's feelings well, is mostly clear, and uses fluent Hindi with minor quirks.\"\n}",
+ "tokens": {
+  "prompt": 501,
+  "completion": 319
+ },
+ "created": "2026-10-25T04:28:48.647332+00:00"
+}

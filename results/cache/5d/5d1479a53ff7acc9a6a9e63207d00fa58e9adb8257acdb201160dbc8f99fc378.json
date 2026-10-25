@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly explain that the probability is 1 with equivalent content.\"\n}",
+ "tokens": {
+  "prompt": 330,
+  "completion": 141
+ },
+ "created": "2026-10-25T05:12:21.545701+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A presents the advice in clear, formal English appropriate for policy guidance, while B is informal and mixed-language.\"\n}",
+ "tokens": {
+  "prompt": 562,
+  "completion": 181
+ },
+ "created": "2026-10-25T05:00:21.461187+00:00"
+}

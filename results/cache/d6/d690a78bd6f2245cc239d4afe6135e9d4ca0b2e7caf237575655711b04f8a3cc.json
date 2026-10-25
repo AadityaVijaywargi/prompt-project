@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Clear, well‑structured English answer directly addresses the question\"\n}",
+ "tokens": {
+  "prompt": 423,
+  "completion": 92
+ },
+ "created": "2026-10-25T04:52:21.025893+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurate and clear overview of life stages, though a bit brief and lacking deeper nuance.\"\n}",
+ "tokens": {
+  "prompt": 336,
+  "completion": 228
+ },
+ "created": "2026-10-25T04:27:08.540865+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies (D) and explains monetarist assumptions, while Answer B is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 329,
+  "completion": 131
+ },
+ "created": "2026-10-25T06:24:06.920420+00:00"
+}

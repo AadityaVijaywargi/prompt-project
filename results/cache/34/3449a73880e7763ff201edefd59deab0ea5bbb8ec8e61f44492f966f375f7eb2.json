@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify Jupiter and give accurate explanations\"}",
+ "tokens": {
+  "prompt": 291,
+  "completion": 150
+ },
+ "created": "2026-10-25T05:01:51.271889+00:00"
+}

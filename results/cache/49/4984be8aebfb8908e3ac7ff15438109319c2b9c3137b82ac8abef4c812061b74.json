@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Provides four clear, relevant headlines that address both discovery and environmental concerns.\"\n}",
+ "tokens": {
+  "prompt": 365,
+  "completion": 299
+ },
+ "created": "2026-10-25T04:32:18.639152+00:00"
+}

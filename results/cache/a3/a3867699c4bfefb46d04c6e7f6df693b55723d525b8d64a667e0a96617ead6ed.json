@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Provides the correct relationship in the same language as the question.\"\n}",
+ "tokens": {
+  "prompt": 271,
+  "completion": 172
+ },
+ "created": "2026-10-25T04:52:51.145668+00:00"
+}

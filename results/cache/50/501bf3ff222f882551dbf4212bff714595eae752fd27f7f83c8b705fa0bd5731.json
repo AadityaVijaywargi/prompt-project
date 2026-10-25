@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers provide equivalent, comprehensive advice covering agriculture, market linkage, trade, taxation, and anti‑corruption.\"\n}",
+ "tokens": {
+  "prompt": 669,
+  "completion": 216
+ },
+ "created": "2026-10-25T05:00:11.313683+00:00"
+}

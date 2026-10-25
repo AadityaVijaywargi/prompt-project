@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Both give the same content, but A is in the language of the question, making it more appropriate.\"\n}",
+ "tokens": {
+  "prompt": 479,
+  "completion": 144
+ },
+ "created": "2026-10-25T04:51:41.124212+00:00"
+}

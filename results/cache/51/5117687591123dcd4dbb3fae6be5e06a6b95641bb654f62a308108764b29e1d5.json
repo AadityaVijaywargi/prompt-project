@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both paragraphs equally fulfill the prompt with vivid sensory details.\"\n}",
+ "tokens": {
+  "prompt": 512,
+  "completion": 134
+ },
+ "created": "2026-10-25T04:54:41.273360+00:00"
+}
