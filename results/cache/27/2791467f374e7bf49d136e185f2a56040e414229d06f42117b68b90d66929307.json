@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Both are correct, but Answer B is clearer in English.\"\n}",
+ "tokens": {
+  "prompt": 311,
+  "completion": 139
+ },
+ "created": "2026-10-25T17:29:22.844302+00:00"
+}

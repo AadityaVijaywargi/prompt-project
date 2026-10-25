@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n    \"winner\": \"tie\",\n    \"reason\": \"Both answers correctly explain the left shift and give the same correct result.\"\n}",
+ "tokens": {
+  "prompt": 325,
+  "completion": 79
+ },
+ "created": "2026-10-25T17:35:32.717225+00:00"
+}

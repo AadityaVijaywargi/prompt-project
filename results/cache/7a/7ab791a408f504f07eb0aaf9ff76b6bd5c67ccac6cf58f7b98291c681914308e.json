@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers provide the same comprehensive content covering solidarity, Durkheim's concepts, collective action, and mutual support.\"\n}",
+ "tokens": {
+  "prompt": 476,
+  "completion": 182
+ },
+ "created": "2026-10-25T17:24:22.788018+00:00"
+}

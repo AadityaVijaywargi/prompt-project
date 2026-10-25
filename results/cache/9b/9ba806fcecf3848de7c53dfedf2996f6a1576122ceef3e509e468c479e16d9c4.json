@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Both are correct, but Answer B explains the concept clearly in English and adds useful context about rate constants.\"\n}",
+ "tokens": {
+  "prompt": 367,
+  "completion": 241
+ },
+ "created": "2026-10-25T17:30:03.162764+00:00"
+}

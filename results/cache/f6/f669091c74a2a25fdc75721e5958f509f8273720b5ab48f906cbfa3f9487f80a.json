@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Both answers are content‑equivalent, but B presents the explanation clearly in English, matching the likely language expectation.\"}",
+ "tokens": {
+  "prompt": 544,
+  "completion": 205
+ },
+ "created": "2026-10-25T17:16:42.939708+00:00"
+}

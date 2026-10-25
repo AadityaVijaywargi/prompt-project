@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly give (C) 8 with equivalent explanations.\"\n}",
+ "tokens": {
+  "prompt": 324,
+  "completion": 154
+ },
+ "created": "2026-10-25T17:36:03.025793+00:00"
+}

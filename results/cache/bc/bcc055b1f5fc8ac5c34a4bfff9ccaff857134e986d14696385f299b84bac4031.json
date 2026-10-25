@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The answer fully and clearly expresses the forest's feelings in fluent Hindi.\"}",
+ "tokens": {
+  "prompt": 467,
+  "completion": 565
+ },
+ "created": "2026-10-25T16:57:50.541658+00:00"
+}

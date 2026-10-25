@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly explain the wave model with equivalent content.\"\n}",
+ "tokens": {
+  "prompt": 349,
+  "completion": 86
+ },
+ "created": "2026-10-25T17:30:52.857994+00:00"
+}

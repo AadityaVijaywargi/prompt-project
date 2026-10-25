@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B provides a clear, concise English explanation of the BOP identity linking a current account deficit to a capital account surplus.\"\n}",
+ "tokens": {
+  "prompt": 386,
+  "completion": 136
+ },
+ "created": "2026-10-25T17:13:02.877876+00:00"
+}

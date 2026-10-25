@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Both are correct, but B gives a clearer, fully English explanation of the negative net force.\"\n}",
+ "tokens": {
+  "prompt": 499,
+  "completion": 432
+ },
+ "created": "2026-10-25T17:35:03.743698+00:00"
+}

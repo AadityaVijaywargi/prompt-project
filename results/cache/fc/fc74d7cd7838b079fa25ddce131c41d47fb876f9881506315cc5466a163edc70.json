@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Answer conveys the forest's feelings but is hampered by mixed language and occasional awkward phrasing.\"\n}",
+ "tokens": {
+  "prompt": 452,
+  "completion": 403
+ },
+ "created": "2026-10-25T16:58:10.150697+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Clear, well‑written English conveys the feelings more effectively than the mixed‑language, error‑prone Answer A\"}",
+ "tokens": {
+  "prompt": 517,
+  "completion": 122
+ },
+ "created": "2026-10-25T17:26:22.698252+00:00"
+}

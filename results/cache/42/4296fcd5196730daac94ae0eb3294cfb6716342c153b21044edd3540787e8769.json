@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify the net force as negative and give the same clear explanation of deceleration.\"\n}",
+ "tokens": {
+  "prompt": 486,
+  "completion": 259
+ },
+ "created": "2026-10-25T17:34:43.049029+00:00"
+}

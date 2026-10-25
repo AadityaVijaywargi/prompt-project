@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Strong, emotionally appealing email that addresses objections and highlights attractions.\"\n}",
+ "tokens": {
+  "prompt": 439,
+  "completion": 425
+ },
+ "created": "2026-10-25T16:58:20.283239+00:00"
+}

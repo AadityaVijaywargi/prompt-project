@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The response fully and clearly captures the forest's feelings about the tourists' damage.\"}",
+ "tokens": {
+  "prompt": 382,
+  "completion": 243
+ },
+ "created": "2026-10-25T16:57:39.839083+00:00"
+}

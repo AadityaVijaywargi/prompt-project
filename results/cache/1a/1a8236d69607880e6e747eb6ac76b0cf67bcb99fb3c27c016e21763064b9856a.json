@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"tie\", \"reason\": \"Both provide equivalent content covering solidarity, Durkheim's types, collective action, and mutual support\"}",
+ "tokens": {
+  "prompt": 527,
+  "completion": 154
+ },
+ "created": "2026-10-25T17:23:32.946617+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly explain the differences, criteria, and examples\"}",
+ "tokens": {
+  "prompt": 553,
+  "completion": 174
+ },
+ "created": "2026-10-25T17:17:03.003771+00:00"
+}

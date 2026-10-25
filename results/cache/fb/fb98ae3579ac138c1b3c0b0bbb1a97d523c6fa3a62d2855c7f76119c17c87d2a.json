@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Clear, vivid English response that directly addresses the question with strong imagery and empathy.\"\n}",
+ "tokens": {
+  "prompt": 572,
+  "completion": 160
+ },
+ "created": "2026-10-25T17:25:53.141799+00:00"
+}
