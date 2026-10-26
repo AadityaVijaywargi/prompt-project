@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"An accurate, comprehensive, and well-written explanation of Socrates' methods in fluent Hindi.\"\n}\n```",
+ "tokens": {
+  "prompt": 292,
+  "completion": 69
+ },
+ "created": "2026-10-26T07:51:58.437003+00:00"
+}

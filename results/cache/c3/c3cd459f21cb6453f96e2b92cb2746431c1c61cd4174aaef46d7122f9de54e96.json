@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\"winner\": \"A\", \"reason\": \"Answer A is written in the same language as the question (English), whereas Answer B is translated into Hindi.\"}\n```",
+ "tokens": {
+  "prompt": 342,
+  "completion": 38
+ },
+ "created": "2026-10-26T07:52:13.937208+00:00"
+}
