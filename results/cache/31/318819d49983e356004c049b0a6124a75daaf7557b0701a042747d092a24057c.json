@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The response accurately and clearly covers all required details of photosynthesis in fluent Hinglish.\"}\n```",
+ "tokens": {
+  "prompt": 295,
+  "completion": 55
+ },
+ "created": "2026-10-26T06:44:34.779496+00:00"
+}
