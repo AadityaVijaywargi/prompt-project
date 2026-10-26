@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies dualism as distinct legal systems, matching the reference.\"\n}",
+ "tokens": {
+  "prompt": 375,
+  "completion": 331
+ },
+ "created": "2026-10-26T06:54:38.943750+00:00"
+}

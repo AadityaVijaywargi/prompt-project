@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the lined‑up (spring) configuration, while Answer B gives the wrong option.\"}",
+ "tokens": {
+  "prompt": 361,
+  "completion": 186
+ },
+ "created": "2026-10-26T06:48:38.561791+00:00"
+}

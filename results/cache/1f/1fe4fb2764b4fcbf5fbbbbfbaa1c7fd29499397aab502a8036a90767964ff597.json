@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly states dualism as separate legal systems, matching the reference; Answer B adds the inaccurate claim that domestic law always prevails.\"\n}",
+ "tokens": {
+  "prompt": 347,
+  "completion": 169
+ },
+ "created": "2026-10-26T06:55:38.478425+00:00"
+}

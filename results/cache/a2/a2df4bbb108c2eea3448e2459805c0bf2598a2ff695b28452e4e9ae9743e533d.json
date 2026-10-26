@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies Maslow's hierarchy of needs, while Answer B gives an incorrect option.\"}",
+ "tokens": {
+  "prompt": 400,
+  "completion": 117
+ },
+ "created": "2026-10-26T06:40:55.544160+00:00"
+}

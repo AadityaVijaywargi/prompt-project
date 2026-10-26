@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Correctly identifies the fallacy as appeal to pride, matching the reference answer\"}",
+ "tokens": {
+  "prompt": 368,
+  "completion": 267
+ },
+ "created": "2026-10-26T06:42:05.811894+00:00"
+}

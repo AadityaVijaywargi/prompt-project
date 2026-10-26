@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies chimpanzees as the closest primate, while Answer B incorrectly chooses gorillas.\"}",
+ "tokens": {
+  "prompt": 353,
+  "completion": 119
+ },
+ "created": "2026-10-26T06:35:35.578674+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the shift as from core tools to flakes, matching the known Levallois technique.\"\n}",
+ "tokens": {
+  "prompt": 329,
+  "completion": 138
+ },
+ "created": "2026-10-26T06:33:35.737541+00:00"
+}

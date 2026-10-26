@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies (C) and accurately explains the limited federal review of state decisions, whereas Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 395,
+  "completion": 331
+ },
+ "created": "2026-10-26T06:37:16.466588+00:00"
+}

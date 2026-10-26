@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly identifies the hierarchy of needs as the right approach, while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 358,
+  "completion": 212
+ },
+ "created": "2026-10-26T06:40:26.485079+00:00"
+}

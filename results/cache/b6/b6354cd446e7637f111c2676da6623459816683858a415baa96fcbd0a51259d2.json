@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Correctly identifies the answer as (D) three or more, matching the reference\"}",
+ "tokens": {
+  "prompt": 335,
+  "completion": 119
+ },
+ "created": "2026-10-26T06:37:48.005555+00:00"
+}

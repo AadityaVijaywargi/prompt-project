@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the subarachnoid space (arachnoid‑pia) while Answer B gives an incorrect location.\"\n}",
+ "tokens": {
+  "prompt": 347,
+  "completion": 156
+ },
+ "created": "2026-10-26T06:49:58.592885+00:00"
+}

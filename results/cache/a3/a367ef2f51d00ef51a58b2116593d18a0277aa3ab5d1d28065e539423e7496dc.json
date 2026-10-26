@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies and explains the greenhouse effect, while Answer B gives an incorrect explanation.\"\n}",
+ "tokens": {
+  "prompt": 411,
+  "completion": 138
+ },
+ "created": "2026-10-26T06:43:15.572030+00:00"
+}

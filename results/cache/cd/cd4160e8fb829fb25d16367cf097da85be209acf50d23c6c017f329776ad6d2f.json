@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly applies F = qvB and gets 4F, while Answer B uses an incorrect formula.\"\n}",
+ "tokens": {
+  "prompt": 365,
+  "completion": 214
+ },
+ "created": "2026-10-26T06:50:58.784316+00:00"
+}

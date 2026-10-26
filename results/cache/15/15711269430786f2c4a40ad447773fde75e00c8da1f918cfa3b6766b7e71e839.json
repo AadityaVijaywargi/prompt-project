@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Correctly identifies (C) as the easiest method and provides a sound explanation\"}",
+ "tokens": {
+  "prompt": 500,
+  "completion": 232
+ },
+ "created": "2026-10-26T06:44:56.017502+00:00"
+}
