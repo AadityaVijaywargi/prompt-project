@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Correctly identifies (C) and explains chemical neurotransmission\"}",
+ "tokens": {
+  "prompt": 386,
+  "completion": 126
+ },
+ "created": "2026-10-26T06:18:41.238650+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the Romance family, while B is factually wrong.\"}",
+ "tokens": {
+  "prompt": 307,
+  "completion": 97
+ },
+ "created": "2026-10-26T06:32:20.868947+00:00"
+}

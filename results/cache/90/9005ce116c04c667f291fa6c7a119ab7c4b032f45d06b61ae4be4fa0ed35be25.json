@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies waves as the model, matching the reference, while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 325,
+  "completion": 169
+ },
+ "created": "2026-10-26T06:23:11.267658+00:00"
+}

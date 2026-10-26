@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the usual Supreme Court practice and provides accurate explanation, while Answer B is incorrect.\"}",
+ "tokens": {
+  "prompt": 340,
+  "completion": 199
+ },
+ "created": "2026-10-26T06:13:21.447776+00:00"
+}

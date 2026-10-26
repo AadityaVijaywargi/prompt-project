@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies the National Intelligence Director as the proposed change, matching the correct answer.\"\n}",
+ "tokens": {
+  "prompt": 374,
+  "completion": 209
+ },
+ "created": "2026-10-26T06:15:11.227493+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies relative error as the ratio of absolute error to the true value, while Answer B is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 324,
+  "completion": 152
+ },
+ "created": "2026-10-26T06:31:01.061241+00:00"
+}

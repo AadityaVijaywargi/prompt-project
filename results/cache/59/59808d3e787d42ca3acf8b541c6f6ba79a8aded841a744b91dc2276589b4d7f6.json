@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly selects option A and explains that the net force is opposite the motion, whereas Answer A incorrectly chooses option C.\"\n}",
+ "tokens": {
+  "prompt": 502,
+  "completion": 391
+ },
+ "created": "2026-10-26T06:27:31.693138+00:00"
+}

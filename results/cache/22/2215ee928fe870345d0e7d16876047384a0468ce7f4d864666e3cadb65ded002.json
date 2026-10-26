@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies 8 and explains left shift, while B gives the wrong result.\"\n}",
+ "tokens": {
+  "prompt": 296,
+  "completion": 113
+ },
+ "created": "2026-10-26T06:29:40.969973+00:00"
+}

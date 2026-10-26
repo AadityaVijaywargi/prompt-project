@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the net force as negative due to deceleration, matching the physics of the situation.\"\n}",
+ "tokens": {
+  "prompt": 477,
+  "completion": 250
+ },
+ "created": "2026-10-26T06:28:21.325228+00:00"
+}

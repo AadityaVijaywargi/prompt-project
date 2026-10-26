@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the usual Supreme Court action (refusing to hear the appeal) while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 376,
+  "completion": 190
+ },
+ "created": "2026-10-26T06:13:01.478491+00:00"
+}

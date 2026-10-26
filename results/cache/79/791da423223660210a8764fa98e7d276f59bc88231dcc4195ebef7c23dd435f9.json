@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Provides the correct answer (B) with a relevant explanation, whereas Answer A is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 358,
+  "completion": 165
+ },
+ "created": "2026-10-26T06:22:12.159284+00:00"
+}

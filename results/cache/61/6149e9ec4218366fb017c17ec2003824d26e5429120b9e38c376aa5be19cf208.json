@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies the Commission’s proposal of a National Intelligence Director, while Answer B gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 394,
+  "completion": 249
+ },
+ "created": "2026-10-26T06:15:41.429618+00:00"
+}
