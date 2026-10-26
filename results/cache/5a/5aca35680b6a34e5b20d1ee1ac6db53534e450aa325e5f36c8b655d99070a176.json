@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The response provides an accurate, complete, and well-written overview of Japanese business etiquette norms in fluent Romanized Hindi.\"\n}\n```",
+ "tokens": {
+  "prompt": 371,
+  "completion": 75
+ },
+ "created": "2026-10-26T08:00:55.538893+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "gemini-3.5-flash",
+ "provider": "openai_compat",
+ "text": "```json\n{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer provides an accurate, clear, and comprehensive overview of essential Japanese business etiquette norms.\"\n}\n```",
+ "tokens": {
+  "prompt": 254,
+  "completion": 69
+ },
+ "created": "2026-10-26T08:00:43.618755+00:00"
+}
