@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly selects (C) and explains influenza’s RNA replication, whereas Answer B gives an incorrect answer (D).\"}",
+ "tokens": {
+  "prompt": 425,
+  "completion": 286
+ },
+ "created": "2026-10-26T06:00:04.579660+00:00"
+}

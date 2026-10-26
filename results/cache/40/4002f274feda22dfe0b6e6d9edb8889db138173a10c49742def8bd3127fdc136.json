@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies the farad as the ratio of 1 C to 1 V, matching the reference.\"\n}",
+ "tokens": {
+  "prompt": 345,
+  "completion": 234
+ },
+ "created": "2026-10-26T06:04:34.424304+00:00"
+}

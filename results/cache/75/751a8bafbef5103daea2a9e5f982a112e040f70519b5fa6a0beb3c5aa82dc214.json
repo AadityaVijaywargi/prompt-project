@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly selects option B and accurately explains that anaerobic respiration yields far less ATP, so the cell must metabolize glucose faster\"}",
+ "tokens": {
+  "prompt": 447,
+  "completion": 374
+ },
+ "created": "2026-10-26T05:57:34.562477+00:00"
+}

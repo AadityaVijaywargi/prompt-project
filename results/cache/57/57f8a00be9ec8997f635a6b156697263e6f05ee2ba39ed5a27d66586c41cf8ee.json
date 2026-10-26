@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly selects option B and explains the lower ATP yield of anaerobic metabolism, whereas Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 432,
+  "completion": 439
+ },
+ "created": "2026-10-26T05:58:04.666216+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies (B) as the non‑hypothesis, matching the reference, while Answer B is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 356,
+  "completion": 260
+ },
+ "created": "2026-10-26T06:10:24.599641+00:00"
+}

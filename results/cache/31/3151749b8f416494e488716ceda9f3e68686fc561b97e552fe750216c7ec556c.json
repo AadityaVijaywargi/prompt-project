@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the food does not become radioactive, matching the reference.\"\n}",
+ "tokens": {
+  "prompt": 350,
+  "completion": 112
+ },
+ "created": "2026-10-26T05:59:03.975572+00:00"
+}

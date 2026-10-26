@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly selects option B and explains the reduced ATP yield of anaerobic respiration, matching the reference answer.\"\n}",
+ "tokens": {
+  "prompt": 446,
+  "completion": 366
+ },
+ "created": "2026-10-26T05:57:24.429820+00:00"
+}

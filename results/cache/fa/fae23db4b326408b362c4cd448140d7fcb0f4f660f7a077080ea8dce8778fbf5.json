@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies the influenza virus as an RNA virus that replicates its genome and synthesizes proteins, whereas B gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 372,
+  "completion": 247
+ },
+ "created": "2026-10-26T06:00:44.479017+00:00"
+}

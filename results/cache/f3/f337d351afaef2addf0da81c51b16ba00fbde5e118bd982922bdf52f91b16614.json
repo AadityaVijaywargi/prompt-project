@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Provides the correct answer (D) with accurate reasoning about the cosine relationship.\"\n}",
+ "tokens": {
+  "prompt": 323,
+  "completion": 136
+ },
+ "created": "2026-10-26T06:02:14.061554+00:00"
+}

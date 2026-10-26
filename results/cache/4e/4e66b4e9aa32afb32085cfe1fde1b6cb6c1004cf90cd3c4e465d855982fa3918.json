@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies (C) and explains influenza's replication accurately, while Answer A is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 404,
+  "completion": 308
+ },
+ "created": "2026-10-26T06:00:14.537884+00:00"
+}

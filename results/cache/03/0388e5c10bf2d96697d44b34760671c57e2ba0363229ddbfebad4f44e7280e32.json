@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly selects option B and accurately explains that anaerobic fermentation yields far less ATP, requiring faster glucose consumption.\"\n}",
+ "tokens": {
+  "prompt": 406,
+  "completion": 375
+ },
+ "created": "2026-10-26T05:58:24.386897+00:00"
+}

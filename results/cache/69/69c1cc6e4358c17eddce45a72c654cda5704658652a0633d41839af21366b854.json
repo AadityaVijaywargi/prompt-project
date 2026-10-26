@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly selects option B and accurately explains the lower ATP yield of anaerobic respiration requiring faster glucose consumption.\"\n}",
+ "tokens": {
+  "prompt": 406,
+  "completion": 329
+ },
+ "created": "2026-10-26T05:58:14.339524+00:00"
+}
