@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Correctly identifies Theravada as the main form, while A is factually wrong.\"}",
+ "tokens": {
+  "prompt": 340,
+  "completion": 121
+ },
+ "created": "2026-10-26T06:15:11.945133+00:00"
+}

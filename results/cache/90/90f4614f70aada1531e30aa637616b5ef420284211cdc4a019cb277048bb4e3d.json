@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies and explains centripetal forces as unifying, while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 340,
+  "completion": 338
+ },
+ "created": "2026-10-26T06:14:02.635809+00:00"
+}

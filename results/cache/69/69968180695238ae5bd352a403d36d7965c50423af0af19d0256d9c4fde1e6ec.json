@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly states that nothing happens because photon energy, not intensity, determines emission, while Answer A gives an incorrect delayed‑absorption explanation.\"\n}",
+ "tokens": {
+  "prompt": 446,
+  "completion": 300
+ },
+ "created": "2026-10-26T06:23:52.254345+00:00"
+}

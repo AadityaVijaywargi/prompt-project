@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies (D) as the proper amicus curiae filer, while Answer B gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 371,
+  "completion": 180
+ },
+ "created": "2026-10-26T06:17:02.141251+00:00"
+}

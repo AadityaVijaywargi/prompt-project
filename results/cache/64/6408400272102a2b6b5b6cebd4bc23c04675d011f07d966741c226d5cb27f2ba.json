@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Provides the correct location (C) while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 342,
+  "completion": 121
+ },
+ "created": "2026-10-26T06:22:11.358516+00:00"
+}

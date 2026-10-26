@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies option D and explains that photon energy, not intensity, determines emission, while Answer A gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 482,
+  "completion": 346
+ },
+ "created": "2026-10-26T06:22:53.680343+00:00"
+}

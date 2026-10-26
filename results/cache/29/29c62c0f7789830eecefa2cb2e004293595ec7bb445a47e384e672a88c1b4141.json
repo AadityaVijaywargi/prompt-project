@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies the sinoatrial node location as (C) while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 380,
+  "completion": 118
+ },
+ "created": "2026-10-26T06:21:52.240975+00:00"
+}

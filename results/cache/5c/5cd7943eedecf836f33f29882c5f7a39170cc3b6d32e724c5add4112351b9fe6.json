@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Correctly identifies the major limitation as not distinguishing fat from fat‑free mass, matching the reference answer.\"\n}",
+ "tokens": {
+  "prompt": 369,
+  "completion": 235
+ },
+ "created": "2026-10-26T06:24:42.227358+00:00"
+}

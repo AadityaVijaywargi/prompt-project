@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies that increasing intensity does not cause emission because photon energy is insufficient, matching the reference answer.\"\n}",
+ "tokens": {
+  "prompt": 493,
+  "completion": 127
+ },
+ "created": "2026-10-26T06:23:22.456472+00:00"
+}

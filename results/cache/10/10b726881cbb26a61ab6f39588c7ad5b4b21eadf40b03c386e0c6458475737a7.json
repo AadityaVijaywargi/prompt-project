@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies (C) and explains why BMI fails to distinguish fat from lean mass.\"\n}",
+ "tokens": {
+  "prompt": 346,
+  "completion": 109
+ },
+ "created": "2026-10-26T06:25:02.092242+00:00"
+}

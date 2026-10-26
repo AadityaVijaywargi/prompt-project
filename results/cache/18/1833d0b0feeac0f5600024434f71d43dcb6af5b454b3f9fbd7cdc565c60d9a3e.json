@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly applies the inverse-square law, yielding 100× weight.\"\n}",
+ "tokens": {
+  "prompt": 356,
+  "completion": 149
+ },
+ "created": "2026-10-26T06:20:12.299224+00:00"
+}

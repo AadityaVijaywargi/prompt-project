@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly explains that intensity does not affect emission when photon energy is below the work function, matching the reference answer.\"\n}",
+ "tokens": {
+  "prompt": 468,
+  "completion": 225
+ },
+ "created": "2026-10-26T06:23:42.423893+00:00"
+}
