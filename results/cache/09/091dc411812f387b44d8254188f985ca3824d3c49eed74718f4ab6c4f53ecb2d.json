@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Answer incorrectly states the answer as (C) 2, though the explanation is clear.\"\n}",
+ "tokens": {
+  "prompt": 342,
+  "completion": 473
+ },
+ "created": "2026-10-27T18:36:16.727350+00:00"
+}

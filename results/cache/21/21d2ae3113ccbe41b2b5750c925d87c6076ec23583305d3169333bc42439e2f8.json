@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 5,\n  \"comment\": \"Answer picks the wrong option and misstates the capacitance formula, though the Hindi is fluent.\"\n}",
+ "tokens": {
+  "prompt": 365,
+  "completion": 399
+ },
+ "created": "2026-10-27T18:40:53.749685+00:00"
+}

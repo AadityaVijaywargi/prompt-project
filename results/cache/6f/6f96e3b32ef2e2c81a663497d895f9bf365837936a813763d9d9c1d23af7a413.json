@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 3,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is clearly written but gives the wrong ratio, so it is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 342,
+  "completion": 369
+ },
+ "created": "2026-10-27T18:40:43.503519+00:00"
+}
