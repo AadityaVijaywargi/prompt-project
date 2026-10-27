@@ -39,10 +39,11 @@ def planned_counts(exp_cfg: dict, n: int, w: int) -> list[tuple[str, str, int]]:
         rows.append(("Gap A wrong twins", f"W x 4 x J = {w} x 4 x {j}", w * N_FORMS * j))
     e5 = ex["e5"]
     j5, n5 = len(e5["judges"]), min(e5["subset_size"], n)
-    w5 = min(n5, w)
-    per_variant = n5 * N_FORMS * j5 + 3 * 2 * n5 * j5 + c * 2 * w5 * j5
+    w5 = min(w, round(n5 * 2 / 3))   # the subset's factual two thirds, drawn from wrong-twin items
+    e3_5 = (c + 1) * 2 * w5 * j5     # + the control (correct en vs wrong en), the accuracy cost
+    per_variant = n5 * N_FORMS * j5 + 3 * 2 * n5 * j5 + e3_5
     for v in e5["variants"]:
-        rows.append((f"E5 {v}", f"E1 {n5*4*j5} + E2 {6*n5*j5} + E3 {c*2*w5*j5} ({j5} judges, {n5} items)",
+        rows.append((f"E5 {v}", f"E1 {n5*4*j5} + E2 {6*n5*j5} + E3 {e3_5} ({j5} judges, {n5} items, {w5} twins)",
                      per_variant))
     if "translate_then_judge" in e5["variants"]:
         rows.append(("E5 translations", f"{n5} items x 3 non-English forms (once, shared by judges)", n5 * 3))

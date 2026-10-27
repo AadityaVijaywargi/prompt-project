@@ -45,4 +45,5 @@ def test_planned_budget_matches_brief_with_four_judges():
         cfg["experiments"][e]["judges"] = four
     rows = {name: calls for name, _, calls in budget.planned_counts(cfg, 150, 60)}
     assert rows["E1"] == 2400 and rows["E2"] == 3600 and rows["E3"] == 1440 and rows["E3 control"] == 480
-    assert rows["E5 bias_aware"] == 1920 and rows["E5 translations"] == 180
+    # E5: E1 480 + E2 720 + E3 on the subset's 40 wrong-twin items with the control, 4 x 2 x 40 x 2 = 640
+    assert rows["E5 bias_aware"] == 1840 and rows["E5 translations"] == 180

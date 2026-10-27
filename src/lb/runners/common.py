@@ -8,14 +8,14 @@ from __future__ import annotations
 import argparse
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Optional
+from typing import Callable, Optional
 
 from .. import prompts
 from ..cache import Cache
 from ..config import experiments_config, judges_config
 from ..data import load_quadruples, reference_for
 from ..judge import CallMeta, Judge
-from ..parse import parse_pairwise, parse_pointwise
+from ..parse import parse_pairwise, parse_pointwise, parse_text
 from ..schema import Quadruple
 
 
@@ -25,7 +25,7 @@ class CallSpec:
     judge: str
     variant: str
     item_id: str
-    kind: str                  # pointwise | pairwise
+    kind: str                  # pointwise | pairwise | text (the E5(b) translator)
     forms: tuple[str, ...]     # answer selectors, e.g. ("en",) or ("wrong:en", "hi")
     order: Optional[str]       # AB | BA for pairwise
     prompt: str
@@ -49,33 +49,41 @@ def variant_prompts(variant: str, exp_cfg: dict) -> dict:
     return exp_cfg["prompt_variants"][variant]
 
 
+TextOf = Callable[[Quadruple, str], str]
+
+
+def check_text_of(vp: dict, text_of: TextOf) -> None:
+    if "translate" in vp and text_of is answer_text:
+        raise NotImplementedError("translate_then_judge needs the E5 runner's translated texts (text_of)")
+
+
 def plan_pointwise(experiment: str, items: list[Quadruple], judges: list[str], variant: str,
-                   exp_cfg: dict, forms: Optional[list[str]] = None) -> list[CallSpec]:
+                   exp_cfg: dict, forms: Optional[list[str]] = None, text_of: TextOf = answer_text) -> list[CallSpec]:
     vp = variant_prompts(variant, exp_cfg)
-    if "translate" in vp:
-        raise NotImplementedError("translate_then_judge is planned by the E5 runner")
+    check_text_of(vp, text_of)
     specs = []
     for q in items:
         ref = reference_for(q, exp_cfg["reference_guided"])
         for form in forms or exp_cfg["forms"]:
             prompt = prompts.render_pointwise(vp["pointwise"], question_text(q, exp_cfg),
-                                              answer_text(q, form), ref, vp.get("suffix"))
+                                              text_of(q, form), ref, vp.get("suffix"))
             for j in judges:
                 specs.append(CallSpec(experiment, j, variant, q.item_id, "pointwise", (form,), None, prompt))
     return specs
 
 
 def plan_pairwise(experiment: str, items: list[Quadruple], judges: list[str], variant: str,
-                  exp_cfg: dict, pairs: list[tuple[str, str]]) -> list[CallSpec]:
+                  exp_cfg: dict, pairs: list[tuple[str, str]], text_of: TextOf = answer_text) -> list[CallSpec]:
     """Each pair (x, y) runs in both orders: AB shows x as A, BA shows y as A. forms keeps (x, y)."""
     vp = variant_prompts(variant, exp_cfg)
+    check_text_of(vp, text_of)
     specs = []
     for q in items:
         ref = reference_for(q, exp_cfg["reference_guided"])
         for x, y in pairs:
             for order, (a, b) in (("AB", (x, y)), ("BA", (y, x))):
                 prompt = prompts.render_pairwise(vp["pairwise"], question_text(q, exp_cfg),
-                                                 answer_text(q, a), answer_text(q, b), ref, vp.get("suffix"))
+                                                 text_of(q, a), text_of(q, b), ref, vp.get("suffix"))
                 for j in judges:
                     specs.append(CallSpec(experiment, j, variant, q.item_id, "pairwise", (x, y), order, prompt))
     return specs
@@ -98,7 +106,7 @@ def execute(specs: list[CallSpec], judges: dict[str, Judge], run_id: str) -> dic
     stats = {"ok": 0, "failed": 0}
     for i, s in enumerate(specs, 1):
         meta = CallMeta(run_id, s.experiment, s.variant, s.item_id, list(s.forms), s.order)
-        parser = parse_pointwise if s.kind == "pointwise" else parse_pairwise
+        parser = {"pointwise": parse_pointwise, "pairwise": parse_pairwise, "text": parse_text}[s.kind]
         result = judges[s.judge].run_prompt(s.prompt, parser, meta)
         stats["ok" if result is not None else "failed"] += 1
         if i % 25 == 0 or i == len(specs):

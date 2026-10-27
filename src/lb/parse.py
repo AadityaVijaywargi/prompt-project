@@ -55,3 +55,10 @@ def parse_pairwise(text: str | None) -> PairwiseVerdict:
     if norm is None:
         raise ValueError(f"invalid winner: {winner!r}")
     return PairwiseVerdict(winner=norm, reason=str(obj.get("reason", "")))
+
+
+def parse_text(text: str | None) -> str:
+    """Plain-text response (the E5(b) translator): any non-empty text counts as parsed."""
+    if not text or not text.strip():
+        raise ValueError("empty response")
+    return text.strip()

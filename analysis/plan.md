@@ -74,6 +74,23 @@ by item against the baseline run on the same items and judges:
 - Accuracy cost: change in E4 judge-human agreement and in E3 control accuracy (correct en preferred).
 - Report effect sizes with CIs; p-values secondary.
 
+Implementation details (fixed 2026-10-27, before any E5 variant call; `lb.runners.e5_mitigation`, `lb.mitigation`):
+
+- Subset: 60 items, stratified by type in proportion to the full set (40 factual, 20 open-ended), filled
+  round-robin across subjects with seed 20261023. The factual picks are items with a verified wrong twin, so
+  E3 runs on the subset's own 40 twins (the brief's 1,920 calls per variant assumed 60 twins; with the
+  control added, a variant is 1,840 calls for 2 judges).
+- E1: content gap vs en per form; change = variant minus baseline per item (signed, and of the absolute gap).
+  E2: pooled English win-rate over non-tie judgments; change with an item bootstrap. E3: consistent
+  wrong-English rate per form, and control accuracy (correct en wins in both orders); paired change per item.
+- translate_then_judge: one translator, gpt-oss-120b at temperature 0 (`e5.translator`), translates the
+  subset's hi, hi_rom and hinglish correct answers once (180 calls, logged as experiment `e5_translate`);
+  English answers and the wrong English twin pass through. Judging waits until every translation exists.
+- majority_vote: no calls. Median of each criterion (E1) and the majority slot verdict (E2, E3; a tie when
+  no verdict has more than half) across the judges with complete baseline results, compared against each
+  of those judges' baselines. With two judges the median is the mean and any disagreement is a tie.
+- hindi_rubric runs only after a Hindi speaker verifies `pointwise_hi.txt` and `pairwise_hi.txt`.
+
 ## B: criterion leakage and judge comments (added 2026-10-26, post hoc; see change log)
 
 Uses the E1 baseline records only, with no new judge calls. Per judge, per form `f` in hi, hi_rom, hinglish,

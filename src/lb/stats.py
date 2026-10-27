@@ -74,6 +74,24 @@ def spearman(a: Sequence[float], b: Sequence[float]) -> float:
     return float(st.spearmanr(a, b).statistic)
 
 
+def bootstrap_rate_diff_ci(base: Sequence[tuple[int, int]], new: Sequence[tuple[int, int]], n_boot: int = N_BOOT,
+                           seed: int = 0, alpha: float = 0.05) -> tuple[float, float, float, float, float]:
+    """Paired change in a pooled rate (sum of hits / sum of trials) between two runs on the same items.
+    Each item gives (hits, trials) in both runs; items are resampled together. Returns (base rate, new rate,
+    new minus base, CI low, CI high); NaN where a rate has no trials."""
+    b, v = np.asarray(base, dtype=float).reshape(-1, 2), np.asarray(new, dtype=float).reshape(-1, 2)
+    rate = lambda x: float(x[:, 0].sum() / x[:, 1].sum()) if x[:, 1].sum() else float("nan")
+    rb, rv = rate(b), rate(v)
+    if math.isnan(rb) or math.isnan(rv):
+        return rb, rv, float("nan"), float("nan"), float("nan")
+    idx = np.random.default_rng(seed).integers(0, b.shape[0], size=(n_boot, b.shape[0]))
+    with np.errstate(divide="ignore", invalid="ignore"):
+        diffs = v[idx, 0].sum(1) / v[idx, 1].sum(1) - b[idx, 0].sum(1) / b[idx, 1].sum(1)
+    diffs = diffs[~np.isnan(diffs)]
+    lo, hi = np.quantile(diffs, [alpha / 2, 1 - alpha / 2]) if diffs.size else (float("nan"),) * 2
+    return float(rb), float(rv), float(rv - rb), float(lo), float(hi)
+
+
 def kendall_tau_b(x: Sequence[float], y: Sequence[float]) -> tuple[float, float]:
     """Kendall's tau-b (tie-corrected) and its p-value; NaN when either side has no variance."""
     x, y = np.asarray(x, dtype=float), np.asarray(y, dtype=float)

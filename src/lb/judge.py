@@ -13,7 +13,7 @@ from typing import Callable, Optional
 from . import prompts
 from .cache import Cache, cache_key
 from .config import RAW, append_jsonl
-from .parse import parse_pairwise, parse_pointwise
+from .parse import parse_pairwise, parse_pointwise, parse_text
 from .providers import Provider, make_provider
 from .schema import PairwiseVerdict, PointwiseScore, RawCall
 
@@ -66,11 +66,7 @@ class Judge:
 
     def complete_text(self, prompt: str, meta: CallMeta) -> Optional[str]:
         """Plain-text call (the E5(b) translator). Any non-empty response counts as parsed."""
-        def _text(t):
-            if not t or not t.strip():
-                raise ValueError("empty response")
-            return t.strip()
-        return self.run_prompt(prompt, _text, meta)
+        return self.run_prompt(prompt, parse_text, meta)
 
     # ----- internals -----
 

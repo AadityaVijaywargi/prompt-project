@@ -1,0 +1,7 @@
+variant,judge,vs_baseline_of,pair,measure,n,base,new,change,ci_low,ci_high,exploratory
+majority_vote,gpt-oss-120b+qwen2.5-7b-local,gpt-oss-120b,en vs hi,English win-rate,60,1.0,1.0,0.0,0.0,0.0,False
+majority_vote,gpt-oss-120b+qwen2.5-7b-local,gpt-oss-120b,en vs hi_rom,English win-rate,60,1.0,1.0,0.0,0.0,0.0,False
+majority_vote,gpt-oss-120b+qwen2.5-7b-local,gpt-oss-120b,en vs hinglish,English win-rate,60,1.0,1.0,0.0,0.0,0.0,False
+majority_vote,gpt-oss-120b+qwen2.5-7b-local,qwen2.5-7b-local,en vs hi,English win-rate,60,0.5667,1.0,0.4333,0.3583,0.5083,False
+majority_vote,gpt-oss-120b+qwen2.5-7b-local,qwen2.5-7b-local,en vs hi_rom,English win-rate,60,0.7583,1.0,0.2417,0.1833,0.3083,False
+majority_vote,gpt-oss-120b+qwen2.5-7b-local,qwen2.5-7b-local,en vs hinglish,English win-rate,60,0.7333,1.0,0.2667,0.2083,0.325,False

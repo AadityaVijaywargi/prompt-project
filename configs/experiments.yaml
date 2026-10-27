@@ -43,8 +43,9 @@ experiments:
     prompt: pointwise_en
   e5:
     judges: [gemini-flash, gpt-oss-120b]
-    subset_size: 60                          # stratified by type and subject
+    subset_size: 60                          # stratified by type and subject; factual picks have wrong twins
     variants: [hindi_rubric, translate_then_judge, bias_aware]   # majority_vote needs no calls
+    translator: gpt-oss-120b                 # the one fixed E5(b) translator (Groq), temperature 0
 
 prompt_variants:
   baseline:             {pointwise: pointwise_en, pairwise: pairwise_en}

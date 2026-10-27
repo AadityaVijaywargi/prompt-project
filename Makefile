@@ -10,7 +10,7 @@ export PYTHONUTF8 := 1
 ARGS ?=
 
 .PHONY: setup test data-check qc-export qc-import budget budget-pilot pilot pilot-report \
-        run-e1 run-e2 run-e2b run-e3 run-a run-e5 stats stats-b stats-a app reproduce reproduce-pilot
+        run-e1 run-e2 run-e2b run-e3 run-a run-e5 stats stats-b stats-a stats-e5 package app reproduce reproduce-pilot
 
 setup:
 	uv venv --python 3.12 .venv
@@ -67,7 +67,19 @@ stats-b:
 stats-a:
 	$(PY) -m lb.wrong_leniency $(ARGS)
 
-run-e5 app:
+# E5: one variant per run on the 60-item subset, e.g. make run-e5 ARGS="--variant bias_aware --yes"
+run-e5:
+	$(PY) -m lb.runners.e5_mitigation $(ARGS)
+
+# E5 tables (each variant vs baseline, plus majority vote) -> results/tables/main_e5*
+stats-e5:
+	$(PY) -m lb.mitigation $(ARGS)
+
+# Re-audit zip of every tracked file -> dist/lb-auditor_<date>.zip (refuses uncommitted changes)
+package:
+	$(PY) scripts/package.py $(ARGS)
+
+app:
 	@echo "'$@' is built in Phase 3 (brief section 11); not available yet." && exit 1
 
 # Regenerate everything from cached responses with no network access.
