@@ -1,0 +1,9 @@
+judge,form,measure,k,n,rate,ci_low,ci_high
+gpt-oss-120b,en,comments written in Chinese,0,150,0.0,0.0,0.025
+gpt-oss-120b,hi,comments written in Chinese,0,150,0.0,0.0,0.025
+gpt-oss-120b,hi_rom,comments written in Chinese,0,150,0.0,0.0,0.025
+gpt-oss-120b,hinglish,comments written in Chinese,0,150,0.0,0.0,0.025
+qwen2.5-7b-local,en,comments written in Chinese,0,150,0.0,0.0,0.025
+qwen2.5-7b-local,hi,comments written in Chinese,61,150,0.4067,0.3313,0.4867
+qwen2.5-7b-local,hi_rom,comments written in Chinese,3,150,0.02,0.0068,0.0571
+qwen2.5-7b-local,hinglish,comments written in Chinese,12,150,0.08,0.0464,0.1346

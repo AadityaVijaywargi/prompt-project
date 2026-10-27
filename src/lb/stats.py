@@ -74,6 +74,37 @@ def spearman(a: Sequence[float], b: Sequence[float]) -> float:
     return float(st.spearmanr(a, b).statistic)
 
 
+def kendall_tau_b(x: Sequence[float], y: Sequence[float]) -> tuple[float, float]:
+    """Kendall's tau-b (tie-corrected) and its p-value; NaN when either side has no variance."""
+    x, y = np.asarray(x, dtype=float), np.asarray(y, dtype=float)
+    if x.size < 3 or np.var(x) == 0 or np.var(y) == 0:
+        return float("nan"), float("nan")
+    res = st.kendalltau(x, y)
+    return float(res.statistic), float(res.pvalue)
+
+
+def cohen_kappa_binary_ci(a: Sequence[bool], b: Sequence[bool], n_boot: int = N_BOOT, seed: int = 0,
+                          alpha: float = 0.05) -> tuple[float, float, float]:
+    """Cohen's kappa for two raters' yes/no labels with a percentile bootstrap CI (resampling rows).
+    NaN when expected agreement is 1 (both raters give one label throughout)."""
+    a, b = np.asarray(a, dtype=float), np.asarray(b, dtype=float)
+    if a.size == 0:
+        return (float("nan"),) * 3
+
+    def kappa(x: np.ndarray, y: np.ndarray) -> np.ndarray:
+        po = (x == y).mean(axis=-1)
+        px, py = x.mean(axis=-1), y.mean(axis=-1)
+        pe = px * py + (1 - px) * (1 - py)
+        with np.errstate(divide="ignore", invalid="ignore"):
+            return np.where(pe < 1, (po - pe) / (1 - pe), np.nan)
+
+    idx = np.random.default_rng(seed).integers(0, a.size, size=(n_boot, a.size))
+    boots = kappa(a[idx], b[idx])
+    boots = boots[~np.isnan(boots)]
+    lo, hi = np.quantile(boots, [alpha / 2, 1 - alpha / 2]) if boots.size else (float("nan"),) * 2
+    return float(kappa(a, b)), float(lo), float(hi)
+
+
 def bootstrap_slope_ci(x: Sequence[float], y: Sequence[float], n_boot: int = N_BOOT, seed: int = 0,
                        alpha: float = 0.05) -> tuple[float, float, float]:
     """OLS slope of y on x with a percentile bootstrap CI (resampling items). NaN when x has no variance;

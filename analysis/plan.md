@@ -96,12 +96,24 @@ is a bias; the question is whether it travels with the language_quality judgemen
   transliterat-, लिपि, देवनागरी. **mixing**: Hinglish, code-mix(ed/ing), code-switch(ed/ing), mixed language,
   a mix of Hindi/English. **fluency** (reported separately, not part of B4/B5): fluent/fluency, grammar,
   spelling, informal, colloquial, awkward, unnatural, slang, व्याकरण.
-- Coder check: a seeded random sample of 25 comments per judge and form goes to
-  `results/tables/main_baseline_b_comment_sample.csv` with a blank `human_mention` column. A person fills it
-  in (1/0); the coder's precision and recall against that column, with Wilson CIs, are reported per judge
-  and pooled in `main_baseline_b_coder_check.csv` and next to B4/B5. Until every sampled comment is coded,
-  B4/B5 are labelled **unvalidated**. Once any `human_mention` is filled in, reruns leave the sample file as
-  it is.
+- Coder check (two raters since 2026-10-27, see change log): a seeded random sample of 25 comments per judge
+  and form goes to `results/tables/main_baseline_b_comment_sample.csv` with blank `rater_a`, `rater_b` and
+  `adjudicated` columns and no automated label, so raters code blind. Two raters fill in 1/0 independently; a
+  third person adjudicates disagreements. Agreed label = `adjudicated`, else the raters' label when they agree.
+  Reported per judge and pooled: Cohen's kappa between raters (bootstrap 95% CI over rows), and the keyword
+  coder's precision and recall against the agreed labels (Wilson CIs). Until every sampled comment has an
+  agreed label, B4/B5 are labelled **unvalidated**. Once any label is filled in, reruns leave the sample file
+  as it is.
+
+Additions of 2026-10-27 (post hoc deviations, see change log; all descriptive, no Holm):
+
+| ID | Measure | Method |
+|---|---|---|
+| B0 | Within-English halo baseline: OLS of each criterion on language_quality across English answers | bootstrap CI as B1; the cross-form slopes in B1-B2 are read against it |
+| Copy check | Per judge and criterion, share of calls (all forms) with criterion = language_quality, among calls where either is below 5 | Wilson CI; at or above 90% the criterion is flagged as copying language_quality and its B0-B2 slopes are not interpreted |
+| Split | B0-B3 for factual and open_ended items separately, next to the planned pooled analysis | as the pooled rows |
+| Rank check | Kendall's tau-b of `dX` with `dL` next to every B0-B2 slope | tau-b and its p-value |
+| Lexicon v1+zh | B4/B5 recomputed with Chinese terms added to each category (`MENTION_PATTERNS_ZH`), next to the fixed lexicon v1, plus the share of comments written in Chinese per judge and form | as B4/B5 |
 
 ## App thresholds
 
@@ -138,3 +150,12 @@ matched (item, form) pairs from the baseline E1 run.
   per-criterion gaps, had already been generated (commit fc41489); the gpt-oss E1 tables and every comment had
   not been looked at. B1-B5 and the lexicon were written here before any B code was run. All of section B is
   reported as post hoc.
+- **2026-10-27, section B additions after an external audit (post hoc deviations).** An audit of the shared
+  section B archive raised shared-call halo, a factual-item ceiling, Chinese comments the lexicon cannot read,
+  OLS on a bounded ordinal scale, and a single unblinded coder. In response: B0 (within-English baseline),
+  the copy check, the factual / open_ended split, Kendall's tau-b, lexicon v1+zh, and a blind two-rater coder
+  check with kappa (this replaces the single `human_mention` column; no labels had been entered). Timing: every
+  B1-B5 result had been seen, and the copy check's 90% threshold was set after seeing the rates (qwen clarity
+  0.91, every other judge and criterion 0.62 or lower). The Chinese terms were written after reading the
+  Chinese comments. The planned B1-B5 rows (subset all, lexicon v1) are unchanged and stay the primary rows;
+  every addition is descriptive.

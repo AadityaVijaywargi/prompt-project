@@ -1,0 +1,4 @@
+judge,rows,both_coded,agree,kappa,ci_low,ci_high,agreed_labels
+gpt-oss-120b,100,0,0,nan,nan,nan,0
+qwen2.5-7b-local,100,0,0,nan,nan,nan,0
+all,200,0,0,nan,nan,nan,0
