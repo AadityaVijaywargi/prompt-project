@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 4, \"language_quality\": 5, \"comment\": \"Correct but could mention that higher needs only motivate if lower ones are met, and could include self-actualization at the top.\"}",
+ "tokens": {
+  "prompt": 345,
+  "completion": 61
+ },
+ "created": "2026-10-27T09:15:50.651471+00:00"
+}

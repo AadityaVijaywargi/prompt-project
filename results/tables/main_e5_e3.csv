@@ -1,4 +1,8 @@
 variant,judge,vs_baseline_of,form,measure,n,base,new,change,ci_low,ci_high,exploratory
+bias_aware,qwen2.5-7b-local,qwen2.5-7b-local,hi,consistent wrong-English rate,33,0.1212,0.0909,-0.0303,-0.0909,0.0,False
+bias_aware,qwen2.5-7b-local,qwen2.5-7b-local,hi_rom,consistent wrong-English rate,35,0.1429,0.1429,0.0,0.0,0.0,False
+bias_aware,qwen2.5-7b-local,qwen2.5-7b-local,hinglish,consistent wrong-English rate,36,0.1389,0.1389,0.0,0.0,0.0,False
+bias_aware,qwen2.5-7b-local,qwen2.5-7b-local,en,control accuracy (correct en preferred),37,0.8649,0.8108,-0.0541,-0.1351,0.0,False
 majority_vote,gpt-oss-120b+qwen2.5-7b-local,gpt-oss-120b,hi,consistent wrong-English rate,36,0.0,0.0,0.0,0.0,0.0,False
 majority_vote,gpt-oss-120b+qwen2.5-7b-local,gpt-oss-120b,hi_rom,consistent wrong-English rate,36,0.0,0.0,0.0,0.0,0.0,False
 majority_vote,gpt-oss-120b+qwen2.5-7b-local,gpt-oss-120b,hinglish,consistent wrong-English rate,37,0.0,0.0,0.0,0.0,0.0,False

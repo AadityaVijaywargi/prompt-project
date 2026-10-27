@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is more accurate and directly related to the Levallois technique, while Answer B discusses a different technological shift.\"}",
+ "tokens": {
+  "prompt": 346,
+  "completion": 37
+ },
+ "created": "2026-10-27T12:38:52.813273+00:00"
+}

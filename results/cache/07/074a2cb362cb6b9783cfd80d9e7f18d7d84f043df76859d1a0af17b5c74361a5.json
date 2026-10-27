@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides a more complete and clear explanation, including the location and purpose of the White House.\"}",
+ "tokens": {
+  "prompt": 420,
+  "completion": 32
+ },
+ "created": "2026-10-27T11:06:42.608943+00:00"
+}

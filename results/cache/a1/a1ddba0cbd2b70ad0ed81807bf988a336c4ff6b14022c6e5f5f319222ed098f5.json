@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is more concise, complete, and clear in explaining the shift in the Levallois technique, while Answer B, though correct, is in Devanagari script and less accessible to English-speaking evaluators.\"}",
+ "tokens": {
+  "prompt": 396,
+  "completion": 57
+ },
+ "created": "2026-10-27T10:33:02.633197+00:00"
+}

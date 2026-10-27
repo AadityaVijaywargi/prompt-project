@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "```json\n{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 4, \"comment\": \"The email is clear and covers all required points, but the language has some formal errors.\"}\n```",
+ "tokens": {
+  "prompt": 714,
+  "completion": 57
+ },
+ "created": "2026-10-27T09:35:23.280716+00:00"
+}

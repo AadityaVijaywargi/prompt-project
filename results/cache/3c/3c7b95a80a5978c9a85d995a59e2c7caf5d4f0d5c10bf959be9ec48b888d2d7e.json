@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"The response accurately states the typical outcome, provides context, and explains when the court might refuse an appeal, making it clear and well-organized.\"}",
+ "tokens": {
+  "prompt": 417,
+  "completion": 64
+ },
+ "created": "2026-10-27T09:05:38.924281+00:00"
+}

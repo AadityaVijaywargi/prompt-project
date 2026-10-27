@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is in Devanagari script but conveys the information clearly and accurately.\"}",
+ "tokens": {
+  "prompt": 513,
+  "completion": 30
+ },
+ "created": "2026-10-27T12:23:24.692274+00:00"
+}

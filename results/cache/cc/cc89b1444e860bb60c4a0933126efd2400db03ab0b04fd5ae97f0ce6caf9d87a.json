@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides the correct range of major powers in a multipolar system and gives an example, while Answer B incorrectly states the number of major powers.\"}",
+ "tokens": {
+  "prompt": 392,
+  "completion": 42
+ },
+ "created": "2026-10-27T12:49:54.023755+00:00"
+}

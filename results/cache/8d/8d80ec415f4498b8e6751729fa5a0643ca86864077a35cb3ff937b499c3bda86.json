@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides the correct number of bright stars and the accurate name 'Seven Sisters'.\"}",
+ "tokens": {
+  "prompt": 321,
+  "completion": 30
+ },
+ "created": "2026-10-27T13:33:07.464834+00:00"
+}

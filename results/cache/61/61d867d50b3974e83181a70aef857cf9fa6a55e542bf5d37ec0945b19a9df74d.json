@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"提供更多关于双论的准确信息\"}",
+ "tokens": {
+  "prompt": 576,
+  "completion": 19
+ },
+ "created": "2026-10-27T12:24:32.814586+00:00"
+}

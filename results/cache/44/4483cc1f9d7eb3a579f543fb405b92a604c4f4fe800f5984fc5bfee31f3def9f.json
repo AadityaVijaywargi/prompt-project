@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A is more complete and clearly explains the Levallois technique, while Answer B is in Hindi and does not provide the same level of detail.\"}",
+ "tokens": {
+  "prompt": 361,
+  "completion": 43
+ },
+ "created": "2026-10-27T10:33:33.013028+00:00"
+}

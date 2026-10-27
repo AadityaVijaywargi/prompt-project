@@ -24,8 +24,9 @@ the mean of correctness, completeness and clarity.
    scores non-English answers *higher* on factual items (+0.17 to +0.32) and *lower* on open-ended ones
    (-0.17 to -0.65). It lets wrong answers through far more often in Romanized forms (gap A: 58% of wrong
    Romanized-Hindi answers accepted vs 17% in English).
-4. **Mitigation (first result).** A two-judge majority vote helps Qwen and hurts gpt-oss-120b; with two judges
-   it is not a real majority (every disagreement becomes a tie).
+4. **Mitigations (first results).** Adding a "do not judge the language" instruction does nothing measurable
+   for Qwen. A two-judge majority vote helps Qwen and hurts gpt-oss-120b; with two judges it is not a real
+   majority (every disagreement becomes a tie).
 
 ## E1: pointwise gap (`main_baseline.md`)
 
@@ -118,8 +119,26 @@ All criteria come from one judge call, so co-movement is not evidence of cause.
 
 ## E5: mitigations (`main_e5.md`, 60-item subset)
 
-Only majority vote so far (it needs no new calls). It combines the two judges' existing verdicts and is
-compared with each judge's own baseline on the same 60 items.
+Each variant is compared with the same judge's baseline on the same 60 items (40 factual with wrong twins,
+20 open-ended); change = variant minus baseline with a bootstrap 95% CI.
+
+**Bias-aware prompt (qwen2.5-7b-local, 920 calls, run 2026-10-27).** The baseline prompt plus a short instruction
+(`prompts/bias_aware_suffix.txt`) that the language or script must not affect the scores. It changes almost nothing:
+
+| Measure | hi | hi_rom | hinglish |
+|---|---|---|---|
+| Absolute content gap vs en | 0.42 → 0.43 (+0.01 [-0.09, 0.10]) | 0.52 → 0.53 (+0.01 [-0.07, 0.09]) | 0.53 → 0.47 (-0.07 [-0.15, 0.01]) |
+| E2 English win-rate | 0.57 → 0.63 (+0.07 [0.02, 0.12]) | 0.76 → 0.80 (+0.04 [0.01, 0.08]) | 0.73 → 0.72 (-0.01 [-0.04, 0.03]) |
+| Consistent wrong-English rate | 0.12 → 0.09 (-0.03 [-0.09, 0.00]) | 0.14 → 0.14 | 0.14 → 0.14 |
+
+- Control accuracy 0.86 → 0.81 (-0.05 [-0.14, 0.00]): no clear accuracy cost, and no clear gain anywhere.
+  The only CIs that exclude zero are the E2 rows for hi and hi_rom, and they move the wrong way (English
+  preferred slightly more). Telling a 7B judge to ignore language does not stop it from using language.
+- 26 of 920 calls stayed unparsed after retries (1 in E2, 25 in E3), similar to Qwen's baseline E3; E3
+  cells need both orders, so n is 33-37 instead of 40.
+
+**Majority vote** (needs no new calls). It combines the two judges' existing baseline verdicts and is compared
+with each judge's own baseline.
 
 | | vs qwen2.5-7b-local | vs gpt-oss-120b |
 |---|---|---|
@@ -130,8 +149,8 @@ compared with each judge's own baseline on the same 60 items.
 
 - The E2 row is mechanical: with two judges, a non-tie majority needs both to agree, and gpt-oss-120b's
   non-tie picks are always English. A third judge is needed before majority vote can be judged fairly.
-- Running now: the bias-aware prompt on qwen2.5-7b-local (920 calls). Translate-then-judge (Groq
-  translator) and the Hindi rubric (needs a Hindi speaker to check the prompts) are not started.
+- Not started: bias-aware on gpt-oss-120b, translate-then-judge (Groq translator) and the Hindi rubric
+  (needs a Hindi speaker to check the prompts).
 
 ## Not done yet
 

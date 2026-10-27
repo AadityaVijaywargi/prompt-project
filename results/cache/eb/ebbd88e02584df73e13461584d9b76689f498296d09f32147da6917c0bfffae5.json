@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B more accurately reflects the theological meaning of homoousios as 'of the same substance', which is the correct definition.\"}",
+ "tokens": {
+  "prompt": 367,
+  "completion": 37
+ },
+ "created": "2026-10-27T12:41:26.113273+00:00"
+}
