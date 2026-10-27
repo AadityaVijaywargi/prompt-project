@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"The answer is incorrect about the result, though it explains the operator reasonably well.\"\n}",
+ "tokens": {
+  "prompt": 332,
+  "completion": 206
+ },
+ "created": "2026-10-27T18:21:12.531103+00:00"
+}

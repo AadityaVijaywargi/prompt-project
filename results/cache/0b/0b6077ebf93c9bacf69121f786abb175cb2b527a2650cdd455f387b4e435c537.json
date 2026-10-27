@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is clearly written but gives an incorrect explanation of influenza replication.\"\n}",
+ "tokens": {
+  "prompt": 354,
+  "completion": 182
+ },
+ "created": "2026-10-27T18:19:07.911107+00:00"
+}

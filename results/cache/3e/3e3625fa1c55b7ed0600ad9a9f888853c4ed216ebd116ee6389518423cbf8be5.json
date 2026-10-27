@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Answer is incorrect and does not address the asked change, though it is clearly written in Hindi.\"\n}",
+ "tokens": {
+  "prompt": 409,
+  "completion": 418
+ },
+ "created": "2026-10-27T18:16:08.405632+00:00"
+}

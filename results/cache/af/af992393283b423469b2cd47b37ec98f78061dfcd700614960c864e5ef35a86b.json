@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 4,\n  \"comment\": \"Answer is incorrect and confuses homoousios with homoiousios.\"\n}",
+ "tokens": {
+  "prompt": 344,
+  "completion": 415
+ },
+ "created": "2026-10-27T18:15:38.218991+00:00"
+}

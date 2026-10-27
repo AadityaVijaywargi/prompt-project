@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Answer is incorrect; it confuses DHS with the commission's recommendation.\"\n}",
+ "tokens": {
+  "prompt": 378,
+  "completion": 465
+ },
+ "created": "2026-10-27T18:15:58.575248+00:00"
+}

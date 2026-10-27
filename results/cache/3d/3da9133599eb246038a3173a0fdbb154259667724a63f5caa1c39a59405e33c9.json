@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Answer incorrectly chooses option B and misdescribes how a nuclear reactor works.\"\n}",
+ "tokens": {
+  "prompt": 360,
+  "completion": 445
+ },
+ "created": "2026-10-27T18:24:16.727844+00:00"
+}

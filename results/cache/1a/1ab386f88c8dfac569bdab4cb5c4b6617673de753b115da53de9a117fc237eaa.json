@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Answer is incorrect; it confuses DHS with the Director of National Intelligence.\"\n}",
+ "tokens": {
+  "prompt": 359,
+  "completion": 407
+ },
+ "created": "2026-10-27T18:15:48.440186+00:00"
+}
