@@ -1,4 +1,4 @@
-# Results so far (draft, 2026-10-27)
+# Results so far (draft, updated 2026-10-28)
 
 Working summary of the main-study results, for the team and the report. **Draft: not reviewed by the team.**
 Every number is copied from a generated table in `results/tables/` (named in each section), which `make
@@ -23,7 +23,8 @@ the mean of correctness, completeness and clarity.
 3. **qwen2.5-7b-local** is noisier and position-biased, and its pooled gaps hide two opposite effects: it
    scores non-English answers *higher* on factual items (+0.17 to +0.32) and *lower* on open-ended ones
    (-0.17 to -0.65). It lets wrong answers through far more often in Romanized forms (gap A: 58% of wrong
-   Romanized-Hindi answers accepted vs 17% in English).
+   Romanized-Hindi answers accepted vs 17% in English). gpt-oss-120b rejects every wrong answer in every
+   form (gap A 0/240), so wrong-answer leniency is a Qwen problem in this data.
 4. **Mitigations (first results).** Adding a "do not judge the language" instruction does nothing measurable
    for Qwen. A two-judge majority vote helps Qwen and hurts gpt-oss-120b; with two judges it is not a real
    majority (every disagreement becomes a tie).
@@ -80,10 +81,11 @@ Each order counts as one judgment. English win-rate is among non-tie judgments.
   quote. That is 9-13% against 0% in the control, so a correct answer in a Hindi form loses to a wrong English
   answer on about one item in ten. Qwen has 5-7 cells per form missing (unparsed after retries).
 
-## Gap A: wrong answers scored pointwise (`main_baseline_a.md`, qwen2.5-7b-local only)
+## Gap A: wrong answers scored pointwise (`main_baseline_a.md`)
 
 Pre-registered in `analysis/plan.md` before any call. False acceptance = wrong twin's correctness ≥ 3.
-McNemar vs the same item's wrong English answer, Holm across forms.
+McNemar vs the same item's wrong English answer, Holm across forms. The table is qwen2.5-7b-local;
+gpt-oss-120b is below it.
 
 | Form | Accepted | vs en | Leniency (mean score change vs en) | Margin (correct minus wrong) |
 |---|---|---|---|---|
@@ -95,7 +97,12 @@ McNemar vs the same item's wrong English answer, Holm across forms.
 - Qwen separates right from wrong as well in Devanagari as in English (margin change +0.03, n.s.), but
   less well in Romanized Hindi (-0.68 [-0.95, -0.42]) and Hinglish (-0.45 [-0.70, -0.20]). Devanagari vs
   Romanized is again the large contrast (-0.63, p < 0.001).
-- Not yet run for gpt-oss-120b (240 Groq calls).
+- **gpt-oss-120b (240 calls, run 2026-10-27/28): no gap, because it makes no errors here.** It gives every
+  wrong twin a correctness of 1 and every matching correct answer a 5, in all four forms: 0/60 accepted in
+  each form, leniency 0.00, margin 4.00 everywhere. This is a floor effect, not proof the judge is
+  language-blind: the wrong twins are all factual items, graded with the English reference answer shown,
+  which turns the check into a comparison with the reference. Its language effects (E1, E2) show up on
+  clarity, language quality and open-ended items, which gap A does not test.
 
 ## Section B: criterion leakage and comments (`main_baseline_b.md`, post hoc, exploratory)
 
@@ -154,7 +161,7 @@ with each judge's own baseline.
 
 ## Not done yet
 
-- gemini-flash main study (pilot only); gpt-oss-120b gap A; E5 bias-aware for gpt-oss-120b; E5
+- gemini-flash main study (pilot only); E5 bias-aware for gpt-oss-120b; E5
   translate-then-judge; E5 Hindi rubric; E4 human grading; the two-rater check of the comment coder.
 - Two judges is a small panel. Every Hindi-form text was machine-drafted and then human-verified; see the
   README limitations.

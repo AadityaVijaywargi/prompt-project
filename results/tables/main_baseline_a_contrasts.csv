@@ -1,3 +1,5 @@
 judge,id,form,measure,n,mean,ci_low,ci_high,exploratory,wilcoxon_p
+gpt-oss-120b,A4.1,hi vs hi_rom,wrong-twin correctness difference,60,0.0,0.0,0.0,False,1.0
+gpt-oss-120b,A4.2,hi_rom vs hinglish,wrong-twin correctness difference,60,0.0,0.0,0.0,False,1.0
 qwen2.5-7b-local,A4.1,hi vs hi_rom,wrong-twin correctness difference,60,-0.6333,-0.8833,-0.3833,False,0.0
 qwen2.5-7b-local,A4.2,hi_rom vs hinglish,wrong-twin correctness difference,60,0.35,0.1667,0.5333,False,0.0008

@@ -1,4 +1,8 @@
 judge,form,planned,missing
+gpt-oss-120b,en,60,0
+gpt-oss-120b,hi,60,0
+gpt-oss-120b,hi_rom,60,0
+gpt-oss-120b,hinglish,60,0
 qwen2.5-7b-local,en,60,0
 qwen2.5-7b-local,hi,60,0
 qwen2.5-7b-local,hi_rom,60,0

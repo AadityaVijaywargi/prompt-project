@@ -1,4 +1,8 @@
 judge,id,form,k,n,rate,ci_low,ci_high,diff_vs_en,only_form,only_en,mcnemar_p,holm_p
+gpt-oss-120b,A1,en,0,60,0.0,0.0,0.0602,,,,,
+gpt-oss-120b,A1,hi,0,60,0.0,0.0,0.0602,0.0,0,0,nan,1.0
+gpt-oss-120b,A1,hi_rom,0,60,0.0,0.0,0.0602,0.0,0,0,nan,1.0
+gpt-oss-120b,A1,hinglish,0,60,0.0,0.0,0.0602,0.0,0,0,nan,1.0
 qwen2.5-7b-local,A1,en,10,60,0.1667,0.0931,0.2803,,,,,
 qwen2.5-7b-local,A1,hi,17,60,0.2833,0.1851,0.4077,0.1167,8,1,0.0391,0.0391
 qwen2.5-7b-local,A1,hi_rom,35,60,0.5833,0.4573,0.6994,0.4167,26,1,0.0,0.0

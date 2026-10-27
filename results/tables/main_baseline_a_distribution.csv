@@ -1,4 +1,8 @@
 judge,form,score_1,score_2,score_3,score_4,score_5
+gpt-oss-120b,en,60,0,0,0,0
+gpt-oss-120b,hi,60,0,0,0,0
+gpt-oss-120b,hi_rom,60,0,0,0,0
+gpt-oss-120b,hinglish,60,0,0,0,0
 qwen2.5-7b-local,en,24,26,8,1,1
 qwen2.5-7b-local,hi,18,25,10,4,3
 qwen2.5-7b-local,hi_rom,3,22,22,11,2

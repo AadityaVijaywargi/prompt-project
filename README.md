@@ -4,7 +4,7 @@ Do LLM judges score the same answer differently when it is written in English, H
 Romanized Hindi or Hinglish? This repo measures the gap (E1 pointwise, E2/E3 pairwise), checks judges
 against Hindi-speaking humans (E4), and tests prompt-level fixes (E5). Course project UE24AM343AB5.
 
-**Status (2026-10-27).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): run on qwen2.5-7b-local (240 calls, `make stats-a` writes `results/tables/main_baseline_a.md`); gpt-oss-120b not run yet. **E5** (mitigations on a 60-item subset): bias-aware run on qwen2.5-7b-local (920 calls) and majority vote done, `make stats-e5` writes `results/tables/main_e5.md`; other variants and gpt-oss-120b not run yet. **Results so far:** `analysis/results_summary.md` (draft). **Re-audit package:** `make package`. **Pilot:** gpt-oss-120b done; Gemini split 5 ways at 20 calls per key per day. E4 is not built yet. Items enter analysis only after human verification via the QC sheet.
+**Status (2026-10-28).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): done for both judges (480 calls); `make stats-a` writes `results/tables/main_baseline_a.md`. **E5** (mitigations on a 60-item subset): bias-aware run on qwen2.5-7b-local (920 calls) and majority vote done, `make stats-e5` writes `results/tables/main_e5.md`; other variants and gpt-oss-120b not run yet. **Results so far:** `analysis/results_summary.md` (draft). **Re-audit package:** `make package`. **Pilot:** gpt-oss-120b done; Gemini split 5 ways at 20 calls per key per day. E4 is not built yet. Items enter analysis only after human verification via the QC sheet.
 
 ## Setup
 
@@ -53,7 +53,7 @@ From `python -m lb.budget` with the current config (3 enabled judges for E1-E3; 
 | E5(b) translations | 180 |
 | **Total** | **12,120** |
 
-Made so far: E1-E3 for qwen2.5-7b-local and gpt-oss-120b; gap A and E5 bias-aware for qwen2.5-7b-local. gemini-flash is in the
+Made so far: E1-E3 and gap A for qwen2.5-7b-local and gpt-oss-120b; E5 bias-aware for qwen2.5-7b-local. gemini-flash is in the
 E1-E3 lists but has only pilot calls (20 per key per day), so its main-study calls are not made. With 4 judges
 (brief section 6) E1-E3 are 2,400 / 3,600 / 1,440 + 480. The Phase 0 pilot (20 items, E1 + E2, 2 judges) is
 **400 calls**. Parse retries add up to 2 calls per unparseable response. Every runner prints its exact
