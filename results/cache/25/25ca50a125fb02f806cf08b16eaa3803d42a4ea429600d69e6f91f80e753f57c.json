@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Answer is incorrect; it states Mahayana instead of the correct Theravada.\"\n}",
+ "tokens": {
+  "prompt": 351,
+  "completion": 446
+ },
+ "created": "2026-10-27T17:42:20.501945+00:00"
+}

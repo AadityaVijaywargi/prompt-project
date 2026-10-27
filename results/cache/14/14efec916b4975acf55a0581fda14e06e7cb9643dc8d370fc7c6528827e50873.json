@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is incorrect; it misidentifies the implication of a negative current account.\"\n}",
+ "tokens": {
+  "prompt": 348,
+  "completion": 266
+ },
+ "created": "2026-10-27T17:43:20.071597+00:00"
+}

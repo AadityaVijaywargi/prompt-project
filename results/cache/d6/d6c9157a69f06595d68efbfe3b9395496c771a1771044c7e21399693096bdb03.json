@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is clearly written but gives the wrong location for the sinoatrial node.\"\n}",
+ "tokens": {
+  "prompt": 350,
+  "completion": 199
+ },
+ "created": "2026-10-27T17:44:39.789912+00:00"
+}

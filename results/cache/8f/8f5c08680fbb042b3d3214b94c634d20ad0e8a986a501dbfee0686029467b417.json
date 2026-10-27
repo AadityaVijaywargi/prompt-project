@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Answer is incorrect; it misidentifies the carotid pulse location.\"\n}",
+ "tokens": {
+  "prompt": 354,
+  "completion": 296
+ },
+ "created": "2026-10-27T17:47:20.133017+00:00"
+}

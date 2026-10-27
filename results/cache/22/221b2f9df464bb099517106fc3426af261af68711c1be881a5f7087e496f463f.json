@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is wrong, confusing the current account deficit with a trade deficit and missing the capital account surplus.\"\n}",
+ "tokens": {
+  "prompt": 377,
+  "completion": 257
+ },
+ "created": "2026-10-27T17:43:29.854273+00:00"
+}

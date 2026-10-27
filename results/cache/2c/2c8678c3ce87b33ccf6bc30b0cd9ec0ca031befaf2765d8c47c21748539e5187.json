@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is clearly written but gives the wrong main form of Buddhism in Sri Lanka.\"\n}",
+ "tokens": {
+  "prompt": 312,
+  "completion": 201
+ },
+ "created": "2026-10-27T17:41:59.936933+00:00"
+}

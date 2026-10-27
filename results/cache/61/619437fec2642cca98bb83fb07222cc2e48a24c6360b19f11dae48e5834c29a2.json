@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 3,\n  \"language_quality\": 4,\n  \"comment\": \"Answer incorrectly selects option A and misstates the relationship between federal and state courts.\"\n}",
+ "tokens": {
+  "prompt": 406,
+  "completion": 548
+ },
+ "created": "2026-10-27T17:43:10.477579+00:00"
+}

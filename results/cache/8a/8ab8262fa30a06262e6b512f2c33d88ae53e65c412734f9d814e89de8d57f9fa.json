@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The answer states the wrong location, though the Hindi text is clear and fluent.\"\n}",
+ "tokens": {
+  "prompt": 373,
+  "completion": 311
+ },
+ "created": "2026-10-27T17:44:50.152092+00:00"
+}
