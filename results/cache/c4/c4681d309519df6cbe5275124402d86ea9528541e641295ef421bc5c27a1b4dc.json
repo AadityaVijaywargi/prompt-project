@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 1, \"completeness\": 1, \"clarity\": 1, \"language_quality\": 1, \"comment\": \"The answer does not match the reference answer and is confusing.\"}",
+ "tokens": {
+  "prompt": 527,
+  "completion": 47
+ },
+ "created": "2026-10-27T08:05:50.068516+00:00"
+}

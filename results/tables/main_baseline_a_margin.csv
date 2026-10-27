@@ -1,0 +1,8 @@
+judge,id,form,measure,n,mean,ci_low,ci_high,exploratory
+qwen2.5-7b-local,A3,en,margin (correct minus wrong),60,2.6667,2.35,2.95,False
+qwen2.5-7b-local,A3,hi,margin (correct minus wrong),60,2.7,2.3667,3.0167,False
+qwen2.5-7b-local,A3,hi_rom,margin (correct minus wrong),60,1.9833,1.7,2.2667,False
+qwen2.5-7b-local,A3,hinglish,margin (correct minus wrong),60,2.2167,1.9167,2.5167,False
+qwen2.5-7b-local,A3-diff,hi,"margin, form minus en",60,0.0333,-0.25,0.3167,False
+qwen2.5-7b-local,A3-diff,hi_rom,"margin, form minus en",60,-0.6833,-0.95,-0.4167,False
+qwen2.5-7b-local,A3-diff,hinglish,"margin, form minus en",60,-0.45,-0.7,-0.2,False

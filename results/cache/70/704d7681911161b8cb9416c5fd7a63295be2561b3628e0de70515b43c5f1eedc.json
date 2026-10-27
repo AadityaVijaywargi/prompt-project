@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 2, \"completeness\": 2, \"clarity\": 3, \"language_quality\": 4, \"comment\": \"Incorrect and incomplete answer, lacks detail on federal courts' limited power to review state court decisions.\"}",
+ "tokens": {
+  "prompt": 343,
+  "completion": 54
+ },
+ "created": "2026-10-27T07:44:18.343649+00:00"
+}

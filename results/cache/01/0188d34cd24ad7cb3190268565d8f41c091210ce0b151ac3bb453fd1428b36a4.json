@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 1, \"completeness\": 2, \"clarity\": 1, \"language_quality\": 2, \"comment\": \"Incorrect and lacks key information.\"}",
+ "tokens": {
+  "prompt": 280,
+  "completion": 41
+ },
+ "created": "2026-10-27T08:51:23.458753+00:00"
+}

@@ -1,0 +1,4 @@
+judge,id,form,measure,n,mean,ci_low,ci_high,exploratory,wilcoxon_p,holm_p
+qwen2.5-7b-local,A2,hi,"wrong-twin correctness, form minus en",60,0.3333,0.1333,0.55,False,0.0027,0.0027
+qwen2.5-7b-local,A2,hi_rom,"wrong-twin correctness, form minus en",60,0.9667,0.7333,1.2,False,0.0,0.0
+qwen2.5-7b-local,A2,hinglish,"wrong-twin correctness, form minus en",60,0.6167,0.4167,0.8333,False,0.0,0.0

@@ -1,0 +1,5 @@
+judge,form,score_1,score_2,score_3,score_4,score_5
+qwen2.5-7b-local,en,24,26,8,1,1
+qwen2.5-7b-local,hi,18,25,10,4,3
+qwen2.5-7b-local,hi_rom,3,22,22,11,2
+qwen2.5-7b-local,hinglish,9,24,19,8,0

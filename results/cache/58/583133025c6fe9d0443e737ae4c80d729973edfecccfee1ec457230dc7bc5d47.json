@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "```json\n{\"correctness\": 1, \"completeness\": 1, \"clarity\": 1, \"language_quality\": 5, \"comment\": \"The answer is incorrect and misses the main point of the reference answer.\"}\n```",
+ "tokens": {
+  "prompt": 548,
+  "completion": 53
+ },
+ "created": "2026-10-27T07:52:24.750923+00:00"
+}

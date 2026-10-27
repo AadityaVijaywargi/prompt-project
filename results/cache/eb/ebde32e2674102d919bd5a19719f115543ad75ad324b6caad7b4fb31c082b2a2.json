@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 3, \"completeness\": 3, \"clarity\": 4, \"language_quality\": 4, \"comment\": \"The response is partially correct but misses the key point about limited international legal personality for individuals. It also does not address the question fully.\"}",
+ "tokens": {
+  "prompt": 356,
+  "completion": 62
+ },
+ "created": "2026-10-27T07:47:19.509449+00:00"
+}

@@ -1,0 +1,5 @@
+judge,id,form,k,n,rate,ci_low,ci_high,diff_vs_en,only_form,only_en,mcnemar_p,holm_p
+qwen2.5-7b-local,A1,en,10,60,0.1667,0.0931,0.2803,,,,,
+qwen2.5-7b-local,A1,hi,17,60,0.2833,0.1851,0.4077,0.1167,8,1,0.0391,0.0391
+qwen2.5-7b-local,A1,hi_rom,35,60,0.5833,0.4573,0.6994,0.4167,26,1,0.0,0.0
+qwen2.5-7b-local,A1,hinglish,27,60,0.45,0.3309,0.5751,0.2833,18,1,0.0001,0.0002

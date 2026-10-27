@@ -1,0 +1,10 @@
+{
+ "model": "qwen2.5:7b-instruct",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 2, \"completeness\": 3, \"clarity\": 3, \"language_quality\": 3, \"comment\": \"The answer is incorrect and lacks focus on the specific term 'writ of certiorari'.\"}",
+ "tokens": {
+  "prompt": 409,
+  "completion": 55
+ },
+ "created": "2026-10-27T08:53:39.017112+00:00"
+}
