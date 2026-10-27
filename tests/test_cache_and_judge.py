@@ -73,3 +73,20 @@ def test_log_preserves_devanagari(tmp_path):
     raw = next((tmp_path / "raw").glob("*.jsonl")).read_text("utf-8")
     assert "\\u" not in raw
     assert json.loads(raw)["item_id"] == "item-1"
+
+
+
+def test_offline_specs_skip_judges_never_run(tmp_path):
+    from lb.runners.common import CallSpec, offline_specs
+    raw = tmp_path / "raw"
+    raw.mkdir()
+    rec = lambda run_id, judge: json.dumps({"run_id": run_id, "experiment": "e1", "prompt_variant": "baseline",
+                                            "judge": judge})
+    (raw / "e1.jsonl").write_text(rec("baseline-1", "ran") + "\n" + rec("pilot-baseline-1", "pilot_only") + "\n",
+                                  encoding="utf-8")
+    judges = {n: Judge(n, CFG, offline=True, raw_dir=raw) for n in ("ran", "pilot_only")}
+    spec = lambda j, p: CallSpec("e1", j, "baseline", "item-1", "pointwise", ("en",), None, p)
+    specs = [spec("ran", "p1"), spec("ran", "p2"), spec("pilot_only", "p1")]
+    # main study: only the judge with a main-study run is kept, with all its calls (a miss still fails later)
+    assert [(s.judge, s.prompt) for s in offline_specs(specs, judges)] == [("ran", "p1"), ("ran", "p2")]
+    assert [s.judge for s in offline_specs(specs, judges, pilot=True)] == ["pilot_only"]

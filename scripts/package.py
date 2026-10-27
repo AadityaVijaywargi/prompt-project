@@ -44,7 +44,7 @@ def build(out: Path) -> tuple[int, str]:
             z.write(ROOT / f, f"lb-auditor/{f}")
         z.writestr("lb-auditor/PACKAGE.txt", f"Built from commit {commit} on {date.today().isoformat()}.\n"
                    "Setup and commands: README.md. Analysis plan and change log: analysis/plan.md.\n"
-                   "Rebuild every table offline: make reproduce, then make stats, make stats-b, make stats-a.\n")
+                   "Rebuild every table offline: make reproduce, then make stats, make stats-b, make stats-a, make stats-e5.\n")
     return len(files), commit
 
 

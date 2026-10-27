@@ -82,11 +82,13 @@ package:
 app:
 	@echo "'$@' is built in Phase 3 (brief section 11); not available yet." && exit 1
 
-# Regenerate everything from cached responses with no network access.
+# Regenerate every main-study call from cached responses with no network access (judges with no logged
+# main-study run are skipped; any other cache miss is an error). Then rebuild the tables with the stats targets.
 reproduce: data-check
 	$(PY) -m lb.runners.e1_pointwise --offline $(ARGS)
 	$(PY) -m lb.runners.e2_pairwise --offline $(ARGS)
 	$(PY) -m lb.runners.e3_wrong --offline $(ARGS)
+	$(PY) -m lb.runners.a_wrong_pointwise --offline $(ARGS)
 
 pilot-report:
 	$(PY) scripts/pilot_report.py $(ARGS)

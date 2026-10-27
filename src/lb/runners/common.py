@@ -8,11 +8,12 @@ from __future__ import annotations
 import argparse
 from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
 from typing import Callable, Optional
 
 from .. import prompts
 from ..cache import Cache
-from ..config import experiments_config, judges_config
+from ..config import experiments_config, judges_config, read_jsonl
 from ..data import load_quadruples, reference_for
 from ..judge import CallMeta, Judge
 from ..parse import parse_pairwise, parse_pointwise, parse_text
@@ -167,12 +168,40 @@ def default_run_id(args) -> str:
                            + datetime.now().strftime("%Y%m%dT%H%M%S"))
 
 
+def logged_runs(raw_dir: Path, pilot: bool) -> set[tuple[str, str, str]]:
+    """{(experiment, variant, judge)} with at least one logged record of the given kind (pilot or main)."""
+    out = set()
+    for f in Path(raw_dir).glob("*.jsonl"):
+        for r in read_jsonl(f):
+            if str(r.get("run_id", "")).startswith("pilot-") == pilot:
+                out.add((r["experiment"], r.get("prompt_variant"), r["judge"]))
+    return out
+
+
+def offline_specs(specs: list[CallSpec], judges: dict[str, Judge], pilot: bool = False) -> list[CallSpec]:
+    """Keeps only judges that were actually run for this experiment, i.e. have records in results/raw
+    (configured but never run, e.g. gemini-flash in the main study, are skipped with a note). A kept
+    judge keeps all its calls: a cache miss there still fails, since that is a real gap in the log."""
+    runs = set()
+    for raw_dir in {j.raw_dir for j in judges.values()}:
+        runs |= logged_runs(raw_dir, pilot)
+    keep = lambda s: (s.experiment, s.variant, s.judge) in runs
+    for exp, j in sorted({(s.experiment, s.judge) for s in specs if not keep(s)}):
+        print(f"offline: skipping {j} for {exp} (no logged {'pilot' if pilot else 'main-study'} run)")
+    return [s for s in specs if keep(s)]
+
+
 def run(args, experiment: str, specs: list[CallSpec]) -> None:
     from ..budget import confirm
     if not specs:
         print(f"{experiment}: no eligible items (need qc.passed=true{', pilot' if args.pilot else ''}). Nothing to run.")
         return
     judges = build_judges(sorted({s.judge for s in specs}), offline=args.offline)
+    if args.offline:
+        specs = offline_specs(specs, judges, pilot=args.pilot)
+        if not specs:
+            print(f"{experiment}: nothing cached for these judges. Nothing to reproduce.")
+            return
     if not confirm(specs, judges, args.yes or args.offline):
         return
     run_id = default_run_id(args)

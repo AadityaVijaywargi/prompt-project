@@ -35,7 +35,8 @@ make budget-pilot ARGS=--include-unverified   # pilot dry run
 make pilot                           # prints the pilot budget and stops
 make pilot ARGS=--yes                # actually calls judges (only qc.passed items)
 make test
-make reproduce                       # rerun from cache with no network (a cache miss is an error)
+make reproduce                       # rerun every logged main-study call from cache, no network
+                                     # (a miss is an error); then make stats stats-b stats-a stats-e5
 ```
 
 ## Call budget
@@ -47,13 +48,16 @@ From `python -m lb.budget` with the current config (3 enabled judges for E1-E3; 
 | E1 pointwise (150 x 4 forms x 3 judges) | 1,800 |
 | E2 pairwise (3 pairs x 2 orders x 150 x 3) | 2,700 |
 | E3 wrong English (3 x 2 x 60 x 3) + control (2 x 60 x 3) | 1,080 + 360 |
-| E5 per variant (2 judges, 60 items) x 3 variants | 3 x 1,920 |
+| Gap A wrong twins pointwise (60 x 4 forms x 2 judges) | 480 |
+| E5 per variant (2 judges, 60 items, 40 twins: E1 480 + E2 720 + E3 640) x 3 variants | 3 x 1,840 |
 | E5(b) translations | 180 |
-| **Total** | **11,880** |
+| **Total** | **12,120** |
 
-With 4 judges (brief section 6) E1-E3 are 2,400 / 3,600 / 1,440 + 480. The Phase 0 pilot (20 items, E1 + E2,
-2 judges) is **400 calls**. Parse retries add up to 2 calls per unparseable response. Every runner prints its
-exact new-call count and refuses to run without `--yes`.
+Made so far: E1-E3 for qwen2.5-7b-local and gpt-oss-120b, and gap A for qwen2.5-7b-local. gemini-flash is in the
+E1-E3 lists but has only pilot calls (20 per key per day), so its main-study calls are not made. With 4 judges
+(brief section 6) E1-E3 are 2,400 / 3,600 / 1,440 + 480. The Phase 0 pilot (20 items, E1 + E2, 2 judges) is
+**400 calls**. Parse retries add up to 2 calls per unparseable response. Every runner prints its exact
+new-call count and refuses to run without `--yes`. `make budget` shows what is still uncached.
 
 ## Adding a judge
 
