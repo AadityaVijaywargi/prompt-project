@@ -1,4 +1,16 @@
 judge,criterion,id,comparison,n,mean_d,ci_low,ci_high
+gpt-oss-120b,correctness,E1.1,hi vs en,150,0.0533,-0.0067,0.1267
+gpt-oss-120b,correctness,E1.2,hi_rom vs en,150,0.0,-0.0467,0.0467
+gpt-oss-120b,correctness,E1.3,hinglish vs en,150,-0.08,-0.1533,-0.0133
+gpt-oss-120b,completeness,E1.1,hi vs en,150,0.1067,0.04,0.1867
+gpt-oss-120b,completeness,E1.2,hi_rom vs en,150,0.0533,0.0,0.1133
+gpt-oss-120b,completeness,E1.3,hinglish vs en,150,0.0067,-0.0467,0.0533
+gpt-oss-120b,clarity,E1.1,hi vs en,150,-0.0933,-0.1467,-0.04
+gpt-oss-120b,clarity,E1.2,hi_rom vs en,150,-0.5467,-0.64,-0.46
+gpt-oss-120b,clarity,E1.3,hinglish vs en,150,-0.42,-0.52,-0.3267
+gpt-oss-120b,language_quality,E1.1,hi vs en,150,-0.0533,-0.1,-0.0133
+gpt-oss-120b,language_quality,E1.2,hi_rom vs en,150,-0.6133,-0.7133,-0.52
+gpt-oss-120b,language_quality,E1.3,hinglish vs en,150,-0.4733,-0.5867,-0.3667
 qwen2.5-7b-local,correctness,E1.1,hi vs en,150,0.2067,0.0933,0.32
 qwen2.5-7b-local,correctness,E1.2,hi_rom vs en,150,0.0333,-0.1,0.1667
 qwen2.5-7b-local,correctness,E1.3,hinglish vs en,150,-0.0333,-0.1533,0.0867

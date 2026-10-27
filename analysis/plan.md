@@ -115,6 +115,31 @@ Additions of 2026-10-27 (post hoc deviations, see change log; all descriptive, n
 | Rank check | Kendall's tau-b of `dX` with `dL` next to every B0-B2 slope | tau-b and its p-value |
 | Lexicon v1+zh | B4/B5 recomputed with Chinese terms added to each category (`MENTION_PATTERNS_ZH`), next to the fixed lexicon v1, plus the share of comments written in Chinese per judge and form | as B4/B5 |
 
+## Gap A: error-detection leniency on matched wrong answers (added 2026-10-27, before any gap A call)
+
+Each verified wrong twin (60 factual items, `wrong_qc.passed`) is scored pointwise in all four forms with the
+E1 rubric and prompt (`pointwise_en`, reference-guided as in E1, so the judge sees the English reference
+answer), by qwen2.5-7b-local and gpt-oss-120b: 240 calls per judge (`make run-a`, experiment `a_wrong`).
+Per judge, form `f` and item `i`: `w_i(f)` = correctness of the wrong twin, `c_i(f)` = correctness of the
+same item's correct answer in E1. The wrong answer's content is identical across forms, so any difference
+between forms is a bias.
+
+| ID | Measure | Method |
+|---|---|---|
+| A1 | False-acceptance rate: share of wrong twins with `w_i(f) >= 3` (primary) | Wilson CI per judge and form; paired vs en with an exact McNemar test (binomial on discordant items); Holm across the 3 forms per judge |
+| A2 | Leniency: `w_i(f) - w_i(en)` | mean with a paired bootstrap 95% CI (10,000 resamples, seed 20261023), two-sided Wilcoxon; Holm across the 3 forms per judge |
+| A3 | Discrimination margin `c_i(f) - w_i(f)`, and its change vs en | bootstrap CI, descriptive |
+| A4 | Script contrast hi vs hi_rom, mixing contrast hi_rom vs hinglish, on `w` | bootstrap CI and Wilcoxon, descriptive |
+
+- Threshold: on the rubric 1 = wrong and 5 = fully correct, so a wrong answer scored 3 or more is treated as
+  at least half correct. The full score distribution per form is reported next to A1, so other thresholds can
+  be read off without changing the primary one.
+- With 60 items only large differences are detectable; effect sizes with CIs lead, p-values are secondary.
+- Because the reference is shown, near-perfect detection in every form is a likely outcome. That result is
+  reported as it is (the bias is then about scoring, not error-catching); a reference-free rerun is the
+  qwen-only stretch C(ii), not part of A.
+- A missing call drops its item from that comparison only; missing counts are reported per judge and form.
+
 ## App thresholds
 
 `results/thresholds.json`: per judge, the 95th percentile of `|content(form) - content(en)|` across all
@@ -159,3 +184,7 @@ matched (item, form) pairs from the baseline E1 run.
   0.91, every other judge and criterion 0.62 or lower). The Chinese terms were written after reading the
   Chinese comments. The planned B1-B5 rows (subset all, lexicon v1) are unchanged and stay the primary rows;
   every addition is descriptive.
+- **2026-10-27, gap A added (before any gap A call).** A1-A4, the threshold (`w >= 3`) and the judges were
+  written here, and the runner and analysis code built, before a single gap A call was made. Timing: the E1
+  scores of the correct answers (used in A3) had been seen for both judges through section B; the wrong-twin
+  scores had not been generated.

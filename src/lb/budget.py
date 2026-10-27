@@ -34,6 +34,9 @@ def planned_counts(exp_cfg: dict, n: int, w: int) -> list[tuple[str, str, int]]:
     rows.append(("E3", f"{c} x 2 x W x J = {c} x 2 x {w} x {j}", c * 2 * w * j))
     if ex["e3"].get("control"):
         rows.append(("E3 control", f"1 x 2 x {w} x {j}", 2 * w * j))
+    if "a_wrong" in ex:
+        j = len(ex["a_wrong"]["judges"])
+        rows.append(("Gap A wrong twins", f"W x 4 x J = {w} x 4 x {j}", w * N_FORMS * j))
     e5 = ex["e5"]
     j5, n5 = len(e5["judges"]), min(e5["subset_size"], n)
     w5 = min(n5, w)
@@ -102,7 +105,7 @@ def main() -> None:
                       f"Planned budget (N={pl['n_items']}, W={pl['n_wrong_twins']}, from experiments.yaml)")
 
     from .data import load_quadruples
-    from .runners import e1_pointwise, e2_pairwise, e3_wrong
+    from .runners import a_wrong_pointwise, e1_pointwise, e2_pairwise, e3_wrong
     from .runners.common import build_judges
 
     items = load_quadruples(include_unverified=args.include_unverified, pilot_only=args.pilot)
@@ -117,7 +120,8 @@ def main() -> None:
 
     ex = exp_cfg["experiments"]
     pick = (lambda e: exp_cfg["pilot"]["judges"]) if args.pilot else (lambda e: ex[e]["judges"])
-    wanted = exp_cfg["pilot"]["experiments"] if args.pilot else ["e1", "e2", "e3"] + (["e2b"] if ex["e2b"].get("enabled") else [])
+    wanted = exp_cfg["pilot"]["experiments"] if args.pilot else (
+        ["e1", "e2", "e3"] + (["e2b"] if ex["e2b"].get("enabled") else []) + (["a_wrong"] if "a_wrong" in ex else []))
     specs = []
     for e in wanted:
         if e == "e1":
@@ -126,6 +130,8 @@ def main() -> None:
             specs += e2_pairwise.plan(items, pick(e), exp_cfg, experiment=e)
         elif e == "e3":
             specs += e3_wrong.plan(items, pick(e), exp_cfg)
+        elif e == "a_wrong":
+            specs += a_wrong_pointwise.plan(items, pick(e), exp_cfg)
     judges = build_judges(sorted({s.judge for s in specs}), offline=True)
     print_specs(specs, judges)
     print("\nNothing was run. Each runner prints its own budget and needs --yes to make calls.")

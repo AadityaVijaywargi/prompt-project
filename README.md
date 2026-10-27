@@ -4,7 +4,7 @@ Do LLM judges score the same answer differently when it is written in English, H
 Romanized Hindi or Hinglish? This repo measures the gap (E1 pointwise, E2/E3 pairwise), checks judges
 against Hindi-speaking humans (E4), and tests prompt-level fixes (E5). Course project UE24AM343AB5.
 
-**Status (2026-10-24): Phase 0 in progress.** Skeleton, schemas, budget gate, and runners for E1-E3 are in place. 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins have been drafted by Claude; all are now verified by a Hindi speaker. **Pilot:** gpt-oss-120b done (200/200); Gemini 18 of 200 (free-tier limit of 20 calls/day). **Main study:** the qwen2.5-7b-local baseline E1-E3 run is complete (1,980 calls, 30 unparsed after retries); `make stats` writes its tables to `results/tables/main_baseline.md`. No second full judge has run yet. Items enter analysis only after human verification via the QC sheet.
+**Status (2026-10-27).** 150 quadruples (100 factual, 50 open-ended) and 60 wrong twins, drafted by Claude and all verified by a Hindi speaker. **Main study:** baseline E1-E3 complete for qwen2.5-7b-local and gpt-oss-120b; `make stats` writes both judges' tables to `results/tables/main_baseline.md`. **Section B** (post hoc criterion leakage and comment coding): `make stats-b`; the 200-comment two-rater check is still to be labelled. **Gap A** (wrong twins scored pointwise, pre-registered in `analysis/plan.md`): runner and analysis built (`make run-a`, `make stats-a`), no calls made yet. **Pilot:** gpt-oss-120b done; Gemini split 5 ways at 20 calls per key per day. E4 and E5 are not built yet. Items enter analysis only after human verification via the QC sheet.
 
 ## Setup
 

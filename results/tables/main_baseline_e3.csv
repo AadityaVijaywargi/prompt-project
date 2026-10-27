@@ -1,4 +1,12 @@
 judge,form,control,items_planned,items_both_orders,exploratory,id,measure,k,n,rate,ci_low,ci_high
+gpt-oss-120b,hi,False,60,60,False,E3.1,any-order wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,hi,False,60,60,False,E3.2,consistent wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,hi_rom,False,60,60,False,E3.1,any-order wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,hi_rom,False,60,60,False,E3.2,consistent wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,hinglish,False,60,60,False,E3.1,any-order wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,hinglish,False,60,60,False,E3.2,consistent wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,en,True,60,60,False,E3.3,any-order wrong-English rate,0,60,0.0,0.0,0.0602
+gpt-oss-120b,en,True,60,60,False,E3.3,consistent wrong-English rate,0,60,0.0,0.0,0.0602
 qwen2.5-7b-local,hi,False,60,53,False,E3.1,any-order wrong-English rate,40,53,0.7547,0.6243,0.8507
 qwen2.5-7b-local,hi,False,60,53,False,E3.2,consistent wrong-English rate,5,53,0.0943,0.041,0.2025
 qwen2.5-7b-local,hi_rom,False,60,54,False,E3.1,any-order wrong-English rate,35,54,0.6481,0.5148,0.7618

@@ -1,4 +1,8 @@
 {
+  "gpt-oss-120b": {
+    "p95_abs_content_gap": 0.666666666666667,
+    "n_pairs": 450
+  },
   "qwen2.5-7b-local": {
     "p95_abs_content_gap": 1.3333333333333335,
     "n_pairs": 450

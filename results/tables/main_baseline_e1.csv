@@ -1,4 +1,12 @@
 judge,id,comparison,measure,n,mean_d,ci_low,ci_high,wilcoxon_p,exploratory,verbosity_slope,verbosity_slope_p,gap_at_equal_length,holm_p
+gpt-oss-120b,E1.1,hi vs en,content,150,0.0222,-0.02,0.0778,0.5914,False,-0.3966,0.1242,0.0796,1.0
+gpt-oss-120b,E1.2,hi_rom vs en,content,150,-0.1644,-0.2089,-0.12,0.0,False,-0.4868,0.0382,-0.0938,0.0
+gpt-oss-120b,E1.3,hinglish vs en,content,150,-0.1644,-0.22,-0.1133,0.0,False,-0.676,0.0226,-0.0831,0.0
+gpt-oss-120b,E1.4,hi vs hi_rom,content,150,0.1867,0.1422,0.2378,0.0,False,5.9529,0.5008,0.1898,0.0
+gpt-oss-120b,E1.5,hi_rom vs hinglish,content,150,0.0,-0.0533,0.0556,0.662,False,-0.315,0.6438,0.0078,1.0
+gpt-oss-120b,E1.1,hi vs en,overall,150,0.0033,-0.0333,0.0483,0.6711,False,,,,
+gpt-oss-120b,E1.2,hi_rom vs en,overall,150,-0.2767,-0.3317,-0.225,0.0,False,,,,
+gpt-oss-120b,E1.3,hinglish vs en,overall,150,-0.2417,-0.305,-0.1833,0.0,False,,,,
 qwen2.5-7b-local,E1.1,hi vs en,content,150,0.1556,0.0644,0.2489,0.0016,False,-0.6513,0.1731,0.2497,0.0063
 qwen2.5-7b-local,E1.2,hi_rom vs en,content,150,-0.0244,-0.14,0.0889,0.9605,False,-0.5589,0.3552,0.0567,0.9605
 qwen2.5-7b-local,E1.3,hinglish vs en,content,150,-0.1,-0.2111,0.0111,0.1342,False,-1.2268,0.0457,0.0475,0.2684

@@ -38,6 +38,9 @@ experiments:
     prompt: pairwise_en
     correct_forms: [hi, hi_rom, hinglish]   # each vs wrong en
     control: true                            # correct en vs wrong en
+  a_wrong:                       # gap A: wrong twins scored pointwise in all four forms (E1 rubric and prompt)
+    judges: [qwen2.5-7b-local, gpt-oss-120b]
+    prompt: pointwise_en
   e5:
     judges: [gemini-flash, gpt-oss-120b]
     subset_size: 60                          # stratified by type and subject

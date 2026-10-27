@@ -2,6 +2,7 @@
 
     python scripts/check_shard.py --judge qwen2.5-7b-local --shard 2/4
     python scripts/check_shard.py --judge qwen2.5-7b-local --shard 2/4 --zip qwen_part2_results.zip
+    python scripts/check_shard.py --judge gpt-oss-120b --shard 2/4 --experiments a_wrong     # gap A
 
 Pilot runs are ignored. A planned call counts as done when a main-run raw record parsed OK, or when it was still unparseable after the
 last retry (that is a recorded failure, not a gap). Provider errors and calls never made are missing.
@@ -18,10 +19,12 @@ from pathlib import Path
 from lb.config import CACHE, RAW, ROOT, experiments_config, read_jsonl
 from lb.data import load_quadruples
 from lb.judge import MAX_PARSE_RETRIES
-from lb.runners import e1_pointwise, e2_pairwise, e3_wrong
+from lb.runners import a_wrong_pointwise, e1_pointwise, e2_pairwise, e3_wrong
 from lb.runners.common import parse_shard, select_shard
 
-PLANNERS = {"e1": e1_pointwise.plan, "e2": e2_pairwise.plan, "e3": e3_wrong.plan}
+PLANNERS = {"e1": e1_pointwise.plan, "e2": e2_pairwise.plan, "e3": e3_wrong.plan,
+            "a_wrong": a_wrong_pointwise.plan}
+DEFAULT_EXPERIMENTS = ("e1", "e2", "e3")   # the baseline main study; gap A is checked with --experiments a_wrong
 
 
 def call_key(experiment: str, item_id: str, forms, order) -> tuple:
@@ -29,7 +32,7 @@ def call_key(experiment: str, item_id: str, forms, order) -> tuple:
 
 
 def check(judge: str, shard: str | None = None, variant: str = "baseline",
-          raw_dir: Path = RAW) -> list[dict]:
+          raw_dir: Path = RAW, experiments=DEFAULT_EXPERIMENTS) -> list[dict]:
     status = {}
     for f in sorted(raw_dir.glob("*.jsonl")):
         for r in read_jsonl(f):
@@ -44,7 +47,8 @@ def check(judge: str, shard: str | None = None, variant: str = "baseline",
     cfg = experiments_config()
     items = select_shard(load_quadruples(), shard)
     rows = []
-    for exp, plan in PLANNERS.items():
+    for exp in experiments:
+        plan = PLANNERS[exp]
         found = [status.get(call_key(exp, s.item_id, s.forms, s.order))
                  for s in plan(items, [judge], cfg, variant)]
         rows.append({"experiment": exp, "planned": len(found), "parsed_ok": found.count("ok"),
@@ -69,8 +73,10 @@ def main() -> None:
     p.add_argument("--shard", default=None, metavar="K/N")
     p.add_argument("--variant", default="baseline")
     p.add_argument("--zip", type=Path, default=None, help="also pack this shard's results into a zip file")
+    p.add_argument("--experiments", nargs="+", default=list(DEFAULT_EXPERIMENTS), choices=sorted(PLANNERS),
+                   help="experiments to check (default: e1 e2 e3; gap A: a_wrong)")
     args = p.parse_args()
-    rows = check(args.judge, args.shard, args.variant)
+    rows = check(args.judge, args.shard, args.variant, experiments=args.experiments)
     print(f"{args.judge}, {args.variant}, shard {args.shard or 'all'}")
     for r in rows:
         print(f"  {r['experiment']}: planned {r['planned']}, parsed OK {r['parsed_ok']}, "
