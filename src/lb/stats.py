@@ -74,6 +74,24 @@ def spearman(a: Sequence[float], b: Sequence[float]) -> float:
     return float(st.spearmanr(a, b).statistic)
 
 
+def bootstrap_slope_ci(x: Sequence[float], y: Sequence[float], n_boot: int = N_BOOT, seed: int = 0,
+                       alpha: float = 0.05) -> tuple[float, float, float]:
+    """OLS slope of y on x with a percentile bootstrap CI (resampling items). NaN when x has no variance;
+    resamples whose x has no variance are skipped."""
+    x, y = np.asarray(x, dtype=float), np.asarray(y, dtype=float)
+    if x.size < 3 or np.var(x) == 0:
+        return (float("nan"),) * 3
+    idx = np.random.default_rng(seed).integers(0, x.size, size=(n_boot, x.size))
+    bx, by = x[idx], y[idx]
+    bx_c = bx - bx.mean(axis=1, keepdims=True)
+    var = (bx_c ** 2).sum(axis=1)
+    ok = var > 0
+    slopes = (bx_c[ok] * (by[ok] - by[ok].mean(axis=1, keepdims=True))).sum(axis=1) / var[ok]
+    lo, hi = np.quantile(slopes, [alpha / 2, 1 - alpha / 2])
+    xc = x - x.mean()
+    return float((xc * (y - y.mean())).sum() / (xc ** 2).sum()), float(lo), float(hi)
+
+
 def log_length_ratio_slope(diffs: Sequence[float], log_ratios: Sequence[float]) -> dict:
     """OLS of score difference on log(words_form / words_en): the verbosity control for E1."""
     res = st.linregress(np.asarray(log_ratios, float), np.asarray(diffs, float))

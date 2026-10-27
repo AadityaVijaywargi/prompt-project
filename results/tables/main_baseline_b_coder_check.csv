@@ -1,0 +1,7 @@
+judge,measure,coded,tp,fp,fn,k,n,rate,ci_low,ci_high
+gpt-oss-120b,precision,0,0,0,0,0,0,nan,nan,nan
+gpt-oss-120b,recall,0,0,0,0,0,0,nan,nan,nan
+qwen2.5-7b-local,precision,0,0,0,0,0,0,nan,nan,nan
+qwen2.5-7b-local,recall,0,0,0,0,0,0,nan,nan,nan
+all,precision,0,0,0,0,0,0,nan,nan,nan
+all,recall,0,0,0,0,0,0,nan,nan,nan

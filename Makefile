@@ -10,7 +10,7 @@ export PYTHONUTF8 := 1
 ARGS ?=
 
 .PHONY: setup test data-check qc-export qc-import budget budget-pilot pilot pilot-report \
-        run-e1 run-e2 run-e2b run-e3 run-e5 stats app reproduce reproduce-pilot
+        run-e1 run-e2 run-e2b run-e3 run-e5 stats stats-b app reproduce reproduce-pilot
 
 setup:
 	uv venv --python 3.12 .venv
@@ -54,6 +54,10 @@ run-e3:
 # E1-E3 tables per analysis/plan.md -> results/tables/main_<variant>_*, results/thresholds.json
 stats:
 	$(PY) -m lb.analysis $(ARGS)
+
+# Section B (post hoc): criterion leakage and judge-comment coding -> results/tables/main_<variant>_b*
+stats-b:
+	$(PY) -m lb.leakage $(ARGS)
 
 run-e5 app:
 	@echo "'$@' is built in Phase 3 (brief section 11); not available yet." && exit 1

@@ -1,0 +1,39 @@
+judge,id,form,measure,k,n,rate,ci_low,ci_high,exploratory,only_form,only_en,mcnemar_p,holm_p
+gpt-oss-120b,B4,en,language-mention rate,3,150,0.02,0.0068,0.0571,False,,,,
+gpt-oss-120b,B4,hi,language-mention rate,130,150,0.8667,0.803,0.912,False,128,1,0.0,0.0
+gpt-oss-120b,B4,hi_rom,language-mention rate,113,150,0.7533,0.6786,0.8154,False,110,0,0.0,0.0
+gpt-oss-120b,B4,hinglish,language-mention rate,80,150,0.5333,0.4537,0.6113,False,77,0,0.0,0.0
+gpt-oss-120b,B4-cat,hi,language mention rate,130,150,0.8667,0.803,0.912,,,,,
+gpt-oss-120b,B4-cat,hi,script mention rate,0,150,0.0,0.0,0.025,,,,,
+gpt-oss-120b,B4-cat,hi,mixing mention rate,0,150,0.0,0.0,0.025,,,,,
+gpt-oss-120b,B4-cat,hi,fluency mention rate,64,150,0.4267,0.3503,0.5067,,,,,
+gpt-oss-120b,B4-cat,hi_rom,language mention rate,113,150,0.7533,0.6786,0.8154,,,,,
+gpt-oss-120b,B4-cat,hi_rom,script mention rate,0,150,0.0,0.0,0.025,,,,,
+gpt-oss-120b,B4-cat,hi_rom,mixing mention rate,1,150,0.0067,0.0012,0.0368,,,,,
+gpt-oss-120b,B4-cat,hi_rom,fluency mention rate,66,150,0.44,0.363,0.52,,,,,
+gpt-oss-120b,B4-cat,hinglish,language mention rate,80,150,0.5333,0.4537,0.6113,,,,,
+gpt-oss-120b,B4-cat,hinglish,script mention rate,0,150,0.0,0.0,0.025,,,,,
+gpt-oss-120b,B4-cat,hinglish,mixing mention rate,10,150,0.0667,0.0366,0.1184,,,,,
+gpt-oss-120b,B4-cat,hinglish,fluency mention rate,59,150,0.3933,0.3188,0.4732,,,,,
+gpt-oss-120b,B5,hi,silent penalty rate,4,13,0.3077,0.1268,0.5763,True,,,,
+gpt-oss-120b,B5,hi_rom,silent penalty rate,7,68,0.1029,0.0508,0.1976,False,,,,
+gpt-oss-120b,B5,hinglish,silent penalty rate,11,53,0.2075,0.12,0.3346,False,,,,
+qwen2.5-7b-local,B4,en,language-mention rate,2,150,0.0133,0.0037,0.0473,False,,,,
+qwen2.5-7b-local,B4,hi,language-mention rate,24,150,0.16,0.1099,0.227,False,24,2,0.0,0.0
+qwen2.5-7b-local,B4,hi_rom,language-mention rate,49,150,0.3267,0.2568,0.4052,False,49,2,0.0,0.0
+qwen2.5-7b-local,B4,hinglish,language-mention rate,24,150,0.16,0.1099,0.227,False,24,2,0.0,0.0
+qwen2.5-7b-local,B4-cat,hi,language mention rate,24,150,0.16,0.1099,0.227,,,,,
+qwen2.5-7b-local,B4-cat,hi,script mention rate,0,150,0.0,0.0,0.025,,,,,
+qwen2.5-7b-local,B4-cat,hi,mixing mention rate,0,150,0.0,0.0,0.025,,,,,
+qwen2.5-7b-local,B4-cat,hi,fluency mention rate,17,150,0.1133,0.072,0.174,,,,,
+qwen2.5-7b-local,B4-cat,hi_rom,language mention rate,49,150,0.3267,0.2568,0.4052,,,,,
+qwen2.5-7b-local,B4-cat,hi_rom,script mention rate,0,150,0.0,0.0,0.025,,,,,
+qwen2.5-7b-local,B4-cat,hi_rom,mixing mention rate,0,150,0.0,0.0,0.025,,,,,
+qwen2.5-7b-local,B4-cat,hi_rom,fluency mention rate,32,150,0.2133,0.1554,0.2856,,,,,
+qwen2.5-7b-local,B4-cat,hinglish,language mention rate,24,150,0.16,0.1099,0.227,,,,,
+qwen2.5-7b-local,B4-cat,hinglish,script mention rate,0,150,0.0,0.0,0.025,,,,,
+qwen2.5-7b-local,B4-cat,hinglish,mixing mention rate,0,150,0.0,0.0,0.025,,,,,
+qwen2.5-7b-local,B4-cat,hinglish,fluency mention rate,16,150,0.1067,0.0667,0.1662,,,,,
+qwen2.5-7b-local,B5,hi,silent penalty rate,13,20,0.65,0.4329,0.8188,True,,,,
+qwen2.5-7b-local,B5,hi_rom,silent penalty rate,34,44,0.7727,0.6301,0.8716,False,,,,
+qwen2.5-7b-local,B5,hinglish,silent penalty rate,48,55,0.8727,0.7598,0.937,False,,,,

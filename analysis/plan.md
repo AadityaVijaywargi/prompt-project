@@ -74,6 +74,35 @@ by item against the baseline run on the same items and judges:
 - Accuracy cost: change in E4 judge-human agreement and in E3 control accuracy (correct en preferred).
 - Report effect sizes with CIs; p-values secondary.
 
+## B: criterion leakage and judge comments (added 2026-10-26, post hoc; see change log)
+
+Uses the E1 baseline records only, with no new judge calls. Per judge, per form `f` in hi, hi_rom, hinglish,
+per item `i`, paired against en: `dC_i = correctness(f) - correctness(en)` and
+`dL_i = language_quality(f) - language_quality(en)`. The content is identical across forms, so any `dC != 0`
+is a bias; the question is whether it travels with the language_quality judgement.
+
+| ID | Measure | Method |
+|---|---|---|
+| B1 | Leakage slope: OLS of `dC` on `dL` | slope with a percentile bootstrap 95% CI over items (10,000 resamples, seed 20261023) and the OLS p-value; Holm across the 3 forms per judge |
+| B2 | Same slope for completeness and for clarity | bootstrap CI, descriptive |
+| B3 | Mean `dC` split by the sign of `dL` (< 0, = 0, > 0) | bootstrap CI per cell, n per cell, descriptive |
+| B4 | Language-mention rate: share of comments that mention language, script or code-mixing (lexicon below) | Wilson CI per judge and form; paired difference vs en with an exact McNemar test (binomial on discordant items); Holm across the 3 forms per judge |
+| B5 | Silent penalty rate: among items with `content(f) < content(en)`, share whose `f` comment has no language, script or mixing mention | Wilson CI per judge and form |
+
+- If `dL` has no variance for a judge and form, B1-B3 are reported as not estimable, not as zero.
+- Comment lexicon, fixed before any comment was read: case-insensitive regular expressions in
+  `src/lb/leakage.py` (`MENTION_PATTERNS`), in four categories. **language**: language, linguistic, Hindi,
+  English, translat-, भाषा, हिंदी/हिन्दी, अंग्रेज़ी. **script**: script, Devanagari, Roman/romanized,
+  transliterat-, लिपि, देवनागरी. **mixing**: Hinglish, code-mix(ed/ing), code-switch(ed/ing), mixed language,
+  a mix of Hindi/English. **fluency** (reported separately, not part of B4/B5): fluent/fluency, grammar,
+  spelling, informal, colloquial, awkward, unnatural, slang, व्याकरण.
+- Coder check: a seeded random sample of 25 comments per judge and form goes to
+  `results/tables/main_baseline_b_comment_sample.csv` with a blank `human_mention` column. A person fills it
+  in (1/0); the coder's precision and recall against that column, with Wilson CIs, are reported per judge
+  and pooled in `main_baseline_b_coder_check.csv` and next to B4/B5. Until every sampled comment is coded,
+  B4/B5 are labelled **unvalidated**. Once any `human_mention` is filled in, reruns leave the sample file as
+  it is.
+
 ## App thresholds
 
 `results/thresholds.json`: per judge, the 95th percentile of `|content(form) - content(en)|` across all
@@ -104,3 +133,8 @@ matched (item, form) pairs from the baseline E1 run.
     main-study calls, so the main run takes them from the cache instead of sending them again. Pilot
     run records themselves stay excluded from main tables (`lb.analysis` and `scripts/check_shard.py`
     skip `pilot-` runs); the main run logs its own records for those calls.
+- **2026-10-26, section B added (post hoc).** Criterion leakage (B1-B3) and comment coding (B4-B5) were added
+  after a literature check found them open. Timing: the Qwen E1 tables, including the descriptive
+  per-criterion gaps, had already been generated (commit fc41489); the gpt-oss E1 tables and every comment had
+  not been looked at. B1-B5 and the lexicon were written here before any B code was run. All of section B is
+  reported as post hoc.
