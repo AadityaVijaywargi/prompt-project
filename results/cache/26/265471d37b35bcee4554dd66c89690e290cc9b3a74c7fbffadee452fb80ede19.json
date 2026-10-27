@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 4,\n  \"language_quality\": 3,\n  \"comment\": \"Answer is incorrect, misidentifies the assumption underlying monetarism.\"\n}",
+ "tokens": {
+  "prompt": 350,
+  "completion": 329
+ },
+ "created": "2026-10-27T18:28:12.010994+00:00"
+}

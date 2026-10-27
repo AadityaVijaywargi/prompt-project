@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 3,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Answer gives wrong probability (1/4) instead of the correct 1.\"\n}",
+ "tokens": {
+  "prompt": 360,
+  "completion": 429
+ },
+ "created": "2026-10-27T18:32:32.043813+00:00"
+}

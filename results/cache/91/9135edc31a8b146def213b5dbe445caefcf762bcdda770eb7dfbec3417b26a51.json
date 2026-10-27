@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"The answer selects the wrong option and misidentifies the fallacy, though it is fairly clear and readable.\"\n}",
+ "tokens": {
+  "prompt": 390,
+  "completion": 269
+ },
+ "created": "2026-10-27T18:29:31.876691+00:00"
+}

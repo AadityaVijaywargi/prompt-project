@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Answer chooses the wrong option and adds an inaccurate claim about domestic law always prevailing.\"\n}",
+ "tokens": {
+  "prompt": 364,
+  "completion": 291
+ },
+ "created": "2026-10-27T18:34:32.048935+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 4,\n  \"comment\": \"Answer chooses the wrong option and misstates dualism as always giving domestic law precedence.\"\n}",
+ "tokens": {
+  "prompt": 449,
+  "completion": 537
+ },
+ "created": "2026-10-27T18:34:52.732465+00:00"
+}

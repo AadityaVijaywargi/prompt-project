@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Answer is incorrect and gives inaccurate information about the Council's powers.\"\n}",
+ "tokens": {
+  "prompt": 404,
+  "completion": 467
+ },
+ "created": "2026-10-27T18:26:52.145305+00:00"
+}

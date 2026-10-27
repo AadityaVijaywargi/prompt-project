@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The answer picks the wrong option and misstates the purpose of an amicus brief, though the Hindi is clear.\"\n}",
+ "tokens": {
+  "prompt": 401,
+  "completion": 244
+ },
+ "created": "2026-10-27T18:25:51.617125+00:00"
+}

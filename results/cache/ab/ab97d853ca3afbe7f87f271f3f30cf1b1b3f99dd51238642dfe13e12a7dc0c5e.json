@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 1, \"completeness\": 2, \"clarity\": 4, \"language_quality\": 4, \"comment\": \"Answer is incorrect; it confuses spring and neap tides.\"}",
+ "tokens": {
+  "prompt": 370,
+  "completion": 356
+ },
+ "created": "2026-10-27T18:31:32.131151+00:00"
+}

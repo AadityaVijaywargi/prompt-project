@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 3,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer gives a clear explanation but selects the wrong planet.\"\n}",
+ "tokens": {
+  "prompt": 315,
+  "completion": 400
+ },
+ "created": "2026-10-27T18:29:52.295043+00:00"
+}
