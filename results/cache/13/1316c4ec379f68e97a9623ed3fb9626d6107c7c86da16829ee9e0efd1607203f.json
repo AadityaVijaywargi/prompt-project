@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The response is clear but gives an incorrect answer and omits the correct option.\"\n}",
+ "tokens": {
+  "prompt": 345,
+  "completion": 177
+ },
+ "created": "2026-10-27T18:11:03.598547+00:00"
+}

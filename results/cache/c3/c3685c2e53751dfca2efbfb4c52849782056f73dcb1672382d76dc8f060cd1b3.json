@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 3,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is incorrect and confuses centrifugal with centripetal forces.\"\n}",
+ "tokens": {
+  "prompt": 315,
+  "completion": 364
+ },
+ "created": "2026-10-27T18:05:03.819261+00:00"
+}

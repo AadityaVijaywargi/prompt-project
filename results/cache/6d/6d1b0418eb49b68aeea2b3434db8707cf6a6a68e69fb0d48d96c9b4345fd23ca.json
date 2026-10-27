@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Answer is incorrect; it misstates the status of individuals' international legal personality.\"\n}",
+ "tokens": {
+  "prompt": 359,
+  "completion": 221
+ },
+ "created": "2026-10-27T18:07:03.415590+00:00"
+}

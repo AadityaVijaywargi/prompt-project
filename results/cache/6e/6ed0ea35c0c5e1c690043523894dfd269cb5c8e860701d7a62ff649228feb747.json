@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Answer incorrectly states five bright stars instead of the correct seven.\"\n}",
+ "tokens": {
+  "prompt": 354,
+  "completion": 413
+ },
+ "created": "2026-10-27T18:12:33.663006+00:00"
+}

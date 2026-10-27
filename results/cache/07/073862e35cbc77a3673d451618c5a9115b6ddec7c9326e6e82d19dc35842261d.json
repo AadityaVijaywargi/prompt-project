@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Answer is incorrect; it confuses habeas corpus with certiorari.\"\n}",
+ "tokens": {
+  "prompt": 362,
+  "completion": 293
+ },
+ "created": "2026-10-27T18:13:43.650793+00:00"
+}

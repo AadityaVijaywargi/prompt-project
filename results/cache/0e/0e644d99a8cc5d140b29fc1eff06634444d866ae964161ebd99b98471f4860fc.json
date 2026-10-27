@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 2,\n  \"language_quality\": 4,\n  \"comment\": \"Answer selects the wrong option and mixes up definitions, though the Hindi is fairly fluent.\"\n}",
+ "tokens": {
+  "prompt": 342,
+  "completion": 429
+ },
+ "created": "2026-10-27T18:05:14.180647+00:00"
+}

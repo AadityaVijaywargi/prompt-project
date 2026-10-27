@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer is clear but incorrect, misidentifying the closest primate.\"\n}",
+ "tokens": {
+  "prompt": 322,
+  "completion": 377
+ },
+ "created": "2026-10-27T18:06:23.915612+00:00"
+}

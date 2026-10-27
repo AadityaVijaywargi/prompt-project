@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 3,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"The answer misidentifies the correct option, though it gives a reasonable explanation of centripetal forces.\"\n}",
+ "tokens": {
+  "prompt": 357,
+  "completion": 395
+ },
+ "created": "2026-10-27T18:05:23.853416+00:00"
+}

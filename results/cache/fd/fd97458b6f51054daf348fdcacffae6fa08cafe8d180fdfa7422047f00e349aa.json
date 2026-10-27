@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 3,\n  \"language_quality\": 3,\n  \"comment\": \"Answer is incorrect, stating a linear decrease instead of the correct nonlinear decrease.\"\n}",
+ "tokens": {
+  "prompt": 376,
+  "completion": 412
+ },
+ "created": "2026-10-27T18:10:43.938573+00:00"
+}
