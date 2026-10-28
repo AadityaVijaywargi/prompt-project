@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly explain that a slower satellite must move to a larger orbit and have a longer period, with equal completeness and clarity.\"\n}",
+ "tokens": {
+  "prompt": 564,
+  "completion": 157
+ },
+ "created": "2026-10-28T12:57:54.476139+00:00"
+}

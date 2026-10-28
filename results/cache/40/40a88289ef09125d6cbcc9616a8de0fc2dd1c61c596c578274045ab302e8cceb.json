@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state and explain that the normal force decreases nonlinearly (N = mg cos θ) with equal completeness and clarity.\"}",
+ "tokens": {
+  "prompt": 414,
+  "completion": 128
+ },
+ "created": "2026-10-28T13:05:54.375268+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers equally convey vivid sensory details and complete description\"}",
+ "tokens": {
+  "prompt": 534,
+  "completion": 114
+ },
+ "created": "2026-10-28T13:00:24.812622+00:00"
+}

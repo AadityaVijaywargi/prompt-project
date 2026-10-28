@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies a capital account surplus, matching the reference and providing accurate explanation, while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 390,
+  "completion": 134
+ },
+ "created": "2026-10-28T13:17:34.505673+00:00"
+}

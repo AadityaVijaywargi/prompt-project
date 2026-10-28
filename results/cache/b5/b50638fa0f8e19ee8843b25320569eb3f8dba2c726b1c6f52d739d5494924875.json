@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"tie\", \"reason\": \"Both answers correctly state the SA node is in the upper wall of the right atrium and are equally clear and complete.\"}",
+ "tokens": {
+  "prompt": 436,
+  "completion": 373
+ },
+ "created": "2026-10-28T13:04:54.882530+00:00"
+}

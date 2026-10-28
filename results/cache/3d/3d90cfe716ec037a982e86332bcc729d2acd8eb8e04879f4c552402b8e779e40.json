@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that dualism means international and domestic law are separate legal systems and explain the treaty transformation requirement.\"}",
+ "tokens": {
+  "prompt": 422,
+  "completion": 121
+ },
+ "created": "2026-10-28T13:10:44.185743+00:00"
+}

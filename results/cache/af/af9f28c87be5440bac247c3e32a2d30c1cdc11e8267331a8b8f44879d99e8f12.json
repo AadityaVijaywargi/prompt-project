@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies the rate units as mol L⁻¹ s⁻¹ and explains why, while Answer A gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 379,
+  "completion": 278
+ },
+ "created": "2026-10-28T13:20:14.909306+00:00"
+}

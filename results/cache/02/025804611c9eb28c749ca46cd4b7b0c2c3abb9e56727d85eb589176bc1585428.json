@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly explain that a slower circular orbital speed requires a larger radius and a longer period, using the same physics and equations.\"}",
+ "tokens": {
+  "prompt": 564,
+  "completion": 124
+ },
+ "created": "2026-10-28T12:58:04.364358+00:00"
+}

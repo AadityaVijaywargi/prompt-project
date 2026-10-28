@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies multipolar as three or more major powers, matching the reference, while Answer A is factually incorrect.\"}",
+ "tokens": {
+  "prompt": 389,
+  "completion": 224
+ },
+ "created": "2026-10-28T13:15:15.890002+00:00"
+}

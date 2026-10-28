@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that A is C's paternal grandfather, with equal completeness and clarity.\"}",
+ "tokens": {
+  "prompt": 328,
+  "completion": 113
+ },
+ "created": "2026-10-28T12:59:04.921554+00:00"
+}

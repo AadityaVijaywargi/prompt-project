@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly and clearly state that a multipolar system has three or more major powers, providing accurate definitions and examples.\"}",
+ "tokens": {
+  "prompt": 416,
+  "completion": 135
+ },
+ "created": "2026-10-28T12:54:54.224906+00:00"
+}

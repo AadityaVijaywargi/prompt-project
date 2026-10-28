@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers provide equivalent, accurate, and clear explanations of the yuga-life stage analogy and moksha implications.\"}",
+ "tokens": {
+  "prompt": 664,
+  "completion": 134
+ },
+ "created": "2026-10-28T13:01:54.423067+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly explain that a slower speed requires a larger orbital radius and a longer period, using the same physics.\"\n}",
+ "tokens": {
+  "prompt": 516,
+  "completion": 129
+ },
+ "created": "2026-10-28T12:58:24.255074+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Provides the correct answer (C) and a clear explanation linking the current‑account deficit to a capital‑account surplus.\"\n}",
+ "tokens": {
+  "prompt": 392,
+  "completion": 250
+ },
+ "created": "2026-10-28T13:17:14.487347+00:00"
+}

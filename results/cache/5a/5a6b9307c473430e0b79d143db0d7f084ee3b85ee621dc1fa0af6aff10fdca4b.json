@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly identifies the SA node location (C) and gives a clear explanation, while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 395,
+  "completion": 116
+ },
+ "created": "2026-10-28T13:21:34.410274+00:00"
+}

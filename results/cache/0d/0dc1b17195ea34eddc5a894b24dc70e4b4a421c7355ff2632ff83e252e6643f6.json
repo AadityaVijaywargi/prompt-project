@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers provide equivalent, clear mappings of the yugas to life stages and discuss moksha and the urgency of Kali Yuga equally well.\"}",
+ "tokens": {
+  "prompt": 664,
+  "completion": 365
+ },
+ "created": "2026-10-28T13:02:04.980690+00:00"
+}

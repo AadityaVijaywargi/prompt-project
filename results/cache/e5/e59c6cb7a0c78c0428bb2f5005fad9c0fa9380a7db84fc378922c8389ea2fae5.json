@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies (C) as the conclusion and explains the balance‑of‑payments relationship, whereas Answer A is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 419,
+  "completion": 254
+ },
+ "created": "2026-10-28T13:16:36.343122+00:00"
+}

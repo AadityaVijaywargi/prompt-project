@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Correctly identifies the answer as (D) and explains the nonlinear cosine relationship, whereas B is factually wrong.\"}",
+ "tokens": {
+  "prompt": 377,
+  "completion": 122
+ },
+ "created": "2026-10-28T13:23:04.401664+00:00"
+}

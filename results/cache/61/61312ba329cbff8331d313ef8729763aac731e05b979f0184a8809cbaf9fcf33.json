@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A gives the correct 25% probability with proper explanation, while Answer B is incorrect.\"}",
+ "tokens": {
+  "prompt": 450,
+  "completion": 97
+ },
+ "created": "2026-10-28T13:26:04.237292+00:00"
+}

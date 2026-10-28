@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies (A) and accurately explains Supreme Court's typical denial of appeals, while Answer A is factually incorrect.\"}",
+ "tokens": {
+  "prompt": 394,
+  "completion": 385
+ },
+ "created": "2026-10-28T13:14:34.941667+00:00"
+}

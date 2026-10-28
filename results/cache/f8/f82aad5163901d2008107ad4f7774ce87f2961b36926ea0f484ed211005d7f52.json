@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies the Levallois shift as from core tools to flakes, while Answer A is factually incorrect.\"}",
+ "tokens": {
+  "prompt": 383,
+  "completion": 182
+ },
+ "created": "2026-10-28T13:13:34.617028+00:00"
+}

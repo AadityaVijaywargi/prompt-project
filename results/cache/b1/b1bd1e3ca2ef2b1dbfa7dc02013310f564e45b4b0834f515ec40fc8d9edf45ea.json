@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies option (A) as the shift, matching the factual answer, while Answer B gives an incorrect option.\"}",
+ "tokens": {
+  "prompt": 427,
+  "completion": 182
+ },
+ "created": "2026-10-28T13:13:04.544689+00:00"
+}

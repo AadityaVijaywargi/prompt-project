@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state the unit as mol L⁻¹ s⁻¹ with clear explanations; content is equivalent.\"}",
+ "tokens": {
+  "prompt": 414,
+  "completion": 103
+ },
+ "created": "2026-10-28T13:03:35.265704+00:00"
+}

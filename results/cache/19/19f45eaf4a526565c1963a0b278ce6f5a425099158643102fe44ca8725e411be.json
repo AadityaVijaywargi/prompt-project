@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"A clear, plausible mapping that addresses the main points, though not exhaustive.\"\n}",
+ "tokens": {
+  "prompt": 553,
+  "completion": 416
+ },
+ "created": "2026-10-28T12:45:26.202235+00:00"
+}

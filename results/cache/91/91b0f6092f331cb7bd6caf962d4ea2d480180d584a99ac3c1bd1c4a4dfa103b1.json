@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 4, \"completeness\": 4, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"Accurate and clear but a bit brief on nuances of moksha across yugas.\"}",
+ "tokens": {
+  "prompt": 499,
+  "completion": 377
+ },
+ "created": "2026-10-28T12:45:14.829128+00:00"
+}

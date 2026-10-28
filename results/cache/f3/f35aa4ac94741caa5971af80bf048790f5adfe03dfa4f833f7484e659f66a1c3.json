@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies that the Supreme Court usually refuses to hear the appeal, matching the factual answer.\"\n}",
+ "tokens": {
+  "prompt": 394,
+  "completion": 120
+ },
+ "created": "2026-10-28T13:14:44.429682+00:00"
+}

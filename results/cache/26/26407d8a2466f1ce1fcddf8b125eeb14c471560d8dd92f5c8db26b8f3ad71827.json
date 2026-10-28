@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies the usual Supreme Court practice (refusing to hear most appeals), while Answer B gives an incorrect option.\"}",
+ "tokens": {
+  "prompt": 413,
+  "completion": 192
+ },
+ "created": "2026-10-28T13:14:04.443728+00:00"
+}

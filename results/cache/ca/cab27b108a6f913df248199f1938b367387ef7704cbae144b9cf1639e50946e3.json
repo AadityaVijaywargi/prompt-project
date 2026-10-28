@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly and completely describe the two stages, their chloroplast locations, and inputs/outputs.\"}",
+ "tokens": {
+  "prompt": 503,
+  "completion": 102
+ },
+ "created": "2026-10-28T13:11:44.332519+00:00"
+}

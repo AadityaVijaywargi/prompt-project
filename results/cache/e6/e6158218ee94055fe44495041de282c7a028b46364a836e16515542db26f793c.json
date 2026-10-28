@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies option C and accurately explains that the server checks the ticket’s expiration against its own clock, whereas Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 581,
+  "completion": 454
+ },
+ "created": "2026-10-28T13:27:45.214991+00:00"
+}

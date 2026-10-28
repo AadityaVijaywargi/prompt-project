@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly identifies the normal force as decreasing nonlinearly (N = mg cos θ) and explains why, matching the reference answer.\"}",
+ "tokens": {
+  "prompt": 410,
+  "completion": 270
+ },
+ "created": "2026-10-28T13:22:15.197323+00:00"
+}
