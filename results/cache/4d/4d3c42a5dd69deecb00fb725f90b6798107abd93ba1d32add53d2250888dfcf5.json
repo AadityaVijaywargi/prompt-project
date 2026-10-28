@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Correct and clear answer with good coverage of the limited personality concept.\"\n}",
+ "tokens": {
+  "prompt": 435,
+  "completion": 425
+ },
+ "created": "2026-10-28T11:19:47.794816+00:00"
+}

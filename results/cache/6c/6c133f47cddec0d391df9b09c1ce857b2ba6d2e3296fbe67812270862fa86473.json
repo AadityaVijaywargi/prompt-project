@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 2,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer reverses the effect: a slower satellite would drop to a lower orbit, not move outward.\"\n}",
+ "tokens": {
+  "prompt": 464,
+  "completion": 815
+ },
+ "created": "2026-10-28T11:26:28.572081+00:00"
+}

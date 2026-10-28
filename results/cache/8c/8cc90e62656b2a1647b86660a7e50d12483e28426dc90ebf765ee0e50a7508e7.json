@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"correctness\": 5, \"completeness\": 5, \"clarity\": 5, \"language_quality\": 5, \"comment\": \"Accurate, complete, and clearly explained answer.\"}",
+ "tokens": {
+  "prompt": 410,
+  "completion": 340
+ },
+ "created": "2026-10-28T11:22:27.579515+00:00"
+}

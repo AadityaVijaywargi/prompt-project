@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurately identifies (A) and explains the shift clearly in fluent Hindi.\"\n}",
+ "tokens": {
+  "prompt": 435,
+  "completion": 432
+ },
+ "created": "2026-10-28T11:16:17.706026+00:00"
+}

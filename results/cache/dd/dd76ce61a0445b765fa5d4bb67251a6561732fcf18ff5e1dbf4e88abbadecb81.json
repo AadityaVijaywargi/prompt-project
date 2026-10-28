@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 2,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The answer provides a factual location but fails to address the riddle’s intended solution.\"\n}",
+ "tokens": {
+  "prompt": 386,
+  "completion": 334
+ },
+ "created": "2026-10-28T11:27:17.579968+00:00"
+}
