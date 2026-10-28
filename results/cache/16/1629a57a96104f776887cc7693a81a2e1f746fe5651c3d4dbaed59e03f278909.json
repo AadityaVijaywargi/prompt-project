@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurately identifies (B) as the non‑hypothesis and explains it clearly.\"\n}",
+ "tokens": {
+  "prompt": 446,
+  "completion": 313
+ },
+ "created": "2026-10-28T13:04:56.571538+00:00"
+}

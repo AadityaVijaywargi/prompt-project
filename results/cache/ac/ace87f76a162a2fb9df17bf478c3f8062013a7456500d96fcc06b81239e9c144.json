@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify (C) appeal to pride with equally clear explanations.\"}",
+ "tokens": {
+  "prompt": 375,
+  "completion": 115
+ },
+ "created": "2026-10-28T13:10:55.996162+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify (C) boundary checks and explain it clearly\"}",
+ "tokens": {
+  "prompt": 362,
+  "completion": 102
+ },
+ "created": "2026-10-28T13:18:36.123789+00:00"
+}

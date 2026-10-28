@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies (C) boundary checks, matching the reference, while Answer A is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 365,
+  "completion": 338
+ },
+ "created": "2026-10-28T13:34:26.463791+00:00"
+}

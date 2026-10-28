@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly explains that the net force is negative (opposite the motion) due to friction, whereas Answer B gives an incorrect positive‑force explanation.\"}",
+ "tokens": {
+  "prompt": 538,
+  "completion": 357
+ },
+ "created": "2026-10-28T13:36:16.527263+00:00"
+}

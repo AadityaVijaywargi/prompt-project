@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers are factually accurate, equally complete, and clearly explain solidarity, collective action, and mutual support.\"}",
+ "tokens": {
+  "prompt": 530,
+  "completion": 108
+ },
+ "created": "2026-10-28T13:15:56.166639+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers equally cover the concept, theory, examples, and implications of solidarity.\"}",
+ "tokens": {
+  "prompt": 581,
+  "completion": 104
+ },
+ "created": "2026-10-28T13:15:16.252399+00:00"
+}

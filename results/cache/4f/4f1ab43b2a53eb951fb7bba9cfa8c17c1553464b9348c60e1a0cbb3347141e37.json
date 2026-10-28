@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly identifies the net force as negative, matching the physics, while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 531,
+  "completion": 433
+ },
+ "created": "2026-10-28T13:36:28.046826+00:00"
+}

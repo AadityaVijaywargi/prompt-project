@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly gives the probability as 1 (all children affected), while Answer B gives an incorrect 1/4.\"\n}",
+ "tokens": {
+  "prompt": 407,
+  "completion": 271
+ },
+ "created": "2026-10-28T13:38:16.749997+00:00"
+}

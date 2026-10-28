@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly states (C) and the limited federal review, whereas Answer B is factually wrong.\"}",
+ "tokens": {
+  "prompt": 501,
+  "completion": 367
+ },
+ "created": "2026-10-28T13:27:56.742194+00:00"
+}

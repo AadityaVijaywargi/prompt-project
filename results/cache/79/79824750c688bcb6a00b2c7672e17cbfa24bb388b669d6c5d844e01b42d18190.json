@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both provide the same accurate, complete, and clear three impacts.\"}",
+ "tokens": {
+  "prompt": 533,
+  "completion": 117
+ },
+ "created": "2026-10-28T13:11:15.903641+00:00"
+}

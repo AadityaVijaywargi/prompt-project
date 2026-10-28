@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 4,\n  \"language_quality\": 4,\n  \"comment\": \"Accurately covers sensory details and monsoon impacts, with clear though poetic language.\"\n}",
+ "tokens": {
+  "prompt": 598,
+  "completion": 429
+ },
+ "created": "2026-10-28T12:59:46.659550+00:00"
+}

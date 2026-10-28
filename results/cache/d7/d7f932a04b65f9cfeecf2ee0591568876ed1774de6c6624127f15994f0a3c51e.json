@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers provide equally complete and accurate information about the subcontinent's extent and major features.\"}",
+ "tokens": {
+  "prompt": 595,
+  "completion": 185
+ },
+ "created": "2026-10-28T13:14:26.178527+00:00"
+}

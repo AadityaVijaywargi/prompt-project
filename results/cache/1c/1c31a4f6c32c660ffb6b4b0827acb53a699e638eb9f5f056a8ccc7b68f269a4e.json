@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that a mohel is a ritual circumciser with clear, complete explanations.\"}",
+ "tokens": {
+  "prompt": 390,
+  "completion": 121
+ },
+ "created": "2026-10-28T13:06:16.009866+00:00"
+}

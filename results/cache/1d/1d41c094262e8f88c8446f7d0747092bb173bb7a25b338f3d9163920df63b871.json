@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify gastrulation and give equivalent clear explanations.\"}",
+ "tokens": {
+  "prompt": 399,
+  "completion": 87
+ },
+ "created": "2026-10-28T13:22:47.019683+00:00"
+}

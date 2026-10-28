@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurate answer with clear, complete reasoning in understandable Hindi.\"\n}",
+ "tokens": {
+  "prompt": 430,
+  "completion": 415
+ },
+ "created": "2026-10-28T13:03:06.633622+00:00"
+}

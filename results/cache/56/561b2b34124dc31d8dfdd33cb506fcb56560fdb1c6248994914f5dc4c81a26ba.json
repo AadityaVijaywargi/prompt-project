@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies gastrulation as the process forming the three germ layers, while Answer A gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 422,
+  "completion": 155
+ },
+ "created": "2026-10-28T13:39:46.596222+00:00"
+}

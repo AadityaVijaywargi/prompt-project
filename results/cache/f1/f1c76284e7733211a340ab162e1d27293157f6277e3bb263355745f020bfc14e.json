@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both emails equally satisfy the request with clear, complete, and concise content.\"}",
+ "tokens": {
+  "prompt": 464,
+  "completion": 174
+ },
+ "created": "2026-10-28T13:13:16.046702+00:00"
+}

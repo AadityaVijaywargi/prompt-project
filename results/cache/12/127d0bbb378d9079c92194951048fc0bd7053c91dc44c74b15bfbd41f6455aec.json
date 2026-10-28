@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers equally cover sensory details, daily life, and agricultural impacts with clear, complete content.\"}",
+ "tokens": {
+  "prompt": 633,
+  "completion": 400
+ },
+ "created": "2026-10-28T13:16:16.645404+00:00"
+}

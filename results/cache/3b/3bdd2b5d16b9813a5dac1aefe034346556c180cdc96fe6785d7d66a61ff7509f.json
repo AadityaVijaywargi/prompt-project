@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify gastrulation (D) and clearly explain it as the process forming the three germ layers.\"}",
+ "tokens": {
+  "prompt": 420,
+  "completion": 103
+ },
+ "created": "2026-10-28T13:22:36.186392+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly explains that a reactor heats water to produce steam for turbines, whereas Answer B gives an incorrect description.\"}",
+ "tokens": {
+  "prompt": 398,
+  "completion": 206
+ },
+ "created": "2026-10-28T13:41:16.409051+00:00"
+}

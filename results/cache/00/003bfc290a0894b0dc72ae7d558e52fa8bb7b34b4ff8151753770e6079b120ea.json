@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"both answers correctly identify the shadow as west with clear reasoning\"}",
+ "tokens": {
+  "prompt": 423,
+  "completion": 538
+ },
+ "created": "2026-10-28T13:12:37.058482+00:00"
+}

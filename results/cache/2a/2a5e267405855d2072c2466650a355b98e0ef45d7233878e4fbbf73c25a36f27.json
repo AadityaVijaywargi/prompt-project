@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly explains that reactors heat water to produce steam, matching the reference, while Answer B is factually wrong.\"}",
+ "tokens": {
+  "prompt": 391,
+  "completion": 259
+ },
+ "created": "2026-10-28T13:40:57.211287+00:00"
+}

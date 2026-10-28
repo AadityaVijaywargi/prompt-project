@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the creation of the Director of National Intelligence, matching the reference, whereas Answer B gives an incorrect option.\"\n}",
+ "tokens": {
+  "prompt": 419,
+  "completion": 320
+ },
+ "created": "2026-10-28T13:29:36.641341+00:00"
+}

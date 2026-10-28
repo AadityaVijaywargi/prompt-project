@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"The paragraph fully meets the prompt with vivid sensory details and clear coverage of daily and agricultural impacts.\"\n}",
+ "tokens": {
+  "prompt": 567,
+  "completion": 450
+ },
+ "created": "2026-10-28T12:59:36.563900+00:00"
+}

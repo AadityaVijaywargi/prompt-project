@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies and explains that reactors heat water, while Answer B gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 353,
+  "completion": 154
+ },
+ "created": "2026-10-28T13:41:56.271363+00:00"
+}

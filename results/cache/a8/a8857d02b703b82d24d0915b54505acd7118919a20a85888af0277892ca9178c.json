@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly and clearly explain that a fission reactor heats water, with no factual errors.\"\n}",
+ "tokens": {
+  "prompt": 402,
+  "completion": 109
+ },
+ "created": "2026-10-28T13:23:06.539784+00:00"
+}
