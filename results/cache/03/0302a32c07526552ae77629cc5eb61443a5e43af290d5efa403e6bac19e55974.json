@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"tie\", \"reason\": \"Both answers correctly and completely describe the central dogma, its processes, and its origin.\"}",
+ "tokens": {
+  "prompt": 488,
+  "completion": 142
+ },
+ "created": "2026-10-28T12:18:54.502405+00:00"
+}

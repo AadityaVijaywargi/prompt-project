@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Correctly identifies telegraphic speech and explains it, while B gives the wrong answer.\"\n}",
+ "tokens": {
+  "prompt": 406,
+  "completion": 165
+ },
+ "created": "2026-10-28T13:39:10.715733+00:00"
+}

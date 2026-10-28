@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly states the farad as C/V, matching the reference, while Answer A gives the opposite ratio.\"}",
+ "tokens": {
+  "prompt": 392,
+  "completion": 149
+ },
+ "created": "2026-10-28T17:55:06.321768+00:00"
+}

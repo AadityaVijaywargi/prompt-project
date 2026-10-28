@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers provide the same correct, complete, and clear explanation of limited international legal personality for individuals.\"\n}",
+ "tokens": {
+  "prompt": 425,
+  "completion": 180
+ },
+ "created": "2026-10-28T12:02:18.215626+00:00"
+}

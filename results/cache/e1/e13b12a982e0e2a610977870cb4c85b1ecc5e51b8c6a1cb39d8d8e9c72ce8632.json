@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify Romance, give the same explanation, and are equally clear.\"}",
+ "tokens": {
+  "prompt": 360,
+  "completion": 121
+ },
+ "created": "2026-10-28T12:18:14.368321+00:00"
+}

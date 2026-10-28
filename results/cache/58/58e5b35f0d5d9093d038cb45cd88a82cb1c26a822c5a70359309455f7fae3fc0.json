@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that race is socially constructed through powerful ideologies and explain it clearly.\"}",
+ "tokens": {
+  "prompt": 463,
+  "completion": 442
+ },
+ "created": "2026-10-28T12:02:58.845042+00:00"
+}

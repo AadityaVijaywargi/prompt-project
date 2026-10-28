@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Correctly identifies the Pleiades as having seven bright stars, matching the reference answer.\"}",
+ "tokens": {
+  "prompt": 398,
+  "completion": 228
+ },
+ "created": "2026-10-28T17:55:56.605644+00:00"
+}

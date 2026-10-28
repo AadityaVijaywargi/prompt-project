@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies representation as the traditional definition, while Answer B gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 338,
+  "completion": 183
+ },
+ "created": "2026-10-28T17:48:35.884435+00:00"
+}

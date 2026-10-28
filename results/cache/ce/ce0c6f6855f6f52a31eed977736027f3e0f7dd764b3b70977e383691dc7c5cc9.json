@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Correctly identifies (B) and accurately explains the socially constructed view of race.\"}",
+ "tokens": {
+  "prompt": 404,
+  "completion": 305
+ },
+ "created": "2026-10-28T13:21:18.571952+00:00"
+}

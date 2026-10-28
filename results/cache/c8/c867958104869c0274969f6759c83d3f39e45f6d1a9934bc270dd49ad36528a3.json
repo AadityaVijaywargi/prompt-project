@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify (A) and give clear, accurate explanations of spring tides.\"}",
+ "tokens": {
+  "prompt": 454,
+  "completion": 112
+ },
+ "created": "2026-10-28T12:12:04.317794+00:00"
+}

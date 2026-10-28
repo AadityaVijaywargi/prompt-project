@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies Jupiter as the planet with the Great Red Spot, while Answer A is factually wrong.\"}",
+ "tokens": {
+  "prompt": 324,
+  "completion": 108
+ },
+ "created": "2026-10-28T17:49:46.035880+00:00"
+}

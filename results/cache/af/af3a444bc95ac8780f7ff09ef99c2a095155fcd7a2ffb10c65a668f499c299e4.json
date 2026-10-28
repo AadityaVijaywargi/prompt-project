@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both provide the same five clear, complete principles, just in different languages\"}",
+ "tokens": {
+  "prompt": 559,
+  "completion": 110
+ },
+ "created": "2026-10-28T12:09:34.594887+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify (D) Romance with clear, complete explanations.\"}",
+ "tokens": {
+  "prompt": 396,
+  "completion": 104
+ },
+ "created": "2026-10-28T12:17:34.542109+00:00"
+}

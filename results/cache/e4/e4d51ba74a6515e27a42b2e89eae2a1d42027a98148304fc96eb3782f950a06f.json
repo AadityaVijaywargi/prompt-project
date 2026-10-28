@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Provides the correct answer (B) with an accurate explanation of race as a social construct\"}",
+ "tokens": {
+  "prompt": 465,
+  "completion": 217
+ },
+ "created": "2026-10-28T13:06:10.387284+00:00"
+}

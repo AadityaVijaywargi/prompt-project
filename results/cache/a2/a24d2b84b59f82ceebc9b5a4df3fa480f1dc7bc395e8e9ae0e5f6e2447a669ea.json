@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 4,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Accurate and clear, but slightly overstates replication's role in the central dogma.\"\n}",
+ "tokens": {
+  "prompt": 377,
+  "completion": 398
+ },
+ "created": "2026-10-28T11:58:48.573180+00:00"
+}

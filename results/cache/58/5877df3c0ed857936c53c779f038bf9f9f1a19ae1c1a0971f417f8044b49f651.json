@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that the highest tides occur when Earth, Moon, and Sun are aligned (spring tides) and give clear explanations.\"}",
+ "tokens": {
+  "prompt": 438,
+  "completion": 204
+ },
+ "created": "2026-10-28T12:11:44.451756+00:00"
+}

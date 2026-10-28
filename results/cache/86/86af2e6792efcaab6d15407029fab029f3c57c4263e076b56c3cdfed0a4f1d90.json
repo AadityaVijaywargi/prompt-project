@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A provides correct explanation without factual error, while B misstates the contrasting term.\"}",
+ "tokens": {
+  "prompt": 378,
+  "completion": 278
+ },
+ "created": "2026-10-28T12:00:28.601024+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B correctly identifies the socially constructed nature of race, matching the reference answer, while Answer A gives an incorrect option.\"}",
+ "tokens": {
+  "prompt": 428,
+  "completion": 170
+ },
+ "created": "2026-10-28T12:59:32.908679+00:00"
+}

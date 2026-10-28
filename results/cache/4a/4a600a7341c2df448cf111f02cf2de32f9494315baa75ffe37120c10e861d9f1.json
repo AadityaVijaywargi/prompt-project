@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state the White House’s location and explain the riddle equally well.\"}",
+ "tokens": {
+  "prompt": 441,
+  "completion": 140
+ },
+ "created": "2026-10-28T12:05:58.200716+00:00"
+}

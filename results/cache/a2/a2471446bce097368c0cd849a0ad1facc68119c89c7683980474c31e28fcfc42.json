@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that 1 F = 1 C/1 V with clear explanation; content, completeness, and clarity are equivalent.\"}",
+ "tokens": {
+  "prompt": 419,
+  "completion": 124
+ },
+ "created": "2026-10-28T12:14:54.350560+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Correctly identifies (B) and explains the socially constructed view, while the other answer is factually wrong.\"}",
+ "tokens": {
+  "prompt": 428,
+  "completion": 180
+ },
+ "created": "2026-10-28T13:02:44.818805+00:00"
+}

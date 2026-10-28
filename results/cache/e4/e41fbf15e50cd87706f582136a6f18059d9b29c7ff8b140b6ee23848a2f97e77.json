@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies and explains the influenza virus replication process, while Answer B is factually incorrect.\"}",
+ "tokens": {
+  "prompt": 406,
+  "completion": 190
+ },
+ "created": "2026-10-28T17:52:36.418899+00:00"
+}

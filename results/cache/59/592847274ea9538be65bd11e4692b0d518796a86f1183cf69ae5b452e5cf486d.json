@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly identify (D) telegraphic speech with equally clear explanations.\"\n}",
+ "tokens": {
+  "prompt": 400,
+  "completion": 107
+ },
+ "created": "2026-10-28T12:03:28.046203+00:00"
+}

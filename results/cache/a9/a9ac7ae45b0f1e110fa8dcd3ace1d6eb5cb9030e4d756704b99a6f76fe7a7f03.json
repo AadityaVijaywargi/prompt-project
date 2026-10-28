@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Correctly identifies the answer as (B) and explains the social construction view\"}",
+ "tokens": {
+  "prompt": 465,
+  "completion": 245
+ },
+ "created": "2026-10-28T13:13:48.394791+00:00"
+}

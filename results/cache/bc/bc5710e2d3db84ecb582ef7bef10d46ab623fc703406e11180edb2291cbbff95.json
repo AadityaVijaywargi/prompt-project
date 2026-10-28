@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers correctly and clearly state the central dogma, its processes, and credit Crick.\"\n}",
+ "tokens": {
+  "prompt": 485,
+  "completion": 115
+ },
+ "created": "2026-10-28T12:18:34.550431+00:00"
+}

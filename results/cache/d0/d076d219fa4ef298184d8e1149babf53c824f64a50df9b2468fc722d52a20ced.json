@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly identify (D) and clearly explain the carotid pulse location.\"}",
+ "tokens": {
+  "prompt": 429,
+  "completion": 97
+ },
+ "created": "2026-10-28T12:17:03.968289+00:00"
+}

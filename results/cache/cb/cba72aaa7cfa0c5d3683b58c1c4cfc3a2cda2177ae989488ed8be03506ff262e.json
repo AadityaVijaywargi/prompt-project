@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly states the farad as coulombs per volt, while Answer B gives an incorrect definition.\"}",
+ "tokens": {
+  "prompt": 392,
+  "completion": 150
+ },
+ "created": "2026-10-28T17:55:16.187967+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers accurately and clearly explain what a language model is and correctly state that it is primarily trained on unlabelled data, with optional fine‑tuning on labelled data.\"}",
+ "tokens": {
+  "prompt": 616,
+  "completion": 156
+ },
+ "created": "2026-10-28T12:07:58.422837+00:00"
+}

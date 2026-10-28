@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state (C) Jupiter with clear, complete explanations.\"}",
+ "tokens": {
+  "prompt": 345,
+  "completion": 85
+ },
+ "created": "2026-10-28T12:10:35.992406+00:00"
+}
