@@ -46,6 +46,15 @@ def test_e1_gap_excludes_pilot_and_counts_missing(tmp_path):
     assert (tmp_path / "tables" / "main_baseline.md").exists()
 
 
+def test_e1_bootstrap_resamples_items_not_rows(tmp_path):
+    # Scores differ a lot between items but en and hi agree within every item. Resampling whole items keeps
+    # each pair together, so the CI is exactly 0; resampling form rows independently would make it wide.
+    items = load_quadruples()
+    recs = [e1(q.item_id, form, 1 + i % 5) for i, q in enumerate(items) for form in ("en", "hi")]
+    row = next(r for r in run(tmp_path, recs)["e1"] if r["id"] == "E1.1" and r["measure"] == "content")
+    assert row["n"] == len(items) and row["mean_d"] == row["ci_low"] == row["ci_high"] == 0
+
+
 def test_e2_slot_a_always_wins(tmp_path):
     items = load_quadruples()
     recs = [pw("e2", q.item_id, ("en", "hi"), o, "A") for q in items for o in ("AB", "BA")]

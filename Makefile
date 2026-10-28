@@ -83,12 +83,17 @@ app:
 	@echo "'$@' is built in Phase 3 (brief section 11); not available yet." && exit 1
 
 # Regenerate every main-study call from cached responses with no network access (judges with no logged
-# main-study run are skipped; any other cache miss is an error). Then rebuild the tables with the stats targets.
+# main-study run are skipped; any other cache miss is an error). Then rebuild every table (stats, stats-b,
+# stats-a, stats-e5) from the logged records. ARGS go to the runners only: the stats modules take different flags.
 reproduce: data-check
 	$(PY) -m lb.runners.e1_pointwise --offline $(ARGS)
 	$(PY) -m lb.runners.e2_pairwise --offline $(ARGS)
 	$(PY) -m lb.runners.e3_wrong --offline $(ARGS)
 	$(PY) -m lb.runners.a_wrong_pointwise --offline $(ARGS)
+	$(PY) -m lb.analysis
+	$(PY) -m lb.leakage
+	$(PY) -m lb.wrong_leniency
+	$(PY) -m lb.mitigation
 
 pilot-report:
 	$(PY) scripts/pilot_report.py $(ARGS)

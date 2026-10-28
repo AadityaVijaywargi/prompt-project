@@ -119,7 +119,7 @@ def test_halo_baseline_and_copy_check(tmp_path):
     assert "clarity (copies LQ)" in (tmp_path / "tables" / "main_baseline_b.md").read_text(encoding="utf-8")
 
 
-def test_mention_rate_mcnemar_and_silent_penalty(tmp_path):
+def test_mention_rate_mcnemar_and_drop_without_mention(tmp_path):
     items = load_quadruples()
     half = len(items) // 2
     recs = [e1(q.item_id, "en") for q in items]

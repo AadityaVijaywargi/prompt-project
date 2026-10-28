@@ -203,7 +203,7 @@ def comment_rows(scores: dict, texts: dict, judge: str, lexicon: str) -> list[di
         dropped = [i for i, s in scores.items() if form in s and "en" in s
                    and s[form]["content"] < s["en"]["content"] and form in codes.get(i, {})]
         silent = sum(not codes[i][form]["mention"] for i in dropped)
-        rows.append({**base, "id": "B5", "form": form, "measure": "silent penalty rate",
+        rows.append({**base, "id": "B5", "form": form, "measure": "score drop without language mention rate",
                      **prop(silent, len(dropped)), "exploratory": exploratory(len(dropped))})
     for r, p in zip(b4, holm([r["mcnemar_p"] for r in b4])):
         r["holm_p"] = p

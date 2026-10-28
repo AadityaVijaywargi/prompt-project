@@ -96,7 +96,9 @@ Implementation details (fixed 2026-10-27, before any E5 variant call; `lb.runner
 Uses the E1 baseline records only, with no new judge calls. Per judge, per form `f` in hi, hi_rom, hinglish,
 per item `i`, paired against en: `dC_i = correctness(f) - correctness(en)` and
 `dL_i = language_quality(f) - language_quality(en)`. The content is identical across forms, so any `dC != 0`
-is a bias; the question is whether it travels with the language_quality judgement.
+is a form effect; the question is whether it travels with the language_quality judgement. Section B is
+descriptive: every criterion comes from one judge call, so co-movement of `dC` and `dL` can also come from a
+general halo and does not show that language causes the content change.
 
 | ID | Measure | Method |
 |---|---|---|
@@ -104,7 +106,7 @@ is a bias; the question is whether it travels with the language_quality judgemen
 | B2 | Same slope for completeness and for clarity | bootstrap CI, descriptive |
 | B3 | Mean `dC` split by the sign of `dL` (< 0, = 0, > 0) | bootstrap CI per cell, n per cell, descriptive |
 | B4 | Language-mention rate: share of comments that mention language, script or code-mixing (lexicon below) | Wilson CI per judge and form; paired difference vs en with an exact McNemar test (binomial on discordant items); Holm across the 3 forms per judge |
-| B5 | Silent penalty rate: among items with `content(f) < content(en)`, share whose `f` comment has no language, script or mixing mention | Wilson CI per judge and form |
+| B5 | Score drop without language mention rate (named "silent penalty rate" before 2026-10-28): among items with `content(f) < content(en)`, share whose `f` comment has no language, script or mixing mention | Wilson CI per judge and form |
 
 - If `dL` has no variance for a judge and form, B1-B3 are reported as not estimable, not as zero.
 - Comment lexicon, fixed before any comment was read: case-insensitive regular expressions in
@@ -205,3 +207,6 @@ matched (item, form) pairs from the baseline E1 run.
   written here, and the runner and analysis code built, before a single gap A call was made. Timing: the E1
   scores of the correct answers (used in A3) had been seen for both judges through section B; the wrong-twin
   scores had not been generated.
+- **2026-10-28, wording only (no measure or number changed).** After a second external review, B5 is renamed
+  "score drop without language mention rate": a comment with no language keyword does not show that language
+  caused the drop. Section B is stated to be descriptive (shared-call halo, see B above).

@@ -184,9 +184,9 @@ Mention = the comment names language, script or code-mixing. Lexicon v1 is the o
 | v1 | gpt-oss-120b | B4-cat | hinglish | script mention rate | 0 / 150 | 0.00 [0.00, 0.02] | - |
 | v1 | gpt-oss-120b | B4-cat | hinglish | mixing mention rate | 10 / 150 | 0.07 [0.04, 0.12] | - |
 | v1 | gpt-oss-120b | B4-cat | hinglish | fluency mention rate | 59 / 150 | 0.39 [0.32, 0.47] | - |
-| v1 | gpt-oss-120b | B5 | hi | silent penalty rate (exploratory) | 4 / 13 | 0.31 [0.13, 0.58] | - |
-| v1 | gpt-oss-120b | B5 | hi_rom | silent penalty rate | 7 / 68 | 0.10 [0.05, 0.20] | - |
-| v1 | gpt-oss-120b | B5 | hinglish | silent penalty rate | 11 / 53 | 0.21 [0.12, 0.33] | - |
+| v1 | gpt-oss-120b | B5 | hi | score drop without language mention rate (exploratory) | 4 / 13 | 0.31 [0.13, 0.58] | - |
+| v1 | gpt-oss-120b | B5 | hi_rom | score drop without language mention rate | 7 / 68 | 0.10 [0.05, 0.20] | - |
+| v1 | gpt-oss-120b | B5 | hinglish | score drop without language mention rate | 11 / 53 | 0.21 [0.12, 0.33] | - |
 | v1 | qwen2.5-7b-local | B4 | en | language-mention rate | 2 / 150 | 0.01 [0.00, 0.05] | - |
 | v1 | qwen2.5-7b-local | B4 | hi | language-mention rate | 24 / 150 | 0.16 [0.11, 0.23] | <0.001 (<0.001) |
 | v1 | qwen2.5-7b-local | B4 | hi_rom | language-mention rate | 49 / 150 | 0.33 [0.26, 0.41] | <0.001 (<0.001) |
@@ -203,9 +203,9 @@ Mention = the comment names language, script or code-mixing. Lexicon v1 is the o
 | v1 | qwen2.5-7b-local | B4-cat | hinglish | script mention rate | 0 / 150 | 0.00 [0.00, 0.02] | - |
 | v1 | qwen2.5-7b-local | B4-cat | hinglish | mixing mention rate | 0 / 150 | 0.00 [0.00, 0.02] | - |
 | v1 | qwen2.5-7b-local | B4-cat | hinglish | fluency mention rate | 16 / 150 | 0.11 [0.07, 0.17] | - |
-| v1 | qwen2.5-7b-local | B5 | hi | silent penalty rate (exploratory) | 13 / 20 | 0.65 [0.43, 0.82] | - |
-| v1 | qwen2.5-7b-local | B5 | hi_rom | silent penalty rate | 34 / 44 | 0.77 [0.63, 0.87] | - |
-| v1 | qwen2.5-7b-local | B5 | hinglish | silent penalty rate | 48 / 55 | 0.87 [0.76, 0.94] | - |
+| v1 | qwen2.5-7b-local | B5 | hi | score drop without language mention rate (exploratory) | 13 / 20 | 0.65 [0.43, 0.82] | - |
+| v1 | qwen2.5-7b-local | B5 | hi_rom | score drop without language mention rate | 34 / 44 | 0.77 [0.63, 0.87] | - |
+| v1 | qwen2.5-7b-local | B5 | hinglish | score drop without language mention rate | 48 / 55 | 0.87 [0.76, 0.94] | - |
 | v1+zh | gpt-oss-120b | B4 | en | language-mention rate | 3 / 150 | 0.02 [0.01, 0.06] | - |
 | v1+zh | gpt-oss-120b | B4 | hi | language-mention rate | 130 / 150 | 0.87 [0.80, 0.91] | <0.001 (<0.001) |
 | v1+zh | gpt-oss-120b | B4 | hi_rom | language-mention rate | 113 / 150 | 0.75 [0.68, 0.82] | <0.001 (<0.001) |
@@ -222,9 +222,9 @@ Mention = the comment names language, script or code-mixing. Lexicon v1 is the o
 | v1+zh | gpt-oss-120b | B4-cat | hinglish | script mention rate | 0 / 150 | 0.00 [0.00, 0.02] | - |
 | v1+zh | gpt-oss-120b | B4-cat | hinglish | mixing mention rate | 10 / 150 | 0.07 [0.04, 0.12] | - |
 | v1+zh | gpt-oss-120b | B4-cat | hinglish | fluency mention rate | 59 / 150 | 0.39 [0.32, 0.47] | - |
-| v1+zh | gpt-oss-120b | B5 | hi | silent penalty rate (exploratory) | 4 / 13 | 0.31 [0.13, 0.58] | - |
-| v1+zh | gpt-oss-120b | B5 | hi_rom | silent penalty rate | 7 / 68 | 0.10 [0.05, 0.20] | - |
-| v1+zh | gpt-oss-120b | B5 | hinglish | silent penalty rate | 11 / 53 | 0.21 [0.12, 0.33] | - |
+| v1+zh | gpt-oss-120b | B5 | hi | score drop without language mention rate (exploratory) | 4 / 13 | 0.31 [0.13, 0.58] | - |
+| v1+zh | gpt-oss-120b | B5 | hi_rom | score drop without language mention rate | 7 / 68 | 0.10 [0.05, 0.20] | - |
+| v1+zh | gpt-oss-120b | B5 | hinglish | score drop without language mention rate | 11 / 53 | 0.21 [0.12, 0.33] | - |
 | v1+zh | qwen2.5-7b-local | B4 | en | language-mention rate | 2 / 150 | 0.01 [0.00, 0.05] | - |
 | v1+zh | qwen2.5-7b-local | B4 | hi | language-mention rate | 44 / 150 | 0.29 [0.23, 0.37] | <0.001 (<0.001) |
 | v1+zh | qwen2.5-7b-local | B4 | hi_rom | language-mention rate | 49 / 150 | 0.33 [0.26, 0.41] | <0.001 (<0.001) |
@@ -241,9 +241,9 @@ Mention = the comment names language, script or code-mixing. Lexicon v1 is the o
 | v1+zh | qwen2.5-7b-local | B4-cat | hinglish | script mention rate | 0 / 150 | 0.00 [0.00, 0.02] | - |
 | v1+zh | qwen2.5-7b-local | B4-cat | hinglish | mixing mention rate | 0 / 150 | 0.00 [0.00, 0.02] | - |
 | v1+zh | qwen2.5-7b-local | B4-cat | hinglish | fluency mention rate | 17 / 150 | 0.11 [0.07, 0.17] | - |
-| v1+zh | qwen2.5-7b-local | B5 | hi | silent penalty rate (exploratory) | 13 / 20 | 0.65 [0.43, 0.82] | - |
-| v1+zh | qwen2.5-7b-local | B5 | hi_rom | silent penalty rate | 34 / 44 | 0.77 [0.63, 0.87] | - |
-| v1+zh | qwen2.5-7b-local | B5 | hinglish | silent penalty rate | 48 / 55 | 0.87 [0.76, 0.94] | - |
+| v1+zh | qwen2.5-7b-local | B5 | hi | score drop without language mention rate (exploratory) | 13 / 20 | 0.65 [0.43, 0.82] | - |
+| v1+zh | qwen2.5-7b-local | B5 | hi_rom | score drop without language mention rate | 34 / 44 | 0.77 [0.63, 0.87] | - |
+| v1+zh | qwen2.5-7b-local | B5 | hinglish | score drop without language mention rate | 48 / 55 | 0.87 [0.76, 0.94] | - |
 
 ## Comment language (post hoc)
 

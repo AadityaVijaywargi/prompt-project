@@ -106,7 +106,8 @@ gpt-oss-120b is below it.
 
 ## Section B: criterion leakage and comments (`main_baseline_b.md`, post hoc, exploratory)
 
-All criteria come from one judge call, so co-movement is not evidence of cause.
+All criteria come from one judge call, so co-movement is not evidence of cause. This section describes how
+the judges behave; it does not show that language causes the content scores to move.
 
 - **Qwen moves all criteria together even in English.** Within English answers, a one-point change in
   language quality goes with 0.93 points of correctness and 1.14 of completeness (Kendall tau 0.50). Its
@@ -116,13 +117,15 @@ All criteria come from one judge call, so co-movement is not evidence of cause.
 - **gpt-oss-120b keeps the criteria apart in English** (within-English slopes near zero or negative). On
   factual items its correctness is 5 for every form, so nothing can leak there. On open-ended items,
   correctness drops with language quality for Romanized Hindi (slope 0.43 [0.19, 0.63]) and Hinglish
-  (0.46 [0.22, 0.69]), which fits language quality leaking into the content score on open-ended answers.
+  (0.46 [0.22, 0.69]). That is consistent with language quality leaking into the content score on
+  open-ended answers, but a halo within the call would look the same.
   Its clarity follows language quality (B2 slope 0.79 for hi_rom).
 - **Comments (keyword coder, not yet checked by humans: 0 of 200 sample comments labelled).** gpt-oss-120b
   names language in 87% / 75% / 53% of its hi / hi_rom / hinglish comments (2% for English); Qwen in 16% /
   33% / 16%. With the post-hoc Chinese lexicon Qwen's hi rate is 29%, because Qwen wrote many of its comments
   on Hindi answers in Chinese. Of Qwen's content drops vs English, 65-87% come with a comment that never
-  mentions language ("silent penalties"); for gpt-oss-120b it is 10-31%.
+  mentions language (B5, score drop without language mention); for gpt-oss-120b it is 10-31%. A missing
+  keyword does not show the drop was about language, only that the judge did not say so.
 
 ## E5: mitigations (`main_e5.md`, 60-item subset)
 
@@ -165,3 +168,7 @@ with each judge's own baseline.
   translate-then-judge; E5 Hindi rubric; E4 human grading; the two-rater check of the comment coder.
 - Two judges is a small panel. Every Hindi-form text was machine-drafted and then human-verified; see the
   README limitations.
+- Ceiling on factual items: gpt-oss-120b gives correctness 5 to all 400 factual E1 scores (100 items x 4
+  forms) and completeness 5 to 98%, so its factual items cannot show a content gap; its content effects come
+  from clarity and the 50 open-ended items. In the pilot, gemini-flash gave 5 on every criterion to all 80
+  E1 answers.
