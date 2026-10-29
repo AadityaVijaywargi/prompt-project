@@ -32,9 +32,9 @@ for ($round = 1; $round -le 30; $round++) {
   git commit -q -m "gpt-oss E5 $Variant part $shard"
   git pull -q --rebase; git push -q
   if ($LASTEXITCODE -eq 0) { "push ok" } else { "PUSH FAILED: check git status (a stuck rebase?)" }
-  $n = Calls-Left
-  "round ${round}: $n calls left in part $shard"
-  if ($n -eq 0) { break }
+  $left = Calls-Left
+  "round ${round}: $left calls left in part $shard"
+  if ($left -eq 0) { break }
   "waiting 30 min for the Groq limit to refill"
   Start-Sleep -Seconds 1800
 }
