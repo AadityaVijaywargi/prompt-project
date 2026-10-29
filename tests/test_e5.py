@@ -68,6 +68,14 @@ def test_translate_then_judge_uses_translations_and_keeps_english():
         e5.translated_text_of({})(q, "hi")
 
 
+def test_missing_translations_counts_only_this_parts_items():
+    cfg = experiments_config()
+    part1, part2 = e5.subset_for(cfg, shard="1/4"), e5.subset_for(cfg, shard="2/4")
+    texts = {(q.item_id, f): "EN" for q in part2 for f in e5.NON_EN}   # another part is fully translated
+    assert len(e5.missing_translations(part1, texts)) == len(part1) * 3
+    assert e5.missing_translations(part2, texts) == []
+
+
 def test_rate_diff_bootstrap():
     base, new = [(1, 2)] * 10, [(2, 2)] * 10
     rb, rv, diff, lo, hi = bootstrap_rate_diff_ci(base, new)

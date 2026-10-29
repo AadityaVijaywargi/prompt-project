@@ -73,6 +73,10 @@ def translations(calls: dict, translator: str) -> dict:
     return {(k[2], k[3][0]): p["text"] for k, p in calls.items() if k[0] == TRANSLATE and k[1] == translator}
 
 
+def missing_translations(subset, texts: dict) -> list[tuple[str, str]]:
+    return [(q.item_id, f) for q in subset for f in NON_EN if (q.item_id, f) not in texts]
+
+
 def translated_text_of(texts: dict):
     """Answer text for translate_then_judge: non-English correct answers come from the translations."""
     def text_of(q, selector: str) -> str:
@@ -112,7 +116,8 @@ def main() -> None:
         translator = e5["translator"]
         run(args, TRANSLATE, plan_translations(subset, translator))
         texts = translations(load_calls(TRANSLATE_VARIANT, [translator]), translator)
-        if len(texts) < len(subset) * len(NON_EN):
+        # Only this run's items count: with --shard, the other parts' translations are in texts too.
+        if missing_translations(subset, texts):
             print("translations incomplete; judging waits until every subset answer is translated")
             return
         text_of = translated_text_of(texts)
