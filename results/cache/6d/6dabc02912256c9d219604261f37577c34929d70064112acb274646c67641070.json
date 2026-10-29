@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is three or more. A multipolar system is one in which power is divided among three or more great powers, such as Europe before World I. A system dominated by a single power is unipolar, and a system with two rival powers, such as the Cold War, is bipolar.",
+ "tokens": {
+  "prompt": 223,
+  "completion": 259
+ },
+ "created": "2026-10-29T13:11:25.315387+00:00"
+}

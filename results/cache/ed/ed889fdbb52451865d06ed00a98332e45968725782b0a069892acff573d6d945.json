@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "You can protect your crops by combining several methods without harming animals. Traditional and natural methods: plant thorny or strong‑smelling crops such as lemongrass, castor, chilli or sisal along the field border, which keep nilgai and wild boar away; spray a mixture of cow dung, cow urine and neem or chilli, whose smell drives them away; and keep guard dogs, which work well against monkeys and wild boar. Modern methods: install solar‑powered electric fences that give a harmless shock, use motion‑sensor lights and alarms or bio‑acoustic devices that play predator sounds, and use bird‑scaring tape. Fence the entire area together with neighboring farmers, and contact the forest department for support schemes and crop‑loss compensation.",
+ "tokens": {
+  "prompt": 334,
+  "completion": 560
+ },
+ "created": "2026-10-29T13:14:46.007414+00:00"
+}

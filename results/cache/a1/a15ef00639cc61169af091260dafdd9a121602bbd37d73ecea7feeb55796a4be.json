@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"clarity\": 4,\n  \"language_quality\": 5,\n  \"comment\": \"Provides solid practical mix, but could include more Indian-specific non‑lethal techniques.\"\n}",
+ "tokens": {
+  "prompt": 470,
+  "completion": 533
+ },
+ "created": "2026-10-29T13:22:07.399693+00:00"
+}

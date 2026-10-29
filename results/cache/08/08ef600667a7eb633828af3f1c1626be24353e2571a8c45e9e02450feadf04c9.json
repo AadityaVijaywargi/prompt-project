@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is: the probability is 1. In an autosomal recessive disorder, an affected person has two copies of the disease allele. If both parents are affected, then both can only pass the disease allele, so each child receives two copies and is affected.",
+ "tokens": {
+  "prompt": 203,
+  "completion": 228
+ },
+ "created": "2026-10-29T13:16:45.326527+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly states homoousios means \\\"of the same substance\\\"; Answer B gives the opposite, which is wrong.\"}",
+ "tokens": {
+  "prompt": 321,
+  "completion": 221
+ },
+ "created": "2026-10-29T13:41:36.751420+00:00"
+}

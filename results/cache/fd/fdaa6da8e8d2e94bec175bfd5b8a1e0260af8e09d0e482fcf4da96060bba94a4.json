@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies the limitation as BMI not distinguishing fat from lean mass, matching the reference answer.\"}",
+ "tokens": {
+  "prompt": 331,
+  "completion": 200
+ },
+ "created": "2026-10-29T13:46:56.948503+00:00"
+}

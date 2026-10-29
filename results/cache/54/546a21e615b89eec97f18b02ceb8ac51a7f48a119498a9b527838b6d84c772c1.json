@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies homoousios as 'of the same substance' while Answer A gives the wrong option.\"\n}",
+ "tokens": {
+  "prompt": 321,
+  "completion": 293
+ },
+ "created": "2026-10-29T13:41:27.307051+00:00"
+}

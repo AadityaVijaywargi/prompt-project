@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is the hierarchy of needs. Maslow organized human needs into levels, with physiological needs such as food and water at the bottom, followed by safety, belonging, esteem, and finally self‑actualization. Generally, higher needs motivate behavior only after the lower, more basic needs have been satisfied.",
+ "tokens": {
+  "prompt": 231,
+  "completion": 266
+ },
+ "created": "2026-10-29T13:11:55.302596+00:00"
+}

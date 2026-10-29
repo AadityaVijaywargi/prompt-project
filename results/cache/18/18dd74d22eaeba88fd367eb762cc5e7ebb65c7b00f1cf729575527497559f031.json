@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is at the front part of the neck. The carotid artery is felt in front of the neck, right beside the trachea and below the angle of the jaw, where the usual carotid vessel passes. The other options describe the locations of the temporal, brachial, and femoral arteries.",
+ "tokens": {
+  "prompt": 229,
+  "completion": 271
+ },
+ "created": "2026-10-29T13:17:05.392007+00:00"
+}

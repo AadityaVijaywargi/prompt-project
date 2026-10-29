@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B provides the correct answer and accurately describes the council's rejection of the similar‑substance view, whereas Answer A contains a factual error.\"}",
+ "tokens": {
+  "prompt": 311,
+  "completion": 256
+ },
+ "created": "2026-10-29T13:26:17.262320+00:00"
+}

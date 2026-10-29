@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A uses the exact wording “of the same substance” matching the option, making it more directly aligned.\"\n}",
+ "tokens": {
+  "prompt": 313,
+  "completion": 234
+ },
+ "created": "2026-10-29T13:25:46.985071+00:00"
+}

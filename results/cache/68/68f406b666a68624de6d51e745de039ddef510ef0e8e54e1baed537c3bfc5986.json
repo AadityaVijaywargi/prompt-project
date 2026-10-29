@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"B is more concise and professionally phrased without redundant \\\"or not\\\" wording.\"\n}",
+ "tokens": {
+  "prompt": 369,
+  "completion": 298
+ },
+ "created": "2026-10-29T13:31:36.972098+00:00"
+}

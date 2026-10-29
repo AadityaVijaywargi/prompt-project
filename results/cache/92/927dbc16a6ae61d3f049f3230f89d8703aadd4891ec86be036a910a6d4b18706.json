@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "A is C's grandfather. A is B's father and B is C's father, therefore A is C's father's father. In other words, A is C's paternal grandfather, and C is A's grandchild.",
+ "tokens": {
+  "prompt": 188,
+  "completion": 196
+ },
+ "created": "2026-10-29T13:13:15.019517+00:00"
+}

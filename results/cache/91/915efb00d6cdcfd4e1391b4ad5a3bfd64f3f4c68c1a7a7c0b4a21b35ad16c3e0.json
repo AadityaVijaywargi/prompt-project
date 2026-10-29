@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Both are correct, but Answer A uses more precise anatomical wording.\"}",
+ "tokens": {
+  "prompt": 349,
+  "completion": 282
+ },
+ "created": "2026-10-29T13:38:06.891906+00:00"
+}

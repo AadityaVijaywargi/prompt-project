@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (B) is: “of the same substance.” This term was adopted at the Council of Nicaea in 325 CE to state that the Son and the Father are of the same essence. Its contrast was made with homoiousios, i.e., “of similar substance,” a view that the council rejected.",
+ "tokens": {
+  "prompt": 207,
+  "completion": 258
+ },
+ "created": "2026-10-29T13:11:15.338575+00:00"
+}

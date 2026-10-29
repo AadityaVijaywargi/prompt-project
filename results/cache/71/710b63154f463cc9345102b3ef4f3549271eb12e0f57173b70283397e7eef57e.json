@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: it replicates its genetic material and synthesizes viral proteins. Influenza is an RNA virus, which copies its RNA genome with its RNA polymerase and uses the host’s ribosomes to make viral proteins. It is not a retrovirus, so it does not make DNA with reverse transcriptase nor does it integrate into the host chromosome.",
+ "tokens": {
+  "prompt": 226,
+  "completion": 278
+ },
+ "created": "2026-10-29T13:15:45.304419+00:00"
+}

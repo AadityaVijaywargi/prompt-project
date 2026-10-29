@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "Subject: Request for feedback on the quarterly financial report. Dear Ms. Sharma, I have completed the quarterly financial report and would like to know your feedback before delivering it. Specifically, could you tell whether the data analysis is solid or not, whether the presentation style and charts are clear and professional, and whether the conclusions are clearly drawn from the data? I would be grateful if I could receive any comments from you by Friday. Thank you for your time. Sincerely, Rahul",
+ "tokens": {
+  "prompt": 275,
+  "completion": 225
+ },
+ "created": "2026-10-29T13:13:25.208152+00:00"
+}

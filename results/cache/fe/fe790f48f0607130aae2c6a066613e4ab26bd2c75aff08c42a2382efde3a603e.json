@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: BMI does not differentiate between fat and lean mass. It is calculated only from weight and height, so a muscular athlete can be considered to have a higher weight despite having low body fat. It also tells nothing about where the fat is deposited in the body.",
+ "tokens": {
+  "prompt": 220,
+  "completion": 242
+ },
+ "created": "2026-10-29T13:15:55.169225+00:00"
+}

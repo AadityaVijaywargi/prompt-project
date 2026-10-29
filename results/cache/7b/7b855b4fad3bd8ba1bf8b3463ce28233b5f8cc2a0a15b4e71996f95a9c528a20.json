@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is on the front side of the neck. The carotid pulse is felt on the front of the neck, right beside the windpipe and below the angle of the jaw, where the common carotid artery passes. The other options describe the locations of the temporal, brachial, and femoral pulses.",
+ "tokens": {
+  "prompt": 207,
+  "completion": 253
+ },
+ "created": "2026-10-29T13:17:15.296049+00:00"
+}

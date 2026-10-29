@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C). Grinding the coin into fine dust greatly increases its surface area, causing many more copper atoms to come into contact with oxygen at once, and the particles burn rapidly in an ordinary Bunsen flame. The solid coin loses heat very quickly, so it does not burn even with a hotter torch, and option (D) produces only copper oxide chemically rather than burning the metal.",
+ "tokens": {
+  "prompt": 262,
+  "completion": 429
+ },
+ "created": "2026-10-29T13:14:55.578732+00:00"
+}

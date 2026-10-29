@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (B). According to dualism, international law and domestic law are two separate legal systems, so a treaty within a state does not become effective until national legislation transforms it into domestic law. This is different from monism, which regards both as part of the same legal order.",
+ "tokens": {
+  "prompt": 204,
+  "completion": 237
+ },
+ "created": "2026-10-29T13:17:45.366367+00:00"
+}

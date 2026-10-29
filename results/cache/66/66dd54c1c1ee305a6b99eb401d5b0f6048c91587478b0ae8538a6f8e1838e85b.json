@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies the term as meaning “of the same substance” and gives accurate context, while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 320,
+  "completion": 176
+ },
+ "created": "2026-10-29T13:40:56.784506+00:00"
+}

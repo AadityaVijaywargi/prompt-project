@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: BMI does not differentiate between fat and fat‑free mass. It is calculated only from weight and height, so a muscular athlete can be considered overweight despite having low body fat. It also does not tell where the fat is stored in the body.",
+ "tokens": {
+  "prompt": 209,
+  "completion": 241
+ },
+ "created": "2026-10-29T13:16:15.320714+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C), representation. Since the time of Plato and Aristotle, art has traditionally been regarded as imitation, that is, a copy or representation of reality. In the modern era this definition has faced widespread challenge, especially from abstract art, which does not depict any recognizable object.",
+ "tokens": {
+  "prompt": 229,
+  "completion": 254
+ },
+ "created": "2026-10-29T13:12:35.434273+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The main problem is that in India's landfill areas a large amount of mixed, unsorted waste ends up, so most urban dumps are open spaces rather than engineered landfill sites. Decomposing organic waste releases methane, which causes frequent fires, and leachate’s contaminated water mixes with groundwater, affecting the health of nearby residents. Effective solutions start at the source by separating waste into wet, dry, and hazardous waste, as mandated by the Solid Waste Management Rules, 2016. Wet waste can be turned into compost or biogas, dry waste can be recycled, and old garbage piles can be cleared through bio‑mining. Community participation is very important: awareness campaigns such as the Swachh Bharat Mission change household habits and make waste segregation and recycling successful in practice.",
+ "tokens": {
+  "prompt": 469,
+  "completion": 1068
+ },
+ "created": "2026-10-29T13:14:06.984517+00:00"
+}

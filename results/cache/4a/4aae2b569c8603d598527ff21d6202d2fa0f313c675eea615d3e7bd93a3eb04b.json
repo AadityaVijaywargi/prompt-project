@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C), representation. Since the time of Plato and Aristotle, art has traditionally been considered mimesis, that is, an imitation or representation of reality. In the modern era, this definition has been widely challenged, especially by abstract art, which does not represent any recognizable thing.",
+ "tokens": {
+  "prompt": 200,
+  "completion": 240
+ },
+ "created": "2026-10-29T13:12:45.490121+00:00"
+}

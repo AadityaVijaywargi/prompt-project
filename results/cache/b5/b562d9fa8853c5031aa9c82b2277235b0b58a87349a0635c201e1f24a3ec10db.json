@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"B uses slightly more professional phrasing and consistent capitalization\"}",
+ "tokens": {
+  "prompt": 366,
+  "completion": 234
+ },
+ "created": "2026-10-29T13:30:57.090490+00:00"
+}

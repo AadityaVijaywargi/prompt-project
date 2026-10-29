@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: BMI does not differentiate between fat and fat‑free mass. Its calculation is based only on weight and height, so a muscular athlete can be considered to have a high weight despite having low body fat. It also does not tell where the fat is stored in the body.",
+ "tokens": {
+  "prompt": 232,
+  "completion": 264
+ },
+ "created": "2026-10-29T13:16:05.494371+00:00"
+}
