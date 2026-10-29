@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (B) is seven. The Pleiades is famous for seven sparkling stars, which is why this star cluster is commonly called the “seven sisters.” In reality, this cluster contains hundreds of stars, but only a few are easily visible to the naked eye.",
+ "tokens": {
+  "prompt": 225,
+  "completion": 247
+ },
+ "created": "2026-10-29T13:05:49.136987+00:00"
+}

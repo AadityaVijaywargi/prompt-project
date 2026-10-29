@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "A language model is a computer program that has learned how language works by reading a huge amount of text. Its basic skill is to predict which word will come next in a sentence, and by doing this repeatedly it can answer questions, summarize documents, or write emails. It is mostly trained on unlabelled data: normal text from books and websites, where the “answer” for each step is simply the next word already present in the text, so no one needs to label it by hand. Afterwards, many models are fine‑tuned with a small amount of labelled or human‑rated examples so that they become more helpful and safe.",
+ "tokens": {
+  "prompt": 319,
+  "completion": 153
+ },
+ "created": "2026-10-29T13:02:58.953445+00:00"
+}

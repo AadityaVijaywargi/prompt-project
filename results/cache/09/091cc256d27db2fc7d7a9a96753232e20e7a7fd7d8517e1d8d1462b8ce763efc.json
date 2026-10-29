@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is 8. << The shifter shifts a number’s bits to the left, and each shift multiplies the number by 2. Shifting 1 (binary 1) three positions to the left yields binary 1000, which is 8.",
+ "tokens": {
+  "prompt": 221,
+  "completion": 255
+ },
+ "created": "2026-10-29T13:05:09.203054+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (B). Bipedalism evolved millions of years before the large expansion of the brain, so it is not considered a cause of a large skull cavity. The other options are standard hypotheses: upright walking freed the hands for carrying things, saved energy when traveling long distances, and allowed hominids to see far over tall grass.",
+ "tokens": {
+  "prompt": 232,
+  "completion": 284
+ },
+ "created": "2026-10-29T13:06:39.111621+00:00"
+}

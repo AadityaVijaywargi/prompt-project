@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is 8. The << operator shifts the bits of a number to the left, and each shift multiplies the number by 2. Shifting 1 (binary 1) three places to the left gives binary 1000, which is 8.",
+ "tokens": {
+  "prompt": 220,
+  "completion": 550
+ },
+ "created": "2026-10-29T13:05:19.813645+00:00"
+}

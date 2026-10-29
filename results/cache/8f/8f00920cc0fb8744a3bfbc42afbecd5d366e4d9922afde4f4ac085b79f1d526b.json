@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "In a circular orbit, gravity is the only force that provides the centripetal force for a satellite, therefore \\(GMm/r^{2}=mv^{2}/r\\), from which \\(v=\\sqrt{GM/r}\\) is obtained. Thus the orbital speed is inversely related to the square root of the radius: a satellite that moves slowly in a circular orbit must be farther from Earth. Consequently, if the satellite’s speed decreases while it remains in a circular orbit, its orbital radius increases. Its period, \\(T=2\\pi r/v\\), also increases, because the path becomes longer while the speed is lower; this matches Kepler’s third law, \\(T^{2}\\propto r^{3}\\).",
+ "tokens": {
+  "prompt": 294,
+  "completion": 481
+ },
+ "created": "2026-10-29T13:01:59.932323+00:00"
+}

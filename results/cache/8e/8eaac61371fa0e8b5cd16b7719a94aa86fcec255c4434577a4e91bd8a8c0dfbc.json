@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly references the cosine relationship and the non‑linear behavior, despite mislabeling the choice.\"\n}",
+ "tokens": {
+  "prompt": 332,
+  "completion": 227
+ },
+ "created": "2026-10-29T13:35:21.812644+00:00"
+}

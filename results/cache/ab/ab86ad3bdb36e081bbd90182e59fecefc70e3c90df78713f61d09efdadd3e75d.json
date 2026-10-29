@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "When finally the monsoon arrives in India, the first drops drum on tin roofs like thousands of tiny hands, and soon the rain begins to roar like silver sheets as it falls. The thirsty earth releases its sweet, earthy fragrance, the smell of wet soil that everyone has waited for all summer. In just a few days the brown fields and dusty hills turn vivid green, and frogs and peacocks fill the evenings with their calls. Daily life also changes: streets get flooded, trains run late and umbrellas sprout everywhere, while children happily splash in puddles. For farmers the rain itself is life, filling ponds and wells and making the sowing of rice, cotton and other kharif crops possible, which fill the country's stomach.",
+ "tokens": {
+  "prompt": 344,
+  "completion": 711
+ },
+ "created": "2026-10-29T13:03:59.967052+00:00"
+}

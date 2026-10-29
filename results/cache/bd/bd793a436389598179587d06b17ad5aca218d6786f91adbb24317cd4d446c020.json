@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The four ages can be read as a mirror of human life. The age of truth and purity, Satya Yuga, is like childhood; Treta Yuga, when dharma begins to decline, is like youth; the Dvapara Yuga, a mixture of good and evil with its responsibilities and struggles, is like adulthood; and the age of decline, Kali Yuga, is like old age. Traditional scriptures also link liberation with the ages: it is said that in Kali Yuga life is short and difficult, therefore simple paths such as devotion and chanting the name of God are suggested. The feeling that time is diminishing can make death feel nearer and can give urgency to living correctly in the present.",
+ "tokens": {
+  "prompt": 373,
+  "completion": 603
+ },
+ "created": "2026-10-29T13:03:19.811116+00:00"
+}

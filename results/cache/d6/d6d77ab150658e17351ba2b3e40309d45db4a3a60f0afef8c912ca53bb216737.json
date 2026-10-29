@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies the proposed creation of the National Intelligence Director, while Answer A gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 348,
+  "completion": 187
+ },
+ "created": "2026-10-29T13:32:31.904614+00:00"
+}

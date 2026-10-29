@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A is more accurate and clearly explains why (B) is not a hypothesis, while Answer B contains a factual error ('washing objects').\"\n}",
+ "tokens": {
+  "prompt": 354,
+  "completion": 347
+ },
+ "created": "2026-10-29T13:29:11.858016+00:00"
+}

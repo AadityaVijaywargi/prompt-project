@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A provides clearer, more accurate explanation and uses standard terminology, while Answer B uses odd phrasing like \\\"wire‑style speech\\\".\"}",
+ "tokens": {
+  "prompt": 322,
+  "completion": 189
+ },
+ "created": "2026-10-29T13:17:51.558200+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Correctly identifies (C) and explains why the server checks the ticket’s expiration locally\"\n}",
+ "tokens": {
+  "prompt": 485,
+  "completion": 124
+ },
+ "created": "2026-10-29T13:37:51.544698+00:00"
+}

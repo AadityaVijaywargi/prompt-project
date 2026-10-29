@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: It usually refuses to hear an appeal. The Supreme Court receives several thousand petitions each year, but it accepts hearings in fewer than 100 cases, typically about 60 to 70 cases. When it denies a writ of certiorari, the lower court’s decision remains in effect.",
+ "tokens": {
+  "prompt": 231,
+  "completion": 291
+ },
+ "created": "2026-10-29T13:00:09.202479+00:00"
+}

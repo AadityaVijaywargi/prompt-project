@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A is clearer and lacks the stray symbols present in Answer B.\"\n}",
+ "tokens": {
+  "prompt": 298,
+  "completion": 233
+ },
+ "created": "2026-10-29T13:25:54.366731+00:00"
+}

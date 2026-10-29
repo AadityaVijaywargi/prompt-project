@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies (C) and explains the proper server-side expiration check, while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 483,
+  "completion": 221
+ },
+ "created": "2026-10-29T13:38:21.707881+00:00"
+}

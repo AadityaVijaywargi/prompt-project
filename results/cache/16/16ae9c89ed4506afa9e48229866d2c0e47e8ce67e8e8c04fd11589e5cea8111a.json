@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is: it decreases nonlinearly. The normal force on a box placed on an incline is equal to mg cos θ, where θ is the angle of the incline. Because cosine is not a linear function, as the angle increases the normal force first decreases slowly and then decreases quickly.",
+ "tokens": {
+  "prompt": 208,
+  "completion": 243
+ },
+ "created": "2026-10-29T13:04:59.156603+00:00"
+}

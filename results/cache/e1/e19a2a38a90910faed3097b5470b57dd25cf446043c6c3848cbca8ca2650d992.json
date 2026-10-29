@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: China is rapidly industrializing. Since economic reforms began in 1978, China has become one of the world’s largest manufacturing economies. The other statements are wrong: Japan has few natural resources, China has abundant resources such as coal, and Taiwan’s industrial base is strong and it has an educated workforce.",
+ "tokens": {
+  "prompt": 257,
+  "completion": 305
+ },
+ "created": "2026-10-29T12:59:49.152666+00:00"
+}

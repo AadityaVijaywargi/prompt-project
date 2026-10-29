@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies the aligned configuration as producing the highest tides, matching the reference.\"\n}",
+ "tokens": {
+  "prompt": 337,
+  "completion": 140
+ },
+ "created": "2026-10-29T13:33:51.530959+00:00"
+}

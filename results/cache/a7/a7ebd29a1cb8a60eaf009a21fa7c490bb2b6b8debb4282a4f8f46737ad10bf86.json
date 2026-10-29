@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies seven bright stars, matching the reference, while Answer A is incorrect.\"}",
+ "tokens": {
+  "prompt": 307,
+  "completion": 113
+ },
+ "created": "2026-10-29T13:37:31.456531+00:00"
+}

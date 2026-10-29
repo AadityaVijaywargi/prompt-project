@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The shadow was pointing toward the west. In the morning the Sun rises in the east, so shadows fall toward the west. Because the shadow was exactly on Suresh’s right side, the west was on his right. The person who has west on his right is facing south, so Suresh was facing south and the shadow was toward the west.",
+ "tokens": {
+  "prompt": 223,
+  "completion": 290
+ },
+ "created": "2026-10-29T13:02:29.220312+00:00"
+}

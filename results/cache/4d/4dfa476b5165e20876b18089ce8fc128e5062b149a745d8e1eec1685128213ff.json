@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly explain that the shadow points west with equivalent reasoning.\"}",
+ "tokens": {
+  "prompt": 329,
+  "completion": 285
+ },
+ "created": "2026-10-29T13:20:21.891822+00:00"
+}

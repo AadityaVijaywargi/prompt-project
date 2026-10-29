@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C). Every Kerberos ticket records its expiration time, so when the client presents the ticket, the server compares that time with its own clock and, if the ticket’s validity period has expired, it denies authentication. The server does not need to contact the KDC, therefore it is essential that the clocks in Kerberos be roughly synchronized.",
+ "tokens": {
+  "prompt": 252,
+  "completion": 300
+ },
+ "created": "2026-10-29T13:06:19.314368+00:00"
+}

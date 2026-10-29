@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (B). The large expansion of the brain developed millions of years ago, so it is not considered a cause of a large cranial cavity. The other options are standard hypotheses: upright walking freed the hands for washing objects, saved energy in covering long distances, and allowed hominids to see far over tall grass.",
+ "tokens": {
+  "prompt": 252,
+  "completion": 418
+ },
+ "created": "2026-10-29T13:06:49.442677+00:00"
+}

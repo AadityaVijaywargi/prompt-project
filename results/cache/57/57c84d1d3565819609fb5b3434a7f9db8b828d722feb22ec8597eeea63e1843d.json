@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies (C) and explains the server’s local time check, while Answer B gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 485,
+  "completion": 221
+ },
+ "created": "2026-10-29T13:38:02.036959+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Correctly identifies option C and explains the ticket expiration check without unnecessary KDC queries\"}",
+ "tokens": {
+  "prompt": 483,
+  "completion": 124
+ },
+ "created": "2026-10-29T13:38:11.452365+00:00"
+}

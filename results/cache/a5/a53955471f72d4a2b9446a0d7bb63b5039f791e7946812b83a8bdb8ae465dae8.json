@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Provides the correct answer (A) and accurate explanation of spring tides.\"\n}",
+ "tokens": {
+  "prompt": 340,
+  "completion": 134
+ },
+ "created": "2026-10-29T13:34:31.424195+00:00"
+}

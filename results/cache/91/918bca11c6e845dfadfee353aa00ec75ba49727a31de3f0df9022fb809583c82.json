@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (B). Bipedalism evolved millions of years ago due to the large expansion of the brain, so it is not considered the cause of a larger braincase. The other options are standard hypotheses: walking upright freed the hands to carry things, saved energy over long distances, and allowed hominids to see far over tall grass.",
+ "tokens": {
+  "prompt": 223,
+  "completion": 432
+ },
+ "created": "2026-10-29T13:07:09.616577+00:00"
+}

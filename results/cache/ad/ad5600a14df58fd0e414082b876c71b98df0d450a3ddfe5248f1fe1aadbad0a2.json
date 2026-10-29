@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers provide the same correct physics reasoning and content.\"}",
+ "tokens": {
+  "prompt": 432,
+  "completion": 327
+ },
+ "created": "2026-10-29T13:19:11.891293+00:00"
+}

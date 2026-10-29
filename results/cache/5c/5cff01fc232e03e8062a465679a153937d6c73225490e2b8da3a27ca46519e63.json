@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: creating the position of National Intelligence Director. The 9/11 Commission found that many intelligence agencies did not share information properly with each other, so it recommended a single official for their oversight and coordination. Congress created the position of National Intelligence Director in 2004.",
+ "tokens": {
+  "prompt": 223,
+  "completion": 258
+ },
+ "created": "2026-10-29T13:00:39.181442+00:00"
+}

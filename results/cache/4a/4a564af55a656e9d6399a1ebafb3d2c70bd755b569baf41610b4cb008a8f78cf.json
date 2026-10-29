@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: it usually refuses to hear the appeal. The Supreme Court receives several thousand petitions each year, but it grants review in fewer than 100 cases, usually in about 60 to 70 cases. When it denies certiorari, the lower court's decision stands.",
+ "tokens": {
+  "prompt": 212,
+  "completion": 258
+ },
+ "created": "2026-10-29T13:00:29.827359+00:00"
+}

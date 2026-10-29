@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is wire‑style speech. At about two years of age, children begin to combine two or more words and drop small grammatical words, just like an old telegram, such as “Get cookie” or “Daddy go.” One‑word sentences are solitary words that convey an entire thought, and babbling and cooing come before that.",
+ "tokens": {
+  "prompt": 233,
+  "completion": 294
+ },
+ "created": "2026-10-29T13:01:09.243597+00:00"
+}

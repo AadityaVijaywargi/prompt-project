@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 3,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Clear and well‑written, but somewhat brief and lacking deeper detail on moksha and death across the yugas.\"\n}",
+ "tokens": {
+  "prompt": 449,
+  "completion": 325
+ },
+ "created": "2026-10-29T13:10:42.035096+00:00"
+}

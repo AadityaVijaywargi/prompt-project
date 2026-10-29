@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The four yugas can be read as a mirror of human life. The age of truth and purity, Satya Yuga, is like childhood; Treta Yuga, when virtue begins to decline, is like youth; the mixed good and bad Dvapara Yuga, with its responsibilities and conflicts, is like adulthood; and the age of decline, Kali Yuga, is like old age. Traditional texts also link moksha to the yugas: it is said that in Kali Yuga life is short and difficult, therefore simple paths such as devotion and chanting God's name are suggested. This feeling of time decreasing can make death feel closer and can give urgency to living properly in the present.",
+ "tokens": {
+  "prompt": 316,
+  "completion": 505
+ },
+ "created": "2026-10-29T13:03:29.714565+00:00"
+}

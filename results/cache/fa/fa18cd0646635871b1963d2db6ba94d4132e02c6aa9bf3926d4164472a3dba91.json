@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: when the Earth and Moon are in line with the Sun. At new moon and full moon the Sun’s and Moon’s tidal pulls add together, producing the highest tides, which are called spring tides. When the Sun and Moon are at right angles, they partially cancel each other and the tides are the smallest.",
+ "tokens": {
+  "prompt": 226,
+  "completion": 275
+ },
+ "created": "2026-10-29T13:04:29.218356+00:00"
+}

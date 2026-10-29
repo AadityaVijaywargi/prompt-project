@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 2,\n  \"completeness\": 3,\n  \"clarity\": 2,\n  \"language_quality\": 4,\n  \"comment\": \"The answer contains the right formula but misstates the conclusion, making it confusing and partially incorrect.\"\n}",
+ "tokens": {
+  "prompt": 350,
+  "completion": 354
+ },
+ "created": "2026-10-29T13:12:23.047603+00:00"
+}

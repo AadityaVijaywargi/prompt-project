@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Both answers are correct, but B uses the proper term 'telegraphic speech' and clearer phrasing, despite a minor typo, making it slightly better.\"}",
+ "tokens": {
+  "prompt": 322,
+  "completion": 426
+ },
+ "created": "2026-10-29T13:18:02.116356+00:00"
+}

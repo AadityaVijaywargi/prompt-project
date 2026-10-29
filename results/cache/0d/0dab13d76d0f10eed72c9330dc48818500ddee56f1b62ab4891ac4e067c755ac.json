@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (B) is seven. The Pleiades is famous for its seven bright stars, so this cluster is commonly called “Seven Sisters.” Actually there are hundreds of stars in this cluster, but only a few are easily seen with the naked eye.",
+ "tokens": {
+  "prompt": 198,
+  "completion": 222
+ },
+ "created": "2026-10-29T13:05:59.153708+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: it generally refuses to hear an appeal. The Supreme Court receives several thousand petitions each year, but in fewer than 100 cases—generally in about 60 to 70 cases—it accepts the hearing. When it declines in the usual manner, the lower court’s decision remains in force.",
+ "tokens": {
+  "prompt": 248,
+  "completion": 289
+ },
+ "created": "2026-10-29T13:00:19.117849+00:00"
+}

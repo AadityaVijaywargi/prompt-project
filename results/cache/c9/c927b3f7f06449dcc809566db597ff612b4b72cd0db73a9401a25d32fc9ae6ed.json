@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Provides the correct answer and accurate explanation using N = mg cos θ.\"\n}",
+ "tokens": {
+  "prompt": 329,
+  "completion": 119
+ },
+ "created": "2026-10-29T13:35:31.391401+00:00"
+}
