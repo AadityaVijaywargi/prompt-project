@@ -1,4 +1,4 @@
-# Results so far (draft, updated 2026-10-28)
+# Results so far (draft, updated 2026-10-29)
 
 Working summary of the main-study results, for the team and the report. **Draft: not reviewed by the team.**
 Every number is copied from a generated table in `results/tables/` (named in each section), which `make
@@ -26,8 +26,10 @@ the mean of correctness, completeness and clarity.
    Romanized-Hindi answers accepted vs 17% in English). gpt-oss-120b rejects every wrong answer in every
    form (gap A 0/240), so wrong-answer leniency is a Qwen problem in this data.
 4. **Mitigations (first results).** Adding a "do not judge the language" instruction does nothing measurable
-   for Qwen. A two-judge majority vote helps Qwen and hurts gpt-oss-120b; with two judges it is not a real
-   majority (every disagreement becomes a tie).
+   for Qwen. For gpt-oss-120b it roughly halves the Romanized-Hindi content penalty (signed gap -0.14 →
+   -0.03) at no accuracy cost, and pairwise it turns most English wins into ties (tie rate 0.37 → 0.97); the
+   few remaining picks are still English. A two-judge majority vote helps Qwen and hurts gpt-oss-120b; with
+   two judges it is not a real majority (every disagreement becomes a tie).
 
 ## E1: pointwise gap (`main_baseline.md`)
 
@@ -147,6 +149,28 @@ Each variant is compared with the same judge's baseline on the same 60 items (40
 - 26 of 920 calls stayed unparsed after retries (1 in E2, 25 in E3), similar to Qwen's baseline E3; E3
   cells need both orders, so n is 33-37 instead of 40.
 
+**Bias-aware prompt (gpt-oss-120b, 920 calls, run 2026-10-28/29, split 3 ways).** Same prompt and items. For the
+large judge it does move the pointwise scores:
+
+| Measure | hi | hi_rom | hinglish |
+|---|---|---|---|
+| Signed content gap vs en | 0.02 → 0.02 (-0.01 [-0.07, 0.05]) | **-0.14 → -0.03 (+0.11 [0.03, 0.20])** | -0.15 → -0.08 (+0.07 [-0.01, 0.16]) |
+| Absolute content gap vs en | **0.13 → 0.08 (-0.05 [-0.09, -0.01])** | 0.21 → 0.13 (-0.08 [-0.15, 0.01]) | 0.17 → 0.18 (+0.01 [-0.07, 0.10]) |
+| E2 English win-rate (non-tie) | 1.00 → 1.00 | 1.00 → 1.00 | 1.00 → 1.00 |
+| Consistent wrong-English rate | 0.00 → 0.00 | 0.00 → 0.00 | 0.00 → 0.00 |
+
+- The Romanized-Hindi penalty roughly shrinks by half, and it shrinks where it lived: on these 60 items the
+  hi_rom clarity gap goes from -0.50 to -0.22 and the language-quality gap from -0.55 to -0.20 (Hinglish:
+  clarity -0.35 → -0.23, language quality -0.42 → -0.18); correctness and completeness stay near zero. This
+  per-criterion split is descriptive, not one of the planned E5 measures.
+- Pairwise, the instruction mostly turns English wins into ties: gpt-oss-120b's E2 tie rate goes from 0.37 to
+  0.97 (post hoc, descriptive). The remaining non-tie picks are still all English, so the planned win-rate
+  measure stays at 1.00, but it now rests on about 3% of judgments.
+- No accuracy cost: control accuracy stays 1.00 and it never prefers a wrong English answer, so the extra ties
+  come only on matched-content pairs, not on right-vs-wrong pairs.
+- 0 of 920 calls unparsed. Compared with Qwen, the instruction works on the 120B judge and does nothing on the
+  7B one, which fits the idea that following a meta-instruction like this needs a larger model.
+
 **Majority vote** (needs no new calls). It combines the two judges' existing baseline verdicts and is compared
 with each judge's own baseline.
 
@@ -159,13 +183,13 @@ with each judge's own baseline.
 
 - The E2 row is mechanical: with two judges, a non-tie majority needs both to agree, and gpt-oss-120b's
   non-tie picks are always English. A third judge is needed before majority vote can be judged fairly.
-- Not started: bias-aware on gpt-oss-120b, translate-then-judge (Groq translator) and the Hindi rubric
-  (needs a Hindi speaker to check the prompts).
+- Not started: translate-then-judge (Groq translator) and the Hindi rubric (needs a Hindi speaker to check
+  the prompts).
 
 ## Not done yet
 
-- gemini-flash main study (pilot only); E5 bias-aware for gpt-oss-120b; E5
-  translate-then-judge; E5 Hindi rubric; E4 human grading; the two-rater check of the comment coder.
+- gemini-flash main study (pilot only); E5 translate-then-judge; E5 Hindi rubric; E4 human grading; the
+  two-rater check of the comment coder.
 - Two judges is a small panel. Every Hindi-form text was machine-drafted and then human-verified; see the
   README limitations.
 - Ceiling on factual items: gpt-oss-120b gives correctness 5 to all 400 factual E1 scores (100 items x 4

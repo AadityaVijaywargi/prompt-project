@@ -8,6 +8,12 @@ A smaller absolute gap means the variant narrowed the language gap.
 
 | Variant | Judge | vs baseline of | Form | Measure | n | baseline | variant | change [95% CI] |
 |---|---|---|---|---|---|---|---|---|
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hi | content gap vs en (signed) | 60 | 0.02 | 0.02 | -0.01 [-0.07, 0.05] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hi | content gap vs en (absolute) | 60 | 0.13 | 0.08 | -0.05 [-0.09, -0.01] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hi_rom | content gap vs en (signed) | 60 | -0.14 | -0.03 | 0.11 [0.03, 0.20] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hi_rom | content gap vs en (absolute) | 60 | 0.21 | 0.13 | -0.08 [-0.15, 0.01] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hinglish | content gap vs en (signed) | 60 | -0.15 | -0.08 | 0.07 [-0.01, 0.16] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hinglish | content gap vs en (absolute) | 60 | 0.17 | 0.18 | 0.01 [-0.07, 0.10] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | hi | content gap vs en (signed) | 60 | 0.10 | 0.13 | 0.03 [-0.07, 0.13] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | hi | content gap vs en (absolute) | 60 | 0.42 | 0.43 | 0.01 [-0.09, 0.10] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | hi_rom | content gap vs en (signed) | 60 | -0.07 | -0.04 | 0.02 [-0.07, 0.11] |
@@ -31,6 +37,9 @@ A smaller absolute gap means the variant narrowed the language gap.
 
 | Variant | Judge | vs baseline of | Pair | n items | baseline | variant | change [95% CI] |
 |---|---|---|---|---|---|---|---|
+| bias_aware | gpt-oss-120b | gpt-oss-120b | en vs hi | 60 | 1.00 | 1.00 | 0.00 [0.00, 0.00] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | en vs hi_rom | 60 | 1.00 | 1.00 | 0.00 [0.00, 0.00] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | en vs hinglish | 60 | 1.00 | 1.00 | 0.00 [0.00, 0.00] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | en vs hi | 60 | 0.57 | 0.63 | 0.07 [0.02, 0.12] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | en vs hi_rom | 60 | 0.76 | 0.80 | 0.04 [0.01, 0.08] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | en vs hinglish | 60 | 0.73 | 0.72 | -0.01 [-0.04, 0.03] |
@@ -47,6 +56,10 @@ Consistent wrong-English rate = the wrong English answer wins in both orders (lo
 
 | Variant | Judge | vs baseline of | Correct form | Measure | n | baseline | variant | change [95% CI] |
 |---|---|---|---|---|---|---|---|---|
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hi | consistent wrong-English rate | 40 | 0.00 | 0.00 | 0.00 [0.00, 0.00] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hi_rom | consistent wrong-English rate | 40 | 0.00 | 0.00 | 0.00 [0.00, 0.00] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | hinglish | consistent wrong-English rate | 40 | 0.00 | 0.00 | 0.00 [0.00, 0.00] |
+| bias_aware | gpt-oss-120b | gpt-oss-120b | en | control accuracy (correct en preferred) | 40 | 1.00 | 1.00 | 0.00 [0.00, 0.00] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | hi | consistent wrong-English rate | 33 | 0.12 | 0.09 | -0.03 [-0.09, 0.00] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | hi_rom | consistent wrong-English rate | 35 | 0.14 | 0.14 | 0.00 [0.00, 0.00] |
 | bias_aware | qwen2.5-7b-local | qwen2.5-7b-local | hinglish | consistent wrong-English rate | 36 | 0.14 | 0.14 | 0.00 [0.00, 0.00] |
