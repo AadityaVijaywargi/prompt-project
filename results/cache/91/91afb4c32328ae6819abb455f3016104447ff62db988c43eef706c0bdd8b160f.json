@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: the ratio of 1 coulomb to 1 volt. Capacitance is defined by C = Q/V, so the capacitance of a capacitor is one farad if, when a voltage of one volt is applied to it, it stores a charge of one coulomb. Ohm is a unit of resistance, not of capacitance.",
+ "tokens": {
+  "prompt": 230,
+  "completion": 291
+ },
+ "created": "2026-10-29T13:49:48.115512+00:00"
+}

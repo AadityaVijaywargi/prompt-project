@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies and explains the shift, while Answer B uses nonsensical terms.\"}",
+ "tokens": {
+  "prompt": 342,
+  "completion": 148
+ },
+ "created": "2026-10-29T13:59:11.085748+00:00"
+}

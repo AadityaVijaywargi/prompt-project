@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The Alps and the Rhine have shaped Western Europe in three main ways. First, the Alps became a natural barrier, which limited movement and concentrated settlements in valleys and lowlands, while their passes became important trade routes. Second, the Rhine has been a major transport corridor for centuries, so cities and industry have developed along its banks from Basel to Cologne and Rotterdam. Third, both support agriculture: Alpine meltwater feeds rivers that irrigate farmland, the Rhine valley’s fertile soil and mild climate are suitable for vineyards and crops, and Alpine slopes are used for dairy farming and seasonal grazing.",
+ "tokens": {
+  "prompt": 289,
+  "completion": 434
+ },
+ "created": "2026-10-29T13:46:28.449911+00:00"
+}

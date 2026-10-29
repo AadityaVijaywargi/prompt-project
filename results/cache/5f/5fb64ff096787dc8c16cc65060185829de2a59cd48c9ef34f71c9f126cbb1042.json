@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is 25%. Sickle‑cell disease is an autosomal recessive disease, so each carrier parent has one normal and one sickle‑cell allele. The child gets the disease only when it receives the sickle‑cell allele from both parents, whose probability is 1/2 × 1/2 = 1/4.",
+ "tokens": {
+  "prompt": 237,
+  "completion": 299
+ },
+ "created": "2026-10-29T13:50:18.155725+00:00"
+}

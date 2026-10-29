@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies (D) as the appeal to emotions, while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 359,
+  "completion": 108
+ },
+ "created": "2026-10-29T14:17:21.761415+00:00"
+}

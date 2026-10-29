@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies heating water as the reactor’s function, while Answer B is factually wrong.\"}",
+ "tokens": {
+  "prompt": 307,
+  "completion": 165
+ },
+ "created": "2026-10-29T14:22:21.147061+00:00"
+}

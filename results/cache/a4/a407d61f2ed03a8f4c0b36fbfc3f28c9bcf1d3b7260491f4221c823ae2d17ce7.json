@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "Solidarity is that feeling of unity and shared responsibility that binds the members of a group and motivates them to support each other. Sociologist Emile Durkheim distinguished mechanical solidarity, based on similarity in small traditional communities, from organic solidarity, based on interdependence in complex modern societies. Collective action turns this feeling into results: people who work together can achieve what individual persons cannot, such as villagers building a well together, workers forming a union, or citizens joining independence or civil‑rights movements. Mutual support through shared resources, volunteering and care also helps people get out of crises such as floods or pandemics. In this way solidarity builds trust and resilience, making common goals achievable.",
+ "tokens": {
+  "prompt": 320,
+  "completion": 523
+ },
+ "created": "2026-10-29T13:47:58.750787+00:00"
+}

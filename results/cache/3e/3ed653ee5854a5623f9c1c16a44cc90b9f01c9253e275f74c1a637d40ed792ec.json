@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: from making a core tool to making a flake. In the Levallois technique, the stone core was carefully pre‑shaped so that a flake of the predicted size and shape could be removed by striking it. Instead of turning the core into a hand‑axe, the core itself became the tool as a flake.",
+ "tokens": {
+  "prompt": 227,
+  "completion": 410
+ },
+ "created": "2026-10-29T13:44:08.468641+00:00"
+}

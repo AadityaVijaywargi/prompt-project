@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "Old Mrs. Kapoor used to sell umbrellas at a street corner where it never seemed to rain. She was as small and wrinkled as a dry twig, but her eyes shone like stones soaked in sunlight. Her shawl was made by stitching together pieces of forty colors, and she claimed that each square piece was woven in a country she had never visited. She would suddenly stop and laugh, like a boiling kettle spilling over, and she would know the secret of every traveler before he could tell it. The children swore that her umbrellas opened into other skies: one filled with snow, one with falling feathers, and one with stars.",
+ "tokens": {
+  "prompt": 351,
+  "completion": 803
+ },
+ "created": "2026-10-29T13:46:49.206003+00:00"
+}

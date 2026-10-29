@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The central dogma of molecular biology states how genetic information flows in a cell: from DNA to RNA and then to protein. It involves two main processes. In transcription, a copy of a gene’s DNA sequence inside the nucleus is made as messenger RNA. In translation, ribosomes read the mRNA and, by adding a chain of amino acids corresponding to it, synthesize protein. The process that copies DNA before cell division, DNA replication, is also often counted as part of this. The term was coined by Francis Crick in 1958.",
+ "tokens": {
+  "prompt": 316,
+  "completion": 446
+ },
+ "created": "2026-10-29T13:51:08.655394+00:00"
+}

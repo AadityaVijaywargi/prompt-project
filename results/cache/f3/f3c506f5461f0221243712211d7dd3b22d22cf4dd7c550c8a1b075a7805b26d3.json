@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: in the upper wall of the right atrium, near the mouth of the superior vena cava. The sinus node is the heart’s natural pacemaker, generating the electrical impulse that initiates each heartbeat. The ridge between the atria and ventricles is called the atrioventricular ridge.",
+ "tokens": {
+  "prompt": 226,
+  "completion": 616
+ },
+ "created": "2026-10-29T13:48:38.962628+00:00"
+}

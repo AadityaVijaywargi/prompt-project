@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B selects the correct option letter (C) and correctly describes the Great Red Spot, despite misnaming the planet.\"\n}",
+ "tokens": {
+  "prompt": 279,
+  "completion": 499
+ },
+ "created": "2026-10-29T14:17:51.726380+00:00"
+}

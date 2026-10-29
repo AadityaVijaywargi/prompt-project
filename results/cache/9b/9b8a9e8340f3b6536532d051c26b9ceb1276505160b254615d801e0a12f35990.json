@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 1,\n  \"completeness\": 1,\n  \"clarity\": 1,\n  \"language_quality\": 4,\n  \"comment\": \"The answer uses nonsensical terms and fails to state the correct shift from core tools to flakes, making it incorrect and incomplete despite readable language.\"\n}",
+ "tokens": {
+  "prompt": 352,
+  "completion": 392
+ },
+ "created": "2026-10-29T13:51:41.382774+00:00"
+}

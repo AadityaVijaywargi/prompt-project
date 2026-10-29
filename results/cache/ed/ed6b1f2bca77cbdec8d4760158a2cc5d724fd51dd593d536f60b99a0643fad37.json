@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "Boodhi Mrs. Kapoor used to sell umbrellas at a corner where it never seemed to rain. She was as small and wrinkled as a dried apricot, but her eyes sparkled in the sunlight like wet pebbles. Her shawl was made by joining patches of forty colours, and her claim was that each square was stitched from a country she had never been to. She would suddenly burst into laughter, like a boiling kettle overflowing, and she would know every passer‑by’s secret before they could tell it. The children swore that their umbrellas opened in other skies: one filled with snow, one with falling petals, and one with stars.",
+ "tokens": {
+  "prompt": 314,
+  "completion": 852
+ },
+ "created": "2026-10-29T13:46:59.442339+00:00"
+}

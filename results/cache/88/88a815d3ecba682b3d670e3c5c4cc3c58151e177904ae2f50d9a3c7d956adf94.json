@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"It selects the correct option (C) whereas Answer A is incorrect.\"\n}",
+ "tokens": {
+  "prompt": 355,
+  "completion": 180
+ },
+ "created": "2026-10-29T14:18:51.177623+00:00"
+}

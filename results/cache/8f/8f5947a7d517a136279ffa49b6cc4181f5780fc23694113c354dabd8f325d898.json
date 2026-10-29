@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C). Federal and state courts are separate systems that mostly handle their own cases, but when a question about federal constitutional law arises in a state court's decision, it can ultimately be reviewed by the United States Supreme Court within the federal system. Federal courts cannot overturn state decisions in matters that pertain only to state law.",
+ "tokens": {
+  "prompt": 270,
+  "completion": 378
+ },
+ "created": "2026-10-29T13:44:48.419810+00:00"
+}

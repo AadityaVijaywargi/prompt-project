@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "Sulh‑e‑Kul means “peace with everyone.” Akbar’s aim was to govern a vast empire of Hindus, Muslims, Jains, Christians and other peoples without taking the side of any one group, so that all subjects would regard the emperor as just. He abolished the jizya tax on non‑Muslims and the pilgrimage tax, appointed Rajputs and other non‑Muslim nobles to high positions, and held open religious discussions in the Ibadat Khana at Fatehpur Sikri. These steps reduced religious tension and earned broad loyalty. Historians debate his objectives, but the most appropriate answer is perhaps both: this policy clearly strengthened his power, yet his personal curiosity about different religions and his long‑standing tolerance also indicate genuine belief.",
+ "tokens": {
+  "prompt": 365,
+  "completion": 661
+ },
+ "created": "2026-10-29T13:47:09.178697+00:00"
+}

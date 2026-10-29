@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: in the upper wall of the right atrium, near the opening of the superior vena cava. The sinoatrial node is the heart’s natural pacemaker, which generates the electrical impulses that start each heartbeat. The node between the atria and ventricles is the atrioventricular node.",
+ "tokens": {
+  "prompt": 200,
+  "completion": 251
+ },
+ "created": "2026-10-29T13:48:58.203050+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies the farad as C = Q/V, matching the reference.\"\n}",
+ "tokens": {
+  "prompt": 346,
+  "completion": 139
+ },
+ "created": "2026-10-29T14:20:50.981537+00:00"
+}

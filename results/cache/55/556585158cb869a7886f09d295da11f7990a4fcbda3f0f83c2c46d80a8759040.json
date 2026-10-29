@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is: trying to get a person to agree with a claim by merely inflaming their emotions about the subject. Instead of providing evidence, the one presenting the argument relies on fear, pity, anger, or pride to obtain agreement. Making the opponent’s argument appear ridiculous is a separate fault, ridicule.",
+ "tokens": {
+  "prompt": 221,
+  "completion": 295
+ },
+ "created": "2026-10-29T13:45:38.297203+00:00"
+}

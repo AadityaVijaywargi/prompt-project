@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 2,\n  \"completeness\": 2,\n  \"clarity\": 2,\n  \"language_quality\": 2,\n  \"comment\": \"Identifies (C) but uses incorrect terminology and is confusing.\"\n}",
+ "tokens": {
+  "prompt": 366,
+  "completion": 335
+ },
+ "created": "2026-10-29T13:56:11.318455+00:00"
+}

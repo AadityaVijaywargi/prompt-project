@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (B) is: The concept of race is socially constructed through powerful ideologies. These theories argue that racial categories are not natural biological divisions, but are created and maintained through language, communication media, and political discourse. Such discourse can justify inequality by presenting social differences as natural.",
+ "tokens": {
+  "prompt": 232,
+  "completion": 263
+ },
+ "created": "2026-10-29T13:45:08.178642+00:00"
+}

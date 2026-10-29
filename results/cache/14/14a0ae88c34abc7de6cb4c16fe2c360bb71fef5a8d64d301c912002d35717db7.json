@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly names Jupiter, while Answer A uses an obscure name and is less clear.\"}",
+ "tokens": {
+  "prompt": 279,
+  "completion": 206
+ },
+ "created": "2026-10-29T14:07:21.145578+00:00"
+}

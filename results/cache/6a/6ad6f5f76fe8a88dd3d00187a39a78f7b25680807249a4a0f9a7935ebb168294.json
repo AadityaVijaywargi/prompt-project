@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The meaning of Sulah‑e‑kul is “peace with everyone.” Akbar’s aim was to rule over a vast empire of Hindus, Muslims, Jains, Christians and other people without taking the side of any one group, so that all his subjects would consider the emperor just. He abolished the jizya imposed on non‑Muslims and the pilgrimage tax, appointed Rajputs and other non‑Muslim chiefs to high positions, and arranged open religious discussions in the worship hall of Fatehpur Sikri. These steps reduced religious tension and earned widespread loyalty. Historians debate his motives, but the most appropriate answer may be both: this policy clearly strengthened his power, yet his long‑standing commitment to personal curiosity and tolerance toward different religions also signals genuine belief.",
+ "tokens": {
+  "prompt": 409,
+  "completion": 805
+ },
+ "created": "2026-10-29T13:47:20.227782+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies the location with clear, accurate terminology, while Answer B uses nonsensical terms.\"}",
+ "tokens": {
+  "prompt": 357,
+  "completion": 173
+ },
+ "created": "2026-10-29T14:08:11.148345+00:00"
+}

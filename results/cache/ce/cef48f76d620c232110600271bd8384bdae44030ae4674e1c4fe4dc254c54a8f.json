@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C), Brihaspati. The Great Red Spot is a massive storm in Brihaspati’s atmosphere, which is larger than Earth and has been observed for more than 150 years. It is not found on Venus, Mars, or Saturn.",
+ "tokens": {
+  "prompt": 216,
+  "completion": 284
+ },
+ "created": "2026-10-29T13:48:18.131298+00:00"
+}

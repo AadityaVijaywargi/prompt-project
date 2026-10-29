@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "Unity is the feeling of togetherness and shared responsibility that binds members of a group and motivates them to support each other. The sociologist Emile Durkheim distinguished between mechanical solidarity based on similarity in small traditional societies and organic solidarity based on interdependence in complex modern societies. Collective action transforms this feeling into results: people who work together can achieve what an individual cannot, such as villagers building a well together, workers forming a union, or citizens participating in movements for independence or civil rights. Mutual cooperation through shared resources, volunteer work, and care also helps people recover from disasters or pandemics. In this way, unity creates trust and flexibility, making it possible to achieve common goals.",
+ "tokens": {
+  "prompt": 439,
+  "completion": 726
+ },
+ "created": "2026-10-29T13:47:49.103884+00:00"
+}
