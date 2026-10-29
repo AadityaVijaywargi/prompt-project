@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "In evaluating India's digital transformation, five principles can guide the assessment. First, access: measure how widely people can use digital services, including the reach of the internet, smartphone ownership, and the gap between urban and rural areas. Second, inclusion: examine whether women, the poor, and the elderly actually benefit, for example through services linked to Aadhaar and UPI payments. Third, economic impact: assess the effect on productivity, formalization of businesses, employment, and the growth of start‑ups. Fourth, security and trust: check the levels of data protection, privacy, and online fraud. Fifth, sustainability and governance: ask whether the digital public infrastructure is reliable, open, well regulated, and capable of improving over time.",
+ "tokens": {
+  "prompt": 358,
+  "completion": 172
+ },
+ "created": "2026-10-29T17:28:43.399957+00:00"
+}

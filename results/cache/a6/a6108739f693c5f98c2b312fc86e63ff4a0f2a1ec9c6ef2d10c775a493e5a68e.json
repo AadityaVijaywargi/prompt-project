@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is: there is a surplus in the capital account. In the balance of payments, the sum of the current account and the capital and financial account, ignoring statistical error, should be zero. Therefore, the deficit in the current account is offset by the net inflow of foreign capital, which is the surplus in the capital account.",
+ "tokens": {
+  "prompt": 240,
+  "completion": 404
+ },
+ "created": "2026-10-29T17:26:23.869349+00:00"
+}

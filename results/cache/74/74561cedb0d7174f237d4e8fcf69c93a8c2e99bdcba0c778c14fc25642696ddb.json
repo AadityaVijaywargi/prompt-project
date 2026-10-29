@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers are identical in correctness and explanation\"}",
+ "tokens": {
+  "prompt": 348,
+  "completion": 96
+ },
+ "created": "2026-10-29T23:03:11.007551+00:00"
+}

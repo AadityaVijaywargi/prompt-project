@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (B), mol L⁻¹ s⁻¹. The rate of a reaction is the change in concentration of a reactant or product per unit time, and concentration is measured in moles per liter. The units of the rate constant depend on the order of the reaction, but the units of the rate itself do not.",
+ "tokens": {
+  "prompt": 226,
+  "completion": 274
+ },
+ "created": "2026-10-29T17:29:13.645720+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is increased appetite. As age increases, usually lean body mass decreases, bone density declines, and immune function becomes weak. However, appetite typically decreases with age, which is sometimes called anorexia of ageing.",
+ "tokens": {
+  "prompt": 202,
+  "completion": 208
+ },
+ "created": "2026-10-29T17:30:33.519634+00:00"
+}

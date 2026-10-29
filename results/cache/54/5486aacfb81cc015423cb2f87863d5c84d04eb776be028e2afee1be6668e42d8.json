@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: a mohel is a ritual circumciser. In Judaism, a mohel is given training to perform brit milah, which is the circumcision of a baby boy on the eighth day after birth. This ceremony marks the covenant between God and Abraham, but the word mohel refers to the person, not the covenant.",
+ "tokens": {
+  "prompt": 214,
+  "completion": 273
+ },
+ "created": "2026-10-29T17:25:33.392303+00:00"
+}

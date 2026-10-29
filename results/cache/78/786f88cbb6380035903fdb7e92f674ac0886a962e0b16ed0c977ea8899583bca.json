@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The White House is in Washington, D.C. at 1600 Pennsylvania Avenue; it is the official residence of the President of the United States. The houses mentioned in the question—a red house, a greenhouse, and a heated pink place—are just playful descriptions of the surrounding buildings and do not give any real clue. This question is a riddle, based on the fact that the name “White House” in the scene seems like another coloured house.",
+ "tokens": {
+  "prompt": 230,
+  "completion": 328
+ },
+ "created": "2026-10-29T17:27:33.602317+00:00"
+}

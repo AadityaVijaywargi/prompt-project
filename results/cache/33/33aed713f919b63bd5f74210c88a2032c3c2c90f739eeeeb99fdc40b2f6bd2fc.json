@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"B uses clearer, more natural phrasing and avoids the awkward wording in A.\"\n}",
+ "tokens": {
+  "prompt": 439,
+  "completion": 214
+ },
+ "created": "2026-10-29T22:57:31.510348+00:00"
+}

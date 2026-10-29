@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: Individuals have international legal personality, but it is limited. Under human rights law they have some rights and may also have obligations, such as criminal liability for war crimes, and some treaties allow them to file complaints. Nevertheless, they cannot conclude treaties nor can they exercise all rights like states.",
+ "tokens": {
+  "prompt": 232,
+  "completion": 272
+ },
+ "created": "2026-10-29T17:25:43.729032+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is the Romance language family. Italian, Spanish, Portuguese, and Romanian—all these languages developed from Vulgar Latin, which was the everyday spoken Latin in the Roman Empire. Slavic and Germanic are separate branches of the Indo‑European family, and “European” is not a language family.",
+ "tokens": {
+  "prompt": 237,
+  "completion": 280
+ },
+ "created": "2026-10-29T17:31:43.557921+00:00"
+}

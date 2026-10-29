@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 4,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Good answer covering five clear principles, though could be more India‑specific.\"\n}",
+ "tokens": {
+  "prompt": 364,
+  "completion": 272
+ },
+ "created": "2026-10-29T17:36:19.035233+00:00"
+}

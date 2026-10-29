@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers correctly state that relative error is the ratio of absolute error to the true value and are essentially identical in content.\"}",
+ "tokens": {
+  "prompt": 346,
+  "completion": 83
+ },
+ "created": "2026-10-29T23:02:51.266876+00:00"
+}

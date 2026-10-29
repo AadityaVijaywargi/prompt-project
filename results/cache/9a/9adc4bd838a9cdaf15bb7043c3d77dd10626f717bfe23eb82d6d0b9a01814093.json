@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The Indian subcontinent is a vast region of South Asia, primarily situated on the Indian tectonic plate. It generally includes India, Pakistan, Bangladesh, Nepal, Bhutan, and Sri Lanka, and often the Maldives as well. To its north are the Himalayas and other mountain ranges, and elsewhere the Arabian Sea, the Bay of Bengal, and the Indian Ocean. Its main features are: the world's highest mountains, the Himalayas; the fertile Indo‑Ganga plain irrigated by the Indus, Ganges, and Brahmaputra; the Thar Desert in the west; the Deccan Plateau in the south, flanked on both sides by the Western and Eastern Ghats; and long coastlines, including islands.",
+ "tokens": {
+  "prompt": 320,
+  "completion": 171
+ },
+ "created": "2026-10-29T17:28:13.381632+00:00"
+}

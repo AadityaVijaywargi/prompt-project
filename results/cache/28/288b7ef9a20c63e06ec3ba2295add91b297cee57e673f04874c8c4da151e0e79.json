@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"A\", \"reason\": \"Answer A correctly identifies a mohel as a ritual circumciser, while Answer B gives an incorrect definition.\"}",
+ "tokens": {
+  "prompt": 322,
+  "completion": 138
+ },
+ "created": "2026-10-29T23:07:11.334071+00:00"
+}

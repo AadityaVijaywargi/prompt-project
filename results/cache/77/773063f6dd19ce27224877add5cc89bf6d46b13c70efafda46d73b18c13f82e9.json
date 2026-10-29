@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"B\",\"reason\":\"Answer B is more internally consistent and accurately describes the limitations of individuals' international legal personality.\"}",
+ "tokens": {
+  "prompt": 349,
+  "completion": 457
+ },
+ "created": "2026-10-29T22:53:12.096538+00:00"
+}

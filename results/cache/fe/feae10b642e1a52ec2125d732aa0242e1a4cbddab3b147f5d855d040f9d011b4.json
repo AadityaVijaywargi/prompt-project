@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"tie\",\n  \"reason\": \"Both answers contain identical content and coverage of the five principles.\"\n}",
+ "tokens": {
+  "prompt": 429,
+  "completion": 139
+ },
+ "created": "2026-10-29T22:58:51.347595+00:00"
+}

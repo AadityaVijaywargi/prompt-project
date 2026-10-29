@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"A uses more vivid, concise sensory language and clearer imagery.\"\n}",
+ "tokens": {
+  "prompt": 441,
+  "completion": 395
+ },
+ "created": "2026-10-29T22:57:01.844717+00:00"
+}

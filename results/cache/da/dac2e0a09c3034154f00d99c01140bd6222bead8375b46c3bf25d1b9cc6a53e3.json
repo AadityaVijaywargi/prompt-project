@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C), an appeal to pride. The person making the argument flatters you by calling you sensible and intelligent, so that you accept the claim in order to preserve that image of yourself, not because of any evidence. This is a form of an appeal to emotions, not an argument based on authority.",
+ "tokens": {
+  "prompt": 221,
+  "completion": 398
+ },
+ "created": "2026-10-29T17:26:44.042725+00:00"
+}

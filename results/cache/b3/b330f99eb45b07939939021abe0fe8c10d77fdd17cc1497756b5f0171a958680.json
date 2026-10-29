@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies the limited international legal personality of individuals, matching the reference answer, while Answer A gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 355,
+  "completion": 120
+ },
+ "created": "2026-10-29T23:08:01.059641+00:00"
+}

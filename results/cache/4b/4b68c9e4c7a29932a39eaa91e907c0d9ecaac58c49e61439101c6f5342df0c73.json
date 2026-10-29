@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (D) is gastrulation. During gastrulation, the cells of the blastula move inward and rearrange to form three primary germ layers: ectoderm, mesoderm, and endoderm. Cleavage and blastula formation occur before this, and neurulation occurs after the germ layers have formed.",
+ "tokens": {
+  "prompt": 212,
+  "completion": 256
+ },
+ "created": "2026-10-29T17:31:33.593955+00:00"
+}

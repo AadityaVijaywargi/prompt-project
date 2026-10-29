@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is the increase in hunger. With increasing age, generally there is a decrease in lean body mass, a reduction in bone density, and a weakening of immune capacity. But hunger generally decreases with age, which is sometimes called loss of appetite in old age.",
+ "tokens": {
+  "prompt": 237,
+  "completion": 266
+ },
+ "created": "2026-10-29T17:30:23.687357+00:00"
+}

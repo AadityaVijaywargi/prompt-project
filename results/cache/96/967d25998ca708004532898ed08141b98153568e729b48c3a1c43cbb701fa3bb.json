@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The market had started from the first light of the morning. The sacks of turmeric and red chilli powder were glowing like small hills at sunset, and the air was filled with the smell of cardamom, frying pakoras, and ripe mangoes. Vendors were shouting prices loudly at each other, an old film song was playing on a radio, crackling, and somewhere a pressure cooker’s whistle blew. Bright saris were fluttering from wooden poles, brass pots were shining in the sun, and a cow was strolling calmly among the stalls. Coins were clinking, children were pulling their parents’ hands, and at every few steps the crowd, fighting with cauliflowers, gave way for a cart.",
+ "tokens": {
+  "prompt": 319,
+  "completion": 676
+ },
+ "created": "2026-10-29T17:28:04.629187+00:00"
+}

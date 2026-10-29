@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"correctness\": 5,\n  \"completeness\": 5,\n  \"clarity\": 5,\n  \"language_quality\": 5,\n  \"comment\": \"Clear, accurate, and complete description of five relevant evaluation principles.\"\n}",
+ "tokens": {
+  "prompt": 361,
+  "completion": 222
+ },
+ "created": "2026-10-29T17:36:28.770491+00:00"
+}

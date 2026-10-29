@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies the unit as mol L⁻¹ s⁻¹, matching the reference.\"\n}",
+ "tokens": {
+  "prompt": 331,
+  "completion": 116
+ },
+ "created": "2026-10-29T23:11:01.564237+00:00"
+}

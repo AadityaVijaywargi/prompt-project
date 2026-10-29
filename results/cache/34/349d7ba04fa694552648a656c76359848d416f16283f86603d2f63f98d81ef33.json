@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies gastrulation as forming the germ layers, whereas Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 342,
+  "completion": 139
+ },
+ "created": "2026-10-29T23:15:11.272752+00:00"
+}

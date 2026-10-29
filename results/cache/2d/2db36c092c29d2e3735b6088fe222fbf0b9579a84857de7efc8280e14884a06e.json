@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "There are two main stages of photosynthesis. Light‑dependent reactions occur in the thylakoid membranes of the chloroplast. They require light energy, water, and the carrier molecules ADP and NADP⁺, and from them oxygen, ATP, and NADPH are produced. Light‑independent reactions, i.e., the Calvin cycle, occur in the stroma. They use the ATP and NADPH obtained from the first stage together with carbon dioxide, and from them glucose (via the sugar G3P) is formed, while ADP and NADP⁺ return to the light reactions.",
+ "tokens": {
+  "prompt": 299,
+  "completion": 453
+ },
+ "created": "2026-10-29T17:32:14.175695+00:00"
+}

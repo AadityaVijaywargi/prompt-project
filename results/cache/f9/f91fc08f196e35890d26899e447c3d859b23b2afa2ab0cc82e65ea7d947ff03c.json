@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: individuals are granted international legal personality, but it is limited. Under human rights law they have some rights and may also have duties, such as criminal responsibility for war crimes, and some treaties allow them to file complaints. Nevertheless, they cannot make treaties and they cannot exercise all the rights that states can.",
+ "tokens": {
+  "prompt": 226,
+  "completion": 275
+ },
+ "created": "2026-10-29T17:26:03.476338+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (A) is: the ratio of absolute error to the true value. Absolute error is the difference between the measured value and the true value, and when divided by the true value it is expressed as an error fraction or percentage. For example, for a length of 100 cm, an error of 2 cm has a relative error of 0.02, i.e., 2 %.",
+ "tokens": {
+  "prompt": 232,
+  "completion": 311
+ },
+ "created": "2026-10-29T17:30:43.660469+00:00"
+}

@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer (C) is a call for pride. The arguer flatters you by calling you wise and intelligent, so that you accept the claim in order to preserve that image of yourself, not because of any evidence. This is a form of an appeal to emotions, not an authority‑based argument.",
+ "tokens": {
+  "prompt": 241,
+  "completion": 463
+ },
+ "created": "2026-10-29T17:26:53.975863+00:00"
+}

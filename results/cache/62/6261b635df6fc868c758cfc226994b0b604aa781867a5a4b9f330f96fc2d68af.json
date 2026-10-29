@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"B\",\n  \"reason\": \"Answer B correctly identifies (A) as the definition of relative error, while Answer A gives an incorrect definition.\"\n}",
+ "tokens": {
+  "prompt": 335,
+  "completion": 132
+ },
+ "created": "2026-10-29T23:14:01.418421+00:00"
+}

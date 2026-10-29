@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"A\",\"reason\":\"Answer A correctly identifies (C) as the non‑occurring change and aligns with the reference, whereas Answer B is factually incorrect.\"}",
+ "tokens": {
+  "prompt": 292,
+  "completion": 356
+ },
+ "created": "2026-10-29T23:13:31.865896+00:00"
+}

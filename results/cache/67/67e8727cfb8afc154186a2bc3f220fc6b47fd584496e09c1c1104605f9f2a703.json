@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "The correct answer is (C), boundary check. A buffer overflow occurs when a program writes more data into a buffer than its capacity, which spreads into adjacent memory. Checking that each write stays within the buffer’s boundaries prevents this flaw.",
+ "tokens": {
+  "prompt": 214,
+  "completion": 217
+ },
+ "created": "2026-10-29T17:29:53.478802+00:00"
+}

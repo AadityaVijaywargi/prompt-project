@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A is clearer and avoids the contradictory statement about suing found in Answer B.\"\n}",
+ "tokens": {
+  "prompt": 349,
+  "completion": 324
+ },
+ "created": "2026-10-29T22:53:01.671250+00:00"
+}

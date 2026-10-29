@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\":\"tie\",\"reason\":\"Both answers contain the same five principles with only minor wording differences.\"}",
+ "tokens": {
+  "prompt": 425,
+  "completion": 113
+ },
+ "created": "2026-10-29T22:59:11.117663+00:00"
+}
