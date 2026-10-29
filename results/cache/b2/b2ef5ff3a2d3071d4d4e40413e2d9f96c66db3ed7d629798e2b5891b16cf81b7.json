@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\n  \"winner\": \"A\",\n  \"reason\": \"Answer A correctly identifies option D and accurately describes the carotid pulse location, while Answer B gives an incorrect answer.\"\n}",
+ "tokens": {
+  "prompt": 429,
+  "completion": 366
+ },
+ "created": "2026-10-29T12:33:48.002068+00:00"
+}

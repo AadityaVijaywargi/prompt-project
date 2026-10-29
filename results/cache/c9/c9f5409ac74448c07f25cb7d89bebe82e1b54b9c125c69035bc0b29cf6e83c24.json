@@ -1,0 +1,10 @@
+{
+ "model": "openai/gpt-oss-120b",
+ "provider": "openai_compat",
+ "text": "{\"winner\": \"B\", \"reason\": \"Answer B correctly identifies the carotid pulse location (anterior neck) while Answer A gives an incorrect answer.\"}",
+ "tokens": {
+  "prompt": 429,
+  "completion": 166
+ },
+ "created": "2026-10-29T12:33:35.657179+00:00"
+}
