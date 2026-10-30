@@ -64,6 +64,29 @@ Holm correction across the 3 pairs per judge for E2.1.
    kappa on rounded scores (round half up), bootstrap 95% CI over items.
 3. Per-form comparison of judge-human agreement (does agreement drop for hi / hi_rom / hinglish?).
 
+Implementation details (fixed 2026-10-30, before any human grade exists; `lb.e4`):
+
+- Sample: 100 items (brief 4.5): the 60 E5-subset items, so E5's accuracy cost can be measured on them, filled
+  to the full set's type mix (67 factual, 33 open-ended) round-robin across subjects, seed 20261023
+  (`data/e4/sample.csv`). Every annotator grades every sampled item in all four forms (400 grades each), at
+  least two annotators.
+- What annotators see mirrors the E1 judge prompt: the English question, the English reference for factual
+  items, the answer, and the same four criteria with the same anchors (`data/e4/guideline.md`). No other
+  instruction about language is given.
+- Blinding: the sheet has no item or form column. Rows come in 4 blocks of 100; each block holds every item
+  once and each form 25 times, shuffled within blocks with a per-annotator seed. The key is rebuilt from the
+  seed on import, and import checks every row's answer text against it.
+- Mean human score: the mean over annotators, for cells graded by at least 2 annotators. Content = mean of
+  correctness, completeness and clarity, as for the judges.
+- Item 2: Spearman on content (judge content vs mean human content), and quadratic-weighted kappa per
+  criterion with the judge's integer score against the mean human score rounded half up.
+- Item 3: agreement in the form minus agreement in en on items with both, with a paired bootstrap (items
+  resampled together), for the same five measures.
+- E4.4 (added 2026-10-30, before any grade): human form gap, `content(form) - content(en)` per item for the
+  mean human score, next to each judge's gap on the same items; paired bootstrap and Wilcoxon, descriptive.
+  It shows whether the judges' E1 gap is also there for humans.
+- Judges: the baseline E1 records of every judge with main-study results. Fewer than 30 items: exploratory.
+
 ## E5: mitigations (RQ5)
 
 For each variant (hindi_rubric, translate_then_judge, bias_aware, majority_vote) on the E5 subset, paired
@@ -210,3 +233,7 @@ matched (item, form) pairs from the baseline E1 run.
 - **2026-10-28, wording only (no measure or number changed).** After a second external review, B5 is renamed
   "score drop without language mention rate": a comment with no language keyword does not show that language
   caused the drop. Section B is stated to be descriptive (shared-call halo, see B above).
+- **2026-10-30, E4 implementation fixed (before any human grade).** Sample, blinding, the mean-human rule
+  (at least 2 annotators), the reading of "rounded scores" as the human mean rounded half up per criterion,
+  and E4.4 (human form gap) were written here, and `lb.e4` built, before a single grade was entered. Timing:
+  every judge result in E1-E3, B, A and E5 bias-aware had been seen; no human grade existed.

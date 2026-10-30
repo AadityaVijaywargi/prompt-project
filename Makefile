@@ -10,7 +10,7 @@ export PYTHONUTF8 := 1
 ARGS ?=
 
 .PHONY: setup test data-check qc-export qc-import budget budget-pilot pilot pilot-report \
-        run-e1 run-e2 run-e2b run-e3 run-a run-e5 stats stats-b stats-a stats-e5 package app reproduce reproduce-pilot
+        run-e1 run-e2 run-e2b run-e3 run-a run-e5 stats stats-b stats-a stats-e5 e4-sheets e4-import stats-e4 package app reproduce reproduce-pilot
 
 setup:
 	uv venv --python 3.12 .venv
@@ -75,6 +75,17 @@ run-e5:
 stats-e5:
 	$(PY) -m lb.mitigation $(ARGS)
 
+# E4 human grading: blind sheets -> data/e4/sheet_<annotator>.csv (ARGS="--annotators a1,a2,a3" for more);
+# make e4-import ARGS=data/e4/sheet_a1.csv merges a graded sheet into data/human_grades.csv
+e4-sheets:
+	$(PY) -m lb.e4 sheets $(ARGS)
+
+e4-import:
+	$(PY) -m lb.e4 import $(ARGS)
+
+stats-e4:
+	$(PY) -m lb.e4
+
 # Re-audit zip of every tracked file -> dist/lb-auditor_<date>.zip (refuses uncommitted changes)
 package:
 	$(PY) scripts/package.py $(ARGS)
@@ -84,7 +95,7 @@ app:
 
 # Regenerate every main-study call from cached responses with no network access (judges with no logged
 # main-study run are skipped; any other cache miss is an error). Then rebuild every table (stats, stats-b,
-# stats-a, stats-e5) from the logged records. ARGS go to the runners only: the stats modules take different flags.
+# stats-a, stats-e5, stats-e4) from the logged records. ARGS go to the runners only: the stats modules take different flags.
 reproduce: data-check
 	$(PY) -m lb.runners.e1_pointwise --offline $(ARGS)
 	$(PY) -m lb.runners.e2_pairwise --offline $(ARGS)
@@ -94,6 +105,7 @@ reproduce: data-check
 	$(PY) -m lb.leakage
 	$(PY) -m lb.wrong_leniency
 	$(PY) -m lb.mitigation
+	$(PY) -m lb.e4
 
 pilot-report:
 	$(PY) scripts/pilot_report.py $(ARGS)

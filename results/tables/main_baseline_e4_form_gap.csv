@@ -1,0 +1,10 @@
+who,comparison,n,mean_d,ci_low,ci_high,wilcoxon_p,exploratory
+human (mean),hi vs en,0,nan,nan,nan,nan,True
+gpt-oss-120b,hi vs en,0,nan,nan,nan,nan,True
+qwen2.5-7b-local,hi vs en,0,nan,nan,nan,nan,True
+human (mean),hi_rom vs en,0,nan,nan,nan,nan,True
+gpt-oss-120b,hi_rom vs en,0,nan,nan,nan,nan,True
+qwen2.5-7b-local,hi_rom vs en,0,nan,nan,nan,nan,True
+human (mean),hinglish vs en,0,nan,nan,nan,nan,True
+gpt-oss-120b,hinglish vs en,0,nan,nan,nan,nan,True
+qwen2.5-7b-local,hinglish vs en,0,nan,nan,nan,nan,True

@@ -146,3 +146,62 @@ def log_length_ratio_slope(diffs: Sequence[float], log_ratios: Sequence[float]) 
     res = st.linregress(np.asarray(log_ratios, float), np.asarray(diffs, float))
     return {"intercept": float(res.intercept), "slope": float(res.slope),
             "slope_p": float(res.pvalue), "r2": float(res.rvalue ** 2)}
+
+
+# ---------- agreement (E4) ----------
+
+def _qwk_rows(a: np.ndarray, b: np.ndarray, k: int = 5) -> np.ndarray:
+    """Quadratic-weighted kappa per row of two (rows, n) arrays of labels 1..k; NaN where it is undefined."""
+    a, b = np.asarray(a, dtype=int), np.asarray(b, dtype=int)
+    rows, n = a.shape
+    idx = (a - 1) * k + (b - 1) + np.arange(rows)[:, None] * k * k
+    obs = np.bincount(idx.ravel(), minlength=rows * k * k).reshape(rows, k, k).astype(float)
+    w = (np.arange(k)[:, None] - np.arange(k)[None, :]) ** 2 / (k - 1) ** 2
+    expected = obs.sum(axis=2)[:, :, None] * obs.sum(axis=1)[:, None, :] / n
+    denom = (w * expected).sum(axis=(1, 2))
+    with np.errstate(divide="ignore", invalid="ignore"):
+        return np.where(denom > 0, 1 - (w * obs).sum(axis=(1, 2)) / denom, np.nan)
+
+
+def _spearman_rows(x: np.ndarray, y: np.ndarray) -> np.ndarray:
+    """Spearman correlation (average ranks for ties) per row; NaN where either side has no variance."""
+    rx, ry = st.rankdata(x, axis=1), st.rankdata(y, axis=1)
+    rx, ry = rx - rx.mean(axis=1, keepdims=True), ry - ry.mean(axis=1, keepdims=True)
+    den = np.sqrt((rx ** 2).sum(axis=1) * (ry ** 2).sum(axis=1))
+    with np.errstate(divide="ignore", invalid="ignore"):
+        return np.where(den > 0, (rx * ry).sum(axis=1) / den, np.nan)
+
+
+AGREEMENT = {"qwk": _qwk_rows, "spearman": _spearman_rows}
+
+
+def _quantiles(boots: np.ndarray, alpha: float) -> tuple[float, float]:
+    boots = boots[~np.isnan(boots)]
+    return tuple(float(v) for v in np.quantile(boots, [alpha / 2, 1 - alpha / 2])) if boots.size else (float("nan"),) * 2
+
+
+def bootstrap_agreement_ci(measure: str, x: Sequence[float], y: Sequence[float], n_boot: int = N_BOOT,
+                           seed: int = 0, alpha: float = 0.05) -> tuple[float, float, float]:
+    """Agreement of paired per-item scores, measure 'qwk' (quadratic-weighted kappa, labels 1-5) or 'spearman',
+    with a percentile bootstrap CI resampling items. Resamples where the measure is undefined are skipped."""
+    f = AGREEMENT[measure]
+    x, y = np.asarray(x, dtype=float), np.asarray(y, dtype=float)
+    if x.size < 2:
+        return (float("nan"),) * 3
+    idx = np.random.default_rng(seed).integers(0, x.size, size=(n_boot, x.size))
+    return (float(f(x[None, :], y[None, :])[0]), *_quantiles(f(x[idx], y[idx]), alpha))
+
+
+def bootstrap_agreement_diff_ci(measure: str, x: Sequence[float], y: Sequence[float], x0: Sequence[float],
+                                y0: Sequence[float], n_boot: int = N_BOOT, seed: int = 0,
+                                alpha: float = 0.05) -> tuple[float, float, float, float, float]:
+    """Paired change in agreement between two conditions on the same items: agreement(x, y) minus
+    agreement(x0, y0), all four aligned by item and resampled together. Returns (agreement, base agreement,
+    change, CI low, CI high)."""
+    f = AGREEMENT[measure]
+    x, y, x0, y0 = (np.asarray(v, dtype=float) for v in (x, y, x0, y0))
+    if x.size < 2:
+        return (float("nan"),) * 5
+    new, base = float(f(x[None, :], y[None, :])[0]), float(f(x0[None, :], y0[None, :])[0])
+    idx = np.random.default_rng(seed).integers(0, x.size, size=(n_boot, x.size))
+    return (new, base, new - base, *_quantiles(f(x[idx], y[idx]) - f(x0[idx], y0[idx]), alpha))
